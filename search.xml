@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>电影 书单</title>
-    <url>/undefined/abbrlink.html</url>
+    <url>/posts/79f93cc5/</url>
     <content><![CDATA[<h2 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h2><p>互联网之子<br><a id="more"></a><br>犯罪现场调查-网络</p>
 <p>暗海</p>
 <p>亿万</p>
@@ -29,7 +29,7 @@
   </entry>
   <entry>
     <title>Markdown基本语法</title>
-    <url>/undefined/abbrlink.html</url>
+    <url>/posts/5d36ff15/</url>
     <content><![CDATA[<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
 <li><a href="#横线">横线</a></li>
 <li><a href="#标题">标题</a></li>
@@ -480,13 +480,13 @@
   </entry>
   <entry>
     <title>test11</title>
-    <url>/undefined/abbrlink.html</url>
+    <url>/posts/cd52de3f/</url>
     <content><![CDATA[<p>testtestestesetsetesteseset<br>setsetste<br>setset<br>etse<br>tste</p>
 ]]></content>
   </entry>
   <entry>
     <title>Markdown + Latex test</title>
-    <url>/undefined/abbrlink.html</url>
+    <url>/posts/91ac7065/</url>
     <content><![CDATA[<h1 id="Markdown中Latex常用语法"><a href="#Markdown中Latex常用语法" class="headerlink" title="Markdown中Latex常用语法"></a>Markdown中Latex常用语法</h1><h2 id="常用希腊字母表"><a href="#常用希腊字母表" class="headerlink" title="常用希腊字母表"></a>常用希腊字母表</h2><a id="more"></a>
 <div class="table-container">
 <table>
@@ -1097,7 +1097,7 @@
   </entry>
   <entry>
     <title>Test page</title>
-    <url>/undefined/abbrlink.html</url>
+    <url>/posts/e8006952/</url>
     <content><![CDATA[<hr>
 <h1 id="这是测试文章"><a href="#这是测试文章" class="headerlink" title="这是测试文章"></a>这是测试文章</h1><hr>
 <h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
