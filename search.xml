@@ -3,8 +3,13 @@
   <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b/</url>
-    <content><![CDATA[<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。<br>新增links页面<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure><br>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
-<p>配置menu<br>主题配置文件中menu下添加<br><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">links:</span> <span class="string">/links/</span> <span class="string">||</span> <span class="string">link</span></span><br></pre></td></tr></table></figure></p>
+    <content><![CDATA[<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><a id="more"></a>
+<p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
+<h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
+<p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
+<h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>
+<h2 id="文章底部标签显示的优化"><a href="#文章底部标签显示的优化" class="headerlink" title="文章底部标签显示的优化"></a>文章底部标签显示的优化</h2><p>修改/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将 # 换成<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="去除NexT主题Markdown分割线渲染效果"><a href="#去除NexT主题Markdown分割线渲染效果" class="headerlink" title="去除NexT主题Markdown分割线渲染效果"></a>去除NexT主题Markdown分割线渲染效果</h2><p>修改/source/css/_common/scaffolding/base.styl，注释或删除以下内容：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">background-image: repeating-linear-gradient(</span><br><span class="line">    -45deg,</span><br><span class="line">    white,</span><br><span class="line">    white 4px,</span><br><span class="line">    transparent 4px,</span><br><span class="line">    transparent 8px</span><br><span class="line">  );</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
