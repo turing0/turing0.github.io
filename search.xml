@@ -3,13 +3,10 @@
   <entry>
     <title>电影 书单</title>
     <url>/2020/03/08/dysd/</url>
-    <content><![CDATA[<p>电影</p>
-<p>互联网之子</p>
-<p>犯罪现场调查-网络</p>
+    <content><![CDATA[<h2 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h2><p>互联网之子<br><a id="more"></a><br>犯罪现场调查-网络</p>
 <p>暗海</p>
 <p>亿万</p>
-<p>书单</p>
-<p>从0到1</p>
+<h2 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h2><p>从0到1</p>
 <p>《 Smart People Should Build Things 》</p>
 <p>清醒思考的艺术</p>
 <p>一网打尽 : 贝佐斯与亚马逊时代</p>
@@ -27,6 +24,7 @@
 </code></pre>]]></content>
       <tags>
         <tag>书单</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
