@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo Next优化之路</title>
+    <url>/posts/d2ca0d0b/</url>
+    <content><![CDATA[<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。<br>新增links页面<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure><br>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
+<p>配置menu<br>主题配置文件中menu下添加<br><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">links:</span> <span class="string">/links/</span> <span class="string">||</span> <span class="string">link</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电影 书单</title>
     <url>/posts/79f93cc5/</url>
     <content><![CDATA[<h2 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h2><p>互联网之子<br><a id="more"></a><br>犯罪现场调查-网络</p>
