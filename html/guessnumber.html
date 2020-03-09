@@ -26,6 +26,12 @@
         color: rgb(5,171,227);
 
       }
+      .btn {
+        background-color: rgba(195, 255, 255,0.5);
+        border-radius: 3px;
+        border-color: rgb(0,0,250);
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 125, 0.35);
+      }
     </style>
   </head>
 
@@ -37,7 +43,7 @@
     <div class="form">
       <label for="guessField">请猜数: </label>
       <input type="text" id="guessField" class="guessField">
-      <input type="submit" value="确定" class="guessSubmit">
+      <input type="submit" value="确定" class="guessSubmit btn">
     </div>
 
     <div class="resultParas">
@@ -104,6 +110,7 @@
         guessSubmit.disabled = true;
         resetButton = document.createElement('button');
         resetButton.textContent = '开始新游戏';
+        resetButton.className += "btn";
         divzone.appendChild(resetButton);
         resetButton.addEventListener('click', resetGame);
       }
