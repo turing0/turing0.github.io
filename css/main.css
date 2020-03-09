@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7fbfb4;
+  background: #ed98b0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2962,5 +2962,36 @@ hr {
 }
 a {
   color: #05abe3;
-/*border-bottom: none;*/
+  border-bottom: none;
+}
+a:hover {
+  color: #1774d1;
+  border-bottom-color: #a166ab !important;
+}
+.posts-expand .post {
+  margin-top: 20px;
+}
+.posts-expand .post-title {
+  text-align: center;
+}
+.post-button {
+  text-align: center;
+}
+div.feed-link.motion-element {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  lign-content: center;
+  display: -webkit-flex;
+}
+div.links-of-author.motion-element {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  lign-content: center;
+  display: -webkit-flex;
+}
+.posts-expand .post-title {
+  font-size: 26px;
+  font-weight: 700;
 }
