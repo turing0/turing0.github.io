@@ -10,7 +10,7 @@
         font-family: sans-serif
       }
       body {
-        width: 50%;
+        width: 65%;
         max-width: 800px;
         min-width: 480px;
         margin: 0 auto
@@ -18,6 +18,13 @@
       .lastResult {
         color: white;
         padding: 3px
+      }
+      p {
+        font-size: 1.2em
+      }
+      .return {
+        color: rgb(5,171,227);
+
       }
     </style>
   </head>
@@ -42,7 +49,7 @@
     <div>
       <hr>
       <br>
-      <a href="../">Return to blog</a>
+      <a href="../" class="return">Return to blog</a>
     </div>
     <script>
 
@@ -90,6 +97,15 @@
       }
       //为 guessSubmit 按钮添加了一个事件监听器
       guessSubmit.addEventListener('click', checkGuess);
+
+      function setGameOver() {
+        guessField.disabled = true;
+        guessSubmit.disabled = true;
+        resetButton = document.createElement('button');
+        resetButton.textContent = '开始新游戏';
+        document.body.appendChild(resetButton);
+        resetButton.addEventListener('click', resetGame);
+      }
     </script>
   </body>
 </html>
