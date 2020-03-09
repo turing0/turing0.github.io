@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff69ff;
+  background: #ff2971;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2944,7 +2944,7 @@ hr {
   padding: 0px 15px;
 }
 .header {
-  background-image: linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%) !important;
+  background-image: linear-gradient(90deg, #1d0a62 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #1d0a62 100%) !important;
 }
 .header .menu-item {
   font-size: 16px;
