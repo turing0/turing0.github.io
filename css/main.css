@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ed98b0;
+  background: #cdff03;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2991,7 +2991,40 @@ div.links-of-author.motion-element {
   lign-content: center;
   display: -webkit-flex;
 }
+h2.post-title {
+  font-weight: 600;
+  border: 0px solid #fff;
+  padding-left: 0px;
+}
+h1.post-title {
+  font-weight: 600;
+  border: 0px solid #fff;
+  padding-left: 0px;
+}
 .posts-expand .post-title {
   font-size: 26px;
   font-weight: 700;
+}
+.posts-expand .post-title-link::before {
+  background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+div#posts.posts-expand .tag-cloud a {
+  background-color: #f5f7f1;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 18px;
+  color: #000;
+}
+.local-search-popup .search-icon,
+.local-search-popup .popup-btn-close {
+  color: rgba(21,161,216,0.949);
+}
+.local-search-popup .local-search-input-wrapper input {
+  padding-left: 10px;
+  height: 21px;
+  background-color: #fff;
+}
+.local-search-popup .popup-btn-close {
+  border-left: none;
 }
