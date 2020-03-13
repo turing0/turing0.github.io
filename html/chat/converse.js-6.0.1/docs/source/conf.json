@@ -1,8 +1,0 @@
-{
-    "plugins": ["plugins/markdown"],
-    "templates": {
-        "default": {
-            "layoutFile": "_templates/jsdoc_layout.tmpl"
-        }
-    }
-}
