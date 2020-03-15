@@ -961,18 +961,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world!</title>
-    <url>/posts/1b851995/</url>
-    <content><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content>
-      <categories>
-        <category>Uncategorized</category>
-      </categories>
-      <tags>
-        <tag>Uncategorized</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065/</url>
     <content><![CDATA[<h1 id="Markdown中Latex常用语法"><a href="#Markdown中Latex常用语法" class="headerlink" title="Markdown中Latex常用语法"></a>Markdown中Latex常用语法</h1><h2 id="常用希腊字母表"><a href="#常用希腊字母表" class="headerlink" title="常用希腊字母表"></a>常用希腊字母表</h2><a id="more"></a>
