@@ -92,7 +92,7 @@
 <meta property="og:description" content="如果26个英文字母 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-02T06:53:06.000Z">
-<meta property="article:modified_time" content="2020-03-15T01:16:23.764Z">
+<meta property="article:modified_time" content="2020-03-18T01:15:16.929Z">
 <meta property="article:author" content="Turing">
 <meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
@@ -390,7 +390,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  337
+                  447
                 </span>
               
 
@@ -439,7 +439,7 @@
 <p>I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。</p>
 <p>所以坚持写代码吧！</p>
 <p>没毛病😁</p>
-
+<figure class="highlight python"><figcaption><span>aa</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">money_val</span><span class="params">(min, max)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> min <span class="keyword">if</span> min &gt; max <span class="keyword">else</span> random.randint(min, max)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">redenvelope</span><span class="params">(money, n, min = <span class="number">0.01</span>)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    :param money:   红包金额</span></span><br><span class="line"><span class="string">    :param n:       抢红包的人数</span></span><br><span class="line"><span class="string">    :param min:     抢到红包的最小金额</span></span><br><span class="line"><span class="string">    :return:        每个人抢到红包的金额</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    money_list = []</span><br><span class="line">    <span class="keyword">if</span> money &lt; n * min:</span><br><span class="line">        <span class="keyword">return</span> money_list, <span class="string">u'Invalid Value'</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, n):</span><br><span class="line">        safe_total = (money - (n - i) * min) / (n - i)</span><br><span class="line">        get_money = round(money_val(min * <span class="number">100</span>, int(safe_total) * <span class="number">100</span>) / <span class="number">100</span>, <span class="number">2</span>)</span><br><span class="line">        money -= get_money</span><br><span class="line">        money_list.append(get_money)</span><br><span class="line">    money_list.append(round(money, <span class="number">2</span>))</span><br><span class="line">    random.shuffle(money_list)</span><br><span class="line">    <span class="keyword">return</span> money_list, <span class="string">u'success'</span></span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -1179,6 +1179,10 @@
 
   
 
+  
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
 
 </body>
 </html>
