@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>极客-算法训练营 覃超 学习笔记</title>
+    <url>/posts/83dcefb7/</url>
+    <content><![CDATA[<h1 id="极客-算法训练营-覃超-学习笔记"><a href="#极客-算法训练营-覃超-学习笔记" class="headerlink" title="极客-算法训练营 覃超 学习笔记"></a>极客-算法训练营 覃超 学习笔记</h1><p>serendipity</p>
+<h2 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h2><h3 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h3><p>数据结构</p>
+<a id="more"></a>
+<ul>
+<li><p>一维</p>
+<ul>
+<li>基础：数组 array(string),链表 linked list</li>
+<li>高级：栈 stack,队列 queue，双端队列 deque，集合 set，映射 map(hash or map),etc</li>
+</ul>
+</li>
+<li><p>二维</p>
+<ul>
+<li>基础：树 tree，图 graph</li>
+<li>高级：二叉搜索树 binary search tree (red-black tree, AVL),堆 heap，并查集 disjoint set，字典树 Trie,etc</li>
+</ul>
+</li>
+<li>特殊<ul>
+<li>位运算 Bitwise, 布隆过滤器 BloomFilter </li>
+<li>LRU Cache</li>
+</ul>
+</li>
+</ul>
+<p>注意：了解每个数据结构的原理和代码框架</p>
+<h4 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h4><ul>
+<li>If-else, switch —&gt; branch </li>
+<li>for, while loop —&gt; Iteration</li>
+<li>递归 Recursion (Divide &amp; Conquer, Backtrace) </li>
+<li>搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc</li>
+<li>动态规划 Dynamic Programming</li>
+<li>二分查找 Binary Search</li>
+<li>贪心 Greedy</li>
+<li>数学 Math , 几何 Geometry</li>
+</ul>
+<p>注意：在头脑中回忆上面每种算法的思想和代码模板</p>
+<h4 id="算法脑图"><a href="#算法脑图" class="headerlink" title="算法脑图"></a>算法脑图</h4><p><a href="https://www.edrawsoft.cn/viewer/public/s/05f47326887492" target="_blank" rel="noopener">https://www.edrawsoft.cn/viewer/public/s/05f47326887492</a></p>
+<p><a href="https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec" target="_blank" rel="noopener">https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec</a></p>
+<h4 id="数据结构脑图"><a href="#数据结构脑图" class="headerlink" title="数据结构脑图"></a>数据结构脑图</h4><p><a href="https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144" target="_blank" rel="noopener">https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144</a></p>
+<p><a href="https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c" target="_blank" rel="noopener">https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c</a></p>
+<h3 id="五步刷题法"><a href="#五步刷题法" class="headerlink" title="五步刷题法"></a>五步刷题法</h3><h4 id="刷题第一遍"><a href="#刷题第一遍" class="headerlink" title="刷题第一遍"></a>刷题第一遍</h4><ul>
+<li>5分钟：读题 + 思考 </li>
+<li>直接看解法：注意！多解法，比较解法优劣</li>
+<li>背诵、默写好的解法</li>
+</ul>
+<h4 id="刷题第二遍"><a href="#刷题第二遍" class="headerlink" title="刷题第二遍"></a>刷题第二遍</h4><ul>
+<li>马上自己写 —&gt; LeetCode 提交</li>
+<li>多种解法比较、体会 —&gt; 优化！</li>
+</ul>
+<h4 id="刷题第三遍"><a href="#刷题第三遍" class="headerlink" title="刷题第三遍"></a>刷题第三遍</h4><ul>
+<li>过了一天后，再重复做</li>
+<li>不同解法的熟练程度 —&gt; 专项练习</li>
+</ul>
+<h4 id="刷题第四遍"><a href="#刷题第四遍" class="headerlink" title="刷题第四遍"></a>刷题第四遍</h4><ul>
+<li>过了一周：反复回来练习相同题目</li>
+</ul>
+<h4 id="刷题第五遍"><a href="#刷题第五遍" class="headerlink" title="刷题第五遍"></a>刷题第五遍</h4><ul>
+<li>面试前一周恢复性训练</li>
+</ul>
+<hr>
+<h2 id="训练准备和复杂度分析"><a href="#训练准备和复杂度分析" class="headerlink" title="训练准备和复杂度分析"></a>训练准备和复杂度分析</h2><h3 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h3><h4 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h4><ul>
+<li>Google</li>
+<li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">https://github.com/microsoft/terminal</a>)</li>
+<li>VSCode; Java: IntelliJ; Python: Pycharm</li>
+<li>LeetCode plugin (VSCode &amp; IntelliJ)</li>
+<li><a href="https://vscodethemes.com" target="_blank" rel="noopener">https://vscodethemes.com</a></li>
+<li>骚操作：<ul>
+<li><a href="https://juejin.im/post/5ce1365151882525ff28ed47" target="_blank" rel="noopener">https://juejin.im/post/5ce1365151882525ff28ed47</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h4><p>Java、 Python、…</p>
+<ul>
+<li>Google code style</li>
+<li>Facebook</li>
+<li>airbnb</li>
+</ul>
+<h4 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h4><ul>
+<li>leetcode-cn.com 和题解</li>
+<li>leetcode.com 和 Discuss board</li>
+</ul>
+<h4 id="指法和小操作"><a href="#指法和小操作" class="headerlink" title="指法和小操作"></a>指法和小操作</h4><ul>
+<li>home, end 或 fn + ⬅➡（行头、行尾）</li>
+<li>Ctrl + ⬅➡ （到左右的下一词）</li>
+<li>Ctrl + backspace （删除词）</li>
+<li>IDE 的⾃自动补全</li>
+<li>Top tips for &lt; IDE - name&gt;</li>
+</ul>
+<h4 id="自顶向下的编程方式"><a href="#自顶向下的编程方式" class="headerlink" title="自顶向下的编程方式"></a>自顶向下的编程方式</h4><ul>
+<li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
+<li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
+</ul>
+<h3 id="时间复杂度、空间复杂度"><a href="#时间复杂度、空间复杂度" class="headerlink" title="时间复杂度、空间复杂度"></a>时间复杂度、空间复杂度</h3><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
+<p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener">https://www.zhihu.com/question/21387264</a></p>
+<p>Master theorem</p>
+<p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
+<p>主定理</p>
+<p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener">http://zh.wikipedia.org/wiki/</a></p>
+<h4 id="Big-O-notation"><a href="#Big-O-notation" class="headerlink" title="Big O notation"></a>Big O notation</h4><p>O(1):  Constant Complexity 常数复杂度</p>
+<p>O(log n):  Logarithmic Complexity 对数复杂度</p>
+<p>O(n):  Linear Complexity 线性时间复杂度</p>
+<p>O(n^2): N square Complexity 平方</p>
+<p>O(n^3): N square Complexity 立方</p>
+<p>O(2^n): Exponential Growth 指数</p>
+<p>O(n!): Factorial 阶乘</p>
+<p>注意：只看最⾼高复杂度的运算</p>
+<p>O(log(n))</p>
+<p>for(inti =1; i &lt; n; i = i *2) {</p>
+<p>​    System.out.println(“Hey - I’m busy looking at: “+ i); }</p>
+<p>O(k^n)</p>
+<p>int fib(int n) {</p>
+<p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
+<p>⼆叉树遍历 - 前序、中序、后序：O(N)</p>
+<p>图的遍历：O(N)</p>
+<p>搜索算法：DFS、BFS - O(N)</p>
+<p>二分查找：O(logN)</p>
+<h2 id="数组、链表、跳表"><a href="#数组、链表、跳表" class="headerlink" title="数组、链表、跳表"></a>数组、链表、跳表</h2>]]></content>
+      <tags>
+        <tag>算法</tag>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b/</url>
     <content><![CDATA[<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><a id="more"></a>
