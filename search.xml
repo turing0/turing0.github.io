@@ -3,7 +3,8 @@
   <entry>
     <title>数据结构与算法 学习笔记</title>
     <url>/posts/83dcefb7/</url>
-    <content><![CDATA[<p>serendipity</p>
+    <content><![CDATA[<p>笔记略长， 排版略丑</p>
+<p>serendipity</p>
 <h1 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h1><h2 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h2><p>数据结构</p>
 <a id="more"></a>
 <ul>
@@ -93,23 +94,58 @@
 <li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
 <li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
 </ul>
-<h2 id="时间复杂度、空间复杂度"><a href="#时间复杂度、空间复杂度" class="headerlink" title="时间复杂度、空间复杂度"></a>时间复杂度、空间复杂度</h2><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
+<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
 <p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener">https://www.zhihu.com/question/21387264</a></p>
 <p>Master theorem</p>
 <p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
 <p>主定理</p>
 <p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener">http://zh.wikipedia.org/wiki/</a></p>
-<h3 id="Big-O-notation"><a href="#Big-O-notation" class="headerlink" title="Big O notation"></a>Big O notation</h3><p>O(1):  Constant Complexity 常数复杂度</p>
+<h2 id="大O复杂度表示法"><a href="#大O复杂度表示法" class="headerlink" title="大O复杂度表示法"></a>大O复杂度表示法</h2><p>所有代码的执行时间T(n)与每行代码的执行次数n成正比,即大O。</p>
+<script type="math/tex; mode=display">
+T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数据规模的大小；f(n)表示每行代码执行的次数总和。因为这是一个公式，所以用f(n)来表示。公式中的O，表示代码的执行时间T(n)与f(n)表达式成正比。</p>
+<p>大O时间复杂度实际上并不具体表示代码真正的执行时间，而是表示代码执行时间随数据规模增长的变化趋势，所以，也叫作渐进时间复杂度（asymptotic time complexity），简称时间复杂度。</p>
+<ul>
+<li><p>如何分析一段代码的时间复杂度？</p>
+<ol>
+<li><p>只关注循环执行次数最多的一段代码<br>大O这种复杂度表示方法只是表示一种变化趋势。我们通常会忽略掉公式中的常量、低阶、系数，只需要记录一个最大阶的量级就可以了。所以，我们在分析一个算法、一段代码的时间复杂度的时候，也只关注循环执行次数最多的那一段代码就可以了。这段核心代码执行次数的n的量级，就是整段要分析代码的时间复杂度。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">	<span class="keyword">int</span> sum = <span class="number">0</span>;   </span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">	<span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">		sum = sum + i;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中第2、3行代码都是常量级的执行时间，与n的大小无关，所以对于复杂度并没有影响。循环执行次数最多的是第4、5行代码，所以这块代码要重点分析。前面我们也讲过，这两行代码被执行了n次，所以总的时间复杂度就是O(n)</p>
+</li>
+<li><p>加法法则：总复杂度等于量级最大的那段代码的复杂度</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;     </span><br><span class="line">        sum_1 = sum_1 + p;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_2 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; q &lt; n; ++q) &#123;     </span><br><span class="line">        sum_2 = sum_2 + q;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_3 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">        j = <span class="number">1</span>;      </span><br><span class="line">        <span class="keyword">for</span> (; j &lt;= n; ++j) &#123;       </span><br><span class="line">            sum_3 = sum_3 +  i * j;     </span><br><span class="line">        &#125;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum_1 + sum_2 + sum_3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个代码分为三部分，分别是求sum_1、sum_2、sum_3。我们可以分别分析每一部分的时间复杂度，然后把它们放到一块儿，再取一个量级最大的作为整段代码的复杂度。第一段的时间复杂度是多少呢？这段代码循环执行了100次，所以是一个常量的执行时间，跟n的规模无关。</p>
+<p>这里我要再强调一下，即便这段代码循环10000次、100000次，只要是一个已知的数，跟n无关，照样也是常量级的执行时间。当n无限大的时候，就可以忽略。尽管对代码的执行时间会有很大影响，但是回到时间复杂度的概念来说，它表示的是一个算法执行效率与数据规模增长的变化趋势，所以不管常量的执行时间多大，我们都可以忽略掉。因为它本身对增长趋势并没有影响。</p>
+<p>那第二段代码和第三段代码的时间复杂度是多少呢？答案是O(n)和O(n2)</p>
+<p>综合这三段代码的时间复杂度，我们取其中最大的量级。所以，整段代码的时间复杂度就为O(n2)。也就是说：总的时间复杂度就等于量级最大的那段代码的时间复杂度。</p>
+</li>
+<li><p>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">    <span class="keyword">int</span> ret = <span class="number">0</span>;    </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;     </span><br><span class="line">        ret = ret + f(i);   </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;  </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;    </span><br><span class="line">    	sum = sum + i;  </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>单独看cal()函数。假设f()只是一个普通的操作，那第4～6行的时间复杂度就是，T1(n) = O(n)。但f()函数本身不是一个简单的操作，它的时间复杂度是T2(n) =O(n)，所以，整个cal()函数的时间复杂度就是，T(n) = T1(n) <em> T2(n) = O(n</em>n) = O(n2)。</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>O(1):  Constant Complexity 常数复杂度</p>
 <p>O(log n):  Logarithmic Complexity 对数复杂度</p>
+<ul>
+<li><p>```c++<br>i=1;<br>while (i &lt;= n)  {   </p>
+<pre><code>i = i * 2; 
+</code></pre><p>}</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这段代码的时间复杂度就是O(log2n)</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">i&#x3D;1; </span><br><span class="line">while (i &lt;&#x3D; n)  &#123;   </span><br><span class="line">    i &#x3D; i * 3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这段代码的时间复杂度为O(log3n)</p>
+</li>
+</ul>
+<p>  实际上，不管是以2为底、以3为底，还是以10为底，我们可以把所有对数阶的时间复杂度都记为O(logn)。为什么呢？</p>
+<p>  我们知道，对数之间是可以互相转换的，log3n就等于log32 <em> log2n，所以O(log3n) = O(C </em> log2n)，其中C=log32是一个常量。基于我们前面的一个理论：在采用大O标记复杂度的时候，可以忽略系数，即O(Cf(n)) = O(f(n))。所以，O(log2n) 就等于O(log3n)。因此，在对数阶时间复杂度的表示方法里，我们忽略对数的“底”，统一表示为O(logn)。</p>
+<ul>
+<li>如果一段代码的时间复杂度是O(logn)，我们循环执行n遍，时间复杂度就是O(nlogn)了。而且，O(nlogn)也是一种非常常见的算法时间复杂度。比如，归并排序、快速排序的时间复杂度都是O(nlogn)。</li>
+</ul>
 <p>O(n):  Linear Complexity 线性时间复杂度</p>
 <p>O(n^2): N square Complexity 平方</p>
 <p>O(n^3): N square Complexity 立方</p>
 <p>O(2^n): Exponential Growth 指数</p>
 <p>O(n!): Factorial 阶乘</p>
 <p>注意：只看最⾼高复杂度的运算</p>
-<p>O(log(n))</p>
-<p>for(inti =1; i &lt; n; i = i *2) {</p>
-<p>​    System.out.println(“Hey - I’m busy looking at: “+ i); }</p>
 <p>O(k^n)</p>
 <p>int fib(int n) {</p>
 <p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
@@ -117,7 +153,29 @@
 <p>图的遍历：O(N)</p>
 <p>搜索算法：DFS、BFS - O(N)</p>
 <p>二分查找：O(logN)</p>
-<h1 id="数组、链表、跳表"><a href="#数组、链表、跳表" class="headerlink" title="数组、链表、跳表"></a>数组、链表、跳表</h1>]]></content>
+<h1 id="以下为邓俊辉老师数据结构与算法的笔记"><a href="#以下为邓俊辉老师数据结构与算法的笔记" class="headerlink" title="以下为邓俊辉老师数据结构与算法的笔记"></a>以下为邓俊辉老师数据结构与算法的笔记</h1><p>冒泡排序</p>
+<p>第一次看到这么写的， 刚开始还有点没看懂</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[i<span class="number">-1</span>] &gt; a[i])&#123;</span><br><span class="line">                <span class="keyword">int</span> t=a[i<span class="number">-1</span>];</span><br><span class="line">                a[i<span class="number">-1</span>] = a[i];</span><br><span class="line">                a[i] = t;</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>求数组中 最大的两个数的下标  [lo ,hi)</p>
+<p>递归 + 分治</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">max2</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi,<span class="keyword">int</span> &amp;x1,<span class="keyword">int</span> &amp;x2)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">2</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[lo] &gt;= a[lo+<span class="number">1</span>])&#123;</span><br><span class="line">            x1 = lo;</span><br><span class="line">            x2 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            x2 = lo;</span><br><span class="line">            x1 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">3</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[x1 = lo] &lt; a[x2 = lo+<span class="number">1</span>]) swap(x1,x2);</span><br><span class="line">        <span class="keyword">if</span> (a[lo+<span class="number">2</span>] &gt; a[x2])&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[x2 = lo+<span class="number">2</span>] &gt; a[x1])&#123;</span><br><span class="line">                swap(x1,x2);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mi = (lo + hi)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> x1l,x2l;max2(a,lo,mi,x1l,x2l);</span><br><span class="line">    <span class="keyword">int</span> x1r,x2r;max2(a,mi,hi,x1r,x2r);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[x1l] &gt; a[x1r])&#123;</span><br><span class="line">        x1 = x1l;</span><br><span class="line">        x2 = a[x2l] &gt; a[x1r] ? x2l:x1r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        x1 = x1r;</span><br><span class="line">        x2 = a[x1l] &gt; a[x2r] ? x1l:x2r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>斐波那契数列、FIB()回归迭代</p>
+<ul>
+<li><p>解决方法A（记忆：memoization）</p>
+<ul>
+<li>​    将已计算过的实例的结果制表查询</li>
+</ul>
+</li>
+<li><p>解决方法B（动态规划：Dynamic Programming）</p>
+<ul>
+<li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
+<p><img src="C:\Users\Turing\AppData\Roaming\Typora\typora-user-images\image-20200330112113861.png" alt="image-20200330112113861"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
       <tags>
         <tag>算法</tag>
         <tag>数据结构</tag>
