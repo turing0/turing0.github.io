@@ -62,7 +62,7 @@
 <li>面试前一周恢复性训练</li>
 </ul>
 <hr>
-<h1 id="训练准备和复杂度分析"><a href="#训练准备和复杂度分析" class="headerlink" title="训练准备和复杂度分析"></a>训练准备和复杂度分析</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
+<h1 id="训练准备"><a href="#训练准备" class="headerlink" title="训练准备"></a>训练准备</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
 <li>Google</li>
 <li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">https://github.com/microsoft/terminal</a>)</li>
 <li>VSCode; Java: IntelliJ; Python: Pycharm</li>
