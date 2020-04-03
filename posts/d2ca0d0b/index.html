@@ -1,26 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+
+
+
+
+<html class="theme-next mist" lang="en">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.laphel.com","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"path":"search.xml","motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
-  <meta name="description" content="自定义友链页面">
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo,Next," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="自定义友链页面">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo Next优化之路">
 <meta property="og:url" content="http://blog.laphel.com/posts/d2ca0d0b/index.html">
@@ -34,17 +98,39 @@
 <meta property="article:tag" content="Next">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://blog.laphel.com/posts/d2ca0d0b/">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome: false,
-    isPost: true
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
   };
 </script>
+
+
+
+  <link rel="canonical" href="http://blog.laphel.com/posts/d2ca0d0b/"/>
+
+
+
+
 
   <title>Hexo Next优化之路 | Laphel</title>
   
@@ -54,183 +140,258 @@
 
 
 
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
+<meta name="generator" content="Hexo 4.2.0"></head>
 
-</head>
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container">
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-meta">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-    <div>
-      <a href="/" class="brand" rel="start">
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Laphel</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+      
+        <p class="site-subtitle"></p>
+      
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
 </div>
-
 
 <nav class="site-nav">
   
-  <ul id="menu" class="menu">
+
+  
+    <ul id="menu" class="menu">
+      
+        
         <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
-
-  </li>
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
-
-  </li>
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-link"></i> <br />
+            
+            Links
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
 
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
-        </a>
-      </li>
-  </ul>
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
 
+
+
+    </div>
+  
 </nav>
-  <div class="site-search">
-    <div class="popup search-popup">
-    <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocorrect="off" autocapitalize="off"
-           placeholder="Searching..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result"></div>
 
-</div>
-<div class="search-pop-overlay"></div>
 
-  </div>
-</div>
+
+ </div>
     </header>
 
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
+    <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          
-
-          <div class="content">
+          <div id="content" class="content">
             
 
-  <div class="posts-expand">
-      
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://blog.laphel.com/posts/d2ca0d0b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Laphel">
-      <meta itemprop="description" content="玻璃晴朗，橘子辉煌">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Laphel">
     </span>
+
+    
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Hexo Next优化之路
-        </h1>
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Hexo Next优化之路</h1>
+        
 
         <div class="post-meta">
-            <span class="post-meta-item">
+          <span class="post-time">
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-08T22:27:48+08:00">
+                2020-03-08
+              </time>
+            
 
-              <time title="Created: 2020-03-08 22:27:48" itemprop="dateCreated datePublished" datetime="2020-03-08T22:27:48+08:00">2020-03-08</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
             </span>
-              <span class="post-meta-item">
+          
+
+          
+            <div class="post-wordcount">
+              
+                
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
+                  <i class="fa fa-file-word-o"></i>
                 </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-03-18 09:36:43" itemprop="dateModified" datetime="2020-03-18T09:36:43+08:00">2020-03-18</time>
-              </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  3.2k
+                </span>
+              
 
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>14k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>13 mins.</span>
-            </span>
+              
+
+              
+            </div>
+          
+
+          
 
         </div>
       </header>
+    
 
     
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
+      
 
       
         <h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><a id="more"></a>
@@ -257,176 +418,269 @@
 <p>你也可以自己调试页面<br>页面调试好之后将代码复制到:themes\next\source\css_custom\custom.styl<br>参考custom.styl样式文件<br>不建议全部复制粘贴使用，最好是F12打开，根据关键ID找到对应的样式，复制到自己的文件中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Custom styles.</span><br><span class="line">&#x2F;*******************首页样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; .headband &#123;</span><br><span class="line">&#x2F;&#x2F;     height: 1.5px;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面顶部行高</span><br><span class="line">.header &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; &#x2F;&#x2F; 页面背景色</span><br><span class="line">&#x2F;&#x2F; .container &#123;</span><br><span class="line">&#x2F;&#x2F;     background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面留白更改</span><br><span class="line">.header-inner &#123;</span><br><span class="line">    padding-top: 35px;</span><br><span class="line">    padding-bottom: 0px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand &#123;</span><br><span class="line">    padding-top: 50px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 5px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">.post-button &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 渐变菜带，CSS代码copy自https:&#x2F;&#x2F;githubuniverse.com</span><br><span class="line">&#x2F;&#x2F; .site-meta &#123;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;缩略图指定宽度值显示。</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 75%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;*******************文章样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 文章</span><br><span class="line">.post &#123;</span><br><span class="line">    margin-bottom: 50px;</span><br><span class="line">    padding: 45px 36px 36px 36px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章标题字体</span><br><span class="line">.posts-expand .post-title &#123;</span><br><span class="line">    font-size: 26px;</span><br><span class="line">    font-weight: 700;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章标题动态效果</span><br><span class="line">.posts-expand .post-title-link::before &#123;</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章元数据（meta）留白更改</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 10px 0px 20px 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章的描述description</span><br><span class="line">.posts-expand .post-meta .post-description &#123;</span><br><span class="line">    font-style: italic;</span><br><span class="line">    font-size: 14px;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">    margin-bottom: 0px;</span><br><span class="line">    color: #666;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; [Read More]按钮样式</span><br><span class="line">.post-button .btn &#123;</span><br><span class="line">    color: #555 !important;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    border: none !important;</span><br><span class="line">    transition-property: unset;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.post-button .btn:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255) !important;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除在页面文章之间的分割线</span><br><span class="line">.posts-expand .post-eof &#123;</span><br><span class="line">    margin: 0px;</span><br><span class="line">    background-color: rgba(255, 255, 255, 0);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除页面底部页码上面的横线</span><br><span class="line">.pagination &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    margin: 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章内标题样式（左边的竖线）</span><br><span class="line">.post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">    border-left: 4px solid rgb(161, 102, 171);</span><br><span class="line">    margin-left: -36px;</span><br><span class="line">    padding-left: 32px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去掉图片边框</span><br><span class="line">.posts-expand .post-body img &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    padding: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;代码块的自定义样式</span><br><span class="line">code &#123;</span><br><span class="line">    margin: 0px 3px;</span><br><span class="line">    border: 1px solid #999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块顶部样式</span><br><span class="line">.highlight figcaption &#123;</span><br><span class="line">    margin: 0em;</span><br><span class="line">    padding: 0.5em;</span><br><span class="line">    background: #eee;</span><br><span class="line">    border-bottom: 1px solid #e9e9e9;</span><br><span class="line">&#125;</span><br><span class="line">.highlight figcaption a &#123;</span><br><span class="line">    color: rgb(80, 115, 184);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块diff样式</span><br><span class="line">pre .addition &#123;</span><br><span class="line">    background: #e6ffed;</span><br><span class="line">&#125;</span><br><span class="line">pre .deletion &#123;</span><br><span class="line">    background: #ffeef0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章内链接文本样式</span><br><span class="line">.post-body p a&#123;</span><br><span class="line">  color: #0593d3;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid #0593d3;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: #fc6423;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #fc6423;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 自定义的文章摘要图片样式</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*************************侧栏样式****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角侧栏按钮样式</span><br><span class="line">.sidebar-toggle &#123;</span><br><span class="line">    right: 10px;</span><br><span class="line">    bottom: 43px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line">.page-post-detail .sidebar-toggle-line &#123;</span><br><span class="line">    background: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角返回顶部按钮样式</span><br><span class="line">.back-to-top &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">    right: 10px;</span><br><span class="line">    padding-right: 5px;</span><br><span class="line">    padding-left: 5px;</span><br><span class="line">    padding-top: 2.5px;</span><br><span class="line">    padding-bottom: 2.5px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 侧栏</span><br><span class="line">.sidebar &#123;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-inner &#123;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏顶部文字</span><br><span class="line">.sidebar-nav li &#123;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav li:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-width: 1.5px;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active:hover &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点作者名</span><br><span class="line">.site-author-name &#123;</span><br><span class="line">    display: none;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点描述</span><br><span class="line">.site-description &#123;</span><br><span class="line">    letter-spacing: 5px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 13px;</span><br><span class="line">    color: rgb(243, 112, 85);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点文章、分类、标签</span><br><span class="line">.site-state &#123;</span><br><span class="line">    line-height: 1.3;</span><br><span class="line">    margin-left: 12px;</span><br><span class="line">&#125;</span><br><span class="line">.site-state-item &#123;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">    border-left: 1.5px solid rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏RSS按钮样式</span><br><span class="line">.feed-link &#123;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 7px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">    border: 1px solid rgb(158, 158, 158) !important;</span><br><span class="line">    border-radius: 15px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a:hover &#123;</span><br><span class="line">    background-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a i &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏社交链接</span><br><span class="line">.links-of-author &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏友链标题</span><br><span class="line">.links-of-blogroll-title &#123;</span><br><span class="line">    margin-bottom: 10px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    color: rgba(7, 179, 155, 0.75);</span><br><span class="line">    margin-left: 6px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏超链接样式（友链的样式）</span><br><span class="line">.sidebar a &#123;</span><br><span class="line">    color: #ccc;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar a:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式</span><br><span class="line">.post-toc ol a &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom: 1px solid rgb(96, 125, 139);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc ol a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式之当前目录</span><br><span class="line">.post-toc .nav .active &gt; a &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc .nav .active &gt; a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 修侧栏目录bug，如果主题配置文件_config.yml的toc是wrap: true *&#x2F;</span><br><span class="line">.post-toc ol &#123;</span><br><span class="line">    padding: 0px 10px 5px 10px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 侧栏目录默认全展开，已注释</span><br><span class="line">.post-toc .nav .nav-child &#123;</span><br><span class="line">    display: block;</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;************************移动端样式*******************************&#x2F;</span><br><span class="line">@media (max-width: 1023px) &#123;</span><br><span class="line">    .container &#123;</span><br><span class="line">        background-color: rgba(0, 0, 0, 0);</span><br><span class="line">    &#125;</span><br><span class="line">    .sidebar &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">        border-top-left-radius: 5px;</span><br><span class="line">        border-bottom-left-radius: 5px;</span><br><span class="line">    &#125;</span><br><span class="line">    .feed-link &#123;</span><br><span class="line">        display: none !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .main &#123;</span><br><span class="line">        padding-bottom: 120px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand &#123;</span><br><span class="line">        margin: 0px;</span><br><span class="line">        padding-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-title &#123;</span><br><span class="line">        font-size: 22px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-meta &#123;</span><br><span class="line">        font-size: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post &#123;</span><br><span class="line">        margin-bottom: 30px !important;</span><br><span class="line">        padding: 20px 15px 15px 15px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">        margin-left: -15px;</span><br><span class="line">        padding-left: 11px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-tags &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-widgets &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .comments &#123;</span><br><span class="line">        margin: 40px 0px 40px 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .footer &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-active #sidebar-dimmer &#123;</span><br><span class="line">    opacity: 0;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端左上角菜单按钮</span><br><span class="line">.site-nav-toggle &#123;</span><br><span class="line">    top: 35px;</span><br><span class="line">    left: 91px;</span><br><span class="line">    &#x2F;&#x2F; background-color: #222;</span><br><span class="line">&#125;</span><br><span class="line">.btn-bar &#123;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端菜单</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .menu &#123;</span><br><span class="line">        text-align: center;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .site-nav &#123;</span><br><span class="line">        top: initial;</span><br><span class="line">        background-color: rgba(255, 255, 255, 0.75);</span><br><span class="line">        border-top: none;</span><br><span class="line">        border-bottom: none;</span><br><span class="line">        position: relative;</span><br><span class="line">        z-index: 1024;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;移动端顶部</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .site-title &#123;</span><br><span class="line">        font-size: 28px !important;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-subtitle&#123;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">        padding-bottom: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-meta &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .menu .menu-item &#123;</span><br><span class="line">        margin: 0px 10px !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h2 id="Hexo-中-MathJax-的静态显示（svg）"><a href="#Hexo-中-MathJax-的静态显示（svg）" class="headerlink" title="Hexo 中 MathJax 的静态显示（svg）"></a>Hexo 中 MathJax 的静态显示（svg）</h2><p><a href="https://io-oi.me/tech/hexo-mathjax-svg/" target="_blank" rel="noopener">Hexo 中 MathJax 的静态显示（svg）</a></p>
 
+      
     </div>
-
     
     
     
 
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-              <a href="/tags/Next/" rel="tag"># Next</a>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          
+            <a href="/tags/Next/" rel="tag"><i class="fa fa-tag"></i> Next</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/5d36ff15/" rel="next" title="Markdown基本语法">
+                <i class="fa fa-chevron-left"></i> Markdown基本语法
+              </a>
+            
           </div>
 
-        
+          <span class="post-nav-divider"></span>
 
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/83dcefb7/" rel="prev" title="数据结构与算法 学习笔记">
+                数据结构与算法 学习笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/posts/5d36ff15/" rel="prev" title="Markdown基本语法">
-      <i class="fa fa-chevron-left"></i> Markdown基本语法
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/posts/83dcefb7/" rel="next" title="数据结构与算法 学习笔记">
-      数据结构与算法 学习笔记 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+      
+      
+    </footer>
+  </div>
+  
+  
+  
   </article>
-  
-  
-  
 
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
           </div>
           
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let activeClass = CONFIG.comments.activeClass;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+
+          
+
+  
+
+
 
         </div>
+        
           
   
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
   </div>
 
-  <aside class="sidebar">
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
+      
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义友链页面"><span class="nav-number">1.</span> <span class="nav-text">自定义友链页面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增links页面"><span class="nav-number">1.1.</span> <span class="nav-text">新增links页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置menu"><span class="nav-number">1.2.</span> <span class="nav-text">配置menu</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章底部标签显示的优化"><span class="nav-number">2.</span> <span class="nav-text">文章底部标签显示的优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-Next搭建个人博客（代码块复制功能）"><span class="nav-number">3.</span> <span class="nav-text">Hexo-Next搭建个人博客（代码块复制功能）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载-clipboard-js"><span class="nav-number">3.1.</span> <span class="nav-text">下载 clipboard.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#clipboardjs-使用"><span class="nav-number">3.2.</span> <span class="nav-text">clipboardjs 使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用"><span class="nav-number">3.3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#补充"><span class="nav-number">3.4.</span> <span class="nav-text">补充</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去除NexT主题Markdown分割线渲染效果"><span class="nav-number">4.</span> <span class="nav-text">去除NexT主题Markdown分割线渲染效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不蒜子统计文章阅读数"><span class="nav-number">5.</span> <span class="nav-text">不蒜子统计文章阅读数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改-Read-More-按钮样式"><span class="nav-number">6.</span> <span class="nav-text">修改[Read More]按钮样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改标签云（tagcloud）的颜色"><span class="nav-number">7.</span> <span class="nav-text">修改标签云（tagcloud）的颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章加密访问"><span class="nav-number">8.</span> <span class="nav-text">文章加密访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移动端显示-back-to-top-按钮和侧栏"><span class="nav-number">9.</span> <span class="nav-text">移动端显示 back-to-top 按钮和侧栏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-中-MathJax-的静态显示（svg）"><span class="nav-number">10.</span> <span class="nav-text">Hexo 中 MathJax 的静态显示（svg）</span></a></li></ol></div>
-      </div>
-      <!--/noindex-->
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Laphel"
-      src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">Laphel</p>
-  <div class="site-description" itemprop="description">玻璃晴朗，橘子辉煌</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">12</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">categories</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Laphel" />
+            
+              <p class="site-author-name" itemprop="name">Laphel</p>
+              <p class="site-description motion-element" itemprop="description">玻璃晴朗，橘子辉煌</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
-        <span class="site-state-item-count">11</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/turing0" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
 
+          
+          
 
-      </div>
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义友链页面"><span class="nav-number">1.</span> <span class="nav-text">自定义友链页面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增links页面"><span class="nav-number">1.1.</span> <span class="nav-text">新增links页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置menu"><span class="nav-number">1.2.</span> <span class="nav-text">配置menu</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章底部标签显示的优化"><span class="nav-number">2.</span> <span class="nav-text">文章底部标签显示的优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-Next搭建个人博客（代码块复制功能）"><span class="nav-number">3.</span> <span class="nav-text">Hexo-Next搭建个人博客（代码块复制功能）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载-clipboard-js"><span class="nav-number">3.1.</span> <span class="nav-text">下载 clipboard.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#clipboardjs-使用"><span class="nav-number">3.2.</span> <span class="nav-text">clipboardjs 使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用"><span class="nav-number">3.3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#补充"><span class="nav-number">3.4.</span> <span class="nav-text">补充</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去除NexT主题Markdown分割线渲染效果"><span class="nav-number">4.</span> <span class="nav-text">去除NexT主题Markdown分割线渲染效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不蒜子统计文章阅读数"><span class="nav-number">5.</span> <span class="nav-text">不蒜子统计文章阅读数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改-Read-More-按钮样式"><span class="nav-number">6.</span> <span class="nav-text">修改[Read More]按钮样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改标签云（tagcloud）的颜色"><span class="nav-number">7.</span> <span class="nav-text">修改标签云（tagcloud）的颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章加密访问"><span class="nav-number">8.</span> <span class="nav-text">文章加密访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移动端显示-back-to-top-按钮和侧栏"><span class="nav-number">9.</span> <span class="nav-text">移动端显示 back-to-top 按钮和侧栏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-中-MathJax-的静态显示（svg）"><span class="nav-number">10.</span> <span class="nav-text">Hexo 中 MathJax 的静态显示（svg）</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
 
 
+        
       </div>
     </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer-inner">
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     ❤<!--<i class="fa fa-user"></i>-->
   </span>
   <span class="author" itemprop="copyrightHolder">Laphel</span>
 
-  <!--
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    <span title="Symbols count total">37k</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    <span title="Reading time total">33 mins.</span>
-  -->
+  
 </div>
+<!--
 
-<!--
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
-  </div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
 -->
 <!--
+
   <span class="post-meta-divider">|</span>
+
 -->
 <!--
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.1
-  </div>
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
 -->
+
 
         
+<div class="busuanzi-count">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
 
 
 
@@ -435,33 +689,36 @@
 
 
 
+        
       </div>
     </footer>
+
+    
+
+    
+
   </div>
 
   
-  <script src="/lib/anime.min.js"></script>
 
-<script src="/js/utils.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
 
 
 
 
-  
+
 
 
 
 
   
-<script src="/js/local-search.js"></script>
 
 
+  
 
 
 
@@ -474,8 +731,463 @@
 
 
   
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
 
   
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
 
 </body>
 </html>
