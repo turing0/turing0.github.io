@@ -248,6 +248,10 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  # 总访问人数</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  # 总访问量</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # 主题访问量</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
+<h2 id="开启-SEO"><a href="#开启-SEO" class="headerlink" title="开启 SEO"></a>开启 SEO</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>seo:</strong><br>将其设置为<code>true</code></li>
+</ol>
 <h1 id="添加站点地图"><a href="#添加站点地图" class="headerlink" title="添加站点地图"></a>添加站点地图</h1><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>安装插件来生成 sitemap 文件，传统的 sitemap。</p>
 <p><code>npm install hexo-generator-sitemap --save</code></p>
 <h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ol>
@@ -268,6 +272,13 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <blockquote>
 <p>Allow 字段的值即为允许搜索引擎爬取的内容</p>
 </blockquote>
+<h3 id="为外链添加-nofollow-标签"><a href="#为外链添加-nofollow-标签" class="headerlink" title="为外链添加 nofollow 标签"></a>为外链添加 nofollow 标签</h3><p>这个还没搞懂怎么回事 ，待更</p>
+<h3 id="文章优化"><a href="#文章优化" class="headerlink" title="文章优化"></a>文章优化</h3><h4 id="修改文章访问路径"><a href="#修改文章访问路径" class="headerlink" title="修改文章访问路径"></a>修改文章访问路径</h4><p>默认的链接太过冗长，不利于seo，我们需要修改链接样式</p>
+<ol>
+<li>打开 <code>\_config.yml</code></li>
+<li>将 <strong>permalink</strong> 修改为如下内容</li>
+</ol>
+<p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
 <hr>
 <p>以下不是Next7.7.1版本的设置</p>
 <h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
