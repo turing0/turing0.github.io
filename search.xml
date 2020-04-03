@@ -187,8 +187,70 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
   <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b/</url>
-    <content><![CDATA[<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><a id="more"></a>
-<p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
+    <content><![CDATA[<p>Next7.7.1</p>
+<h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>pace:</strong> ，设置为 true，<strong>theme</strong> 为 minimal</li>
+<li>下载依赖资源，<a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank" rel="noopener">点击查看其他加载样式</a></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-pace source&#x2F;lib&#x2F;pace</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="侧边栏阅读进度-Top"><a href="#侧边栏阅读进度-Top" class="headerlink" title="侧边栏阅读进度 + Top"></a>侧边栏阅读进度 + Top</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>back2top</strong> ，如下设置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">back2top:</span><br><span class="line">  enable: true</span><br><span class="line">  # 回页面顶部</span><br><span class="line">  sidebar: true</span><br><span class="line">  # 显示阅读百分比</span><br><span class="line">  scrollpercent: true</span><br></pre></td></tr></table></figure>
+<h2 id="顶部文章读进度条"><a href="#顶部文章读进度条" class="headerlink" title="顶部文章读进度条"></a>顶部文章读进度条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>reading_progress:</strong> ，进行如下配置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">reading_progress:</span><br><span class="line">  # 是否开启</span><br><span class="line">  enable: true</span><br><span class="line">  # 顶部 top，顶部 bottom</span><br><span class="line">  position: top</span><br><span class="line">  # 进度条颜色</span><br><span class="line">  color: &quot;#37c6c0&quot;</span><br><span class="line">  # 进度条高度</span><br><span class="line">  height: 3px</span><br></pre></td></tr></table></figure>
+<h2 id="文章结束标志"><a href="#文章结束标志" class="headerlink" title="文章结束标志"></a>文章结束标志</h2><ol>
+<li><p>在 <code>\source</code> 目录下，新建 <code>_data</code> 文件夹</p>
+</li>
+<li><p>进入 <code>_data</code> 文件夹，创建文件 <code>post-body-end.swig</code></p>
+</li>
+<li><p>编辑文件，添加如下内容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style&#x3D;&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;</span><br><span class="line">        ------------------------------&lt;em&gt;THE END. &lt;&#x2F;em&gt;&lt;!--&lt;i class&#x3D;&quot;fa fa-paw&quot;&gt;&lt;&#x2F;i&gt;--&gt;------------------------------</span><br><span class="line">        &lt;&#x2F;div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>custom_file_path</strong> ，将如下内容取消注释</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">postBodyEnd: source&#x2F;_data&#x2F;post-body-end.swig</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="文章底部标签样式优化"><a href="#文章底部标签样式优化" class="headerlink" title="文章底部标签样式优化"></a>文章底部标签样式优化</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>creative_commons:</strong> ，进行如下配置</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">creative_commons:</span><br><span class="line">  license: by-nc-sa</span><br><span class="line">  sidebar: true</span><br><span class="line">  post: true</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h2><ol>
+<li><p>打开文件 <code>themes/next/source/css/_common/components/post/post.styl</code></p>
+</li>
+<li><p>在文件尾添加如下样式代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">    color: #007ab2;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #007ab2;</span><br><span class="line">    &amp;:hover &#123;</span><br><span class="line">    color: #ff4f79;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #004f79;</span><br><span class="line">&#125;&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改底部年份和名称中间的图标"><a href="#修改底部年份和名称中间的图标" class="headerlink" title="修改底部年份和名称中间的图标"></a>修改底部年份和名称中间的图标</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>footer</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  icon:</span><br><span class="line">    # 图标名称</span><br><span class="line">    name: user</span><br><span class="line">    # 是否开启动画效果</span><br><span class="line">    animated: false</span><br><span class="line">    # 图标颜色</span><br><span class="line">    color: &quot;#808080&quot;</span><br></pre></td></tr></table></figure>
+<p><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">点击查看更多图标</a></p>
+</li>
+</ol>
+<h2 id="显示总访问量"><a href="#显示总访问量" class="headerlink" title="显示总访问量"></a>显示总访问量</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>busuanzi_count</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  # 总访问人数</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  # 总访问量</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # 主题访问量</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+<p>以下不是Next7.7.1版本的设置</p>
+<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
 <h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
 <p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
 <h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>

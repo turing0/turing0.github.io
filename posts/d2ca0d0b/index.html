@@ -19,18 +19,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.laphel.com","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"path":"search.xml","motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"blog.laphel.com","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"path":"search.xml","motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="自定义友链页面">
+  <meta name="description" content="Next7.7.1 添加页面载条 打开 \themes\next\_config.yml 搜索 pace: ，设置为 true，theme 为 minimal 下载依赖资源，点击查看其他加载样式  12$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo Next优化之路">
 <meta property="og:url" content="https://blog.laphel.com/posts/d2ca0d0b/index.html">
 <meta property="og:site_name" content="Laphel">
-<meta property="og:description" content="自定义友链页面">
+<meta property="og:description" content="Next7.7.1 添加页面载条 打开 \themes\next\_config.yml 搜索 pace: ，设置为 true，theme 为 minimal 下载依赖资源，点击查看其他加载样式  12$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-n">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-08T14:27:48.000Z">
-<meta property="article:modified_time" content="2020-03-18T01:36:43.681Z">
+<meta property="article:modified_time" content="2020-04-03T13:36:48.553Z">
 <meta property="article:author" content="Laphel">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Next">
@@ -158,10 +158,7 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -207,23 +204,30 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-03-18 09:36:43" itemprop="dateModified" datetime="2020-03-18T09:36:43+08:00">2020-03-18</time>
+                <time title="Modified: 2020-04-03 21:36:48" itemprop="dateModified" datetime="2020-04-03T21:36:48+08:00">2020-04-03</time>
               </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="Symbols count in article">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>14k</span>
+              <span>16k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>13 mins.</span>
+              <span>14 mins.</span>
             </span>
 
         </div>
@@ -235,8 +239,70 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><a id="more"></a>
-<p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
+        <p>Next7.7.1</p>
+<h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>pace:</strong> ，设置为 true，<strong>theme</strong> 为 minimal</li>
+<li>下载依赖资源，<a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank" rel="noopener">点击查看其他加载样式</a></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-pace source&#x2F;lib&#x2F;pace</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="侧边栏阅读进度-Top"><a href="#侧边栏阅读进度-Top" class="headerlink" title="侧边栏阅读进度 + Top"></a>侧边栏阅读进度 + Top</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>back2top</strong> ，如下设置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">back2top:</span><br><span class="line">  enable: true</span><br><span class="line">  # 回页面顶部</span><br><span class="line">  sidebar: true</span><br><span class="line">  # 显示阅读百分比</span><br><span class="line">  scrollpercent: true</span><br></pre></td></tr></table></figure>
+<h2 id="顶部文章读进度条"><a href="#顶部文章读进度条" class="headerlink" title="顶部文章读进度条"></a>顶部文章读进度条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>reading_progress:</strong> ，进行如下配置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">reading_progress:</span><br><span class="line">  # 是否开启</span><br><span class="line">  enable: true</span><br><span class="line">  # 顶部 top，顶部 bottom</span><br><span class="line">  position: top</span><br><span class="line">  # 进度条颜色</span><br><span class="line">  color: &quot;#37c6c0&quot;</span><br><span class="line">  # 进度条高度</span><br><span class="line">  height: 3px</span><br></pre></td></tr></table></figure>
+<h2 id="文章结束标志"><a href="#文章结束标志" class="headerlink" title="文章结束标志"></a>文章结束标志</h2><ol>
+<li><p>在 <code>\source</code> 目录下，新建 <code>_data</code> 文件夹</p>
+</li>
+<li><p>进入 <code>_data</code> 文件夹，创建文件 <code>post-body-end.swig</code></p>
+</li>
+<li><p>编辑文件，添加如下内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style&#x3D;&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;</span><br><span class="line">        ------------------------------&lt;em&gt;THE END. &lt;&#x2F;em&gt;&lt;!--&lt;i class&#x3D;&quot;fa fa-paw&quot;&gt;&lt;&#x2F;i&gt;--&gt;------------------------------</span><br><span class="line">        &lt;&#x2F;div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>custom_file_path</strong> ，将如下内容取消注释</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">postBodyEnd: source&#x2F;_data&#x2F;post-body-end.swig</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="文章底部标签样式优化"><a href="#文章底部标签样式优化" class="headerlink" title="文章底部标签样式优化"></a>文章底部标签样式优化</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>creative_commons:</strong> ，进行如下配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">creative_commons:</span><br><span class="line">  license: by-nc-sa</span><br><span class="line">  sidebar: true</span><br><span class="line">  post: true</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h2><ol>
+<li><p>打开文件 <code>themes/next/source/css/_common/components/post/post.styl</code></p>
+</li>
+<li><p>在文件尾添加如下样式代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">    color: #007ab2;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #007ab2;</span><br><span class="line">    &amp;:hover &#123;</span><br><span class="line">    color: #ff4f79;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #004f79;</span><br><span class="line">&#125;&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改底部年份和名称中间的图标"><a href="#修改底部年份和名称中间的图标" class="headerlink" title="修改底部年份和名称中间的图标"></a>修改底部年份和名称中间的图标</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>footer</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line">  icon:</span><br><span class="line">    # 图标名称</span><br><span class="line">    name: user</span><br><span class="line">    # 是否开启动画效果</span><br><span class="line">    animated: false</span><br><span class="line">    # 图标颜色</span><br><span class="line">    color: &quot;#808080&quot;</span><br></pre></td></tr></table></figure>
+<p><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">点击查看更多图标</a></p>
+</li>
+</ol>
+<h2 id="显示总访问量"><a href="#显示总访问量" class="headerlink" title="显示总访问量"></a>显示总访问量</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>busuanzi_count</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  # 总访问人数</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  # 总访问量</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # 主题访问量</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+<p>以下不是Next7.7.1版本的设置</p>
+<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
 <h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
 <p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
 <h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>
@@ -263,12 +329,19 @@
 
     
     
+    <div>
     
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+        ------------------------------<em>THE END. </em><!--<i class="fa fa-paw"></i>-->------------------------------
+        </div>
+    
+</div>
 
       <footer class="post-footer">
+          
           <div class="post-tags">
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-              <a href="/tags/Next/" rel="tag"># Next</a>
+              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+              <a href="/tags/Next/" rel="tag"><i class="fa fa-tag"></i> Next</a>
           </div>
 
         
@@ -343,7 +416,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义友链页面"><span class="nav-number">1.</span> <span class="nav-text">自定义友链页面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增links页面"><span class="nav-number">1.1.</span> <span class="nav-text">新增links页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置menu"><span class="nav-number">1.2.</span> <span class="nav-text">配置menu</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章底部标签显示的优化"><span class="nav-number">2.</span> <span class="nav-text">文章底部标签显示的优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-Next搭建个人博客（代码块复制功能）"><span class="nav-number">3.</span> <span class="nav-text">Hexo-Next搭建个人博客（代码块复制功能）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载-clipboard-js"><span class="nav-number">3.1.</span> <span class="nav-text">下载 clipboard.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#clipboardjs-使用"><span class="nav-number">3.2.</span> <span class="nav-text">clipboardjs 使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用"><span class="nav-number">3.3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#补充"><span class="nav-number">3.4.</span> <span class="nav-text">补充</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去除NexT主题Markdown分割线渲染效果"><span class="nav-number">4.</span> <span class="nav-text">去除NexT主题Markdown分割线渲染效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不蒜子统计文章阅读数"><span class="nav-number">5.</span> <span class="nav-text">不蒜子统计文章阅读数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改-Read-More-按钮样式"><span class="nav-number">6.</span> <span class="nav-text">修改[Read More]按钮样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改标签云（tagcloud）的颜色"><span class="nav-number">7.</span> <span class="nav-text">修改标签云（tagcloud）的颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章加密访问"><span class="nav-number">8.</span> <span class="nav-text">文章加密访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移动端显示-back-to-top-按钮和侧栏"><span class="nav-number">9.</span> <span class="nav-text">移动端显示 back-to-top 按钮和侧栏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-中-MathJax-的静态显示（svg）"><span class="nav-number">10.</span> <span class="nav-text">Hexo 中 MathJax 的静态显示（svg）</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#添加页面载条"><span class="nav-number">1.</span> <span class="nav-text">添加页面载条</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#侧边栏阅读进度-Top"><span class="nav-number">2.</span> <span class="nav-text">侧边栏阅读进度 + Top</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#顶部文章读进度条"><span class="nav-number">3.</span> <span class="nav-text">顶部文章读进度条</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章结束标志"><span class="nav-number">4.</span> <span class="nav-text">文章结束标志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章底部标签样式优化"><span class="nav-number">5.</span> <span class="nav-text">文章底部标签样式优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改文章内链接文本样式"><span class="nav-number">6.</span> <span class="nav-text">修改文章内链接文本样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改底部年份和名称中间的图标"><span class="nav-number">7.</span> <span class="nav-text">修改底部年份和名称中间的图标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#显示总访问量"><span class="nav-number">8.</span> <span class="nav-text">显示总访问量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义友链页面"><span class="nav-number">9.</span> <span class="nav-text">自定义友链页面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新增links页面"><span class="nav-number">9.1.</span> <span class="nav-text">新增links页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置menu"><span class="nav-number">9.2.</span> <span class="nav-text">配置menu</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章底部标签显示的优化"><span class="nav-number">10.</span> <span class="nav-text">文章底部标签显示的优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-Next搭建个人博客（代码块复制功能）"><span class="nav-number">11.</span> <span class="nav-text">Hexo-Next搭建个人博客（代码块复制功能）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载-clipboard-js"><span class="nav-number">11.1.</span> <span class="nav-text">下载 clipboard.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#clipboardjs-使用"><span class="nav-number">11.2.</span> <span class="nav-text">clipboardjs 使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用"><span class="nav-number">11.3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#补充"><span class="nav-number">11.4.</span> <span class="nav-text">补充</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去除NexT主题Markdown分割线渲染效果"><span class="nav-number">12.</span> <span class="nav-text">去除NexT主题Markdown分割线渲染效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不蒜子统计文章阅读数"><span class="nav-number">13.</span> <span class="nav-text">不蒜子统计文章阅读数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改-Read-More-按钮样式"><span class="nav-number">14.</span> <span class="nav-text">修改[Read More]按钮样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改标签云（tagcloud）的颜色"><span class="nav-number">15.</span> <span class="nav-text">修改标签云（tagcloud）的颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章加密访问"><span class="nav-number">16.</span> <span class="nav-text">文章加密访问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移动端显示-back-to-top-按钮和侧栏"><span class="nav-number">17.</span> <span class="nav-text">移动端显示 back-to-top 按钮和侧栏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-中-MathJax-的静态显示（svg）"><span class="nav-number">18.</span> <span class="nav-text">Hexo 中 MathJax 的静态显示（svg）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -380,6 +453,10 @@
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
@@ -407,12 +484,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="Symbols count total">37k</span>
+    <span title="Symbols count total">39k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">33 mins.</span>
+    <span title="Reading time total">35 mins.</span>
   -->
 </div>
 
@@ -429,6 +506,26 @@
 -->
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
