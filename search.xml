@@ -280,7 +280,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 </ol>
 <p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
 <hr>
-<p>以下不是Next7.7.1版本的设置</p>
+<p><strong>以下不是Next7.7.1版本的设置</strong></p>
 <h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
 <h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
 <p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
@@ -856,8 +856,11 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>Google Voice</category>
       </categories>
+      <tags>
+        <tag>Google Voice</tag>
+      </tags>
   </entry>
   <entry>
     <title>隐写术及相关技术分析 i春秋学习笔记</title>
