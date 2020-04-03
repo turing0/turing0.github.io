@@ -170,6 +170,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <ul>
 <li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
+<p>T(n)=O(n), 仅需O(1)空间！</p>
 <p><img src="https://turing0.github.io/html/img/fib-ex.png" alt="fib-ex"></p>
 </li>
 </ul>
