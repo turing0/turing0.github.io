@@ -280,6 +280,8 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <li>将 <strong>permalink</strong> 修改为如下内容</li>
 </ol>
 <p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
+<p>参考：</p>
+<p><a href="https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E" target="_blank" rel="noopener">https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E</a></p>
 <hr>
 <h1 id="以下不是Next7-7-1版本的设置"><a href="#以下不是Next7-7-1版本的设置" class="headerlink" title="以下不是Next7.7.1版本的设置"></a><strong>以下不是Next7.7.1版本的设置</strong></h1><h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
 <h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
