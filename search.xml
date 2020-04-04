@@ -280,6 +280,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <li>将 <strong>permalink</strong> 修改为如下内容</li>
 </ol>
 <p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
+<h2 id="Mathjax"><a href="#Mathjax" class="headerlink" title="Mathjax"></a>Mathjax</h2><p><a href="https://blog.csdn.net/wgshun616/article/details/81019687" target="_blank" rel="noopener">https://blog.csdn.net/wgshun616/article/details/81019687</a></p>
 <p>参考：</p>
 <p><a href="https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E" target="_blank" rel="noopener">https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E</a></p>
 <hr>
