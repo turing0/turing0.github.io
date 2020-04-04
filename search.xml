@@ -1258,7 +1258,16 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
   <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065/</url>
-    <content><![CDATA[<h1 id="Markdown中Latex常用语法"><a href="#Markdown中Latex常用语法" class="headerlink" title="Markdown中Latex常用语法"></a>Markdown中Latex常用语法</h1><h2 id="常用希腊字母表"><a href="#常用希腊字母表" class="headerlink" title="常用希腊字母表"></a>常用希腊字母表</h2><a id="more"></a>
+    <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
+<script type="math/tex; mode=display">\displaystyle \int_{}^{}</script><script type="math/tex; mode=display">\begin{flushleft}
+积分`\int_{}^{}`：
+$$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint</code>：<script type="math/tex">\iint_{-\infty}^{+\infty} f(x,y) \mathrm{d}x \mathrm{d}y</script><br>行内积分：$\int_{-\infty}^{+\infty} f(x) \mathrm{d}x$<br>行内积分limits模式<code>\int\limits_{}^{}</code>：$\int\limits_{-\infty}^{+\infty} f(x) \mathrm{d}x$<br>行内积分display模式<code>\displaystyle \int_{}^{}</code>：$\displaystyle \int_{-\infty}^{+\infty} f(x) \mathrm{d}x$</p>
+<h4 id=""><a href="#" class="headerlink" title=" "></a> </h4><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 id="Markdown中Latex常用语法"><a href="#Markdown中Latex常用语法" class="headerlink" title="Markdown中Latex常用语法"></a>Markdown中Latex常用语法</h1><h2 id="常用希腊字母表"><a href="#常用希腊字母表" class="headerlink" title="常用希腊字母表"></a>常用希腊字母表</h2><!--more-->
 <div class="table-container">
 <table>
 <thead>
@@ -1865,23 +1874,5 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
   \end{aligned}</script></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Test page</title>
-    <url>/posts/e8006952/</url>
-    <content><![CDATA[<hr>
-<h1 id="这是测试文章"><a href="#这是测试文章" class="headerlink" title="这是测试文章"></a>这是测试文章</h1><hr>
-<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
-<script type="math/tex; mode=display">\displaystyle \int_{}^{}</script><script type="math/tex; mode=display">\begin{flushleft}
-积分`\int_{}^{}`：
-$$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint</code>：<script type="math/tex">\iint_{-\infty}^{+\infty} f(x,y) \mathrm{d}x \mathrm{d}y</script><br>行内积分：$\int_{-\infty}^{+\infty} f(x) \mathrm{d}x$<br>行内积分limits模式<code>\int\limits_{}^{}</code>：$\int\limits_{-\infty}^{+\infty} f(x) \mathrm{d}x$<br>行内积分display模式<code>\displaystyle \int_{}^{}</code>：$\displaystyle \int_{-\infty}^{+\infty} f(x) \mathrm{d}x$</p>
-<hr>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
-<h2 id="—"><a href="#—" class="headerlink" title="—-"></a>—-</h2><hr>
-<hr>
-]]></content>
-      <tags>
-        <tag>tagtest</tag>
-      </tags>
   </entry>
 </search>
