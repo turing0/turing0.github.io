@@ -162,9 +162,8 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p>斐波那契数列、FIB()回归迭代</p>
 <ul>
 <li><p>解决方法A（记忆：memoization）</p>
-<ul>
-<li>​    将已计算过的实例的结果制表查询</li>
-</ul>
+</li>
+<li><p>​    将已计算过的实例的结果制表查询</p>
 </li>
 <li><p>解决方法B（动态规划：Dynamic Programming）</p>
 <ul>
