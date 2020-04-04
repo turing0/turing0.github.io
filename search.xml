@@ -186,8 +186,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
   <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b/</url>
-    <content><![CDATA[<p>Next7.7.1</p>
-<h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
+    <content><![CDATA[<h1 id="Next7-7-1"><a href="#Next7-7-1" class="headerlink" title="Next7.7.1"></a>Next7.7.1</h1><h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
 <li>打开 <code>\themes\next\_config.yml</code></li>
 <li>搜索 <strong>pace:</strong> ，设置为 true，<strong>theme</strong> 为 minimal</li>
 <li>下载依赖资源，<a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank" rel="noopener">点击查看其他加载样式</a></li>
@@ -251,7 +250,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <li>打开 <code>\themes\next\_config.yml</code></li>
 <li>搜索 <strong>seo:</strong><br>将其设置为<code>true</code></li>
 </ol>
-<h1 id="添加站点地图"><a href="#添加站点地图" class="headerlink" title="添加站点地图"></a>添加站点地图</h1><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>安装插件来生成 sitemap 文件，传统的 sitemap。</p>
+<h2 id="添加站点地图"><a href="#添加站点地图" class="headerlink" title="添加站点地图"></a>添加站点地图</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>安装插件来生成 sitemap 文件，传统的 sitemap。</p>
 <p><code>npm install hexo-generator-sitemap --save</code></p>
 <h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ol>
 <li><p>打开 <code>\_config.yml</code></p>
@@ -279,8 +278,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 </ol>
 <p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
 <hr>
-<p><strong>以下不是Next7.7.1版本的设置</strong></p>
-<h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
+<h1 id="以下不是Next7-7-1版本的设置"><a href="#以下不是Next7-7-1版本的设置" class="headerlink" title="以下不是Next7.7.1版本的设置"></a><strong>以下不是Next7.7.1版本的设置</strong></h1><h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
 <h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
 <p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
 <h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>
