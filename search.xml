@@ -176,6 +176,9 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>Data Structures and Algorithms</category>
+      </categories>
       <tags>
         <tag>算法</tag>
         <tag>数据结构</tag>
