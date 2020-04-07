@@ -1,6 +1,335 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Google Kickstart 2020</title>
+    <url>/posts/1484be77.html</url>
+    <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>明明设置了google日历提醒我的  没有提醒我 是我设置方式不对了</p>
+<h2 id="Allocation"><a href="#Allocation" class="headerlink" title="Allocation"></a>Allocation</h2><p><strong>Problem</strong></p>
+<p>  There are <strong>N</strong> houses for sale.  The i-th house costs <strong>Ai</strong> dollars to buy.  You have a budget of <strong>B</strong> dollars to spend.</p>
+<p>  What is the maximum number of houses you can buy?</p>
+<a id="more"></a>
+<p>水题</p>
+<h2 id="Plates"><a href="#Plates" class="headerlink" title="Plates"></a>Plates</h2><h2 id="Workout"><a href="#Workout" class="headerlink" title="Workout"></a>Workout</h2><p>待更……</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>kickstart</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CTF基础 i春秋学习笔记</title>
+    <url>/posts/3495768f.html</url>
+    <content><![CDATA[<p>课程来源于i春秋 <a href="https://www.ichunqiu.com/course/63212" target="_blank" rel="noopener external nofollow noreferrer">https://www.ichunqiu.com/course/63212</a></p>
+<h2 id="第一章-竞赛简介"><a href="#第一章-竞赛简介" class="headerlink" title="第一章 竞赛简介"></a>第一章 竞赛简介</h2><h3 id="1-二进制安全学习规划指南"><a href="#1-二进制安全学习规划指南" class="headerlink" title="1.二进制安全学习规划指南"></a>1.二进制安全学习规划指南</h3><p>核心基础课程-计算机的工作原理</p>
+<ul>
+<li>体系结构</li>
+<li>编译原理</li>
+<li>操作系统</li>
+</ul>
+<a id="more"></a>
+<p>其他基础课程-系统软件开发基础</p>
+<ul>
+<li>编程语言</li>
+<li>网络协议</li>
+<li>数据结构与算法</li>
+</ul>
+<p>基础课程学习—体系结构</p>
+<p>CPU的设计与实现</p>
+<ul>
+<li>机器指令与汇编语言</li>
+<li>指令的解码、执行</li>
+<li>内存管理</li>
+</ul>
+<p>CMU 18-447 Introduction to Computer Architecture</p>
+<ul>
+<li><a href="https://www.ece.cmu.edu/~ece447/s15/doku.php" target="_blank" rel="noopener external nofollow noreferrer">https://www.ece.cmu.edu/~ece447/s15/doku.php</a></li>
+<li>Labs: Implement a MIPS CPU using Verilog</li>
+</ul>
+<p>编译原理的设计与实现</p>
+<ul>
+<li>自动机、词法分析、语法分析</li>
+<li>运行时</li>
+<li>程序静态分析</li>
+</ul>
+<p>Stanford CS143-Compilers</p>
+<ul>
+<li><a href="http://web.stanford.edu/class/cs143/" target="_blank" rel="noopener external nofollow noreferrer">http://web.stanford.edu/class/cs143/</a></li>
+<li>PA: Compilers for Cool language</li>
+</ul>
+<p>基础课程学习—操作系统</p>
+<p>操作系统的设计与实现</p>
+<ul>
+<li>系统的加载与引导</li>
+<li>用户与内核态、系统调用、中断和驱动</li>
+<li>进程与内存管理、文件系统</li>
+<li>虚拟机</li>
+</ul>
+<p>MIT 6.828-Operating System Engineering</p>
+<ul>
+<li><a href="https://pdos.csail.mit.edu/6.828/2016/" target="_blank" rel="noopener external nofollow noreferrer">https://pdos.csail.mit.edu/6.828/2016/</a></li>
+<li>Labs: Implement jos</li>
+<li>Xv6, a simple Unix-like teaching operating system</li>
+</ul>
+<p>CTF历史资料库：<a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a></p>
+<p>Wargames</p>
+<ul>
+<li><a href="https://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">https://pwnable.kr/</a></li>
+<li><a href="https://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">https://smashthestack.org/</a></li>
+</ul>
+<p>漏洞挖掘与利用实战-目标</p>
+<p>网络协议的实现</p>
+<ul>
+<li>http/SMB/DNS/SPnp-Server</li>
+</ul>
+<p>脚本列表</p>
+<ul>
+<li>javascript Engine</li>
+<li>ActionScript Engine</li>
+<li>PHP/Java Sandbox Escape</li>
+</ul>
+<p>内核</p>
+<ul>
+<li>Linux/Android</li>
+<li>Freebsd</li>
+<li>Apple ios</li>
+<li>Sony PS4</li>
+</ul>
+<p>漏洞挖掘与利用实战-准备</p>
+<p>学习历史漏洞-CVEs</p>
+<p>挖掘新漏洞</p>
+<ul>
+<li>逆向分析+代码审计<ul>
+<li>快速逆向与快速理解</li>
+<li>对漏洞的感觉</li>
+</ul>
+</li>
+<li>模糊测试<ul>
+<li>测试框架</li>
+<li>样例生成的想法</li>
+</ul>
+</li>
+</ul>
+<p>构建系统防护-研究与探索</p>
+<p>漏洞自动挖掘技术</p>
+<ul>
+<li>静态程序分析</li>
+<li>符号执行</li>
+<li>机器学习？</li>
+</ul>
+<p>漏洞利用防护机制</p>
+<ul>
+<li>Intel SGX</li>
+<li>控制流完整性（CFI）</li>
+<li>拟态？</li>
+</ul>
+<h3 id="2-Web安全学习规划指南"><a href="#2-Web安全学习规划指南" class="headerlink" title="2.Web安全学习规划指南"></a>2.Web安全学习规划指南</h3><p>漏洞类型</p>
+<p>注入类</p>
+<ul>
+<li>sql注入</li>
+<li>xss</li>
+<li>xxe</li>
+<li>命令执行、命令注入</li>
+<li>文件上传、文件下载</li>
+</ul>
+<p>信息泄露</p>
+<ul>
+<li>源码泄露</li>
+<li>敏感信息接口</li>
+<li>员工资料泄露</li>
+<li>服务器信息泄露</li>
+</ul>
+<p>逻辑类</p>
+<ul>
+<li>权限绕过</li>
+<li>条件竞争</li>
+<li>数据篡改</li>
+</ul>
+<p>基础课程学习</p>
+<p>核心基础课程-网站工作原理</p>
+<ul>
+<li>http协议<ul>
+<li>http-header构成（request，response）</li>
+<li>http-body构成（request，response）</li>
+<li>http方法</li>
+</ul>
+</li>
+<li>webserver<ul>
+<li>webserver分类</li>
+<li>webserver解析流程</li>
+<li>webserver基础安全</li>
+</ul>
+</li>
+</ul>
+<p>其他基础课程-软件开发基础</p>
+<ul>
+<li>编程语言<ul>
+<li>前端:html、js、css</li>
+<li>后端、脚本语言：php、java、python</li>
+</ul>
+</li>
+<li>数据库原理<ul>
+<li>关系型数据库</li>
+<li>非关系型数据库</li>
+</ul>
+</li>
+</ul>
+<p>漏洞挖掘与利用</p>
+<p>准备</p>
+<p>信息收集工具</p>
+<ul>
+<li>端口</li>
+<li>子域名</li>
+<li>代码泄露</li>
+<li>员工字典</li>
+</ul>
+<p>数据包抓取修改重放工具</p>
+<p>顺手的浏览器以及插件</p>
+<p>vps，漏洞验证</p>
+<p>挖掘</p>
+<p>分析业务功能</p>
+<p>分析web架构</p>
+<p>针对罗列可能的漏洞类型</p>
+<p>详细测试：不要放过任何一个数据包</p>
+<p>利用举例</p>
+<p>单一利用</p>
+<ul>
+<li>getshell</li>
+<li>敏感信息接口</li>
+</ul>
+<p>组合利用</p>
+<ul>
+<li>xss+csrf</li>
+</ul>
+<h3 id="3-CTF与人才培养学习规划指南"><a href="#3-CTF与人才培养学习规划指南" class="headerlink" title="3.CTF与人才培养学习规划指南"></a>3.CTF与人才培养学习规划指南</h3><p>基础课程学习</p>
+<p>核心基础课程-相关偏向实战的课程</p>
+<ul>
+<li>Web安全</li>
+<li>二进制安全<ul>
+<li>逆向工程</li>
+<li>漏洞利用</li>
+</ul>
+</li>
+<li>密码学相关</li>
+</ul>
+<p>其他基础课程-开发、取证、隐写等</p>
+<ul>
+<li>编程语言</li>
+<li>网络协议</li>
+<li>数据结构与算法</li>
+<li>取证分析</li>
+</ul>
+<p>Web安全中的漏洞类型</p>
+<ul>
+<li>注入类<ul>
+<li>sql注入</li>
+<li>xss</li>
+<li>xxe</li>
+<li>命令执行、命令注入</li>
+<li>文件上传、文件下载</li>
+</ul>
+</li>
+<li>信息泄露<ul>
+<li>源码泄露</li>
+<li>敏感信息接口</li>
+<li>员工资料泄露</li>
+<li>服务器信息泄露</li>
+</ul>
+</li>
+<li>逻辑类<ul>
+<li>权限绕过</li>
+<li>条件竞争</li>
+<li>数据篡改</li>
+</ul>
+</li>
+</ul>
+<p>逆向工程需要了解的知识</p>
+<ul>
+<li>体系结构<ul>
+<li>机器指令与汇编语言</li>
+<li>…</li>
+</ul>
+</li>
+<li><p>编译原理</p>
+<ul>
+<li>自动机、词法分析、语法分析</li>
+<li>…</li>
+</ul>
+</li>
+<li><p>操作系统</p>
+<ul>
+<li>系统的加载与引导</li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+<p>漏洞利用需要了解的知识</p>
+<ul>
+<li>逆向工程</li>
+<li>模糊测试</li>
+<li>什么是漏洞</li>
+<li>程序员在什么时候会犯错</li>
+</ul>
+<p>其他</p>
+<p>密码学</p>
+<p>古典密码学</p>
+<ul>
+<li>凯撒密码</li>
+<li>移位密码</li>
+<li>…</li>
+</ul>
+<p>现代密码学</p>
+<ul>
+<li>对称加密体系<ul>
+<li>DES</li>
+<li>AES</li>
+</ul>
+</li>
+<li>非对称加密体系<ul>
+<li>RSA</li>
+</ul>
+</li>
+</ul>
+<p><strong>CTF相关资料</strong>  </p>
+<p>CTF比赛详情:<br><a href="https://ctftime.org/" target="_blank" rel="noopener external nofollow noreferrer">https://ctftime.org/</a><br>ctf历史资料库:<br><a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a><br>Wargames &amp; Labs :<br><a href="http://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://pwnable.kr/</a><br><a href="http://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">http://smashthestack.org/</a><br><a href="http://wargame.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://wargame.kr/</a><br><a href="https://pentesterlab.com/" target="_blank" rel="noopener external nofollow noreferrer">https://pentesterlab.com/</a><br><a href="http://overthewire.org/wargames/" target="_blank" rel="noopener external nofollow noreferrer">http://overthewire.org/wargames/</a><br><a href="https://exploit-exercises.com/" target="_blank" rel="noopener external nofollow noreferrer">https://exploit-exercises.com/</a></p>
+<p>END</p>
+]]></content>
+      <categories>
+        <category>Uncategorized</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>Uncategorized</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065.html</url>
     <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
@@ -620,305 +949,46 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
+    <title>电影 书单</title>
+    <url>/posts/79f93cc5.html</url>
     <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<h3 id="电影"><a href="#电影" class="headerlink" title="电影"></a><strong>电影</strong></h3><p>互联网之子</p>
+<p>犯罪现场调查-网络</p>
 <a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<p>暗海</p>
+<p>亿万</p>
 <hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CTF基础 i春秋学习笔记</title>
-    <url>/posts/3495768f.html</url>
-    <content><![CDATA[<p>课程来源于i春秋 <a href="https://www.ichunqiu.com/course/63212" target="_blank" rel="noopener external nofollow noreferrer">https://www.ichunqiu.com/course/63212</a></p>
-<h2 id="第一章-竞赛简介"><a href="#第一章-竞赛简介" class="headerlink" title="第一章 竞赛简介"></a>第一章 竞赛简介</h2><h3 id="1-二进制安全学习规划指南"><a href="#1-二进制安全学习规划指南" class="headerlink" title="1.二进制安全学习规划指南"></a>1.二进制安全学习规划指南</h3><p>核心基础课程-计算机的工作原理</p>
+<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
+<p>《 Smart People Should Build Things 》</p>
+<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
+<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
+<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
+<p>走进我的交易室</p>
+<p>富兰克林自传</p>
+<p>随机漫步的傻瓜</p>
 <ul>
-<li>体系结构</li>
-<li>编译原理</li>
-<li>操作系统</li>
-</ul>
-<a id="more"></a>
-<p>其他基础课程-系统软件开发基础</p>
-<ul>
-<li>编程语言</li>
-<li>网络协议</li>
-<li>数据结构与算法</li>
-</ul>
-<p>基础课程学习—体系结构</p>
-<p>CPU的设计与实现</p>
-<ul>
-<li>机器指令与汇编语言</li>
-<li>指令的解码、执行</li>
-<li>内存管理</li>
-</ul>
-<p>CMU 18-447 Introduction to Computer Architecture</p>
-<ul>
-<li><a href="https://www.ece.cmu.edu/~ece447/s15/doku.php" target="_blank" rel="noopener external nofollow noreferrer">https://www.ece.cmu.edu/~ece447/s15/doku.php</a></li>
-<li>Labs: Implement a MIPS CPU using Verilog</li>
-</ul>
-<p>编译原理的设计与实现</p>
-<ul>
-<li>自动机、词法分析、语法分析</li>
-<li>运行时</li>
-<li>程序静态分析</li>
-</ul>
-<p>Stanford CS143-Compilers</p>
-<ul>
-<li><a href="http://web.stanford.edu/class/cs143/" target="_blank" rel="noopener external nofollow noreferrer">http://web.stanford.edu/class/cs143/</a></li>
-<li>PA: Compilers for Cool language</li>
-</ul>
-<p>基础课程学习—操作系统</p>
-<p>操作系统的设计与实现</p>
-<ul>
-<li>系统的加载与引导</li>
-<li>用户与内核态、系统调用、中断和驱动</li>
-<li>进程与内存管理、文件系统</li>
-<li>虚拟机</li>
-</ul>
-<p>MIT 6.828-Operating System Engineering</p>
-<ul>
-<li><a href="https://pdos.csail.mit.edu/6.828/2016/" target="_blank" rel="noopener external nofollow noreferrer">https://pdos.csail.mit.edu/6.828/2016/</a></li>
-<li>Labs: Implement jos</li>
-<li>Xv6, a simple Unix-like teaching operating system</li>
-</ul>
-<p>CTF历史资料库：<a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a></p>
-<p>Wargames</p>
-<ul>
-<li><a href="https://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">https://pwnable.kr/</a></li>
-<li><a href="https://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">https://smashthestack.org/</a></li>
-</ul>
-<p>漏洞挖掘与利用实战-目标</p>
-<p>网络协议的实现</p>
-<ul>
-<li>http/SMB/DNS/SPnp-Server</li>
-</ul>
-<p>脚本列表</p>
-<ul>
-<li>javascript Engine</li>
-<li>ActionScript Engine</li>
-<li>PHP/Java Sandbox Escape</li>
-</ul>
-<p>内核</p>
-<ul>
-<li>Linux/Android</li>
-<li>Freebsd</li>
-<li>Apple ios</li>
-<li>Sony PS4</li>
-</ul>
-<p>漏洞挖掘与利用实战-准备</p>
-<p>学习历史漏洞-CVEs</p>
-<p>挖掘新漏洞</p>
-<ul>
-<li>逆向分析+代码审计<ul>
-<li>快速逆向与快速理解</li>
-<li>对漏洞的感觉</li>
-</ul>
+<li><p>一些必读优秀书籍清单</p>
+<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
 </li>
-<li>模糊测试<ul>
-<li>测试框架</li>
-<li>样例生成的想法</li>
+</ul>
+<p>苹果编码规范</p>
+<p>Rework</p>
+<ul>
+<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
+<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
+<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
+<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
+<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
 </ul>
 </li>
 </ul>
-<p>构建系统防护-研究与探索</p>
-<p>漏洞自动挖掘技术</p>
-<ul>
-<li>静态程序分析</li>
-<li>符号执行</li>
-<li>机器学习？</li>
-</ul>
-<p>漏洞利用防护机制</p>
-<ul>
-<li>Intel SGX</li>
-<li>控制流完整性（CFI）</li>
-<li>拟态？</li>
-</ul>
-<h3 id="2-Web安全学习规划指南"><a href="#2-Web安全学习规划指南" class="headerlink" title="2.Web安全学习规划指南"></a>2.Web安全学习规划指南</h3><p>漏洞类型</p>
-<p>注入类</p>
-<ul>
-<li>sql注入</li>
-<li>xss</li>
-<li>xxe</li>
-<li>命令执行、命令注入</li>
-<li>文件上传、文件下载</li>
-</ul>
-<p>信息泄露</p>
-<ul>
-<li>源码泄露</li>
-<li>敏感信息接口</li>
-<li>员工资料泄露</li>
-<li>服务器信息泄露</li>
-</ul>
-<p>逻辑类</p>
-<ul>
-<li>权限绕过</li>
-<li>条件竞争</li>
-<li>数据篡改</li>
-</ul>
-<p>基础课程学习</p>
-<p>核心基础课程-网站工作原理</p>
-<ul>
-<li>http协议<ul>
-<li>http-header构成（request，response）</li>
-<li>http-body构成（request，response）</li>
-<li>http方法</li>
-</ul>
-</li>
-<li>webserver<ul>
-<li>webserver分类</li>
-<li>webserver解析流程</li>
-<li>webserver基础安全</li>
-</ul>
-</li>
-</ul>
-<p>其他基础课程-软件开发基础</p>
-<ul>
-<li>编程语言<ul>
-<li>前端:html、js、css</li>
-<li>后端、脚本语言：php、java、python</li>
-</ul>
-</li>
-<li>数据库原理<ul>
-<li>关系型数据库</li>
-<li>非关系型数据库</li>
-</ul>
-</li>
-</ul>
-<p>漏洞挖掘与利用</p>
-<p>准备</p>
-<p>信息收集工具</p>
-<ul>
-<li>端口</li>
-<li>子域名</li>
-<li>代码泄露</li>
-<li>员工字典</li>
-</ul>
-<p>数据包抓取修改重放工具</p>
-<p>顺手的浏览器以及插件</p>
-<p>vps，漏洞验证</p>
-<p>挖掘</p>
-<p>分析业务功能</p>
-<p>分析web架构</p>
-<p>针对罗列可能的漏洞类型</p>
-<p>详细测试：不要放过任何一个数据包</p>
-<p>利用举例</p>
-<p>单一利用</p>
-<ul>
-<li>getshell</li>
-<li>敏感信息接口</li>
-</ul>
-<p>组合利用</p>
-<ul>
-<li>xss+csrf</li>
-</ul>
-<h3 id="3-CTF与人才培养学习规划指南"><a href="#3-CTF与人才培养学习规划指南" class="headerlink" title="3.CTF与人才培养学习规划指南"></a>3.CTF与人才培养学习规划指南</h3><p>基础课程学习</p>
-<p>核心基础课程-相关偏向实战的课程</p>
-<ul>
-<li>Web安全</li>
-<li>二进制安全<ul>
-<li>逆向工程</li>
-<li>漏洞利用</li>
-</ul>
-</li>
-<li>密码学相关</li>
-</ul>
-<p>其他基础课程-开发、取证、隐写等</p>
-<ul>
-<li>编程语言</li>
-<li>网络协议</li>
-<li>数据结构与算法</li>
-<li>取证分析</li>
-</ul>
-<p>Web安全中的漏洞类型</p>
-<ul>
-<li>注入类<ul>
-<li>sql注入</li>
-<li>xss</li>
-<li>xxe</li>
-<li>命令执行、命令注入</li>
-<li>文件上传、文件下载</li>
-</ul>
-</li>
-<li>信息泄露<ul>
-<li>源码泄露</li>
-<li>敏感信息接口</li>
-<li>员工资料泄露</li>
-<li>服务器信息泄露</li>
-</ul>
-</li>
-<li>逻辑类<ul>
-<li>权限绕过</li>
-<li>条件竞争</li>
-<li>数据篡改</li>
-</ul>
-</li>
-</ul>
-<p>逆向工程需要了解的知识</p>
-<ul>
-<li>体系结构<ul>
-<li>机器指令与汇编语言</li>
-<li>…</li>
-</ul>
-</li>
-<li><p>编译原理</p>
-<ul>
-<li>自动机、词法分析、语法分析</li>
-<li>…</li>
-</ul>
-</li>
-<li><p>操作系统</p>
-<ul>
-<li>系统的加载与引导</li>
-<li>…</li>
-</ul>
-</li>
-</ul>
-<p>漏洞利用需要了解的知识</p>
-<ul>
-<li>逆向工程</li>
-<li>模糊测试</li>
-<li>什么是漏洞</li>
-<li>程序员在什么时候会犯错</li>
-</ul>
-<p>其他</p>
-<p>密码学</p>
-<p>古典密码学</p>
-<ul>
-<li>凯撒密码</li>
-<li>移位密码</li>
-<li>…</li>
-</ul>
-<p>现代密码学</p>
-<ul>
-<li>对称加密体系<ul>
-<li>DES</li>
-<li>AES</li>
-</ul>
-</li>
-<li>非对称加密体系<ul>
-<li>RSA</li>
-</ul>
-</li>
-</ul>
-<p><strong>CTF相关资料</strong>  </p>
-<p>CTF比赛详情:<br><a href="https://ctftime.org/" target="_blank" rel="noopener external nofollow noreferrer">https://ctftime.org/</a><br>ctf历史资料库:<br><a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a><br>Wargames &amp; Labs :<br><a href="http://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://pwnable.kr/</a><br><a href="http://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">http://smashthestack.org/</a><br><a href="http://wargame.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://wargame.kr/</a><br><a href="https://pentesterlab.com/" target="_blank" rel="noopener external nofollow noreferrer">https://pentesterlab.com/</a><br><a href="http://overthewire.org/wargames/" target="_blank" rel="noopener external nofollow noreferrer">http://overthewire.org/wargames/</a><br><a href="https://exploit-exercises.com/" target="_blank" rel="noopener external nofollow noreferrer">https://exploit-exercises.com/</a></p>
-<p>END</p>
 ]]></content>
       <categories>
         <category>Uncategorized</category>
       </categories>
       <tags>
-        <tag>CTF</tag>
+        <tag>电影</tag>
+        <tag>书单</tag>
       </tags>
   </entry>
   <entry>
@@ -1235,33 +1305,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <tag>Datastruct</tag>
         <tag>Algorithm</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Google Kickstart 2020</title>
-    <url>/posts/1484be77.html</url>
-    <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>明明设置了google日历提醒我的  没有提醒我 是我设置方式不对了</p>
-<h2 id="Allocation"><a href="#Allocation" class="headerlink" title="Allocation"></a>Allocation</h2><p><strong>Problem</strong></p>
-<p>  There are <strong>N</strong> houses for sale.  The i-th house costs <strong>Ai</strong> dollars to buy.  You have a budget of <strong>B</strong> dollars to spend.</p>
-<p>  What is the maximum number of houses you can buy?</p>
-<a id="more"></a>
-<p>水题</p>
-<h2 id="Plates"><a href="#Plates" class="headerlink" title="Plates"></a>Plates</h2><h2 id="Workout"><a href="#Workout" class="headerlink" title="Workout"></a>Workout</h2><p>待更……</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>kickstart</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>Uncategorized</category>
-      </categories>
   </entry>
   <entry>
     <title>Markdown基本语法</title>
@@ -1747,49 +1790,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电影 书单</title>
-    <url>/posts/79f93cc5.html</url>
-    <content><![CDATA[<hr>
-<h3 id="电影"><a href="#电影" class="headerlink" title="电影"></a><strong>电影</strong></h3><p>互联网之子</p>
-<p>犯罪现场调查-网络</p>
-<a id="more"></a>
-<p>暗海</p>
-<p>亿万</p>
-<hr>
-<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
-<p>《 Smart People Should Build Things 》</p>
-<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
-<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
-<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
-<p>走进我的交易室</p>
-<p>富兰克林自传</p>
-<p>随机漫步的傻瓜</p>
-<ul>
-<li><p>一些必读优秀书籍清单</p>
-<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
-</li>
-</ul>
-<p>苹果编码规范</p>
-<p>Rework</p>
-<ul>
-<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
-<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
-<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
-<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
-<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Uncategorized</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>书单</tag>
       </tags>
   </entry>
   <entry>
