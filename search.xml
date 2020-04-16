@@ -3680,6 +3680,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
     <url>/posts/firefox-chrome-extensions.html</url>
     <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
 <h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+<a id="more"></a>
 <p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
 <p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
 <p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
