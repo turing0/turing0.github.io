@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/firefox-chrome-extensions.html</loc>
+    
+    <lastmod>2020-04-16T09:17:54.130Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/datastructs-algorithms-note.html</loc>
     
     <lastmod>2020-04-15T14:46:42.341Z</lastmod>
