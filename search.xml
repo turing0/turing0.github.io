@@ -3704,8 +3704,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
   <entry>
     <title>Linux下C语言学习</title>
     <url>/posts/linux-c.html</url>
-    <content><![CDATA[<p>Ubuntu  18.</p>
-<p>系统Ubuntu  18.04</p>
+    <content><![CDATA[<p>系统Ubuntu  18.04</p>
 <a id="more"></a>
 <h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
 <p>更新软件：<code>sudo apt upgrade;</code></p>
