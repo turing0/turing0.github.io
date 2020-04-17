@@ -3701,4 +3701,30 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <tag>插件</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Linux下C语言学习</title>
+    <url>/posts/linux-c.html</url>
+    <content><![CDATA[<p>Ubuntu  18.</p>
+<p>系统Ubuntu  18.04</p>
+<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
+<p>更新软件：<code>sudo apt upgrade;</code></p>
+<p>下载vim：<code>sudo apt install vim；</code></p>
+<p>下载gcc：<code>sudo apt install gcc</code></p>
+<p>下载gdb：<code>sudo apt install gdb</code></p>
+<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
+<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
+<p><code>vi hello.c</code></p>
+<p>按i进入输入模式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>按esc推出输入模式，保存退出</p>
+<p>编译hello.c</p>
+<p><code>gcc -o hello hello.c -Wall</code></p>
+<p>执行</p>
+<p><code>./hello</code></p>
+<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
 </search>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/linux-c.html</loc>
+    
+    <lastmod>2020-04-17T01:00:15.906Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/firefox-chrome-extensions.html</loc>
     
     <lastmod>2020-04-16T09:23:21.689Z</lastmod>
