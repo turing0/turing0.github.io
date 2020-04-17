@@ -626,7 +626,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>最直接的办法：在设置-&gt;编译器与调试器-&gt;连接器设置-&gt;其他链接器选项 里面加：-static</p>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>Code</category>
       </categories>
       <tags>
         <tag>codeblocks</tag>
@@ -928,10 +928,11 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>END</p>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>Note</category>
       </categories>
       <tags>
         <tag>CTF</tag>
+        <tag>Note</tag>
       </tags>
   </entry>
   <entry>
@@ -1754,7 +1755,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 </ul>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>实用</category>
       </categories>
       <tags>
         <tag>电影</tag>
@@ -1767,7 +1768,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
     <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>资源</category>
       </categories>
   </entry>
   <entry>
@@ -1797,7 +1798,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
 ]]></content>
       <categories>
-        <category>Google Voice</category>
+        <category>实用</category>
       </categories>
       <tags>
         <tag>Google Voice</tag>
@@ -1904,10 +1905,11 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p>持续更新中……</p>
 ]]></content>
       <categories>
-        <category>Uncategorized</category>
+        <category>Note</category>
       </categories>
       <tags>
         <tag>CTF</tag>
+        <tag>Note</tag>
       </tags>
   </entry>
   <entry>
@@ -3674,6 +3676,9 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p><a href="https://moecat.best/torrents.php" target="_blank" rel="noopener external nofollow noreferrer">种子 :: MoeCat</a></p>
 <p><a href="https://www.hddolby.com/login.php" target="_blank" rel="noopener external nofollow noreferrer">HD Dolby :: 登录 - Powered by NexusPHP</a></p>
 ]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
   </entry>
   <entry>
     <title>Firefox和Chrome 自用扩展插件</title>
@@ -3697,6 +3702,9 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
 <p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
 ]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
       <tags>
         <tag>插件</tag>
       </tags>
@@ -3737,8 +3745,13 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p><code>gcc hello.o -o hello.out</code></p>
 <p>这样生成的可执行文件的名字就是 hello.out。</p>
 ]]></content>
+      <categories>
+        <category>Code</category>
+        <category>Linux</category>
+      </categories>
       <tags>
         <tag>C</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
 </search>
