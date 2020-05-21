@@ -3835,6 +3835,28 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
     <url>/posts/cpp-study.html</url>
     <content><![CDATA[<p>记录c++的学习</p>
 <a id="more"></a>
+<h1 id="ios-sync-with-stdio-false-提高C-读写速度"><a href="#ios-sync-with-stdio-false-提高C-读写速度" class="headerlink" title="ios::sync_with_stdio(false)提高C++读写速度"></a>ios::sync_with_stdio(false)提高C++读写速度</h1><p>C++为了兼容C，默认使iostream与stdio关联，使cin与scanf、cout和printf保持同步，保证混用过程中文件指针不混乱。<br> 此方式会造成性能损失，导致使用cin/cout效率远远低于使用scanf/printf。若保证程序只是用一套指令，可取消同步：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::ios::sync_with_stdio(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<p>取消后使用cin/cout速度有明显提升，但注意不要混用iostream与stdio（玄学）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>C++98：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed.</p>
+<p>C++11：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed, with the inclusion of <a href="http://www.cplusplus.com/" target="_blank" rel="noopener external nofollow noreferrer"></a> counting as at least one initialization of such objects with <em>static duration</em>.</p>
+<p>cin is <em><a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">tied</a></em> to the standard output stream <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a> (see <a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">ios::tie</a>), which indicates that <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a>‘s buffer is <em>flushed</em> (see <a href="http://www.cplusplus.com/ostream::flush" target="_blank" rel="noopener external nofollow noreferrer">ostream::flush</a>) before each i/o operation performed on cin.</p>
+<p>(来源:<a href="http://www.cplusplus.com/reference/iostream/cin/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/iostream/cin/</a> <a href="http://网址" target="_blank" rel="noopener external nofollow noreferrer">网址</a>)</p>
+</blockquote>
+<p>当传入参数为0时，实现cin与cout独立运行，不会等待，提高cin速度</p>
+<p>全局域的通过静态常量初始化一个lambda的方式实现对此代码的优先调用</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);</span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
+<p><strong>Ref</strong>:</p>
+<p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Note</tag>
+        <tag>C++</tag>
+      </tags>
   </entry>
 </search>
