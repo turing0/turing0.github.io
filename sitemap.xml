@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/79f93cc5.html</loc>
+    
+    <lastmod>2020-05-22T15:26:26.167Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/cpp-study.html</loc>
     
     <lastmod>2020-05-21T09:21:14.509Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://blog.laphel.com/posts/vocabulary.html</loc>
     
     <lastmod>2020-04-28T13:00:23.072Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/posts/79f93cc5.html</loc>
-    
-    <lastmod>2020-04-26T10:00:20.170Z</lastmod>
     
   </url>
   
