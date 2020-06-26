@@ -28,6 +28,7 @@
 <hr>
 <p>为什么要学习编程？ 每人都应该学习编程</p>
 <p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
 ]]></content>
       <categories>
         <category>TED</category>
@@ -1398,7 +1399,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
     <label for="hbePass">Hey, password is required here.</label>
     <div class="bottom-line"></div>
   </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="364ed39f5badc6cba67f1e43d00d2adc689d6917657a798680b1b97c0e659939">5485f1c16562af0a5cdb4ae3501ac4a0244b22df624c9254ddccb43d34a187c46745e278b739f7a5cba527f164abd6d6071e6d8343a2052c008fcfdfb843c35bb681a9ecb5baac5fcd7be4fa3351726fffd09eddb3e0966258441e5cfdb90d8396ceb8cf8d45207452103b11784f2099b4304761e4636800d3e9d875b527b8db</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="06e702319937cdbcfc51c98e69d670042b93da6ae4d3b8469e130e99ad75a4ec">5485f1c16562af0a5cdb4ae3501ac4a0244b22df624c9254ddccb43d34a187c46745e278b739f7a5cba527f164abd6d6071e6d8343a2052c008fcfdfb843c35bb681a9ecb5baac5fcd7be4fa3351726fffd09eddb3e0966258441e5cfdb90d83e886828901a1735afbb002400b40bfbff020f4df160f2353c6f76aff394c8ab2f71992c9b1dd4ee7f73a9f59f6c37c343464aca1ddbd5d8325a3d632f061ec3d</script>
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
@@ -3863,6 +3864,40 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Note</tag>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>打造你的最强Firefox浏览器</title>
+    <url>/posts/power-firefox.html</url>
+    <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
+<a id="more"></a>
+<h1 id="下载Firefox"><a href="#下载Firefox" class="headerlink" title="下载Firefox"></a>下载Firefox</h1><p>国际版官网：<a href="https://mozlilla.org/zh-CN/firefox" target="_blank" rel="noopener external nofollow noreferrer">https://mozlilla.org/zh-CN/firefox</a>，时刻注意链接重定向</p>
+<p>下面网址下载<strong>国际英文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>下面网址下载<strong>国际中文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;zh-CN&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>国内版官网：<a href="http://firefox.com.cn" target="_blank" rel="noopener external nofollow noreferrer">http://firefox.com.cn</a>，很有中国味道</p>
+<h1 id="插件-amp-扩展"><a href="#插件-amp-扩展" class="headerlink" title="插件&amp;扩展"></a>插件&amp;扩展</h1><p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
       </tags>
   </entry>
 </search>
