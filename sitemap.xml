@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/cpp-study.html</loc>
+    
+    <lastmod>2020-07-22T09:29:52.670Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/2020-half-summary.html</loc>
     
     <lastmod>2020-07-07T03:30:13.878Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://blog.laphel.com/posts/79f93cc5.html</loc>
     
     <lastmod>2020-06-11T08:52:59.453Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/posts/cpp-study.html</loc>
-    
-    <lastmod>2020-05-21T09:21:14.509Z</lastmod>
     
   </url>
   
