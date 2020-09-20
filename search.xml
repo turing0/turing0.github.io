@@ -712,6 +712,10 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);<span class="comment">//ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);</span></span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
 <p><strong>Ref</strong>:</p>
 <p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
+<h1 id="自定义sort函数中的比较函数"><a href="#自定义sort函数中的比较函数" class="headerlink" title="自定义sort函数中的比较函数"></a>自定义sort函数中的比较函数</h1><p>c++ sort的官方文档<br><a href="http://www.cplusplus.com/reference/algorithm/sort/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/algorithm/sort/</a></p>
+<p>可以看到comp的定义：comp函数返回一个bool类型的值，这个值表示了在严格弱排序中（可以理解为升序排序）第一参数是否位于第二个参数之前。<br> 也就是说如果comp返回true，则第一个参数小于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之前。<br> 如果comp返回false，则第一个参数大于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之后。</p>
+<p> <strong>sort函数根据comp函数的返回值，对comp函数的两个参数排序。</strong><br> <strong>如果comp返回true，排序为“参数1”“参数2”，否则排序为“参数2”“参数1”。</strong> </p>
+<p>例如降序排列，则return a&gt;b;</p>
 ]]></content>
       <categories>
         <category>Code</category>
