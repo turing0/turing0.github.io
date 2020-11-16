@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/binarytree-traverse.html</loc>
+    
+    <lastmod>2020-11-16T12:56:37.090Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/cpp-study.html</loc>
     
     <lastmod>2020-09-20T03:14:41.964Z</lastmod>
