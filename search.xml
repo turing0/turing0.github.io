@@ -3965,7 +3965,8 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
 <p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
 <p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
-<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT.</p>
+<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
+<p>Everything is easy after that.</p>
 <p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
 ]]></content>
       <categories>
