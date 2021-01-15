@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/firefox-chrome-extensions.html</loc>
+    
+    <lastmod>2021-01-15T06:14:29.735Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/qt-study.html</loc>
     
     <lastmod>2021-01-12T14:52:43.940Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>https://blog.laphel.com/posts/linux-c.html</loc>
     
     <lastmod>2020-04-17T07:24:24.016Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/posts/firefox-chrome-extensions.html</loc>
-    
-    <lastmod>2020-04-17T07:19:57.186Z</lastmod>
     
   </url>
   

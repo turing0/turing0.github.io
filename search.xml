@@ -1848,6 +1848,8 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
 <p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
 <p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
+<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
 ]]></content>
       <categories>
         <category>实用</category>
