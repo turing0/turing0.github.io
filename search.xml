@@ -3978,4 +3978,25 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <tag>QT</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
 </search>

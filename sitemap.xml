@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/vue-study.html</loc>
+    
+    <lastmod>2021-01-25T14:40:01.012Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/firefox-chrome-extensions.html</loc>
     
     <lastmod>2021-01-15T06:14:29.735Z</lastmod>
