@@ -4000,4 +4000,15 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <tag>Vue</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Git Study</title>
+    <url>/posts/git-study.html</url>
+    <content><![CDATA[<p>Record git study.</p>
+<a id="more"></a>
+<h2 id="Fork-后如何与原仓库同步"><a href="#Fork-后如何与原仓库同步" class="headerlink" title="Fork 后如何与原仓库同步"></a>Fork 后如何与原仓库同步</h2><p><a href="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/selfteaching/the-craft-of-selfteaching/issues/67</a></p>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
 </search>
