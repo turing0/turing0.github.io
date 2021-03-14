@@ -4011,4 +4011,61 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <tag>Git</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-1.jpg" alt="image-1"></p>
+<p>选择java</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-2.jpg" alt="image-2"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-3.jpg" alt="image-3"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-4.jpg" alt="image-4"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-5.jpg" alt="image-5"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-6.jpg" alt="image-6"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-7.jpg" alt="image-7"></p>
+<p>如图打开project structure</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-8.jpg" alt="image-8"></p>
+<p>设置成这样</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-9.jpg" alt="image-9"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-12.jpg" alt="image-10"></p>
+<p><img src="https://blog.laphel.com/html/img/jsp-13.jpg" alt="image-100"></p>
+<p>点击add configurations</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-10.jpg" alt="image-11"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-11.jpg" alt="image-12"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-14.jpg" alt="image-14"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-15.jpg" alt="image-15"></p>
+<p><img src="https://blog.laphel.com/html/img/jsp-16.jpg" alt="image-16"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-17.jpg" alt="image-17"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-18.jpg" alt="image-18"></p>
+<p>可按如下设置即可修改代码浏览器刷新就可以呈现，不用重启服务</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-19.jpg" alt="image-19"></p>
+<h2 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h2><p>什么是Servlet<br>1、servlet是JavaEE规范之一。规范就是接口<br>2、Servlet 就JavaWeb三大组件之一。三大组件分别是:servlet程序、Filter过滤器、Listener监听器。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
 </search>
