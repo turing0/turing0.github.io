@@ -4006,6 +4006,7 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
     <content><![CDATA[<p>Record git study.</p>
 <a id="more"></a>
 <h2 id="Fork-后如何与原仓库同步"><a href="#Fork-后如何与原仓库同步" class="headerlink" title="Fork 后如何与原仓库同步"></a>Fork 后如何与原仓库同步</h2><p><a href="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/selfteaching/the-craft-of-selfteaching/issues/67</a></p>
+<h1 id="Git-设置代理"><a href="#Git-设置代理" class="headerlink" title="Git 设置代理"></a>Git 设置代理</h1><p><a href="https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1" target="_blank" rel="noopener external nofollow noreferrer">https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1</a></p>
 ]]></content>
       <tags>
         <tag>Git</tag>
@@ -4059,6 +4060,8 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
 <p><img src="https://blog.laphel.com/html/img/jsp-18.png" alt="image-18"></p>
 <p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
 <p><img src="https://blog.laphel.com/html/img/jsp-19.png" alt="image-19"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
 ]]></content>
       <categories>
         <category>Code</category>

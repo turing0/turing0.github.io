@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/git-study.html</loc>
+    
+    <lastmod>2021-03-18T01:51:44.790Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/intellij-jsp.html</loc>
     
-    <lastmod>2021-03-14T10:24:25.057Z</lastmod>
+    <lastmod>2021-03-15T16:17:25.989Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://blog.laphel.com/posts/2020-half-summary.html</loc>
     
     <lastmod>2021-03-03T06:25:17.995Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/posts/git-study.html</loc>
-    
-    <lastmod>2021-03-01T06:40:22.237Z</lastmod>
     
   </url>
   
