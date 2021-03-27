@@ -36,6 +36,24 @@
 ]]></content>
   </entry>
   <entry>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+  </entry>
+  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065.html</url>
     <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
@@ -655,27 +673,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
-]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二叉树的遍历</title>
     <url>/posts/binarytree-traverse.html</url>
     <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
@@ -694,22 +691,17 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
+    <title>Codeblocks 问题总结</title>
+    <url>/posts/codeblocks-skills.html</url>
+    <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
+<p>最直接的办法：在设置-&gt;编译器与调试器-&gt;连接器设置-&gt;其他链接器选项 里面加：-static</p>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>codeblocks</tag>
+      </tags>
   </entry>
   <entry>
     <title>CTF基础 i春秋学习笔记</title>
@@ -1030,6 +1022,136 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习 经验 知识</title>
+    <url>/posts/vocabulary.html</url>
+    <content><![CDATA[<p>经验 知识</p>
+<a id="more"></a>
+<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
+<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
+<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
+<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
+<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
+<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
+<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
+<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Firefox和Chrome 自用扩展插件</title>
+    <url>/posts/firefox-chrome-extensions.html</url>
+    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
+<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+<a id="more"></a>
+<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
+<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-1.png" alt="image-1"></p>
+<p>选择java</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-2.png" alt="image-2"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-3.png" alt="image-3"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-4.png" alt="image-4"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-5.png" alt="image-5"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-6.png" alt="image-6"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-7.png" alt="image-7"></p>
+<p>如图打开project structure</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-8.png" alt="image-8"></p>
+<p>设置成这样</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-9.png" alt="image-9"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-12.png" alt="image-10"></p>
+<p><img src="https://blog.laphel.com/html/img/jsp-13.png" alt="image-100"></p>
+<p>点击add configurations</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-10.png" alt="image-11"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-11.png" alt="image-12"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-14.png" alt="image-14"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-15.png" alt="image-15"></p>
+<p><img src="https://blog.laphel.com/html/img/jsp-16.png" alt="image-16"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-17.png" alt="image-17"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-18.png" alt="image-18"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://blog.laphel.com/html/img/jsp-19.png" alt="image-19"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据结构与算法 学习笔记</title>
     <url>/posts/datastructs-algorithms-note.html</url>
     <content><![CDATA[<p>笔记略长， 排版略丑</p>
@@ -1216,16 +1338,15 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Codeblocks 问题总结</title>
-    <url>/posts/codeblocks-skills.html</url>
-    <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
-<p>最直接的办法：在设置-&gt;编译器与调试器-&gt;连接器设置-&gt;其他链接器选项 里面加：-static</p>
+    <title>Git Study</title>
+    <url>/posts/git-study.html</url>
+    <content><![CDATA[<p>Record git study.</p>
+<a id="more"></a>
+<h2 id="Fork-后如何与原仓库同步"><a href="#Fork-后如何与原仓库同步" class="headerlink" title="Fork 后如何与原仓库同步"></a>Fork 后如何与原仓库同步</h2><p><a href="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/selfteaching/the-craft-of-selfteaching/issues/67</a></p>
+<h1 id="Git-设置代理"><a href="#Git-设置代理" class="headerlink" title="Git 设置代理"></a>Git 设置代理</h1><p><a href="https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1" target="_blank" rel="noopener external nofollow noreferrer">https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1</a></p>
 ]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
       <tags>
-        <tag>codeblocks</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -1430,26 +1551,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习 经验 知识</title>
-    <url>/posts/vocabulary.html</url>
-    <content><![CDATA[<p>经验 知识</p>
-<a id="more"></a>
-<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
-<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
-<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
-<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
-<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
-<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
-<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
-<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Google Kickstart 2020</title>
     <url>/posts/1484be77.html</url>
     <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>我设置了google日历提醒我的  它为什么没有提醒我 😓</p>
@@ -1465,49 +1566,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>kickstart</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Firefox和Chrome 自用扩展插件</title>
-    <url>/posts/firefox-chrome-extensions.html</url>
-    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
-<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
-<a id="more"></a>
-<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
-<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git Study</title>
-    <url>/posts/git-study.html</url>
-    <content><![CDATA[<p>Record git study.</p>
-<a id="more"></a>
-<h2 id="Fork-后如何与原仓库同步"><a href="#Fork-后如何与原仓库同步" class="headerlink" title="Fork 后如何与原仓库同步"></a>Fork 后如何与原仓库同步</h2><p><a href="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/selfteaching/the-craft-of-selfteaching/issues/67</a></p>
-<h1 id="Git-设置代理"><a href="#Git-设置代理" class="headerlink" title="Git 设置代理"></a>Git 设置代理</h1><p><a href="https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1" target="_blank" rel="noopener external nofollow noreferrer">https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1</a></p>
-]]></content>
-      <tags>
-        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -1637,6 +1695,51 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Hexo</tag>
         <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下C语言学习</title>
+    <url>/posts/linux-c.html</url>
+    <content><![CDATA[<p>系统Ubuntu  18.04</p>
+<a id="more"></a>
+<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
+<p>更新软件：<code>sudo apt upgrade;</code></p>
+<p>下载vim：<code>sudo apt install vim；</code></p>
+<p>下载gcc：<code>sudo apt install gcc</code></p>
+<p>下载gdb：<code>sudo apt install gdb</code></p>
+<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
+<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
+<p><code>vi hello.c</code></p>
+<p>按i进入输入模式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>按esc推出输入模式，保存退出</p>
+<p>编译hello.c</p>
+<p><code>gcc -o hello hello.c -Wall</code></p>
+<p>执行</p>
+<p><code>./hello</code></p>
+<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
+<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
+<p><code>gcc -c hello.c</code></p>
+<p>就将 hello.c 编译为 hello.o。</p>
+<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
+<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
+<p><code>gcc -c hello.c -o a.o</code></p>
+<p>这样生成的目标文件的名字就是 a.o。</p>
+<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
+<p><code>gcc hello.o</code></p>
+<p>就将 hello.o 链接为 a.out。</p>
+<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
+<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
+<p><code>gcc hello.o -o hello.out</code></p>
+<p>这样生成的可执行文件的名字就是 hello.out。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2091,62 +2194,51 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+    <title>打造你的最强Firefox浏览器</title>
+    <url>/posts/power-firefox.html</url>
+    <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
 <a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-1.png" alt="image-1"></p>
-<p>选择java</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-2.png" alt="image-2"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-3.png" alt="image-3"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-4.png" alt="image-4"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-5.png" alt="image-5"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-6.png" alt="image-6"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-7.png" alt="image-7"></p>
-<p>如图打开project structure</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-8.png" alt="image-8"></p>
-<p>设置成这样</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-9.png" alt="image-9"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-12.png" alt="image-10"></p>
-<p><img src="https://blog.laphel.com/html/img/jsp-13.png" alt="image-100"></p>
-<p>点击add configurations</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-10.png" alt="image-11"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-11.png" alt="image-12"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-14.png" alt="image-14"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-15.png" alt="image-15"></p>
-<p><img src="https://blog.laphel.com/html/img/jsp-16.png" alt="image-16"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-17.png" alt="image-17"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-18.png" alt="image-18"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://blog.laphel.com/html/img/jsp-19.png" alt="image-19"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+<h1 id="下载Firefox"><a href="#下载Firefox" class="headerlink" title="下载Firefox"></a>下载Firefox</h1><p>国际版官网：<a href="https://mozlilla.org/zh-CN/firefox" target="_blank" rel="noopener external nofollow noreferrer">https://mozlilla.org/zh-CN/firefox</a>，时刻注意链接重定向</p>
+<p>下面网址下载<strong>国际英文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>下面网址下载<strong>国际中文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;zh-CN&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>国内版官网：<a href="http://firefox.com.cn" target="_blank" rel="noopener external nofollow noreferrer">http://firefox.com.cn</a>，很有中国味道</p>
+<h1 id="插件-amp-扩展"><a href="#插件-amp-扩展" class="headerlink" title="插件&amp;扩展"></a>插件&amp;扩展</h1><p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
 ]]></content>
       <categories>
-        <category>Code</category>
+        <category>实用</category>
       </categories>
       <tags>
-        <tag>Java</tag>
+        <tag>插件</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Palpitate</title>
+    <url>/posts/otof.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="977b7aabfebc4280e0e7638ec8e197bf7d978ad58e3f2508bbef2fdc5447c818">1eb3b6a1a6adba4e78f7322ca4d667ad6de6a59e39b3c2c32d1bc1b621ced441b9ef013864597174e44a6009e9df3941a614f5951f964fb2473d4929805c5ea98f28893fd6ab9b78177ae0322f0d6fd7a89e5c2bcba5f7d600fb46c43b49c929735259a346207938a097b2428823a5afcb8651c1b86a8d6efd2b662dc439740826aa6ada2af1c4b98ce96640e72ae5f06d2d140e34fc223844745b2b060fa98e2bf7dbf64e785ec0669c730428257310bff1822a01e2f31de2c1d172212738a25cc47e2167138a120f3136b9edbd4d8742233854227875ab6fa3eaedf7f1d5094144968cfdcdc8e02669fe2c6b9a21ecc6789d7804ab6edfbfeea1ddcbacff9a5678827d48fe3a1743f7feaa30161a263a23907a31802f7efc14ee54fdca5f6a9948616a2eeec489fd281883d0b6a5d2242fb06c7aa7390199903cbdfa084008c6500383d97127228bb93b869d64e5bb06d831c3109e903895488253c552885dea4dda2d7e9dfecf51ae0246d87a3718d062b15f8b0c81dd270c72ff2f27ac9dfc8d91e5f022eda8f0a08c531356c7e8ac43b2af1bfeaeb0e8b6c71d803ab1f9c8151c711fd343906e6039479b539d5de8a1ee1c5073320d5b0bbd26c0213897990accf643e459288dc800098bc0f447c37bb85c1b98d35b093288b6291df7d7ad47445d06b17e6e6c9b11fb8c25fd33590ac85df8b118478c21451c1ffaf8f09fbf71fce8e8d864af06a9edb84166463d859e0ea504d2d2910f38373547d75aab5b16767359f6b895a65a2cee4b7c16192277fb3877e9eea9c457ad429d075b5d509457fd30c87a2fd462b3e8164ef0085821d2efc62c6395a9c4967f0f4ec86fce0f196d3b6511cca704e50d9230a6ea829575c57d3ac5af6eae79464efbc4aabecba0e6185511263784229efa1db2fd806ee92ca6fdf880306dda891383666a7335dc67443e8638d8cc0c65660bd161caf1826812b2b64c23dfdff244ff54eb9ebc07efe759b4eb540d3054777676c8c4b25036990928f8ad0a061e7e8593a1f3574c5704cad30d3cf081bfcd3bd224855915b0d4399e676a1907d433365a9358fba278925138cc11d2024932c21028409fdc872b1c5c43b613540f36b78f565fb92cfbccda5e6e369badc8e5df6ae5f5b63f1d52647daf2f1c91e4768167d730a18ae706437dc0d1b485d6a1d0eb8e633c924acd7a2d39d0911ad11fcdac582724e94e640acb7a7d898b465676639178acabd19fb374a34b309afaf822a682e10ac19c99941a8d536c4be25d9137e21e2af768fec1c7bfee2ac7ff887126733996cdeaa62edeba6c29219067e2ac7de743b0efcf1e979c7349364b301d23cddde32e65b36ece69015dbf405039417006ae294182769f824c3fe58a16bd3a6d9e514b9f70e9529ad08e971bdb6f062c447f0e006fbe2a8396d1592a0c4b8b66b54219d52ef018720e8f6a87e95bb3c75622c6e212c8366b5a110468ff85274f14e2e6705df04d923d7eda433ae982d69c1b22fc1974193d58fc133e5d014455cf97511330af57d7fde61af9a5c9f5c6838376ca07d875772797a57a736e2ba35487275cd3fef983c69b4f508dd1ce790ee988263923c33174ce6328717e54dc74d996952b330837a9079cd52990c5470de71dbb1c2cfbc7827da0d02d4ef419b41f2025a97edafb55f488d7aed68d4fc3fa57506aec93d48deb8e71d368572fac1422f989f9dbc58f8e6136f33744669417f4e40d2fb692b7c8160e08fde7c3800c1d34a037d356617d7a8012e3b37b33a3b842f7710b9394b82d5f1a26d34360777d4bfd027787b259b85de26a82d98a728a0fbecf71d01a6f22fc1de306ae9755348daa6f7434552518dcd70cb2d327cc46e09d444b2868f6fb73ecaaa547d7798d4543de6c7581bf15258f132cffb9ddebc37bfc95112b8117b0f34c40bec2de8e8e32f7d8b43bf8d2baa7a93e3d2a2706a7f26d60e8adc71297300f15856426f5db64840097309bec3add30dc3b40d148a88e8efe5e1342c9f336d386a13c2fb6eeca4afa2cc48d99b66c7c3e1bcdb40f1843743a4f8a5a8d791dbed3d50b13c5e839a9e57a15f622afd2cd8811461e48ece70c2600e233bf70f09dcbd30ca1876b392fef258115aef33b5ecc60cf849d23f722637a3c1c03eabd0dd61eb0c98328beea0f4d854da5482fbc5f0ce8bd084ed3328a563ef6998311b6efdb3e3fb5e8601aa6823c3cb7afe734039a0950a8a880d9dcfc04a51e691e7bda27ee0341b6b8d7f430cc812f3160b4dfec1cff90c6d84f64bdaacec80937da24989701eac55453e2ff0219aea04b285536da16d5e4111f1058907556000d8d4e03948b71d31bd0d9df9341d8b5a0fd6e7024ee32db47d7a5451db6b48c1dfbad831f77aa39b78025ad620422232f00d25bec4c5b80a57781383516b3f23bd8304f271cc228220efa1f6930212138481acfd1858ea6064d7024dfbe1ec337d977beaae7026e150d97ed80c683395b6f831a18b1f2a2949a0459021349a78edbb5720b73a0e6a68e566a5d84f56165e325e71dd9e8120ca8fa55d86a7aede9a3cec05aba2a25a520a3bea31467cf1a844865d9cbef195d67bfeb9fa3ae3f9c7232513abb321af1f353aa36f5bb75095aa55159dc0d0177de8a911ebfd9d0ee59d6c507214f980f6c77b8a50e71f2f6a82a36914b5e849f2fbbc8d6aada3e05ff85c9e1870e453b0fe28c9cd2d2fa68bdddddbc323bff5534d7bcd5599c54abb8d9927e99b0c1e95e5397333dbc4a8f343569df831017ee0e95376e1a84566533a0e866080bab84ba6828847693fa259312e15119a609463130cfaaf4edbfa111c0c653f3fd139cc71ecf9bb174792767eb0b177d5a523f223be26e305574a73df1ac816747dfbdaf0eec9856ec3efed629e803fbfa0a8dedd6f39093ba37ff5b87dee4d765facb55b0515e8c1022f99d188303cf88c01eeecac755e6e991eb80a43b382d0c077073de4436acfe818ccb85c448a371407ea883829949c17d697105151976c2154ffedf6f8000f5c6a6daa7b2d5b348027df055b6c2347e373fa1e48f555f58be927f3153d5b34f903b93171df4d13699e579ebd1e9558b5868114a97539cbeff34b0501abee8541b9083ffe4b1d07395553e86473ef51741ba726547e065da21c2a6e1f2c9a2ce1a44fb370ca808042a393d5e80973b48a104fdee83145860209f725b4e961dd69b4363b643508b830a32b57ce67b1b97814e99cc4e4dfcf54e65625d7095e60ef47fdb1b9b6f2ba0d3d4efa01623e7745bff20ba</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>电影 书单</title>
@@ -2223,48 +2315,21 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Linux下C语言学习</title>
-    <url>/posts/linux-c.html</url>
-    <content><![CDATA[<p>系统Ubuntu  18.04</p>
-<a id="more"></a>
-<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
-<p>更新软件：<code>sudo apt upgrade;</code></p>
-<p>下载vim：<code>sudo apt install vim；</code></p>
-<p>下载gcc：<code>sudo apt install gcc</code></p>
-<p>下载gdb：<code>sudo apt install gdb</code></p>
-<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
-<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
-<p><code>vi hello.c</code></p>
-<p>按i进入输入模式</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>按esc推出输入模式，保存退出</p>
-<p>编译hello.c</p>
-<p><code>gcc -o hello hello.c -Wall</code></p>
-<p>执行</p>
-<p><code>./hello</code></p>
-<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
-<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
-<p><code>gcc -c hello.c</code></p>
-<p>就将 hello.c 编译为 hello.o。</p>
-<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
-<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
-<p><code>gcc -c hello.c -o a.o</code></p>
-<p>这样生成的目标文件的名字就是 a.o。</p>
-<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
-<p><code>gcc hello.o</code></p>
-<p>就将 hello.o 链接为 a.out。</p>
-<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
-<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
-<p><code>gcc hello.o -o hello.out</code></p>
-<p>这样生成的可执行文件的名字就是 hello.out。</p>
+    <title>QT Study</title>
+    <url>/posts/qt-study.html</url>
+    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
+<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
+<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
+<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
+<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
+<p>Everything is easy after that.</p>
+<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
 ]]></content>
       <categories>
         <category>Code</category>
-        <category>Linux</category>
       </categories>
       <tags>
-        <tag>C</tag>
-        <tag>Linux</tag>
+        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -2275,19 +2340,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <categories>
         <category>资源</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Palpitate</title>
-    <url>/posts/otof.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Hey, password is required here.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="977b7aabfebc4280e0e7638ec8e197bf7d978ad58e3f2508bbef2fdc5447c818">1eb3b6a1a6adba4e78f7322ca4d667ad6de6a59e39b3c2c32d1bc1b621ced441b9ef013864597174e44a6009e9df3941a614f5951f964fb2473d4929805c5ea98f28893fd6ab9b78177ae0322f0d6fd7a89e5c2bcba5f7d600fb46c43b49c929735259a346207938a097b2428823a5afcb8651c1b86a8d6efd2b662dc439740826aa6ada2af1c4b98ce96640e72ae5f06d2d140e34fc223844745b2b060fa98e2bf7dbf64e785ec0669c730428257310bff1822a01e2f31de2c1d172212738a25cc47e2167138a120f3136b9edbd4d8742233854227875ab6fa3eaedf7f1d5094144968cfdcdc8e02669fe2c6b9a21ecc6789d7804ab6edfbfeea1ddcbacff9a5678827d48fe3a1743f7feaa30161a263a23907a31802f7efc14ee54fdca5f6a9948616a2eeec489fd281883d0b6a5d2242fb06c7aa7390199903cbdfa084008c6500383d97127228bb93b869d64e5bb06d831c3109e903895488253c552885dea4dda2d7e9dfecf51ae0246d87a3718d062b15f8b0c81dd270c72ff2f27ac9dfc8d91e5f022eda8f0a08c531356c7e8ac43b2af1bfeaeb0e8b6c71d803ab1f9c8151c711fd343906e6039479b539d5de8a1ee1c5073320d5b0bbd26c0213897990accf643e459288dc800098bc0f447c37bb85c1b98d35b093288b6291df7d7ad47445d06b17e6e6c9b11fb8c25fd33590ac85df8b118478c21451c1ffaf8f09fbf71fce8e8d864af06a9edb84166463d859e0ea504d2d2910f38373547d75aab5b16767359f6b895a65a2cee4b7c16192277fb3877e9eea9c457ad429d075b5d509457fd30c87a2fd462b3e8164ef0085821d2efc62c6395a9c4967f0f4ec86fce0f196d3b6511cca704e50d9230a6ea829575c57d3ac5af6eae79464efbc4aabecba0e6185511263784229efa1db2fd806ee92ca6fdf880306dda891383666a7335dc67443e8638d8cc0c65660bd161caf1826812b2b64c23dfdff244ff54eb9ebc07efe759b4eb540d3054777676c8c4b25036990928f8ad0a061e7e8593a1f3574c5704cad30d3cf081bfcd3bd224855915b0d4399e676a1907d433365a9358fba278925138cc11d2024932c21028409fdc872b1c5c43b613540f36b78f565fb92cfbccda5e6e369badc8e5df6ae5f5b63f1d52647daf2f1c91e4768167d730a18ae706437dc0d1b485d6a1d0eb8e633c924acd7a2d39d0911ad11fcdac582724e94e640acb7a7d898b465676639178acabd19fb374a34b309afaf822a682e10ac19c99941a8d536c4be25d9137e21e2af768fec1c7bfee2ac7ff887126733996cdeaa62edeba6c29219067e2ac7de743b0efcf1e979c7349364b301d23cddde32e65b36ece69015dbf405039417006ae294182769f824c3fe58a16bd3a6d9e514b9f70e9529ad08e971bdb6f062c447f0e006fbe2a8396d1592a0c4b8b66b54219d52ef018720e8f6a87e95bb3c75622c6e212c8366b5a110468ff85274f14e2e6705df04d923d7eda433ae982d69c1b22fc1974193d58fc133e5d014455cf97511330af57d7fde61af9a5c9f5c6838376ca07d875772797a57a736e2ba35487275cd3fef983c69b4f508dd1ce790ee988263923c33174ce6328717e54dc74d996952b330837a9079cd52990c5470de71dbb1c2cfbc7827da0d02d4ef419b41f2025a97edafb55f488d7aed68d4fc3fa57506aec93d48deb8e71d368572fac1422f989f9dbc58f8e6136f33744669417f4e40d2fb692b7c8160e08fde7c3800c1d34a037d356617d7a8012e3b37b33a3b842f7710b9394b82d5f1a26d34360777d4bfd027787b259b85de26a82d98a728a0fbecf71d01a6f22fc1de306ae9755348daa6f7434552518dcd70cb2d327cc46e09d444b2868f6fb73ecaaa547d7798d4543de6c7581bf15258f132cffb9ddebc37bfc95112b8117b0f34c40bec2de8e8e32f7d8b43bf8d2baa7a93e3d2a2706a7f26d60e8adc71297300f15856426f5db64840097309bec3add30dc3b40d148a88e8efe5e1342c9f336d386a13c2fb6eeca4afa2cc48d99b66c7c3e1bcdb40f1843743a4f8a5a8d791dbed3d50b13c5e839a9e57a15f622afd2cd8811461e48ece70c2600e233bf70f09dcbd30ca1876b392fef258115aef33b5ecc60cf849d23f722637a3c1c03eabd0dd61eb0c98328beea0f4d854da5482fbc5f0ce8bd084ed3328a563ef6998311b6efdb3e3fb5e8601aa6823c3cb7afe734039a0950a8a880d9dcfc04a51e691e7bda27ee0341b6b8d7f430cc812f3160b4dfec1cff90c6d84f64bdaacec80937da24989701eac55453e2ff0219aea04b285536da16d5e4111f1058907556000d8d4e03948b71d31bd0d9df9341d8b5a0fd6e7024ee32db47d7a5451db6b48c1dfbad831f77aa39b78025ad620422232f00d25bec4c5b80a57781383516b3f23bd8304f271cc228220efa1f6930212138481acfd1858ea6064d7024dfbe1ec337d977beaae7026e150d97ed80c683395b6f831a18b1f2a2949a0459021349a78edbb5720b73a0e6a68e566a5d84f56165e325e71dd9e8120ca8fa55d86a7aede9a3cec05aba2a25a520a3bea31467cf1a844865d9cbef195d67bfeb9fa3ae3f9c7232513abb321af1f353aa36f5bb75095aa55159dc0d0177de8a911ebfd9d0ee59d6c507214f980f6c77b8a50e71f2f6a82a36914b5e849f2fbbc8d6aada3e05ff85c9e1870e453b0fe28c9cd2d2fa68bdddddbc323bff5534d7bcd5599c54abb8d9927e99b0c1e95e5397333dbc4a8f343569df831017ee0e95376e1a84566533a0e866080bab84ba6828847693fa259312e15119a609463130cfaaf4edbfa111c0c653f3fd139cc71ecf9bb174792767eb0b177d5a523f223be26e305574a73df1ac816747dfbdaf0eec9856ec3efed629e803fbfa0a8dedd6f39093ba37ff5b87dee4d765facb55b0515e8c1022f99d188303cf88c01eeecac755e6e991eb80a43b382d0c077073de4436acfe818ccb85c448a371407ea883829949c17d697105151976c2154ffedf6f8000f5c6a6daa7b2d5b348027df055b6c2347e373fa1e48f555f58be927f3153d5b34f903b93171df4d13699e579ebd1e9558b5868114a97539cbeff34b0501abee8541b9083ffe4b1d07395553e86473ef51741ba726547e065da21c2a6e1f2c9a2ce1a44fb370ca808042a393d5e80973b48a104fdee83145860209f725b4e961dd69b4363b643508b830a32b57ce67b1b97814e99cc4e4dfcf54e65625d7095e60ef47fdb1b9b6f2ba0d3d4efa01623e7745bff20ba</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>写代码的重要性</title>
@@ -2322,79 +2374,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>打造你的最强Firefox浏览器</title>
-    <url>/posts/power-firefox.html</url>
-    <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
-<a id="more"></a>
-<h1 id="下载Firefox"><a href="#下载Firefox" class="headerlink" title="下载Firefox"></a>下载Firefox</h1><p>国际版官网：<a href="https://mozlilla.org/zh-CN/firefox" target="_blank" rel="noopener external nofollow noreferrer">https://mozlilla.org/zh-CN/firefox</a>，时刻注意链接重定向</p>
-<p>下面网址下载<strong>国际英文版</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
-<p>下面网址下载<strong>国际中文版</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;zh-CN&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
-<p>国内版官网：<a href="http://firefox.com.cn" target="_blank" rel="noopener external nofollow noreferrer">http://firefox.com.cn</a>，很有中国味道</p>
-<h1 id="插件-amp-扩展"><a href="#插件-amp-扩展" class="headerlink" title="插件&amp;扩展"></a>插件&amp;扩展</h1><p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT Study</title>
-    <url>/posts/qt-study.html</url>
-    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
-<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
-<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
-<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
-<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
-<p>Everything is easy after that.</p>
-<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -2501,6 +2480,27 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>CTF</tag>
         <tag>Note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
