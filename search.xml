@@ -1067,8 +1067,10 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
     <url>/posts/git-tutorial.html</url>
     <content><![CDATA[<p>简明 Git 教程</p>
 <a id="more"></a>
-<h1 id="Git-介绍"><a href="#Git-介绍" class="headerlink" title="Git 介绍"></a>Git 介绍</h1><h2 id="Git-是什么"><a href="#Git-是什么" class="headerlink" title="Git 是什么"></a>Git 是什么</h2><p><a href="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener external nofollow noreferrer">Git</a> 是目前世界上最先进的分布式版本控制系统(Distributed Version Control System)，是由 Linux 之父 <strong>林纳斯·托瓦兹</strong> (Linus Torvalds) 创作。</p>
+<p>学习过程中，有任何问题建议去 <a href="https://www.google.com/" target="_blank" rel="noopener external nofollow noreferrer">Google</a> 搜索，No baidu.</p>
+<h1 id="Git-介绍"><a href="#Git-介绍" class="headerlink" title="Git 介绍"></a>Git 介绍</h1><h2 id="Git-是什么？"><a href="#Git-是什么？" class="headerlink" title="Git 是什么？"></a>Git 是什么？</h2><p><a href="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener external nofollow noreferrer">Git</a> 是目前世界上最先进的分布式版本控制系统(Distributed Version Control System)，是由 Linux 之父 <strong>林纳斯·托瓦兹</strong> (Linus Torvalds) 创作。</p>
 <p>什么是版本控制，举个例子，你每天都会新增、编辑、修改许多文档，当修修改改很多次之后，你觉得不满意想回到以前的某个版本，得手动修改添加过的，非常不方便，于是，版本控制系统就可以很好的解决这个问题，Git 就像玩游戏的时候可以存储进度一样，当你修修改改发现被改乱了自己都看不懂的时候，可以回到到以前的任意版本。</p>
+<h2 id="为什么使用它？"><a href="#为什么使用它？" class="headerlink" title="为什么使用它？"></a>为什么使用它？</h2><p>软件工程师们一般不会一次性完成一个项目，他们一般都有一个计划来安排需要完成的工作。如果你的个人项目是在数天或数周内完成的，那么记录你在某一天完成的工作就会变得很有好处，而将修改暂时或不修改的内容回滚到之前的时间点的权力是很有价值的。当与团队中的其他人合作时，这一点变得更加重要—哪些文件是由哪些合作者修改的？当多个合作者想对同一个文件进行修改时怎么办？如前所述，Git 的主要功能是 “版本控制”—组织和跟踪一个项目在一段时间内所做的修改，不管是只有你一个人在做，还是一个团队在做。</p>
 <h1 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h1><h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><h3 id="在-Linux-上安装-Git"><a href="#在-Linux-上安装-Git" class="headerlink" title="在 Linux 上安装 Git"></a>在 Linux 上安装 Git</h3><p>在 Linux 下安装 Git 最简单了，只需一行命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install git</span><br></pre></td></tr></table></figure>
 <p>即可安装成功</p>
@@ -1078,7 +1080,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>只要下载、点开、执行，基本上这样就可以顺利完成安装了！</p>
 <p>安装成功后，随便在哪里右键选择 Git Bash Here ，输入以下命令查看 git 版本：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.30.2.windows.1</span><br></pre></td></tr></table></figure>
-<h1 id="设定-Git"><a href="#设定-Git" class="headerlink" title="设定 Git"></a>设定 Git</h1><p>安装 Git 后首先要做的事情是设置你的用户名称和 Email 地址（用户标识，必要）。</p>
+<h1 id="配置-Git"><a href="#配置-Git" class="headerlink" title="配置 Git"></a>配置 Git</h1><p>安装 Git 后首先要做的事情是设置你的用户名称和 Email 地址（用户标识，必要）。</p>
 <p>打开终端，输入以下两行命令（#右边的不用输入，# 右边的为注释，不会被执行）：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name“ # Your Name 替换为你的名字</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.email <span class="string">"Your Email Address"</span>  <span class="comment"># Your Email Address 替换为你的邮箱地址</span></span><br></pre></td></tr></table></figure>
@@ -1103,16 +1105,25 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p><img src="https://i.loli.net/2021/03/28/N3FveKqtYfxA8zn.png" alt="Git工作流程图.png"></p>
 <p>平时使用只需记住下图 6 个命令：</p>
 <p><img src="https://i.loli.net/2021/03/26/3t2x1D4rZThgHuR.png" alt="gitflow.png"></p>
+<blockquote>
+<p>记住，你可以使用以下命令来了解关于这些命令的更多信息</p>
+<p><code>git command --help</code> i.e., <code>git checkout --help</code></p>
+</blockquote>
 <h1 id="一个小例子"><a href="#一个小例子" class="headerlink" title="一个小例子"></a>一个小例子</h1><p>这里我们在本地以一个小例子演示 git 的基本使用方法。<br>一起动手实践吧！</p>
-<h2 id="创建-working-directory-并初始化"><a href="#创建-working-directory-并初始化" class="headerlink" title="创建 working directory 并初始化"></a>创建 working directory 并初始化</h2><p>在桌面上右键，Git Bash Here，输入以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir git_test <span class="comment"># 新建文件夹</span></span><br><span class="line">$ <span class="built_in">cd</span> git_test <span class="comment"># 进入git_test文件夹目录</span></span><br><span class="line">$ git init <span class="comment"># 初始化这个目录，让git对此目录进行版本控制</span></span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> C:/Users/Turing/Desktop/git_test/.git/</span><br></pre></td></tr></table></figure>
+<h2 id="Local-Repository：本地仓库"><a href="#Local-Repository：本地仓库" class="headerlink" title="Local Repository：本地仓库"></a>Local Repository：本地仓库</h2><h3 id="创建工作目录"><a href="#创建工作目录" class="headerlink" title="创建工作目录"></a>创建工作目录</h3><p>Git 项目需要一个文件夹，这个文件夹就是工作目录，就叫 <code>git_test</code> 吧！</p>
+<p>在桌面上右键，Git Bash Here，输入以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir git_test <span class="comment"># 新建文件夹</span></span><br><span class="line">$ <span class="built_in">cd</span> git_test <span class="comment"># 进入 git_test 工作目录</span></span><br></pre></td></tr></table></figure>
+<p>上面两行命令，做了以下几件事：<br>1.使用 <code>mkdir</code> 创建名为 <code>git_test</code> 的文件夹，这就是我们的 working directory<br>2.使用 <code>cd</code> 切换到 <code>git_test</code> 目录</p>
+<h3 id="创建本地仓库"><a href="#创建本地仓库" class="headerlink" title="创建本地仓库"></a>创建本地仓库</h3><p>我们已经创建了工作目录，现在，需要在这里创建我们的 Local Repository，也就是本地仓库，这样才能将本目录纳入版本控制中。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git init <span class="comment"># 初始化 Local Repository，让 git 对此目录进行版本控制</span></span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> C:/Users/Turing/Desktop/git_test/.git/</span><br></pre></td></tr></table></figure>
+<p>使用 <code>git init</code> 初始化此目录，这样就可以让 Git 对这个目录进行版本控制。</p>
 <p><img src="https://i.loli.net/2021/03/26/HAsLb7MUoD3BGYh.png" alt="0N_V6_RL_PH3X~TJS0QD__W.png"></p>
-<p>在上面的命令中，做了以下几件事：<br>1.使用 <code>mkdir</code> 创建名为 <code>git_test</code> 的文件夹，这就是我们的 working directory<br>2.使用 <code>cd</code> 切换到 <code>git_test</code> 目录<br>3.使用 <code>git init</code> 初始化此目录，这样就可以让 Git 对这个目录进行版本控制</p>
 <p>我们可以看到执行 <code>git init</code> 后，在目录下有个 <code>.git</code> 的隐藏文件夹，这就是 local repo，有兴趣可以看看里面的内容 。</p>
 <blockquote>
 <p>如果你看不到，请勾选 显示隐藏的项目 。</p>
 </blockquote>
-<p>如果有一天你想让这个目录不再被 Git 控制，其实 Git 的版本控制很单纯，全部都是靠那个 .git 目录在做事而已，所以如果这个不想被版控，或是只想给客户不含版本控制记录的內容的话，只要把那个 <code>.git</code> 目录移除，Git 就对这个目录失去控制权了。</p>
+<p>由于当前项目 <code>git_test</code> 只在我们自己电脑上，其他人无法访问，所以我们称这种形式的版本库为 <strong>本地仓库</strong>。</p>
+<p>如果有一天你想让这个目录不再被 Git 控制，其实 Git 的版本控制很单纯，全部都是靠那个 <code>.git</code> 目录在做事而已，所以如果这个不想被版控，或是只想给客户不含版本控制记录的內容的话，只要把那个 <code>.git</code> 目录移除，Git 就对这个目录失去控制权了。</p>
 <blockquote>
 <p>也就是说，在这个目录里，你只要没有删除 <code>.git</code> 文件夹，其他的随便删都可以找回来，<code>.git</code> 被删除了就没有办法了。</p>
 </blockquote>
@@ -1130,10 +1141,10 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>区别就是 <strong>执行指令时候的目录位置</strong>：<br><code>git add .</code> 这个指令会把目前当下这个目录，以及它的子目录、子子目录、子子子目录…里的异动全部加到暂存区，但在这个目录的以外的就不归它管了。而 <code>git add --all</code> 指令就没这个问题，这个指令不管在哪一层目录执行，效果都是一样的，在这个工作目录里所有的异动都会被加至暂存区。</p>
 <p>还有一种区别就不讨论了，Git 2.x 之后，就只是上面的一种区别了。</p>
 </blockquote>
-<h2 id="提交到本地仓库（Local-Repository）"><a href="#提交到本地仓库（Local-Repository）" class="headerlink" title="提交到本地仓库（Local Repository）"></a>提交到本地仓库（Local Repository）</h2><p>如果仅是通过 <code>git add</code> 命令把文件加到暂存区是不够的，这样还不算是完成整个流程。要让暂存区的內容永久的存下來的話，使用的是 <code>git commit</code> 命令：</p>
+<h2 id="提交到本地仓库（Local-Repository）"><a href="#提交到本地仓库（Local-Repository）" class="headerlink" title="提交到本地仓库（Local Repository）"></a>提交到本地仓库（Local Repository）</h2><p>如果仅是通过 <code>git add</code> 命令把文件加到暂存区是不够的，这样还不算是完成整个流程。要让暂存区的內容永久的存下來的話，使用的是 <code>git commit -m &lt;message&gt;</code> 命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git commit -m <span class="string">"init commit"</span></span><br><span class="line">[master (root-commit) 3777d07] init commit</span><br><span class="line"> 1 file changed, 0 insertions(+), 0 deletions(-)</span><br><span class="line"> create mode 100644 a.txt</span><br></pre></td></tr></table></figure>
 <p><code>git commit</code> 的操作就是相当于把一个文件在 git 的系统中进行存档了，这个 commit 需要一个 <code>-m</code> 参数并且需要传入一个 message，就是对本次 commit 的一个简述，说明「你在这次的 Commit 做了什么事情」，只要使用简单、清楚的文字说明就好，中、英文都可，重点是清楚，让不久之后的你或是你的同事能很快的明白就行了，对于 commit message 是有一定的规范的，可参看 <a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/" target="_blank" rel="noopener external nofollow noreferrer">freecodecamp</a>。</p>
-<p>当完成了这个动作后，对 Git 来说就是「把暂存区的东西存放到本地仓库（Local Repository）里」，换言之就是「我完成一个存档（或备份）的动作了」，也是建立了一个我们在前面提到的「版本」。</p>
+<p>当完成了这个动作后，对 Git 来说就是「把暂存区的东西存放到本地仓库（Local Repository）里」，换言之就是「我完成一个存档（或备份）的动作了」，此文件已经纳入到版本控制中了。</p>
 <p>到底 Commit 了哪写东西？</p>
 <blockquote>
 <p>请先记住一个很重要的概念：「Git 每次的 commit 都只会处理暂存区（Staging Area）里的內容」。也就是说，如果在执行 git commit 指令的時候，那些还没被 add 到暂存区的里的文件，是不会被 commit 到本地仓库的。</p>
@@ -1158,9 +1169,9 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>提交后，我们再用 <code>git status</code> 命令看看仓库的当前状态：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
 <p>Git告诉我们当前没有需要提交的修改，而且，工作目录是干净（working tree clean）的。</p>
-<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><p>修改 <code>a.txt</code> 文件如下：</p>
+<h3 id="版本回退：回到过去"><a href="#版本回退：回到过去" class="headerlink" title="版本回退：回到过去"></a>版本回退：回到过去</h3><p>修改 <code>a.txt</code> 文件如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Talk is not cheap, show me the code.</span><br><span class="line">Everything is a file.</span><br></pre></td></tr></table></figure>
-<p>add，commit：</p>
+<p>然后 add，commit：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git commit -m <span class="string">"ADD Everything is a file"</span></span><br><span class="line">[master 11f7dd8] ADD Everything is a file</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br></pre></td></tr></table></figure>
 <p>像这样，你对文件进行修修改改，然后提交到版本库中，好比玩游戏时，隔一段时间你存一下档，存档再 Git 中就是 commit 。当你文件改乱了，或者不小心误删了，可以恢复到任意一个 commit，然后继续工作。</p>
 <p>现在，我们来看看 <code>a.txt</code> 文件一共有几个版本，使用 <code>git log</code> 查看：</p>
@@ -1211,10 +1222,14 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 </tbody>
 </table>
 </div>
-<h1 id="分支（Branch）介绍"><a href="#分支（Branch）介绍" class="headerlink" title="分支（Branch）介绍"></a>分支（Branch）介绍</h1><h2 id="为什么要使用分支？"><a href="#为什么要使用分支？" class="headerlink" title="为什么要使用分支？"></a>为什么要使用分支？</h2><p>分支的概念就有点像「分身术」，当你做出一只新的分身（分支），这个分身会去执行任务或是打倒敌人，如果执行失败了，最多就是那个分身消失，就再做一只新的分身就行了，本体不会因此受到影响。</p>
-<p>在开发的过程中，一路往前 Commit 也没什么问题，但当开始越来越多同伴一起在同一个专案工作的时候，可能就不能这么随兴的想 Commit 就 Commit，这时候分支就很好用。例如想要增加新功能，或是修正 Bug，或是想实验看看某些新的做法，都可以另外做一个分支来进行，待做完确认没问题之后再合并回来，不会影响正在运行的产品线。</p>
+<h1 id="分支（Branch）管理"><a href="#分支（Branch）管理" class="headerlink" title="分支（Branch）管理"></a>分支（Branch）管理</h1><h2 id="分支（Branch）是什么？"><a href="#分支（Branch）是什么？" class="headerlink" title="分支（Branch）是什么？"></a>分支（Branch）是什么？</h2><p>分支的概念就有点像「分身术」，当你做出一只新的分身（分支），这个分身会去执行任务或是打倒敌人，如果执行失败了，最多就是那个分身消失，就再做一只新的分身就行了，本体不会因此受到影响。</p>
+<h2 id="为什么要使用分支？"><a href="#为什么要使用分支？" class="headerlink" title="为什么要使用分支？"></a>为什么要使用分支？</h2><p>在开发的过程中，一路往前 Commit 也没什么问题，但当开始越来越多同伴一起在同一个专案工作的时候，可能就不能这么随兴的想 Commit 就 Commit，这时候分支就很好用。例如想要增加新功能，或是修正 Bug，或是想实验看看某些新的做法，都可以另外做一个分支来进行，待做完确认没问题之后再合并回来，不会影响正在运行的产品线。</p>
 <p>在多人团队共同开发的时候，甚至也可引入像 Git Flow / GitHub Flow / GitLab Flow 之类的开发流程，让同一个团队的人都可以用相同的方式进行开发，减少不必要的沟通成本。</p>
-<h2 id="分支的使用"><a href="#分支的使用" class="headerlink" title="分支的使用"></a>分支的使用</h2><p>在 Git 使用分支很简单，只要使用 <code>git branch</code> 命令就行了：</p>
+<h2 id="分支的使用"><a href="#分支的使用" class="headerlink" title="分支的使用"></a>分支的使用</h2><p>分支就是一条独立的时间线，既有分支，必有主干，正如一棵树谈到树枝，必有树干一样的道理。我们先前对<code>git</code> 的全部操作默认都是在主干上进行的，这个主干也是一种特殊的分支，名为 <code>master</code> 分支。</p>
+<p>无论是穿越历史还是撤销更改,我们都或多或少接触过时间线，<code>git</code> 管理的版本串在一起就组成了这个时间线，其中 <code>master</code> 分支是当前分支，<code>HEAD</code> 指向 <code>master</code> ，因此 <code>HEAD</code>  相当于指向了最新的版本。</p>
+<p><img src="https://i.loli.net/2021/03/28/jY1qtNwG8SIK53k.gif" alt="git-commit.gif"></p>
+<p>基于分支上的操作，每一次 <code>commit</code> 都会提交一个新版本，并且新的 <code>commit</code> 指向原来的 <code>commit</code>，这来最新的 <code>commit</code> 就可以往前找,直到找到最初的 <code>commit</code>。这就是 <code>git</code> 的时间线.</p>
+<p>在 Git 使用分支很简单，只要使用 <code>git branch</code> 命令就行了：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
 <p>如果 <code>git branch</code> 后面没接任何参数，它会打印出目前在这个方案有哪些分支。Git 预设会帮你设定一个名为 <code>master</code> 的分支，前面的星号 <code>*</code> 表示现在正在这个分支上。</p>
 <h3 id="新增分支"><a href="#新增分支" class="headerlink" title="新增分支"></a>新增分支</h3><p>要增加一个分支，就是在执行 <code>git branch</code> 指令的時候，在后面加上想要的分支的名字：</p>
@@ -1241,6 +1256,20 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>其实，你也可以加上 <code>-b</code> 参数，可以直接创建新分支并切换过去，若是已有的分支，则会直接切换过去:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout -b dog <span class="comment"># 新建dog分支并切换到dog分支</span></span><br><span class="line">Switched to a new branch <span class="string">'dog'</span></span><br><span class="line">$ git branch</span><br><span class="line">  cat</span><br><span class="line">* dog</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
 <p>搞定！</p>
+<h2 id="进一步理解分支"><a href="#进一步理解分支" class="headerlink" title="进一步理解分支"></a>进一步理解分支</h2><p>你可以把分支想像成一张贴纸，它是贴在某一个 Commit 上面，像这样：</p>
+<p><img src="https://i.loli.net/2021/03/28/au3LDxJiM5YkB4q.png" alt="~_0YW5TBBAGOWE5R_5_UE1V.png"></p>
+<p>当你做了一次新的 Commit 之后，这个新的 Commit 会指向它的前一个 Commit：</p>
+<p><img src="https://i.loli.net/2021/03/28/pRA1hkQVfZTEISL.png" alt="KQ5___HH4_G95B@MKYSTMY9.png"></p>
+<p>而接下来「目前的分支」，也就是 HEAD 所指的这个分支，会跟着贴到刚刚做的那个 Commit 上，同时 HEAD 也跟着前进：</p>
+<p><img src="https://i.loli.net/2021/03/28/UY2NWgT6jzcyxQs.png" alt="4KG___P3TYT~YR5G_~8V6_0.png"></p>
+<p>当你通过命令 <code>git branch cat</code> 创建了一个新的分支，就会像下面这样：</p>
+<p><img src="https://i.loli.net/2021/03/28/RLkNtTK2Im1ry9x.png" alt="1@LXZ~_I@3YSWT__S_0_XI5.png"></p>
+<p>cat 和 master 在同一个地方。</p>
+<p>当你执行 <code>git checkout cat</code> 指令切换到 <code>cat</code> 分支，那么，HEAD 便会换成指向 <code>cat</code> 分支，表示它是「目前的分支」：</p>
+<p><img src="https://i.loli.net/2021/03/28/BRiqOxNw19VPvMD.png" alt="_EA@_`89_IGFSCQ_UOV2PM8.png"></p>
+<p>假如你又做了一次新的 Commit，这个新的 Commit 会指向前一次 Commit，然后， cat 分支会指向最新的那个 Commit 上了，当然 HEAD 也是跟着去：</p>
+<p><img src="https://i.loli.net/2021/03/28/IUvh5tpzCZjiusr.png" alt="E4EAFA`_1LB5BYW0_LFY_7R.png"></p>
+<p> Git 的分支大概就是这么一回事。</p>
 <h2 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h2><p>现在我们删除其他没用的分支，留下 <code>master</code> 分支，并创建 <code>dev</code> 分支：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout master <span class="comment"># 切换到 master 分支</span></span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br><span class="line">$ git branch -d cat dog <span class="comment"># 删除分支</span></span><br><span class="line">Deleted branch cat (was 11f7dd8).</span><br><span class="line">Deleted branch dog (was 11f7dd8).</span><br><span class="line">$ git checkout -b dev</span><br><span class="line">Switched to a new branch <span class="string">'dev'</span></span><br><span class="line">$ git branch</span><br><span class="line">* dev</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
 <p>现在，我们就可以在 <code>dev</code>分支上正常提交，比如对 <code>a.txt</code> 做个修改，加上一行：</p>
@@ -1263,16 +1292,54 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p><strong>Git 与 GitHub 的区别</strong></p>
 <p>Git 是版本控制系统，GitHub 是在线的基于 Git 的代码托管平台。</p>
 </blockquote>
-<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><h2 id="Pull-下载更新"><a href="#Pull-下载更新" class="headerlink" title="Pull 下载更新"></a>Pull 下载更新</h2><p>git pull 和 git fetch 有点类似，这两个都是针对 remote repo 的一些操作，但是其实是有区别的，git pull 可以理解为融合了 fetch 和 merge 的两个操作。fetch，顾名思义，就是从服务器上把数据拿回来，但是注意，此时的数据很可能是已经和本地的 git  repo 不一样了，想象一个团队环境，你 push 了一个代码，可能一会其他团队成员又push 了一个，所以你的本地库可能和远程库有不同，所以这个时候git fetch一下，就紧接着要 merge 一下，把自己 master 和远程的 master 融合一下，这样就更好。</p>
+<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><p>要上文件案到 GitHub，需要有 repository，这里我新建 repository 来进行演示。请先在 GitHub 网站的右上角点选「+」号，并选择「New repository」：</p>
+<p><img src="https://i.loli.net/2021/03/28/QE2oXkdxgGwuPJs.png" alt="UGVMLR_I488G@EW4IU_F8GP.png"></p>
+<p>然后填写仓库名字：</p>
+<p><img src="https://i.loli.net/2021/03/28/8qIsMtrpfODFLZu.png" alt="0_Z5__DC1GO_U__032YMMCA.png"></p>
+<p>Repository name 可填写任意名称，只要不重复即可。<br>点击「Create repository」即可新增一新的 Repository。</p>
+<p>接下来，会看到的这个引导界面：</p>
+<p>After the repository is built, take a look at the Quick Setup guide that is  presented, some of the commands should look familiar.</p>
+<p>The example above shows just how you would create an empty project containing only a readme in it — <code>git init</code> to prepare Git locally, and then a <code>git add</code> and <code>git commit</code> to create a single commit with the readme.</p>
+<p>The next two lines set up your local Git project to point to a “remote”  GitHub project. In other words, we make our local Git project aware that we also have a “remote” (e.g. non-local) project repository. To do  this, you use the <code>git remote add &lt;name&gt; &lt;URL&gt;</code> command, supplying it a name for the remote location and also the URL.  The name can be anything, though you’ll commonly see the word “origin”  used to refer to your main remote repository. But, for example, if you  wanted to upload your project to both GitHub and Bitbucket, you might  have a “github” remote and a “bitbucket” remote.</p>
+<p>Once your remote is set up, use the <code>git push</code> command to upload your code to the remote repository. Supply the name  of the remote (e.g. “origin”) and the branch to push. The <code>-u</code> parameter sets git up to also “track” the remote branch so that next time you don’t need to supply <code>origin master</code>.</p>
+<p>Notice how, when your project is pushed up to GitHub, you can view the commit history that you built up locally.</p>
+<p>Now, your general development loop just contains an extra step to push your  code up to GitHub where you not only have a nice UI to explore your  project, but it also serves as a backup should something happen to your  local environment!</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Make your changes to the codebase</span></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="comment"># Stage all of your changes</span></span><br><span class="line">git add -A</span><br><span class="line"></span><br><span class="line"><span class="comment"># Make the commit</span></span><br><span class="line">git commit -m <span class="string">"..."</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Push to GitHub (assuming the master branch)</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<p><em>注意: 你也可以把其他分支（不一定得是 <code>master</code>）推到 GitHub上。</em></p>
+<h2 id="Cloning-and-Pulling"><a href="#Cloning-and-Pulling" class="headerlink" title="Cloning and Pulling"></a>Cloning and Pulling</h2><p>If you have GitHub repository, or find one that you’re interested in  downloading to your machine, the easiest way is to clone it.</p>
+<p>Use the URL specified in GitHub and use <code>git clone &lt;URL&gt;</code> to download (clone) the repository into your current directory or use  your UI tool’s clone function. When you clone a repository, it also  brings along the git metadata — so you will have access to the commit  history, as if it was your own project (e.g. no need to do a <code>git init</code> ).</p>
+<p>Note that if the project on GitHub has new commits added to them, you won’t  receive those changes to your local project automatically. In order to  pull updates into your local repo, use <code>git pull</code> and supply the remote and branch name to pull the updates from (e.g. <code>git pull origin master</code> to pull down the latest changes to the remote master branch into your current branch).</p>
+<h2 id="Forking"><a href="#Forking" class="headerlink" title="Forking"></a>Forking</h2><p>GitHub repos can have access rules applied to them. Generally if you’re the owner of a repo, then only you can push to it.</p>
+<p>However, you might be interested in contributing to an open source project, so  how can you do that if you can’t push your changes back to the repo?</p>
+<p>One option is to “fork” the repository — which copies the repo into your  personal GitHub space (which you have the rights to push to). So, you  can fork the open source repo, then clone your fork to your local  machine. You can make updates locally and then push your changes back to your fork on GitHub.</p>
+<p>Like with cloning a repo, your fork will not stay up to date with the  original (or “upstream”) project. You may want to pull updates from the  upstream project, in which case you would need to set up a remote to  reference the upstream project — so you’d have two remotes: one to  reference your fork (probably called “origin” by default) and one to  reference the upstream project.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Add a remote to track the original upstream project</span></span><br><span class="line">git remote add upstream &lt;URL to upstream project&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Verify that you now have two remotes (including the one to reference your fork)</span></span><br><span class="line">git remote -v</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="comment"># Now you can pull changes from the upstream repo</span></span><br><span class="line">git pull upstream master</span><br></pre></td></tr></table></figure>
+<p>The final piece is how you can get your changes back into the original project repo, which is where Pull Requests come in.</p>
+<p><em>If you do have access to push to a shared repo (for example, working on a  team), then your team may have norms about doing so and Pull Requests  are still a good option here.</em></p>
+<h2 id="Pull-Requests"><a href="#Pull-Requests" class="headerlink" title="Pull Requests"></a>Pull Requests</h2><p>A Pull Request (PR) is simply a “formal” request to pull changes made in  one branch / repo into another branch / repo — a common example being to request that your changes to a fork of an open source project be  accepted into the main project’s repo. A PR specifies the source and  destination repos and branches, the commits to be pulled in, and allows  the requestor to write a description of the change. In turn, the  maintainers of the open source project can provide feedback, request  additional changes be made, and ultimately choose to accept the pull  request and merge the commits in.</p>
+<p>To open a pull request using your fork, make sure your commits are pushed  up to the fork, then press the “New pull request” button, then the  option to “compare across forks”. Finally, choose your fork and branch  to open the pull request from and the destination branch (e.g. “master”) that you’d want the changes to be pulled into.</p>
+<p><img src="https://miro.medium.com/max/60/1*6GY9orS6Q-8MDXCLexL-Ew.png?q=20" alt="img"></p>
+<p><img src="https://miro.medium.com/max/2570/1*6GY9orS6Q-8MDXCLexL-Ew.png" alt="img"></p>
+<p>It’s very common for open source projects to use some sort of branching model to organize commits and develop. For example, <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener external nofollow noreferrer">Gitflow</a> uses a two-branch system: the “master” branch contains the current  “stable” version of the project and a separate “develop” branch contains the current line of development. So, in this case, your PR should  target the “develop” branch instead of “master”.</p>
+<p><img src="https://miro.medium.com/max/60/1*eNZQXmr57MdbxdshdNGstQ.png?q=20" alt="img"></p>
+<p><img src="https://miro.medium.com/max/1953/1*eNZQXmr57MdbxdshdNGstQ.png" alt="img"></p>
+<p>In this case, <a href="https://github.com/timusus/Shuttle/pull/33" target="_blank" rel="noopener external nofollow noreferrer">my PR</a> was closed (rejected) instead of being merged because I was targeting  the master branch, instead of develop (the norm for this project). The  changes were <a href="https://github.com/timusus/Shuttle/commit/f0422946de3485453751f8ca2483aa86b6044eaa" target="_blank" rel="noopener external nofollow noreferrer">merged in separately</a> by the maintainer.</p>
+<p>You can also use Pull Requests within your own personal repos or shared  projects that you have push access to. In this case, there are no forks  involved and you can simply open up a pull request between two branches  of the project. For example, in the earlier example with the  feature_work branch — instead of merging it into master locally, we  could push the feature_work branch to GitHub and open a PR to merge it  into master.</p>
+<p>After your pull request has been merged, make sure you use a <code>git pull</code> to update your local branch(es) with the new changes.</p>
+<p><img src="https://miro.medium.com/max/58/1*T9mx8WxDJJb78wSBxnFdRw.png?q=20" alt="img"></p>
+<p><img src="https://miro.medium.com/max/1958/1*T9mx8WxDJJb78wSBxnFdRw.png" alt="img"></p>
+<p>As a reviewer, you can leave feedback, which the requestor can address by pushing up new commits to the branch.</p>
+<h2 id="Pull-下载更新"><a href="#Pull-下载更新" class="headerlink" title="Pull 下载更新"></a>Pull 下载更新</h2><p>git pull 和 git fetch 有点类似，这两个都是针对 remote repo 的一些操作，但是其实是有区别的，git pull 可以理解为融合了 fetch 和 merge 的两个操作。fetch，顾名思义，就是从服务器上把数据拿回来，但是注意，此时的数据很可能是已经和本地的 git  repo 不一样了，想象一个团队环境，你 push 了一个代码，可能一会其他团队成员又push 了一个，所以你的本地库可能和远程库有不同，所以这个时候git fetch一下，就紧接着要 merge 一下，把自己 master 和远程的 master 融合一下，这样就更好。</p>
 <p>但是 git pull 的情况就是直接下载远程 repo 并且 update 本地的库，很有可能本地有未保存的部分，git  pull 之后这部分就被 replace 了，而且无迹可查，所以其实更加稳健的方法是使用 git fetch 和 git  merge 共同操作来解决远程库在本地更新的问题。</p>
 <p>如果对于这两者还是有不明白可以参看 <a href="https://blog.csdn.net/weixin_43670802/article/details/105581652?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param" target="_blank" rel="noopener external nofollow noreferrer">这篇文章</a>。</p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>关于 Git 的相关知识也可以看以下的视频：<br><a href="https://youtu.be/FyAAIHHClqI" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/FyAAIHHClqI</a></p>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p>关于 Git 的相关知识也可以看以下的视频：<br><a href="https://youtu.be/FyAAIHHClqI" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/FyAAIHHClqI</a></p>
 <p>猴子都能懂的 GIT 入门：<a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener external nofollow noreferrer">https://backlog.com/git-tutorial/cn/</a></p>
 <p>StackOverflow 上整理的一个资料大合集：<a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide" target="_blank" rel="noopener external nofollow noreferrer">https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide</a></p>
 <p> Visual and interactive way to learn Git  on the web：<a href="https://git.mo.mk/" target="_blank" rel="noopener external nofollow noreferrer">https://git.mo.mk/</a></p>
 <p>Learn Git Branching：<a href="https://learngitbranching.js.org/index.html" target="_blank" rel="noopener external nofollow noreferrer">https://learngitbranching.js.org/index.html</a></p>
 <p>Pro Git - <a href="http://git-scm.com/book" target="_blank" rel="noopener external nofollow noreferrer">http://git-scm.com/book</a>    <a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener external nofollow noreferrer">https://git-scm.com/book/zh/v2</a><br>Pro Git 简体中文版 - <a href="http://iissnan.com/progit/" target="_blank" rel="noopener external nofollow noreferrer">http://iissnan.com/progit/</a></p>
 <p><a href="http://www.worldhello.net/gotgit/index.html" target="_blank" rel="noopener external nofollow noreferrer">Git权威指南 | 国内一位大牛写的介绍 Git 用法的开源书籍，很详实</a></p>
+<p><a href="https://codeburst.io/git-tutorial-a-beginners-guide-to-most-frequently-used-git-commands-2ab92bd22787" target="_blank" rel="noopener external nofollow noreferrer">Git tutorial — A Beginner’s Guide to the most Frequently used Git Commands</a></p>
 ]]></content>
       <tags>
         <tag>Git</tag>
