@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020上半年总结</title>
-    <url>/posts/2020-half-summary.html</url>
-    <content><![CDATA[<p>2020半年度总结</p>
-<a id="more"></a>
-<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
-<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
-<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
-<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
-<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
-<p>阅读了:</p>
-<ul>
-<li>《小狗钱钱》</li>
-</ul>
-<p>正在看：</p>
-<ul>
-<li>《线性代数及其应用》</li>
-</ul>
-<p>看了电影和电视剧：</p>
-<ul>
-<li><p>遇见你之前</p>
-</li>
-<li><p>决胜21点</p>
-</li>
-<li><p>他是龙</p>
-</li>
-<li><p>隐秘的角落</p>
-</li>
-</ul>
-<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
-<p>学习专业知识，提高专业素养。</p>
-<p>其他兴趣技能的发展。</p>
-<p>个人IP的打造。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
-  </entry>
-  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065.html</url>
     <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
@@ -673,6 +620,62 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020上半年总结</title>
+    <url>/posts/2020-half-summary.html</url>
+    <content><![CDATA[<p>2020半年度总结</p>
+<a id="more"></a>
+<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
+<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
+<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
+<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
+<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
+<p>阅读了:</p>
+<ul>
+<li>《小狗钱钱》</li>
+</ul>
+<p>正在看：</p>
+<ul>
+<li>《线性代数及其应用》</li>
+</ul>
+<p>看了电影和电视剧：</p>
+<ul>
+<li><p>遇见你之前</p>
+</li>
+<li><p>决胜21点</p>
+</li>
+<li><p>他是龙</p>
+</li>
+<li><p>隐秘的角落</p>
+</li>
+</ul>
+<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
+<p>学习专业知识，提高专业素养。</p>
+<p>其他兴趣技能的发展。</p>
+<p>个人IP的打造。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>二叉树的遍历</title>
     <url>/posts/binarytree-traverse.html</url>
     <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
@@ -691,6 +694,24 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+  </entry>
+  <entry>
     <title>Codeblocks 问题总结</title>
     <url>/posts/codeblocks-skills.html</url>
     <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
@@ -701,6 +722,39 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </categories>
       <tags>
         <tag>codeblocks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++学习</title>
+    <url>/posts/cpp-study.html</url>
+    <content><![CDATA[<p>记录c++的学习</p>
+<a id="more"></a>
+<h1 id="ios-sync-with-stdio-false-提高C-读写速度"><a href="#ios-sync-with-stdio-false-提高C-读写速度" class="headerlink" title="ios::sync_with_stdio(false)提高C++读写速度"></a>ios::sync_with_stdio(false)提高C++读写速度</h1><p>C++为了兼容C，默认使iostream与stdio关联，使cin与scanf、cout和printf保持同步，保证混用过程中文件指针不混乱。<br> 此方式会造成性能损失，导致使用cin/cout效率远远低于使用scanf/printf。若保证程序只是用一套指令，可取消同步：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::ios::sync_with_stdio(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<p>取消后使用cin/cout速度有明显提升，但注意不要混用iostream与stdio（玄学）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>C++98：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed.</p>
+<p>C++11：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed, with the inclusion of <a href="http://www.cplusplus.com/" target="_blank" rel="noopener external nofollow noreferrer"></a> counting as at least one initialization of such objects with <em>static duration</em>.</p>
+<p>cin is <em><a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">tied</a></em> to the standard output stream <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a> (see <a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">ios::tie</a>), which indicates that <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a>‘s buffer is <em>flushed</em> (see <a href="http://www.cplusplus.com/ostream::flush" target="_blank" rel="noopener external nofollow noreferrer">ostream::flush</a>) before each i/o operation performed on cin.</p>
+<p>(来源:<a href="http://www.cplusplus.com/reference/iostream/cin/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/iostream/cin/</a> <a href="http://网址" target="_blank" rel="noopener external nofollow noreferrer">网址</a>)</p>
+</blockquote>
+<p>当传入参数为0时，实现cin与cout独立运行，不会等待，提高cin速度</p>
+<p>全局域的通过静态常量初始化一个lambda的方式实现对此代码的优先调用</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);<span class="comment">//ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);</span></span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
+<p><strong>Ref</strong>:</p>
+<p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
+<h1 id="自定义sort函数中的比较函数"><a href="#自定义sort函数中的比较函数" class="headerlink" title="自定义sort函数中的比较函数"></a>自定义sort函数中的比较函数</h1><p>c++ sort的官方文档<br><a href="http://www.cplusplus.com/reference/algorithm/sort/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/algorithm/sort/</a></p>
+<p>可以看到comp的定义：comp函数返回一个bool类型的值，这个值表示了在严格弱排序中（可以理解为升序排序）第一参数是否位于第二个参数之前。<br> 也就是说如果comp返回true，则第一个参数小于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之前。<br> 如果comp返回false，则第一个参数大于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之后。</p>
+<p> <strong>sort函数根据comp函数的返回值，对comp函数的两个参数排序。</strong><br> <strong>如果comp返回true，排序为“参数1”“参数2”，否则排序为“参数2”“参数1”。</strong> </p>
+<p>例如降序排列，则return a&gt;b;</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Note</tag>
       </tags>
   </entry>
   <entry>
@@ -984,62 +1038,8 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
         <category>Note</category>
       </categories>
       <tags>
+        <tag>Note</tag>
         <tag>CTF</tag>
-        <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++学习</title>
-    <url>/posts/cpp-study.html</url>
-    <content><![CDATA[<p>记录c++的学习</p>
-<a id="more"></a>
-<h1 id="ios-sync-with-stdio-false-提高C-读写速度"><a href="#ios-sync-with-stdio-false-提高C-读写速度" class="headerlink" title="ios::sync_with_stdio(false)提高C++读写速度"></a>ios::sync_with_stdio(false)提高C++读写速度</h1><p>C++为了兼容C，默认使iostream与stdio关联，使cin与scanf、cout和printf保持同步，保证混用过程中文件指针不混乱。<br> 此方式会造成性能损失，导致使用cin/cout效率远远低于使用scanf/printf。若保证程序只是用一套指令，可取消同步：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::ios::sync_with_stdio(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
-<p>取消后使用cin/cout速度有明显提升，但注意不要混用iostream与stdio（玄学）</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>C++98：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed.</p>
-<p>C++11：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed, with the inclusion of <a href="http://www.cplusplus.com/" target="_blank" rel="noopener external nofollow noreferrer"></a> counting as at least one initialization of such objects with <em>static duration</em>.</p>
-<p>cin is <em><a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">tied</a></em> to the standard output stream <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a> (see <a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">ios::tie</a>), which indicates that <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a>‘s buffer is <em>flushed</em> (see <a href="http://www.cplusplus.com/ostream::flush" target="_blank" rel="noopener external nofollow noreferrer">ostream::flush</a>) before each i/o operation performed on cin.</p>
-<p>(来源:<a href="http://www.cplusplus.com/reference/iostream/cin/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/iostream/cin/</a> <a href="http://网址" target="_blank" rel="noopener external nofollow noreferrer">网址</a>)</p>
-</blockquote>
-<p>当传入参数为0时，实现cin与cout独立运行，不会等待，提高cin速度</p>
-<p>全局域的通过静态常量初始化一个lambda的方式实现对此代码的优先调用</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);<span class="comment">//ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);</span></span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
-<p><strong>Ref</strong>:</p>
-<p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
-<h1 id="自定义sort函数中的比较函数"><a href="#自定义sort函数中的比较函数" class="headerlink" title="自定义sort函数中的比较函数"></a>自定义sort函数中的比较函数</h1><p>c++ sort的官方文档<br><a href="http://www.cplusplus.com/reference/algorithm/sort/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/algorithm/sort/</a></p>
-<p>可以看到comp的定义：comp函数返回一个bool类型的值，这个值表示了在严格弱排序中（可以理解为升序排序）第一参数是否位于第二个参数之前。<br> 也就是说如果comp返回true，则第一个参数小于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之前。<br> 如果comp返回false，则第一个参数大于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之后。</p>
-<p> <strong>sort函数根据comp函数的返回值，对comp函数的两个参数排序。</strong><br> <strong>如果comp返回true，排序为“参数1”“参数2”，否则排序为“参数2”“参数1”。</strong> </p>
-<p>例如降序排列，则return a&gt;b;</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Note</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
-]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
       </tags>
   </entry>
   <entry>
@@ -1063,92 +1063,219 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>Firefox和Chrome 自用扩展插件</title>
-    <url>/posts/firefox-chrome-extensions.html</url>
-    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
-<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+    <title>Git 教程</title>
+    <url>/posts/git-tutorial.html</url>
+    <content><![CDATA[<p>简明 Git 教程</p>
 <a id="more"></a>
-<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
-<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+<h1 id="Git-介绍"><a href="#Git-介绍" class="headerlink" title="Git 介绍"></a>Git 介绍</h1><h2 id="Git-是什么"><a href="#Git-是什么" class="headerlink" title="Git 是什么"></a>Git 是什么</h2><p><a href="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener external nofollow noreferrer">Git</a> 是目前世界上最先进的分布式版本控制系统(Distributed Version Control System)，是由 Linux 之父 <strong>林纳斯·托瓦兹</strong> (Linus Torvalds) 创作。</p>
+<p>什么是版本控制，举个例子，你每天都会新增、编辑、修改许多文档，当修修改改很多次之后，你觉得不满意想回到以前的某个版本，得手动修改添加过的，非常不方便，于是，版本控制系统就可以很好的解决这个问题，Git 就像玩游戏的时候可以存储进度一样，当你修修改改发现被改乱了自己都看不懂的时候，可以回到到以前的任意版本。</p>
+<h1 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h1><h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><h3 id="在-Linux-上安装-Git"><a href="#在-Linux-上安装-Git" class="headerlink" title="在 Linux 上安装 Git"></a>在 Linux 上安装 Git</h3><p>在 Linux 下安装 Git 最简单了，只需一行命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install git</span><br></pre></td></tr></table></figure>
+<p>即可安装成功</p>
+<h3 id="在-Windows-上安装-Git"><a href="#在-Windows-上安装-Git" class="headerlink" title="在 Windows 上安装 Git"></a>在 Windows 上安装 Git</h3><p>在 Git官网 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener external nofollow noreferrer">下载安装程序</a> 按默认选项安装即可。</p>
+<p>安装完成后，即可看到右键菜单多了 Git Gui Here 和 Git Bash Here 这两个选项，说明 Git 已经安装成功了！</p>
+<h3 id="在-Mac-OS-X-上安装-Git"><a href="#在-Mac-OS-X-上安装-Git" class="headerlink" title="在 Mac OS X 上安装 Git"></a>在 Mac OS X 上安装 Git</h3><p>网站：<a href="https://git-scm.com/download/mac" target="_blank" rel="noopener external nofollow noreferrer">https://git-scm.com/download/mac</a></p>
+<p>只要下载、点开、执行，基本上这样就可以顺利完成安装了！</p>
+<p>安装成功后，随便在哪里右键选择 Git Bash Here ，输入以下命令查看 git 版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.30.2.windows.1</span><br></pre></td></tr></table></figure>
+<h1 id="设定-Git"><a href="#设定-Git" class="headerlink" title="设定 Git"></a>设定 Git</h1><p>安装 Git 后首先要做的事情是设置你的用户名称和 Email 地址（用户标识，必要）。</p>
+<p>打开终端，输入以下两行命令（#右边的不用输入，# 右边的为注释，不会被执行）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name“ # Your Name 替换为你的名字</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.email <span class="string">"Your Email Address"</span>  <span class="comment"># Your Email Address 替换为你的邮箱地址</span></span><br></pre></td></tr></table></figure>
+<p>完成之后，可以再检查一下目前的设定：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --list</span><br><span class="line">user.name=xxx</span><br><span class="line">user.email=example@gmail.com</span><br></pre></td></tr></table></figure>
+<h1 id="Git-的基本知识"><a href="#Git-的基本知识" class="headerlink" title="Git 的基本知识"></a>Git 的基本知识</h1><p>Git 本地有三个工作区域：工作目录（Working Directory）、暂存区（Stage/Index）、资源库（Repository 或 Git Directory）。如果再加上远程的 git 仓库（Remote Directory）就可以分为四个工作区域。</p>
+<p><strong>Working Directory</strong>：工作目录，就是你平时存放项目代码的地方，或者是你需要进行版本控制的文件夹目录。</p>
+<p><strong>Repository</strong>：资源库（或本地仓库），工作区有一个隐藏目录 <code>.git</code>，这里面有你提交到所有版本的数据，这个不算工作区，而是Git的版本库。</p>
+<p><strong>Index/Stage</strong>：暂存区，或者叫待提交更新区，在提交进入 repo 之前，我们可以把所有的更新放在暂存区。</p>
+<p>Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫 index）的暂存区，还有 Git 为我们自动创建的第一个分支 <code>master</code> ，以及指向 <code>master</code> 的一个指针叫 <code>HEAD</code>。</p>
+<p><img src="https://i.loli.net/2021/03/26/d7AYu43t5IZTE9s.jpg" alt="repo.jpg"></p>
+<p><strong>远程的 git 仓库（Remote Directory）</strong>：这个就是你的 GitHub 上的仓库</p>
+<p>文件在这四个区域之间的转换关系如下：</p>
+<p><img src="https://i.loli.net/2021/03/26/re7YhnO9xNa2cQl.png" alt="git-connections.png"></p>
+<p><strong>工作流程</strong></p>
+<p>git 的工作流程一般是这样的：</p>
+<p>１、在工作目录中添加、修改文件；</p>
+<p>２、将需要进行版本管理的文件放入暂存区域；</p>
+<p>３、将暂存区域的文件提交到 git 仓库。</p>
+<p>因此，git管理的文件有三种状态：已修改（modified），已暂存（staged），已提交(committed)</p>
+<p>Git 工作流程图</p>
+<p><img src="https://i.loli.net/2021/03/28/N3FveKqtYfxA8zn.png" alt="Git工作流程图.png"></p>
+<p>平时使用只需记住下图 6 个命令：</p>
+<p><img src="https://i.loli.net/2021/03/26/3t2x1D4rZThgHuR.png" alt="gitflow.png"></p>
+<h1 id="一个小例子"><a href="#一个小例子" class="headerlink" title="一个小例子"></a>一个小例子</h1><p>这里我们在本地以一个小例子演示 git 的基本使用方法。<br>一起动手实践吧！</p>
+<h2 id="创建-working-directory-并初始化"><a href="#创建-working-directory-并初始化" class="headerlink" title="创建 working directory 并初始化"></a>创建 working directory 并初始化</h2><p>在桌面上右键，Git Bash Here，输入以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir git_test <span class="comment"># 新建文件夹</span></span><br><span class="line">$ <span class="built_in">cd</span> git_test <span class="comment"># 进入git_test文件夹目录</span></span><br><span class="line">$ git init <span class="comment"># 初始化这个目录，让git对此目录进行版本控制</span></span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> C:/Users/Turing/Desktop/git_test/.git/</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2021/03/26/HAsLb7MUoD3BGYh.png" alt="0N_V6_RL_PH3X~TJS0QD__W.png"></p>
+<p>在上面的命令中，做了以下几件事：<br>1.使用 <code>mkdir</code> 创建名为 <code>git_test</code> 的文件夹，这就是我们的 working directory<br>2.使用 <code>cd</code> 切换到 <code>git_test</code> 目录<br>3.使用 <code>git init</code> 初始化此目录，这样就可以让 Git 对这个目录进行版本控制</p>
+<p>我们可以看到执行 <code>git init</code> 后，在目录下有个 <code>.git</code> 的隐藏文件夹，这就是 local repo，有兴趣可以看看里面的内容 。</p>
+<blockquote>
+<p>如果你看不到，请勾选 显示隐藏的项目 。</p>
+</blockquote>
+<p>如果有一天你想让这个目录不再被 Git 控制，其实 Git 的版本控制很单纯，全部都是靠那个 .git 目录在做事而已，所以如果这个不想被版控，或是只想给客户不含版本控制记录的內容的话，只要把那个 <code>.git</code> 目录移除，Git 就对这个目录失去控制权了。</p>
+<blockquote>
+<p>也就是说，在这个目录里，你只要没有删除 <code>.git</code> 文件夹，其他的随便删都可以找回来，<code>.git</code> 被删除了就没有办法了。</p>
+</blockquote>
+<h2 id="添加进暂存区（Staging-Area）"><a href="#添加进暂存区（Staging-Area）" class="headerlink" title="添加进暂存区（Staging Area）"></a>添加进暂存区（Staging Area）</h2><p>先介绍下 <code>git status</code> 这个命令，这个命令是用来查询当前目录的「状态」，先在刚刚建立的 <code>git_test</code> 目录下执行这个指令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">nothing to commit (create/copy files and use <span class="string">"git add"</span> to track)</span><br></pre></td></tr></table></figure>
+<p>在这个目录里，现在除了 Git 帮你创建的那个 <code>.git</code> 隐藏目录外什么都没有，所以上面这段信息就是跟你说「现在没有东西可以提交（nothing to commit）」。<br>现在，我们创建一个 txt 文本，输入 <code>Talk is cheap, show me the code.</code> 并保存， 再使用 <code>git status</code> 来查看目录状态：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">echo</span> <span class="string">"Talk is cheap, show me the code."</span>&gt; a.txt <span class="comment"># 如果不会用命令行创建文件，可以手动创建a.txt 并输入内容保存</span></span><br><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">Untracked files:</span><br><span class="line">  (use <span class="string">"git add &lt;file&gt;..."</span> to include <span class="keyword">in</span> what will be committed)</span><br><span class="line">        a.txt</span><br><span class="line"></span><br><span class="line">nothing added to commit but untracked files present (use <span class="string">"git add"</span> to track)</span><br></pre></td></tr></table></figure>
+<p>现在就和刚才不一样了，可以看到 <code>a.txt</code> 文件的状态是 <code>Untracked files</code> ，意思是这个文件没有加入到 Git 版本控制系统中，还没有被 Git 追踪，只是刚加到了目录里面。</p>
+<p>使用命令 <code>git add</code> + 文件名称 来追踪文件，加入到 Stage 暂存区：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">Changes to be committed:</span><br><span class="line">  (use <span class="string">"git rm --cached &lt;file&gt;..."</span> to unstage)</span><br><span class="line">        new file:   a.txt</span><br></pre></td></tr></table></figure>
+<p>可以看到 <code>a.txt</code> 文件的状态变为了 <code>new file</code> 状态了，此时这个文件已被存到暂存区（Staging Area），没有 add 的文件还是再工作区，add 之后才能进行 commit 等操作。</p>
+<blockquote>
+<p>如果有很多文件要 add，那么使用 <code>git add --all</code> 即可将所有文件添加进暂存区。 </p>
+<p><strong><code>--all</code> 跟 <code>.</code> 参数有什么不一样？</strong><br>有时候会看到別人说 <code>git add .</code> 指令也可以把所有的文件全部加到暂存区喔！」，这样的说法其实不完全正确。</p>
+<p>区别就是 <strong>执行指令时候的目录位置</strong>：<br><code>git add .</code> 这个指令会把目前当下这个目录，以及它的子目录、子子目录、子子子目录…里的异动全部加到暂存区，但在这个目录的以外的就不归它管了。而 <code>git add --all</code> 指令就没这个问题，这个指令不管在哪一层目录执行，效果都是一样的，在这个工作目录里所有的异动都会被加至暂存区。</p>
+<p>还有一种区别就不讨论了，Git 2.x 之后，就只是上面的一种区别了。</p>
+</blockquote>
+<h2 id="提交到本地仓库（Local-Repository）"><a href="#提交到本地仓库（Local-Repository）" class="headerlink" title="提交到本地仓库（Local Repository）"></a>提交到本地仓库（Local Repository）</h2><p>如果仅是通过 <code>git add</code> 命令把文件加到暂存区是不够的，这样还不算是完成整个流程。要让暂存区的內容永久的存下來的話，使用的是 <code>git commit</code> 命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git commit -m <span class="string">"init commit"</span></span><br><span class="line">[master (root-commit) 3777d07] init commit</span><br><span class="line"> 1 file changed, 0 insertions(+), 0 deletions(-)</span><br><span class="line"> create mode 100644 a.txt</span><br></pre></td></tr></table></figure>
+<p><code>git commit</code> 的操作就是相当于把一个文件在 git 的系统中进行存档了，这个 commit 需要一个 <code>-m</code> 参数并且需要传入一个 message，就是对本次 commit 的一个简述，说明「你在这次的 Commit 做了什么事情」，只要使用简单、清楚的文字说明就好，中、英文都可，重点是清楚，让不久之后的你或是你的同事能很快的明白就行了，对于 commit message 是有一定的规范的，可参看 <a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/" target="_blank" rel="noopener external nofollow noreferrer">freecodecamp</a>。</p>
+<p>当完成了这个动作后，对 Git 来说就是「把暂存区的东西存放到本地仓库（Local Repository）里」，换言之就是「我完成一个存档（或备份）的动作了」，也是建立了一个我们在前面提到的「版本」。</p>
+<p>到底 Commit 了哪写东西？</p>
+<blockquote>
+<p>请先记住一个很重要的概念：「Git 每次的 commit 都只会处理暂存区（Staging Area）里的內容」。也就是说，如果在执行 git commit 指令的時候，那些还没被 add 到暂存区的里的文件，是不会被 commit 到本地仓库的。</p>
+</blockquote>
+<p>那个信息是什么？很重要吗？一定要有吗？</p>
+<blockquote>
+<p>是的，很重要！很重要！很重要！（重要的事情说三遍！！！）</p>
+<p>在 commit 的时候，如果没有输入这个信息，Git 预设是不会让你完成Commit 这件事的。它最主要的目的就是告诉你自己以及其它人「这次的修改做了什么」。</p>
+</blockquote>
+<p>commit 之后，再次输入 <code>git status</code> 查看状态：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
+<p>一旦提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的（working tree clean）。</p>
+<h2 id="时光穿梭"><a href="#时光穿梭" class="headerlink" title="时光穿梭"></a>时光穿梭</h2><p>我们已经成功地添加并提交了一个 <code>a.txt</code> 文件，现在，是时候继续工作了，于是，我们继续修改 <code>a.txt</code> 文件，改成如下内容：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
+<p>运行 <code>git status</code> 命令看看结果：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">Changes not staged <span class="keyword">for</span> commit:</span><br><span class="line">  (use <span class="string">"git add &lt;file&gt;..."</span> to update what will be committed)</span><br><span class="line">  (use <span class="string">"git restore &lt;file&gt;..."</span> to discard changes <span class="keyword">in</span> working directory)</span><br><span class="line">        modified:   a.txt</span><br><span class="line"></span><br><span class="line">no changes added to commit (use <span class="string">"git add"</span> and/or <span class="string">"git commit -a"</span>)</span><br></pre></td></tr></table></figure>
+<p>可以看到， <code>a.txt</code> 文件被修改（modified）过了，但还没有准备提交的修改。<br>虽然Git告诉我们 <code>a.txt</code> 被修改了，但如果能看看具体修改了什么内容，自然是很好的。比如你几周前的代码，今天打开看时，已经记不清上次怎么修改的 <code>a.txt</code>，所以，可以用 <code>git diff &lt;file&gt;</code> 这个命令看看：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git diff a.txt</span><br><span class="line">warning: LF will be replaced by CRLF <span class="keyword">in</span> a.txt.</span><br><span class="line">The file will have its original line endings <span class="keyword">in</span> your working directory</span><br><span class="line">diff --git a/a.txt b/a.txt</span><br><span class="line">index 44b4314..4986cc2 100644</span><br><span class="line">--- a/a.txt</span><br><span class="line">+++ b/a.txt</span><br><span class="line">@@ -1 +1 @@</span><br><span class="line">-Talk is cheap, show me the code.</span><br><span class="line">+Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
+<p><code>-</code> 号开头那行（通常是红色的）是删除的<br><code>+</code> 号开头那行（通常是绿色的）是新添加的<br>从上面的命令输出看到，我们在添加了一个 not 单词。</p>
+<p>现在我们将其 add 到暂存区并提交：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git commit -m <span class="string">"add not"</span></span><br><span class="line">[master 39fcc71] add not</span><br><span class="line"> 1 file changed, 1 insertion(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
+<p>提交后，我们再用 <code>git status</code> 命令看看仓库的当前状态：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
+<p>Git告诉我们当前没有需要提交的修改，而且，工作目录是干净（working tree clean）的。</p>
+<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><p>修改 <code>a.txt</code> 文件如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Talk is not cheap, show me the code.</span><br><span class="line">Everything is a file.</span><br></pre></td></tr></table></figure>
+<p>add，commit：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git commit -m <span class="string">"ADD Everything is a file"</span></span><br><span class="line">[master 11f7dd8] ADD Everything is a file</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br></pre></td></tr></table></figure>
+<p>像这样，你对文件进行修修改改，然后提交到版本库中，好比玩游戏时，隔一段时间你存一下档，存档再 Git 中就是 commit 。当你文件改乱了，或者不小心误删了，可以恢复到任意一个 commit，然后继续工作。</p>
+<p>现在，我们来看看 <code>a.txt</code> 文件一共有几个版本，使用 <code>git log</code> 查看：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span></span><br><span class="line">commit 11f7dd8176bb68c7c4724db94bfbad5d05105d13 (HEAD -&gt; master)</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:44:51 2021 +0800</span><br><span class="line"></span><br><span class="line">    ADD Everything is a file</span><br><span class="line"></span><br><span class="line">commit 39fcc71d1c717b18e306d352e15ab4d8719ec0b1</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:28:33 2021 +0800</span><br><span class="line"></span><br><span class="line">    add not</span><br><span class="line"></span><br><span class="line">commit 170b595f8f698d4412acea23840cca35afe1e7fb</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:18:17 2021 +0800</span><br><span class="line"></span><br><span class="line">    init commit</span><br></pre></td></tr></table></figure>
+<p><code>git log</code> 命令显示从最近到最远的提交日志，我们可以看到3次提交，最近的一次是 <code>ADD Everything is a file</code> ，上一次是 <code>add not</code>，最早的一次是 <code>init commit</code>。</p>
+<p>如果你觉得输出信息太多，不好看，可以使用 <code>--pretty=oneline</code> 参数：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span> --pretty=oneline</span><br><span class="line">11f7dd8176bb68c7c4724db94bfbad5d05105d13 (HEAD -&gt; master) ADD Everything is a file</span><br><span class="line">39fcc71d1c717b18e306d352e15ab4d8719ec0b1 add not</span><br><span class="line">170b595f8f698d4412acea23840cca35afe1e7fb init commit</span><br></pre></td></tr></table></figure>
+<p>你看到的一大串类似 <code>11f7dd...</code>的是 <code>commit id</code>（版本号），和 SVN 不一样，Git 的 <code>commit id</code> 不是1，2，3…… 递增的数字，而是一个 SHA1 计算出来的一个非常大的数字，用十六进制表示，而且你看到的 <code>commit id</code> 和我的肯定不一样，以你自己的为准。为什么 <code>commit id</code> 需要用这么一大串数字表示呢？因为 Git 是分布式的版本控制系统，后面我们还要研究多人在同一个版本库里工作，如果大家都用 1，2，3…… 作为版本号，那肯定就冲突了。</p>
+<p>现在，比如你想把 <code>a.txt</code> 回退到上一个版本，也就是 <code>add not</code> 的那个版本，怎么做呢？<br>首先，Git 必须知道当前版本是哪个版本，在 Git 中，用 <code>HEAD</code>表示当前版本，也就是最新的提交 <code>11f7dd...</code> （注意我的提交ID和你的肯定不一样），上一个版本就是 <code>HEAD^</code>，上上一个版本就是<code>HEAD^^</code>，当然往上 100 个版本写 100 个 <code>^</code> 比较容易数不过来，所以写成 <code>HEAD~100</code>。</p>
+<p>现在，我们要把当前版本 <code>ADD Everything is a file</code> 回退到上一个版本 <code>add not</code>，就可以使用 <code>git reset</code> 命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git reset --hard HEAD^</span><br><span class="line">HEAD is now at 39fcc71 add not</span><br></pre></td></tr></table></figure>
+<p><code>--hard</code> 参数后面再讲，现在我们看看 <code>a.txt</code> 里面的内容是不是我们想要的样子（你也可以手动打开文件进行查看）。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cat a.txt</span><br><span class="line">Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
+<p>显然，达到了我们的想要的效果。</p>
+<p>你也可以继续回退到第一个版本，不过现在让我们用 <code>git log</code> 来看看版本库的状态（有时候信息很多，按回车可以继续往下滚动查看，按 <code>q</code> 键退出）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span></span><br><span class="line">commit 39fcc71d1c717b18e306d352e15ab4d8719ec0b1 (HEAD -&gt; master)</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:28:33 2021 +0800</span><br><span class="line"></span><br><span class="line">    add not</span><br><span class="line"></span><br><span class="line">commit 170b595f8f698d4412acea23840cca35afe1e7fb</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:18:17 2021 +0800</span><br><span class="line"></span><br><span class="line">    init commit</span><br></pre></td></tr></table></figure>
+<p>会看到：之前 <code>ADD Everything is a file</code> 的版本不在了，我们还能回到那个版本吗，可以的，前提是你没有关闭当前的命令行窗口，你可以往回翻，找到 <code>ADD Everything is a file</code> 对应的 <code>commit id</code> 是 <code>11f7dd...</code>，于是我们可以指定回到这个版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git reset --hard 11f7dd</span><br><span class="line">HEAD is now at 11f7dd8 ADD Everything is a file</span><br></pre></td></tr></table></figure>
+<p>版本号可以不用写全，只需写前几位就可以了，Git 会自动去找。当然也不能只写前一两位，因为 Git 可能会找到多个版本号，就无法确定是哪一个了。</p>
+<p>你可以查看 <code>a.txt</code> 的内容，会发现又回来了。</p>
+<p><strong>Reset 的模式</strong></p>
+<p><code>git reset</code> 指令可以搭配参数使用，常見到的三种参数，分別是<code>--mixed</code> 、 <code>--soft</code> 以及 <code>--hard</code> ，不同的参数执行之后会有稍微不太一样的结果</p>
+<p><strong>mixed 模式</strong></p>
+<p><code>--mixed</code> 是预设的参数，如果沒有特別加参数， <code>git reset</code> 命令将默认使用 <code>--mixed</code> 模式。这个模式会把暂存区的文件丟掉，但不会改动工作目录的文件，也就是说 Commit 拆出来的文件会留在工作目录，但不会留在暂存区。</p>
+<p><strong>soft 模式</strong></p>
+<p>这个模式下的 reset，工作目录跟暂存区的文件都不会被丟掉，所以看起来就只有 HEAD 的移动而已。也因此，Commit 拆出來的文件会直接放在暂存区。</p>
+<p><strong>hard 模式</strong></p>
+<p>在这个模式下，不管是工作目录以及暂存区的文件都会丟掉。</p>
+<p><strong>技巧：</strong><br> 只要记住执行 soft 模式后（回到 stage 暂存区状态），如果再次将原来的文件添加到仓库的话，需要 git commit <strong>一个命令</strong>就可以了。而 mixed 模式（回到 workspace 状态）需要执行 git add 和 git commit <strong>两个命令</strong>。对于 hard 模式来说是一种硬恢复，导致部分数据丢失，尽量不要用(可以使用 git reflog 来恢复)。</p>
+<p>你只要记住些不同的模式，将会决定「Commit 拆出来的那些文件何去何从」，让我再用另一个表格来解释：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">模式</th>
+<th style="text-align:center">mixed 模式（预设）</th>
+<th style="text-align:center">soft 模式</th>
+<th style="text-align:center">hard 模式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Commit 拆出来的文件</td>
+<td style="text-align:center">丟回工作目录</td>
+<td style="text-align:center">丟回暂存区</td>
+<td style="text-align:center">直接丟掉</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="分支（Branch）介绍"><a href="#分支（Branch）介绍" class="headerlink" title="分支（Branch）介绍"></a>分支（Branch）介绍</h1><h2 id="为什么要使用分支？"><a href="#为什么要使用分支？" class="headerlink" title="为什么要使用分支？"></a>为什么要使用分支？</h2><p>分支的概念就有点像「分身术」，当你做出一只新的分身（分支），这个分身会去执行任务或是打倒敌人，如果执行失败了，最多就是那个分身消失，就再做一只新的分身就行了，本体不会因此受到影响。</p>
+<p>在开发的过程中，一路往前 Commit 也没什么问题，但当开始越来越多同伴一起在同一个专案工作的时候，可能就不能这么随兴的想 Commit 就 Commit，这时候分支就很好用。例如想要增加新功能，或是修正 Bug，或是想实验看看某些新的做法，都可以另外做一个分支来进行，待做完确认没问题之后再合并回来，不会影响正在运行的产品线。</p>
+<p>在多人团队共同开发的时候，甚至也可引入像 Git Flow / GitHub Flow / GitLab Flow 之类的开发流程，让同一个团队的人都可以用相同的方式进行开发，减少不必要的沟通成本。</p>
+<h2 id="分支的使用"><a href="#分支的使用" class="headerlink" title="分支的使用"></a>分支的使用</h2><p>在 Git 使用分支很简单，只要使用 <code>git branch</code> 命令就行了：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<p>如果 <code>git branch</code> 后面没接任何参数，它会打印出目前在这个方案有哪些分支。Git 预设会帮你设定一个名为 <code>master</code> 的分支，前面的星号 <code>*</code> 表示现在正在这个分支上。</p>
+<h3 id="新增分支"><a href="#新增分支" class="headerlink" title="新增分支"></a>新增分支</h3><p>要增加一个分支，就是在执行 <code>git branch</code> 指令的時候，在后面加上想要的分支的名字：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch cat</span><br></pre></td></tr></table></figure>
+<p>这样就新增了一个 <code>cat</code> 分支，再检查一下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch  </span><br><span class="line">  cat</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<p>的确是多了一个分支，但现在分支还是在 <code>master</code> 上。</p>
+<h3 id="修改分支"><a href="#修改分支" class="headerlink" title="修改分支"></a>修改分支</h3><p>如果你觉得名字不好听，你可以随时修改分支的名字，且不会有任何影响，比如我想把 <code>cat</code> 分支改成 <code>dog</code> 分支，使用 <code>-m</code> 参数：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch -m cat dog</span><br></pre></td></tr></table></figure>
+<p>看一下现在的分支情况：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">  dog</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<h3 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h3><p>检查一下目前的分支：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">  dog</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<p>如果你不想要 <code>dog</code> 分支了，使用 <code>-d</code> 参数来删除分支：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch -d dog</span><br><span class="line">Deleted branch dog (was 11f7dd8).</span><br><span class="line">$ git branch</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<p>这样，<code>dog</code> 分支就被删除了</p>
+<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><p>我们还是先新建 <code>cat</code> 分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch cat</span><br><span class="line">$ git branch</span><br><span class="line">  cat</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
+<p>如果要切换到 <code>cat</code> 分支，只需使用 <code>git checkout &lt;branch name&gt;</code> 命令即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout cat</span><br><span class="line">Switched to branch <span class="string">'cat'</span></span><br></pre></td></tr></table></figure>
+<p>查看分支状态：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">* cat</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
+<p>前面的那个星号已经移到 <code>cat</code> 分支上了。</p>
+<p>其实，你也可以加上 <code>-b</code> 参数，可以直接创建新分支并切换过去，若是已有的分支，则会直接切换过去:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout -b dog <span class="comment"># 新建dog分支并切换到dog分支</span></span><br><span class="line">Switched to a new branch <span class="string">'dog'</span></span><br><span class="line">$ git branch</span><br><span class="line">  cat</span><br><span class="line">* dog</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
+<p>搞定！</p>
+<h2 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h2><p>现在我们删除其他没用的分支，留下 <code>master</code> 分支，并创建 <code>dev</code> 分支：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout master <span class="comment"># 切换到 master 分支</span></span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br><span class="line">$ git branch -d cat dog <span class="comment"># 删除分支</span></span><br><span class="line">Deleted branch cat (was 11f7dd8).</span><br><span class="line">Deleted branch dog (was 11f7dd8).</span><br><span class="line">$ git checkout -b dev</span><br><span class="line">Switched to a new branch <span class="string">'dev'</span></span><br><span class="line">$ git branch</span><br><span class="line">* dev</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
+<p>现在，我们就可以在 <code>dev</code>分支上正常提交，比如对 <code>a.txt</code> 做个修改，加上一行：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Life is short, you need Python.</span><br></pre></td></tr></table></figure>
+<p>提交：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt </span><br><span class="line">$ git commit -m <span class="string">"branch test"</span></span><br><span class="line">[dev 9063364] branch <span class="built_in">test</span></span><br><span class="line"> 1 file changed, 2 insertions(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
+<p>现在，<code>dev</code> 分支的工作完成，我们就可以切换回 <code>master</code> 分支：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout master</span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br></pre></td></tr></table></figure>
+<p>切换回 <code>master</code> 分支后，再查看一个 <code>a.txt</code> 文件，会发现没有刚刚新添加的句子！因为那个提交是在 <code>dev</code> 分支上，而 <code>master</code> 分支此刻的提交点并没有变。<br>现在，我们把 <code>dev</code> 分支的工作成果合并到 <code>master</code> 分支上：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git merge dev <span class="comment"># 将 dev 分支 合并到 master 分支</span></span><br><span class="line">Updating 11f7dd8..8fb2f3a</span><br><span class="line">Fast-forward</span><br><span class="line"> a.txt | 3 ++-</span><br><span class="line"> 1 file changed, 2 insertions(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
+<p><code>git merge</code> 命令用于合并指定分支到当前分支。合并后，再查看 <code>a.txt</code> 的内容，就可以看到，和 <code>dev</code> 分支的最新提交是完全一样的。</p>
+<blockquote>
+<p>git rebase 与 git merge的区别</p>
+<p>git merge是会产生一个树状的历史，如果我们输入git log — all — decorate — oneline —  graph的话，我们可能会看到一个有很多分支的树状结构，但是如果我们用git  rebase，就不再是树状的结构，git会利用其自身的算法，形成一个线性的历史。git rebase的好处可以参看 <a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase" target="_blank" rel="noopener external nofollow noreferrer"><em>这篇文章</em></a>。</p>
+</blockquote>
+<h1 id="共同协作-使用-GitHub"><a href="#共同协作-使用-GitHub" class="headerlink" title="共同协作 - 使用 GitHub"></a>共同协作 - 使用 GitHub</h1><h2 id="GitHub-是什么？"><a href="#GitHub-是什么？" class="headerlink" title="GitHub 是什么？"></a>GitHub 是什么？</h2><p>在开始介绍 <a href="https://github.com/" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a> 之前，请记得它的 G 跟 H 是大写，其它字母小写。它是一个商业网站，是目前全球最大的 Git Server。GitHub 上有很多开源（Open Source）项目，有很多开源的组织在上面贡献代码，例如 Mozilla，LinuxFoundation，Apache等等。</p>
+<p><img src="https://i.loli.net/2021/03/26/gw9YbHpRcLatMOJ.png" alt="K_G6__~AW_Z04__@WZVA089.png"><br>学生还可以获得 GitHub Education 提供的 <a href="https://education.github.com/pack" target="_blank" rel="noopener external nofollow noreferrer">Student Developer Pack</a> 。</p>
+<p>若你还没有 GitHub 账号，请先去 <a href="https://github.com/" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a> 注册账号吧~</p>
+<blockquote>
+<p><strong>Git 与 GitHub 的区别</strong></p>
+<p>Git 是版本控制系统，GitHub 是在线的基于 Git 的代码托管平台。</p>
+</blockquote>
+<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><h2 id="Pull-下载更新"><a href="#Pull-下载更新" class="headerlink" title="Pull 下载更新"></a>Pull 下载更新</h2><p>git pull 和 git fetch 有点类似，这两个都是针对 remote repo 的一些操作，但是其实是有区别的，git pull 可以理解为融合了 fetch 和 merge 的两个操作。fetch，顾名思义，就是从服务器上把数据拿回来，但是注意，此时的数据很可能是已经和本地的 git  repo 不一样了，想象一个团队环境，你 push 了一个代码，可能一会其他团队成员又push 了一个，所以你的本地库可能和远程库有不同，所以这个时候git fetch一下，就紧接着要 merge 一下，把自己 master 和远程的 master 融合一下，这样就更好。</p>
+<p>但是 git pull 的情况就是直接下载远程 repo 并且 update 本地的库，很有可能本地有未保存的部分，git  pull 之后这部分就被 replace 了，而且无迹可查，所以其实更加稳健的方法是使用 git fetch 和 git  merge 共同操作来解决远程库在本地更新的问题。</p>
+<p>如果对于这两者还是有不明白可以参看 <a href="https://blog.csdn.net/weixin_43670802/article/details/105581652?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param" target="_blank" rel="noopener external nofollow noreferrer">这篇文章</a>。</p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>关于 Git 的相关知识也可以看以下的视频：<br><a href="https://youtu.be/FyAAIHHClqI" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/FyAAIHHClqI</a></p>
+<p>猴子都能懂的 GIT 入门：<a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener external nofollow noreferrer">https://backlog.com/git-tutorial/cn/</a></p>
+<p>StackOverflow 上整理的一个资料大合集：<a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide" target="_blank" rel="noopener external nofollow noreferrer">https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide</a></p>
+<p> Visual and interactive way to learn Git  on the web：<a href="https://git.mo.mk/" target="_blank" rel="noopener external nofollow noreferrer">https://git.mo.mk/</a></p>
+<p>Learn Git Branching：<a href="https://learngitbranching.js.org/index.html" target="_blank" rel="noopener external nofollow noreferrer">https://learngitbranching.js.org/index.html</a></p>
+<p>Pro Git - <a href="http://git-scm.com/book" target="_blank" rel="noopener external nofollow noreferrer">http://git-scm.com/book</a>    <a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener external nofollow noreferrer">https://git-scm.com/book/zh/v2</a><br>Pro Git 简体中文版 - <a href="http://iissnan.com/progit/" target="_blank" rel="noopener external nofollow noreferrer">http://iissnan.com/progit/</a></p>
+<p><a href="http://www.worldhello.net/gotgit/index.html" target="_blank" rel="noopener external nofollow noreferrer">Git权威指南 | 国内一位大牛写的介绍 Git 用法的开源书籍，很详实</a></p>
 ]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
       <tags>
-        <tag>插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
-<a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
-<p>选择java</p>
-<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
-<p>如图打开project structure</p>
-<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
-<p>设置成这样</p>
-<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
-<p>点击add configurations</p>
-<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -1350,216 +1477,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Git 教程</title>
-    <url>/posts/git-tutorial.html</url>
-    <content><![CDATA[<p>简明 Git 教程</p>
-<a id="more"></a>
-<h1 id="Git-介绍"><a href="#Git-介绍" class="headerlink" title="Git 介绍"></a>Git 介绍</h1><h2 id="Git-是什么"><a href="#Git-是什么" class="headerlink" title="Git 是什么"></a>Git 是什么</h2><p><a href="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener external nofollow noreferrer">Git</a> 是目前世界上最先进的分布式版本控制系统(Distributed Version Control System)，是由 Linux 之父 <strong>林纳斯·托瓦兹</strong> (Linus Torvalds) 创作。</p>
-<p>什么是版本控制，举个例子，你每天都会新增、编辑、修改许多文档，当修修改改很多次之后，你觉得不满意想回到以前的某个版本，得手动修改添加过的，非常不方便，于是，版本控制系统就可以很好的解决这个问题，Git 就像玩游戏的时候可以存储进度一样，当你修修改改发现被改乱了自己都看不懂的时候，可以回到到以前的任意版本。</p>
-<h1 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h1><h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><h3 id="在-Linux-上安装-Git"><a href="#在-Linux-上安装-Git" class="headerlink" title="在 Linux 上安装 Git"></a>在 Linux 上安装 Git</h3><p>在 Linux 下安装 Git 最简单了，只需一行命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install git</span><br></pre></td></tr></table></figure>
-<p>即可安装成功</p>
-<h3 id="在-Windows-上安装-Git"><a href="#在-Windows-上安装-Git" class="headerlink" title="在 Windows 上安装 Git"></a>在 Windows 上安装 Git</h3><p>在 Git官网 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener external nofollow noreferrer">下载安装程序</a> 按默认选项安装即可。</p>
-<p>安装完成后，即可看到右键菜单多了 Git Gui Here 和 Git Bash Here 这两个选项，说明 Git 已经安装成功了！</p>
-<h3 id="在-Mac-OS-X-上安装-Git"><a href="#在-Mac-OS-X-上安装-Git" class="headerlink" title="在 Mac OS X 上安装 Git"></a>在 Mac OS X 上安装 Git</h3><p>网站：<a href="https://git-scm.com/download/mac" target="_blank" rel="noopener external nofollow noreferrer">https://git-scm.com/download/mac</a></p>
-<p>只要下载、点开、执行，基本上这样就可以顺利完成安装了！</p>
-<p>安装成功后，随便在哪里右键选择 Git Bash Here ，输入以下命令查看 git 版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.30.2.windows.1</span><br></pre></td></tr></table></figure>
-<h1 id="设定-Git"><a href="#设定-Git" class="headerlink" title="设定 Git"></a>设定 Git</h1><p>安装 Git 后首先要做的事情是设置你的用户名称和 Email 地址（用户标识，必要）。</p>
-<p>打开终端，输入以下两行命令（#右边的不用输入，# 右边的为注释，不会被执行）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name“ # Your Name 替换为你的名字</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.email <span class="string">"Your Email Address"</span>  <span class="comment"># Your Email Address 替换为你的邮箱地址</span></span><br></pre></td></tr></table></figure>
-<p>完成之后，可以再检查一下目前的设定：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --list</span><br><span class="line">user.name=xxx</span><br><span class="line">user.email=example@gmail.com</span><br></pre></td></tr></table></figure>
-<h1 id="Git-的基本知识"><a href="#Git-的基本知识" class="headerlink" title="Git 的基本知识"></a>Git 的基本知识</h1><p>Git 本地有三个工作区域：工作目录（Working Directory）、暂存区（Stage/Index）、资源库（Repository 或 Git Directory）。如果再加上远程的 git 仓库（Remote Directory）就可以分为四个工作区域。</p>
-<p><strong>Working Directory</strong>：工作目录，就是你平时存放项目代码的地方，或者是你需要进行版本控制的文件夹目录。</p>
-<p><strong>Repository</strong>：资源库（或本地仓库），工作区有一个隐藏目录 <code>.git</code>，这里面有你提交到所有版本的数据，这个不算工作区，而是Git的版本库。</p>
-<p><strong>Index/Stage</strong>：暂存区，或者叫待提交更新区，在提交进入 repo 之前，我们可以把所有的更新放在暂存区。</p>
-<p>Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫 index）的暂存区，还有 Git 为我们自动创建的第一个分支 <code>master</code> ，以及指向 <code>master</code> 的一个指针叫 <code>HEAD</code>。</p>
-<p><img src="https://i.loli.net/2021/03/26/d7AYu43t5IZTE9s.jpg" alt="repo.jpg"></p>
-<p><strong>远程的 git 仓库（Remote Directory）</strong>：这个就是你的 GitHub 上的仓库</p>
-<p>文件在这四个区域之间的转换关系如下：</p>
-<p><img src="https://i.loli.net/2021/03/26/re7YhnO9xNa2cQl.png" alt="git-connections.png"></p>
-<p><strong>工作流程</strong></p>
-<p>git 的工作流程一般是这样的：</p>
-<p>１、在工作目录中添加、修改文件；</p>
-<p>２、将需要进行版本管理的文件放入暂存区域；</p>
-<p>３、将暂存区域的文件提交到 git 仓库。</p>
-<p>因此，git管理的文件有三种状态：已修改（modified），已暂存（staged），已提交(committed)</p>
-<p>平时使用只需记住下图 6 个命令：</p>
-<p><img src="https://i.loli.net/2021/03/26/3t2x1D4rZThgHuR.png" alt="gitflow.png"></p>
-<h1 id="一个小例子"><a href="#一个小例子" class="headerlink" title="一个小例子"></a>一个小例子</h1><p>这里我们在本地以一个小例子演示 git 的基本使用方法。<br>一起动手实践吧！</p>
-<h2 id="创建-working-directory-并初始化"><a href="#创建-working-directory-并初始化" class="headerlink" title="创建 working directory 并初始化"></a>创建 working directory 并初始化</h2><p>在桌面上右键，Git Bash Here，输入以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir git_test <span class="comment"># 新建文件夹</span></span><br><span class="line">$ <span class="built_in">cd</span> git_test <span class="comment"># 进入git_test文件夹目录</span></span><br><span class="line">$ git init <span class="comment"># 初始化这个目录，让git对此目录进行版本控制</span></span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> C:/Users/Turing/Desktop/git_test/.git/</span><br></pre></td></tr></table></figure>
-<p><img src="https://i.loli.net/2021/03/26/HAsLb7MUoD3BGYh.png" alt="0N_V6_RL_PH3X~TJS0QD__W.png"></p>
-<p>在上面的命令中，做了以下几件事：<br>1.使用 <code>mkdir</code> 创建名为 <code>git_test</code> 的文件夹，这就是我们的 working directory<br>2.使用 <code>cd</code> 切换到 <code>git_test</code> 目录<br>3.使用 <code>git init</code> 初始化此目录，这样就可以让 Git 对这个目录进行版本控制</p>
-<p>我们可以看到执行 <code>git init</code> 后，在目录下有个 <code>.git</code> 的隐藏文件夹，这就是 local repo，有兴趣可以看看里面的内容 。</p>
-<blockquote>
-<p>如果你看不到，请勾选 显示隐藏的项目 。</p>
-</blockquote>
-<p>如果有一天你想让这个目录不再被 Git 控制，其实 Git 的版本控制很单纯，全部都是靠那个 .git 目录在做事而已，所以如果这个不想被版控，或是只想给客户不含版本控制记录的內容的话，只要把那个 <code>.git</code> 目录移除，Git 就对这个目录失去控制权了。</p>
-<blockquote>
-<p>也就是说，在这个目录里，你只要没有删除 <code>.git</code> 文件夹，其他的随便删都可以找回来，<code>.git</code> 被删除了就没有办法了。</p>
-</blockquote>
-<h2 id="添加进暂存区（Staging-Area）"><a href="#添加进暂存区（Staging-Area）" class="headerlink" title="添加进暂存区（Staging Area）"></a>添加进暂存区（Staging Area）</h2><p>先介绍下 <code>git status</code> 这个命令，这个命令是用来查询当前目录的「状态」，先在刚刚建立的 <code>git_test</code> 目录下执行这个指令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">nothing to commit (create/copy files and use <span class="string">"git add"</span> to track)</span><br></pre></td></tr></table></figure>
-<p>在这个目录里，现在除了 Git 帮你创建的那个 <code>.git</code> 隐藏目录外什么都没有，所以上面这段信息就是跟你说「现在没有东西可以提交（nothing to commit）」。<br>现在，我们创建一个 txt 文本，输入 <code>Talk is cheap, show me the code.</code> 并保存， 再使用 <code>git status</code> 来查看目录状态：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">echo</span> <span class="string">"Talk is cheap, show me the code."</span>&gt; a.txt <span class="comment"># 如果不会用命令行创建文件，可以手动创建a.txt 并输入内容保存</span></span><br><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">Untracked files:</span><br><span class="line">  (use <span class="string">"git add &lt;file&gt;..."</span> to include <span class="keyword">in</span> what will be committed)</span><br><span class="line">        a.txt</span><br><span class="line"></span><br><span class="line">nothing added to commit but untracked files present (use <span class="string">"git add"</span> to track)</span><br></pre></td></tr></table></figure>
-<p>现在就和刚才不一样了，可以看到 <code>a.txt</code> 文件的状态是 <code>Untracked files</code> ，意思是这个文件没有加入到 Git 版本控制系统中，还没有被 Git 追踪，只是刚加到了目录里面。</p>
-<p>使用命令 <code>git add</code> + 文件名称 来追踪文件，加入到 Stage 暂存区：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line"></span><br><span class="line">No commits yet</span><br><span class="line"></span><br><span class="line">Changes to be committed:</span><br><span class="line">  (use <span class="string">"git rm --cached &lt;file&gt;..."</span> to unstage)</span><br><span class="line">        new file:   a.txt</span><br></pre></td></tr></table></figure>
-<p>可以看到 <code>a.txt</code> 文件的状态变为了 <code>new file</code> 状态了，此时这个文件已被存到暂存区（Staging Area），没有 add 的文件还是再工作区，add 之后才能进行 commit 等操作。</p>
-<blockquote>
-<p>如果有很多文件要 add，那么使用 <code>git add --all</code> 即可将所有文件添加进暂存区。 </p>
-<p><strong><code>--all</code> 跟 <code>.</code> 参数有什么不一样？</strong><br>有时候会看到別人说 <code>git add .</code> 指令也可以把所有的文件全部加到暂存区喔！」，这样的说法其实不完全正确。</p>
-<p>区别就是 <strong>执行指令时候的目录位置</strong>：<br><code>git add .</code> 这个指令会把目前当下这个目录，以及它的子目录、子子目录、子子子目录…里的异动全部加到暂存区，但在这个目录的以外的就不归它管了。而 <code>git add --all</code> 指令就没这个问题，这个指令不管在哪一层目录执行，效果都是一样的，在这个工作目录里所有的异动都会被加至暂存区。</p>
-<p>还有一种区别就不讨论了，Git 2.x 之后，就只是上面的一种区别了。</p>
-</blockquote>
-<h2 id="提交到本地仓库（Local-Repository）"><a href="#提交到本地仓库（Local-Repository）" class="headerlink" title="提交到本地仓库（Local Repository）"></a>提交到本地仓库（Local Repository）</h2><p>如果仅是通过 <code>git add</code> 命令把文件加到暂存区是不够的，这样还不算是完成整个流程。要让暂存区的內容永久的存下來的話，使用的是 <code>git commit</code> 命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git commit -m <span class="string">"init commit"</span></span><br><span class="line">[master (root-commit) 3777d07] init commit</span><br><span class="line"> 1 file changed, 0 insertions(+), 0 deletions(-)</span><br><span class="line"> create mode 100644 a.txt</span><br></pre></td></tr></table></figure>
-<p><code>git commit</code> 的操作就是相当于把一个文件在 git 的系统中进行存档了，这个 commit 需要一个 <code>-m</code> 参数并且需要传入一个 message，就是对本次 commit 的一个简述，说明「你在这次的 Commit 做了什么事情」，只要使用简单、清楚的文字说明就好，中、英文都可，重点是清楚，让不久之后的你或是你的同事能很快的明白就行了，对于 commit message 是有一定的规范的，可参看 <a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/" target="_blank" rel="noopener external nofollow noreferrer">freecodecamp</a>。</p>
-<p>当完成了这个动作后，对 Git 来说就是「把暂存区的东西存放到本地仓库（Local Repository）里」，换言之就是「我完成一个存档（或备份）的动作了」，也是建立了一个我们在前面提到的「版本」。</p>
-<p>到底 Commit 了哪写东西？</p>
-<blockquote>
-<p>请先记住一个很重要的概念：「Git 每次的 commit 都只会处理暂存区（Staging Area）里的內容」。也就是说，如果在执行 git commit 指令的時候，那些还没被 add 到暂存区的里的文件，是不会被 commit 到本地仓库的。</p>
-</blockquote>
-<p>那个信息是什么？很重要吗？一定要有吗？</p>
-<blockquote>
-<p>是的，很重要！很重要！很重要！（重要的事情说三遍！！！）</p>
-<p>在 commit 的时候，如果没有输入这个信息，Git 预设是不会让你完成Commit 这件事的。它最主要的目的就是告诉你自己以及其它人「这次的修改做了什么」。</p>
-</blockquote>
-<p>commit 之后，再次输入 <code>git status</code> 查看状态：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
-<p>一旦提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的（working tree clean）。</p>
-<h2 id="时光穿梭"><a href="#时光穿梭" class="headerlink" title="时光穿梭"></a>时光穿梭</h2><p>我们已经成功地添加并提交了一个 <code>a.txt</code> 文件，现在，是时候继续工作了，于是，我们继续修改 <code>a.txt</code> 文件，改成如下内容：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
-<p>运行 <code>git status</code> 命令看看结果：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">Changes not staged <span class="keyword">for</span> commit:</span><br><span class="line">  (use <span class="string">"git add &lt;file&gt;..."</span> to update what will be committed)</span><br><span class="line">  (use <span class="string">"git restore &lt;file&gt;..."</span> to discard changes <span class="keyword">in</span> working directory)</span><br><span class="line">        modified:   a.txt</span><br><span class="line"></span><br><span class="line">no changes added to commit (use <span class="string">"git add"</span> and/or <span class="string">"git commit -a"</span>)</span><br></pre></td></tr></table></figure>
-<p>可以看到， <code>a.txt</code> 文件被修改（modified）过了，但还没有准备提交的修改。<br>虽然Git告诉我们 <code>a.txt</code> 被修改了，但如果能看看具体修改了什么内容，自然是很好的。比如你几周前的代码，今天打开看时，已经记不清上次怎么修改的 <code>a.txt</code>，所以，可以用 <code>git diff &lt;file&gt;</code> 这个命令看看：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git diff a.txt</span><br><span class="line">warning: LF will be replaced by CRLF <span class="keyword">in</span> a.txt.</span><br><span class="line">The file will have its original line endings <span class="keyword">in</span> your working directory</span><br><span class="line">diff --git a/a.txt b/a.txt</span><br><span class="line">index 44b4314..4986cc2 100644</span><br><span class="line">--- a/a.txt</span><br><span class="line">+++ b/a.txt</span><br><span class="line">@@ -1 +1 @@</span><br><span class="line">-Talk is cheap, show me the code.</span><br><span class="line">+Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
-<p><code>-</code> 号开头那行（通常是红色的）是删除的<br><code>+</code> 号开头那行（通常是绿色的）是新添加的<br>从上面的命令输出看到，我们在添加了一个 not 单词。</p>
-<p>现在我们将其 add 到暂存区并提交：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git commit -m <span class="string">"add not"</span></span><br><span class="line">[master 39fcc71] add not</span><br><span class="line"> 1 file changed, 1 insertion(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
-<p>提交后，我们再用 <code>git status</code> 命令看看仓库的当前状态：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line">On branch master</span><br><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
-<p>Git告诉我们当前没有需要提交的修改，而且，工作目录是干净（working tree clean）的。</p>
-<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><p>修改 <code>a.txt</code> 文件如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Talk is not cheap, show me the code.</span><br><span class="line">Everything is a file.</span><br></pre></td></tr></table></figure>
-<p>add，commit：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt</span><br><span class="line">$ git commit -m <span class="string">"ADD Everything is a file"</span></span><br><span class="line">[master 11f7dd8] ADD Everything is a file</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br></pre></td></tr></table></figure>
-<p>像这样，你对文件进行修修改改，然后提交到版本库中，好比玩游戏时，隔一段时间你存一下档，存档再 Git 中就是 commit 。当你文件改乱了，或者不小心误删了，可以恢复到任意一个 commit，然后继续工作。</p>
-<p>现在，我们来看看 <code>a.txt</code> 文件一共有几个版本，使用 <code>git log</code> 查看：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span></span><br><span class="line">commit 11f7dd8176bb68c7c4724db94bfbad5d05105d13 (HEAD -&gt; master)</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:44:51 2021 +0800</span><br><span class="line"></span><br><span class="line">    ADD Everything is a file</span><br><span class="line"></span><br><span class="line">commit 39fcc71d1c717b18e306d352e15ab4d8719ec0b1</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:28:33 2021 +0800</span><br><span class="line"></span><br><span class="line">    add not</span><br><span class="line"></span><br><span class="line">commit 170b595f8f698d4412acea23840cca35afe1e7fb</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:18:17 2021 +0800</span><br><span class="line"></span><br><span class="line">    init commit</span><br></pre></td></tr></table></figure>
-<p><code>git log</code> 命令显示从最近到最远的提交日志，我们可以看到3次提交，最近的一次是 <code>ADD Everything is a file</code> ，上一次是 <code>add not</code>，最早的一次是 <code>init commit</code>。</p>
-<p>如果你觉得输出信息太多，不好看，可以使用 <code>--pretty=oneline</code> 参数：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span> --pretty=oneline</span><br><span class="line">11f7dd8176bb68c7c4724db94bfbad5d05105d13 (HEAD -&gt; master) ADD Everything is a file</span><br><span class="line">39fcc71d1c717b18e306d352e15ab4d8719ec0b1 add not</span><br><span class="line">170b595f8f698d4412acea23840cca35afe1e7fb init commit</span><br></pre></td></tr></table></figure>
-<p>你看到的一大串类似 <code>11f7dd...</code>的是 <code>commit id</code>（版本号），和 SVN 不一样，Git 的 <code>commit id</code> 不是1，2，3…… 递增的数字，而是一个 SHA1 计算出来的一个非常大的数字，用十六进制表示，而且你看到的 <code>commit id</code> 和我的肯定不一样，以你自己的为准。为什么 <code>commit id</code> 需要用这么一大串数字表示呢？因为 Git 是分布式的版本控制系统，后面我们还要研究多人在同一个版本库里工作，如果大家都用 1，2，3…… 作为版本号，那肯定就冲突了。</p>
-<p>现在，比如你想把 <code>a.txt</code> 回退到上一个版本，也就是 <code>add not</code> 的那个版本，怎么做呢？<br>首先，Git 必须知道当前版本是哪个版本，在 Git 中，用 <code>HEAD</code>表示当前版本，也就是最新的提交 <code>11f7dd...</code> （注意我的提交ID和你的肯定不一样），上一个版本就是 <code>HEAD^</code>，上上一个版本就是<code>HEAD^^</code>，当然往上 100 个版本写 100 个 <code>^</code> 比较容易数不过来，所以写成 <code>HEAD~100</code>。</p>
-<p>现在，我们要把当前版本 <code>ADD Everything is a file</code> 回退到上一个版本 <code>add not</code>，就可以使用 <code>git reset</code> 命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git reset --hard HEAD^</span><br><span class="line">HEAD is now at 39fcc71 add not</span><br></pre></td></tr></table></figure>
-<p><code>--hard</code> 参数后面再讲，现在我们看看 <code>a.txt</code> 里面的内容是不是我们想要的样子（你也可以手动打开文件进行查看）。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cat a.txt</span><br><span class="line">Talk is not cheap, show me the code.</span><br></pre></td></tr></table></figure>
-<p>显然，达到了我们的想要的效果。</p>
-<p>你也可以继续回退到第一个版本，不过现在让我们用 <code>git log</code> 来看看版本库的状态（有时候信息很多，按回车可以继续往下滚动查看，按 <code>q</code> 键退出）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">log</span></span><br><span class="line">commit 39fcc71d1c717b18e306d352e15ab4d8719ec0b1 (HEAD -&gt; master)</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:28:33 2021 +0800</span><br><span class="line"></span><br><span class="line">    add not</span><br><span class="line"></span><br><span class="line">commit 170b595f8f698d4412acea23840cca35afe1e7fb</span><br><span class="line">Author: turing0 &lt;turing175@gmail.com&gt;</span><br><span class="line">Date:   Fri Mar 26 13:18:17 2021 +0800</span><br><span class="line"></span><br><span class="line">    init commit</span><br></pre></td></tr></table></figure>
-<p>会看到：之前 <code>ADD Everything is a file</code> 的版本不在了，我们还能回到那个版本吗，可以的，前提是你没有关闭当前的命令行窗口，你可以往回翻，找到 <code>ADD Everything is a file</code> 对应的 <code>commit id</code> 是 <code>11f7dd...</code>，于是我们可以指定回到这个版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git reset --hard 11f7dd</span><br><span class="line">HEAD is now at 11f7dd8 ADD Everything is a file</span><br></pre></td></tr></table></figure>
-<p>版本号可以不用写全，只需写前几位就可以了，Git 会自动去找。当然也不能只写前一两位，因为 Git 可能会找到多个版本号，就无法确定是哪一个了。</p>
-<p>你可以查看 <code>a.txt</code> 的内容，会发现又回来了。</p>
-<p><strong>Reset 的模式</strong></p>
-<p><code>git reset</code> 指令可以搭配参数使用，常見到的三种参数，分別是<code>--mixed</code> 、 <code>--soft</code> 以及 <code>--hard</code> ，不同的参数执行之后会有稍微不太一样的结果</p>
-<p><strong>mixed 模式</strong></p>
-<p><code>--mixed</code> 是预设的参数，如果沒有特別加参数， <code>git reset</code> 命令将默认使用 <code>--mixed</code> 模式。这个模式会把暂存区的文件丟掉，但不会改动工作目录的文件，也就是说 Commit 拆出来的文件会留在工作目录，但不会留在暂存区。</p>
-<p><strong>soft 模式</strong></p>
-<p>这个模式下的 reset，工作目录跟暂存区的文件都不会被丟掉，所以看起来就只有 HEAD 的移动而已。也因此，Commit 拆出來的文件会直接放在暂存区。</p>
-<p><strong>hard 模式</strong></p>
-<p>在这个模式下，不管是工作目录以及暂存区的文件都会丟掉。</p>
-<p><strong>技巧：</strong><br> 只要记住执行 soft 模式后（回到 stage 暂存区状态），如果再次将原来的文件添加到仓库的话，需要 git commit <strong>一个命令</strong>就可以了。而 mixed 模式（回到 workspace 状态）需要执行 git add 和 git commit <strong>两个命令</strong>。对于 hard 模式来说是一种硬恢复，导致部分数据丢失，尽量不要用(可以使用 git reflog 来恢复)。</p>
-<p>你只要记住些不同的模式，将会决定「Commit 拆出来的那些文件何去何从」，让我再用另一个表格来解释：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">模式</th>
-<th style="text-align:center">mixed 模式（预设）</th>
-<th style="text-align:center">soft 模式</th>
-<th style="text-align:center">hard 模式</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Commit 拆出来的文件</td>
-<td style="text-align:center">丟回工作目录</td>
-<td style="text-align:center">丟回暂存区</td>
-<td style="text-align:center">直接丟掉</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id="分支（Branch）介绍"><a href="#分支（Branch）介绍" class="headerlink" title="分支（Branch）介绍"></a>分支（Branch）介绍</h1><h2 id="为什么要使用分支？"><a href="#为什么要使用分支？" class="headerlink" title="为什么要使用分支？"></a>为什么要使用分支？</h2><p>分支的概念就有点像「分身术」，当你做出一只新的分身（分支），这个分身会去执行任务或是打倒敌人，如果执行失败了，最多就是那个分身消失，就再做一只新的分身就行了，本体不会因此受到影响。</p>
-<p>在开发的过程中，一路往前 Commit 也没什么问题，但当开始越来越多同伴一起在同一个专案工作的时候，可能就不能这么随兴的想 Commit 就 Commit，这时候分支就很好用。例如想要增加新功能，或是修正 Bug，或是想实验看看某些新的做法，都可以另外做一个分支来进行，待做完确认没问题之后再合并回来，不会影响正在运行的产品线。</p>
-<p>在多人团队共同开发的时候，甚至也可引入像 Git Flow / GitHub Flow / GitLab Flow 之类的开发流程，让同一个团队的人都可以用相同的方式进行开发，减少不必要的沟通成本。</p>
-<h2 id="分支的使用"><a href="#分支的使用" class="headerlink" title="分支的使用"></a>分支的使用</h2><p>在 Git 使用分支很简单，只要使用 <code>git branch</code> 命令就行了：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<p>如果 <code>git branch</code> 后面没接任何参数，它会打印出目前在这个方案有哪些分支。Git 预设会帮你设定一个名为 <code>master</code> 的分支，前面的星号 <code>*</code> 表示现在正在这个分支上。</p>
-<h3 id="新增分支"><a href="#新增分支" class="headerlink" title="新增分支"></a>新增分支</h3><p>要增加一个分支，就是在执行 <code>git branch</code> 指令的時候，在后面加上想要的分支的名字：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch cat</span><br></pre></td></tr></table></figure>
-<p>这样就新增了一个 <code>cat</code> 分支，再检查一下：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch  </span><br><span class="line">  cat</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<p>的确是多了一个分支，但现在分支还是在 <code>master</code> 上。</p>
-<h3 id="修改分支"><a href="#修改分支" class="headerlink" title="修改分支"></a>修改分支</h3><p>如果你觉得名字不好听，你可以随时修改分支的名字，且不会有任何影响，比如我想把 <code>cat</code> 分支改成 <code>dog</code> 分支，使用 <code>-m</code> 参数：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch -m cat dog</span><br></pre></td></tr></table></figure>
-<p>看一下现在的分支情况：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">  dog</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<h3 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h3><p>检查一下目前的分支：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">  dog</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<p>如果你不想要 <code>dog</code> 分支了，使用 <code>-d</code> 参数来删除分支：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch -d dog</span><br><span class="line">Deleted branch dog (was 11f7dd8).</span><br><span class="line">$ git branch</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<p>这样，<code>dog</code> 分支就被删除了</p>
-<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><p>我们还是先新建 <code>cat</code> 分支</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch cat</span><br><span class="line">$ git branch</span><br><span class="line">  cat</span><br><span class="line">* master</span><br></pre></td></tr></table></figure>
-<p>如果要切换到 <code>cat</code> 分支，只需使用 <code>git checkout &lt;branch name&gt;</code> 命令即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout cat</span><br><span class="line">Switched to branch <span class="string">'cat'</span></span><br></pre></td></tr></table></figure>
-<p>查看分支状态：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">* cat</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
-<p>前面的那个星号已经移到 <code>cat</code> 分支上了。</p>
-<p>其实，你也可以加上 <code>-b</code> 参数，可以直接创建新分支并切换过去，若是已有的分支，则会直接切换过去:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout -b dog <span class="comment"># 新建dog分支并切换到dog分支</span></span><br><span class="line">Switched to a new branch <span class="string">'dog'</span></span><br><span class="line">$ git branch</span><br><span class="line">  cat</span><br><span class="line">* dog</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
-<p>搞定！</p>
-<h2 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h2><p>现在我们删除其他没用的分支，留下 <code>master</code> 分支，并创建 <code>dev</code> 分支：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout master <span class="comment"># 切换到 master 分支</span></span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br><span class="line">$ git branch -d cat dog <span class="comment"># 删除分支</span></span><br><span class="line">Deleted branch cat (was 11f7dd8).</span><br><span class="line">Deleted branch dog (was 11f7dd8).</span><br><span class="line">$ git checkout -b dev</span><br><span class="line">Switched to a new branch <span class="string">'dev'</span></span><br><span class="line">$ git branch</span><br><span class="line">* dev</span><br><span class="line">  master</span><br></pre></td></tr></table></figure>
-<p>现在，我们就可以在 <code>dev</code>分支上正常提交，比如对 <code>a.txt</code> 做个修改，加上一行：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Life is short, you need Python.</span><br></pre></td></tr></table></figure>
-<p>提交：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add a.txt </span><br><span class="line">$ git commit -m <span class="string">"branch test"</span></span><br><span class="line">[dev 9063364] branch <span class="built_in">test</span></span><br><span class="line"> 1 file changed, 2 insertions(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
-<p>现在，<code>dev</code> 分支的工作完成，我们就可以切换回 <code>master</code> 分支：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout master</span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br></pre></td></tr></table></figure>
-<p>切换回 <code>master</code> 分支后，再查看一个 <code>a.txt</code> 文件，会发现没有刚刚新添加的句子！因为那个提交是在 <code>dev</code> 分支上，而 <code>master</code> 分支此刻的提交点并没有变。<br>现在，我们把 <code>dev</code> 分支的工作成果合并到 <code>master</code> 分支上：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git merge dev <span class="comment"># 将 dev 分支 合并到 master 分支</span></span><br><span class="line">Updating 11f7dd8..8fb2f3a</span><br><span class="line">Fast-forward</span><br><span class="line"> a.txt | 3 ++-</span><br><span class="line"> 1 file changed, 2 insertions(+), 1 deletion(-)</span><br></pre></td></tr></table></figure>
-<p><code>git merge</code> 命令用于合并指定分支到当前分支。合并后，再查看 <code>a.txt</code> 的内容，就可以看到，和 <code>dev</code> 分支的最新提交是完全一样的。</p>
-<blockquote>
-<p>git rebase 与 git merge的区别</p>
-<p>git merge是会产生一个树状的历史，如果我们输入git log — all — decorate — oneline —  graph的话，我们可能会看到一个有很多分支的树状结构，但是如果我们用git  rebase，就不再是树状的结构，git会利用其自身的算法，形成一个线性的历史。git rebase的好处可以参看 <a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase" target="_blank" rel="noopener external nofollow noreferrer"><em>这篇文章</em></a>。</p>
-</blockquote>
-<h1 id="共同协作-使用-GitHub"><a href="#共同协作-使用-GitHub" class="headerlink" title="共同协作 - 使用 GitHub"></a>共同协作 - 使用 GitHub</h1><h2 id="GitHub-是什么？"><a href="#GitHub-是什么？" class="headerlink" title="GitHub 是什么？"></a>GitHub 是什么？</h2><p>在开始介绍 <a href="https://github.com/" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a> 之前，请记得它的 G 跟 H 是大写，其它字母小写。它是一个商业网站，是目前全球最大的 Git Server。GitHub 上有很多开源（Open Source）项目，有很多开源的组织在上面贡献代码，例如 Mozilla，LinuxFoundation，Apache等等。</p>
-<p><img src="https://i.loli.net/2021/03/26/gw9YbHpRcLatMOJ.png" alt="K_G6__~AW_Z04__@WZVA089.png"><br>学生还可以获得 GitHub Education 提供的 <a href="https://education.github.com/pack" target="_blank" rel="noopener external nofollow noreferrer">Student Developer Pack</a> 。</p>
-<p>若你还没有 GitHub 账号，请先去 <a href="https://github.com/" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a> 注册账号吧~</p>
-<blockquote>
-<p><strong>Git 与 GitHub 的区别</strong></p>
-<p>Git 是版本控制系统，GitHub 是在线的基于 Git 的代码托管平台。</p>
-</blockquote>
-<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><h2 id="Pull-下载更新"><a href="#Pull-下载更新" class="headerlink" title="Pull 下载更新"></a>Pull 下载更新</h2><p>git pull 和 git fetch 有点类似，这两个都是针对 remote repo 的一些操作，但是其实是有区别的，git pull 可以理解为融合了 fetch 和 merge 的两个操作。fetch，顾名思义，就是从服务器上把数据拿回来，但是注意，此时的数据很可能是已经和本地的 git  repo 不一样了，想象一个团队环境，你 push 了一个代码，可能一会其他团队成员又push 了一个，所以你的本地库可能和远程库有不同，所以这个时候git fetch一下，就紧接着要 merge 一下，把自己 master 和远程的 master 融合一下，这样就更好。</p>
-<p>但是 git pull 的情况就是直接下载远程 repo 并且 update 本地的库，很有可能本地有未保存的部分，git  pull 之后这部分就被 replace 了，而且无迹可查，所以其实更加稳健的方法是使用 git fetch 和 git  merge 共同操作来解决远程库在本地更新的问题。</p>
-<p>如果对于这两者还是有不明白可以参看 <a href="https://blog.csdn.net/weixin_43670802/article/details/105581652?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param" target="_blank" rel="noopener external nofollow noreferrer">这篇文章</a>。</p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>关于 Git 的相关知识也可以看以下的视频：<br><a href="https://youtu.be/FyAAIHHClqI" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/FyAAIHHClqI</a></p>
-<p>猴子都能懂的 GIT 入门：<a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener external nofollow noreferrer">https://backlog.com/git-tutorial/cn/</a></p>
-<p> Visual and interactive way to learn Git  on the web：<a href="https://git.mo.mk/" target="_blank" rel="noopener external nofollow noreferrer">https://git.mo.mk/</a></p>
-]]></content>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Google Kickstart 2020</title>
     <url>/posts/1484be77.html</url>
     <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>我设置了google日历提醒我的  它为什么没有提醒我 😓</p>
@@ -1575,6 +1492,95 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>kickstart</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
+<p>选择java</p>
+<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
+<p>如图打开project structure</p>
+<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
+<p>设置成这样</p>
+<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
+<p>点击add configurations</p>
+<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Firefox和Chrome 自用扩展插件</title>
+    <url>/posts/firefox-chrome-extensions.html</url>
+    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
+<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+<a id="more"></a>
+<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
+<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
       </tags>
   </entry>
   <entry>
@@ -1704,51 +1710,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Hexo</tag>
         <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux下C语言学习</title>
-    <url>/posts/linux-c.html</url>
-    <content><![CDATA[<p>系统Ubuntu  18.04</p>
-<a id="more"></a>
-<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
-<p>更新软件：<code>sudo apt upgrade;</code></p>
-<p>下载vim：<code>sudo apt install vim；</code></p>
-<p>下载gcc：<code>sudo apt install gcc</code></p>
-<p>下载gdb：<code>sudo apt install gdb</code></p>
-<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
-<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
-<p><code>vi hello.c</code></p>
-<p>按i进入输入模式</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>按esc推出输入模式，保存退出</p>
-<p>编译hello.c</p>
-<p><code>gcc -o hello hello.c -Wall</code></p>
-<p>执行</p>
-<p><code>./hello</code></p>
-<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
-<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
-<p><code>gcc -c hello.c</code></p>
-<p>就将 hello.c 编译为 hello.o。</p>
-<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
-<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
-<p><code>gcc -c hello.c -o a.o</code></p>
-<p>这样生成的目标文件的名字就是 a.o。</p>
-<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
-<p><code>gcc hello.o</code></p>
-<p>就将 hello.o 链接为 a.out。</p>
-<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
-<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
-<p><code>gcc hello.o -o hello.out</code></p>
-<p>这样生成的可执行文件的名字就是 hello.out。</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2203,53 +2164,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>打造你的最强Firefox浏览器</title>
-    <url>/posts/power-firefox.html</url>
-    <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
-<a id="more"></a>
-<h1 id="下载Firefox"><a href="#下载Firefox" class="headerlink" title="下载Firefox"></a>下载Firefox</h1><p>国际版官网：<a href="https://mozlilla.org/zh-CN/firefox" target="_blank" rel="noopener external nofollow noreferrer">https://mozlilla.org/zh-CN/firefox</a>，时刻注意链接重定向</p>
-<p>下面网址下载<strong>国际英文版</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
-<p>下面网址下载<strong>国际中文版</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;zh-CN&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
-<p>国内版官网：<a href="http://firefox.com.cn" target="_blank" rel="noopener external nofollow noreferrer">http://firefox.com.cn</a>，很有中国味道</p>
-<h1 id="插件-amp-扩展"><a href="#插件-amp-扩展" class="headerlink" title="插件&amp;扩展"></a>插件&amp;扩展</h1><p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Palpitate</title>
-    <url>/posts/otof.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Hey, password is required here.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="977b7aabfebc4280e0e7638ec8e197bf7d978ad58e3f2508bbef2fdc5447c818">1eb3b6a1a6adba4e78f7322ca4d667ad6de6a59e39b3c2c32d1bc1b621ced441b9ef013864597174e44a6009e9df3941a614f5951f964fb2473d4929805c5ea98f28893fd6ab9b78177ae0322f0d6fd7a89e5c2bcba5f7d600fb46c43b49c929735259a346207938a097b2428823a5afcb8651c1b86a8d6efd2b662dc439740826aa6ada2af1c4b98ce96640e72ae5f06d2d140e34fc223844745b2b060fa98e2bf7dbf64e785ec0669c730428257310bff1822a01e2f31de2c1d172212738a25cc47e2167138a120f3136b9edbd4d8742233854227875ab6fa3eaedf7f1d5094144968cfdcdc8e02669fe2c6b9a21ecc6789d7804ab6edfbfeea1ddcbacff9a5678827d48fe3a1743f7feaa30161a263a23907a31802f7efc14ee54fdca5f6a9948616a2eeec489fd281883d0b6a5d2242fb06c7aa7390199903cbdfa084008c6500383d97127228bb93b869d64e5bb06d831c3109e903895488253c552885dea4dda2d7e9dfecf51ae0246d87a3718d062b15f8b0c81dd270c72ff2f27ac9dfc8d91e5f022eda8f0a08c531356c7e8ac43b2af1bfeaeb0e8b6c71d803ab1f9c8151c711fd343906e6039479b539d5de8a1ee1c5073320d5b0bbd26c0213897990accf643e459288dc800098bc0f447c37bb85c1b98d35b093288b6291df7d7ad47445d06b17e6e6c9b11fb8c25fd33590ac85df8b118478c21451c1ffaf8f09fbf71fce8e8d864af06a9edb84166463d859e0ea504d2d2910f38373547d75aab5b16767359f6b895a65a2cee4b7c16192277fb3877e9eea9c457ad429d075b5d509457fd30c87a2fd462b3e8164ef0085821d2efc62c6395a9c4967f0f4ec86fce0f196d3b6511cca704e50d9230a6ea829575c57d3ac5af6eae79464efbc4aabecba0e6185511263784229efa1db2fd806ee92ca6fdf880306dda891383666a7335dc67443e8638d8cc0c65660bd161caf1826812b2b64c23dfdff244ff54eb9ebc07efe759b4eb540d3054777676c8c4b25036990928f8ad0a061e7e8593a1f3574c5704cad30d3cf081bfcd3bd224855915b0d4399e676a1907d433365a9358fba278925138cc11d2024932c21028409fdc872b1c5c43b613540f36b78f565fb92cfbccda5e6e369badc8e5df6ae5f5b63f1d52647daf2f1c91e4768167d730a18ae706437dc0d1b485d6a1d0eb8e633c924acd7a2d39d0911ad11fcdac582724e94e640acb7a7d898b465676639178acabd19fb374a34b309afaf822a682e10ac19c99941a8d536c4be25d9137e21e2af768fec1c7bfee2ac7ff887126733996cdeaa62edeba6c29219067e2ac7de743b0efcf1e979c7349364b301d23cddde32e65b36ece69015dbf405039417006ae294182769f824c3fe58a16bd3a6d9e514b9f70e9529ad08e971bdb6f062c447f0e006fbe2a8396d1592a0c4b8b66b54219d52ef018720e8f6a87e95bb3c75622c6e212c8366b5a110468ff85274f14e2e6705df04d923d7eda433ae982d69c1b22fc1974193d58fc133e5d014455cf97511330af57d7fde61af9a5c9f5c6838376ca07d875772797a57a736e2ba35487275cd3fef983c69b4f508dd1ce790ee988263923c33174ce6328717e54dc74d996952b330837a9079cd52990c5470de71dbb1c2cfbc7827da0d02d4ef419b41f2025a97edafb55f488d7aed68d4fc3fa57506aec93d48deb8e71d368572fac1422f989f9dbc58f8e6136f33744669417f4e40d2fb692b7c8160e08fde7c3800c1d34a037d356617d7a8012e3b37b33a3b842f7710b9394b82d5f1a26d34360777d4bfd027787b259b85de26a82d98a728a0fbecf71d01a6f22fc1de306ae9755348daa6f7434552518dcd70cb2d327cc46e09d444b2868f6fb73ecaaa547d7798d4543de6c7581bf15258f132cffb9ddebc37bfc95112b8117b0f34c40bec2de8e8e32f7d8b43bf8d2baa7a93e3d2a2706a7f26d60e8adc71297300f15856426f5db64840097309bec3add30dc3b40d148a88e8efe5e1342c9f336d386a13c2fb6eeca4afa2cc48d99b66c7c3e1bcdb40f1843743a4f8a5a8d791dbed3d50b13c5e839a9e57a15f622afd2cd8811461e48ece70c2600e233bf70f09dcbd30ca1876b392fef258115aef33b5ecc60cf849d23f722637a3c1c03eabd0dd61eb0c98328beea0f4d854da5482fbc5f0ce8bd084ed3328a563ef6998311b6efdb3e3fb5e8601aa6823c3cb7afe734039a0950a8a880d9dcfc04a51e691e7bda27ee0341b6b8d7f430cc812f3160b4dfec1cff90c6d84f64bdaacec80937da24989701eac55453e2ff0219aea04b285536da16d5e4111f1058907556000d8d4e03948b71d31bd0d9df9341d8b5a0fd6e7024ee32db47d7a5451db6b48c1dfbad831f77aa39b78025ad620422232f00d25bec4c5b80a57781383516b3f23bd8304f271cc228220efa1f6930212138481acfd1858ea6064d7024dfbe1ec337d977beaae7026e150d97ed80c683395b6f831a18b1f2a2949a0459021349a78edbb5720b73a0e6a68e566a5d84f56165e325e71dd9e8120ca8fa55d86a7aede9a3cec05aba2a25a520a3bea31467cf1a844865d9cbef195d67bfeb9fa3ae3f9c7232513abb321af1f353aa36f5bb75095aa55159dc0d0177de8a911ebfd9d0ee59d6c507214f980f6c77b8a50e71f2f6a82a36914b5e849f2fbbc8d6aada3e05ff85c9e1870e453b0fe28c9cd2d2fa68bdddddbc323bff5534d7bcd5599c54abb8d9927e99b0c1e95e5397333dbc4a8f343569df831017ee0e95376e1a84566533a0e866080bab84ba6828847693fa259312e15119a609463130cfaaf4edbfa111c0c653f3fd139cc71ecf9bb174792767eb0b177d5a523f223be26e305574a73df1ac816747dfbdaf0eec9856ec3efed629e803fbfa0a8dedd6f39093ba37ff5b87dee4d765facb55b0515e8c1022f99d188303cf88c01eeecac755e6e991eb80a43b382d0c077073de4436acfe818ccb85c448a371407ea883829949c17d697105151976c2154ffedf6f8000f5c6a6daa7b2d5b348027df055b6c2347e373fa1e48f555f58be927f3153d5b34f903b93171df4d13699e579ebd1e9558b5868114a97539cbeff34b0501abee8541b9083ffe4b1d07395553e86473ef51741ba726547e065da21c2a6e1f2c9a2ce1a44fb370ca808042a393d5e80973b48a104fdee83145860209f725b4e961dd69b4363b643508b830a32b57ce67b1b97814e99cc4e4dfcf54e65625d7095e60ef47fdb1b9b6f2ba0d3d4efa01623e7745bff20ba</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
     <title>电影 书单</title>
     <url>/posts/79f93cc5.html</url>
     <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
@@ -2324,21 +2238,48 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>QT Study</title>
-    <url>/posts/qt-study.html</url>
-    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
-<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
-<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
-<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
-<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
-<p>Everything is easy after that.</p>
-<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
+    <title>Linux下C语言学习</title>
+    <url>/posts/linux-c.html</url>
+    <content><![CDATA[<p>系统Ubuntu  18.04</p>
+<a id="more"></a>
+<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
+<p>更新软件：<code>sudo apt upgrade;</code></p>
+<p>下载vim：<code>sudo apt install vim；</code></p>
+<p>下载gcc：<code>sudo apt install gcc</code></p>
+<p>下载gdb：<code>sudo apt install gdb</code></p>
+<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
+<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
+<p><code>vi hello.c</code></p>
+<p>按i进入输入模式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>按esc推出输入模式，保存退出</p>
+<p>编译hello.c</p>
+<p><code>gcc -o hello hello.c -Wall</code></p>
+<p>执行</p>
+<p><code>./hello</code></p>
+<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
+<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
+<p><code>gcc -c hello.c</code></p>
+<p>就将 hello.c 编译为 hello.o。</p>
+<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
+<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
+<p><code>gcc -c hello.c -o a.o</code></p>
+<p>这样生成的目标文件的名字就是 a.o。</p>
+<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
+<p><code>gcc hello.o</code></p>
+<p>就将 hello.o 链接为 a.out。</p>
+<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
+<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
+<p><code>gcc hello.o -o hello.out</code></p>
+<p>这样生成的可执行文件的名字就是 hello.out。</p>
 ]]></content>
       <categories>
         <category>Code</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>QT</tag>
+        <tag>C</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2386,36 +2327,89 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>为什么你该拥有一个GV号？</title>
-    <url>/posts/44ea75d3.html</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
-<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
-<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
-<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
-<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
-<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
-<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
-<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
-<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
-<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
-<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
-<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
-<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
-<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
-<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
-<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
-<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
-<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
-<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
-<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
-<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
-<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
+    <title>打造你的最强Firefox浏览器</title>
+    <url>/posts/power-firefox.html</url>
+    <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
+<a id="more"></a>
+<h1 id="下载Firefox"><a href="#下载Firefox" class="headerlink" title="下载Firefox"></a>下载Firefox</h1><p>国际版官网：<a href="https://mozlilla.org/zh-CN/firefox" target="_blank" rel="noopener external nofollow noreferrer">https://mozlilla.org/zh-CN/firefox</a>，时刻注意链接重定向</p>
+<p>下面网址下载<strong>国际英文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>下面网址下载<strong>国际中文版</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.mozilla.org&#x2F;zh-CN&#x2F;firefox&#x2F;</span><br></pre></td></tr></table></figure>
+<p>国内版官网：<a href="http://firefox.com.cn" target="_blank" rel="noopener external nofollow noreferrer">http://firefox.com.cn</a>，很有中国味道</p>
+<h1 id="插件-amp-扩展"><a href="#插件-amp-扩展" class="headerlink" title="插件&amp;扩展"></a>插件&amp;扩展</h1><p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
 ]]></content>
       <categories>
         <category>实用</category>
       </categories>
       <tags>
-        <tag>Google Voice</tag>
+        <tag>插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Palpitate</title>
+    <url>/posts/otof.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="977b7aabfebc4280e0e7638ec8e197bf7d978ad58e3f2508bbef2fdc5447c818">1eb3b6a1a6adba4e78f7322ca4d667ad6de6a59e39b3c2c32d1bc1b621ced441b9ef013864597174e44a6009e9df3941a614f5951f964fb2473d4929805c5ea98f28893fd6ab9b78177ae0322f0d6fd7a89e5c2bcba5f7d600fb46c43b49c929735259a346207938a097b2428823a5afcb8651c1b86a8d6efd2b662dc439740826aa6ada2af1c4b98ce96640e72ae5f06d2d140e34fc223844745b2b060fa98e2bf7dbf64e785ec0669c730428257310bff1822a01e2f31de2c1d172212738a25cc47e2167138a120f3136b9edbd4d8742233854227875ab6fa3eaedf7f1d5094144968cfdcdc8e02669fe2c6b9a21ecc6789d7804ab6edfbfeea1ddcbacff9a5678827d48fe3a1743f7feaa30161a263a23907a31802f7efc14ee54fdca5f6a9948616a2eeec489fd281883d0b6a5d2242fb06c7aa7390199903cbdfa084008c6500383d97127228bb93b869d64e5bb06d831c3109e903895488253c552885dea4dda2d7e9dfecf51ae0246d87a3718d062b15f8b0c81dd270c72ff2f27ac9dfc8d91e5f022eda8f0a08c531356c7e8ac43b2af1bfeaeb0e8b6c71d803ab1f9c8151c711fd343906e6039479b539d5de8a1ee1c5073320d5b0bbd26c0213897990accf643e459288dc800098bc0f447c37bb85c1b98d35b093288b6291df7d7ad47445d06b17e6e6c9b11fb8c25fd33590ac85df8b118478c21451c1ffaf8f09fbf71fce8e8d864af06a9edb84166463d859e0ea504d2d2910f38373547d75aab5b16767359f6b895a65a2cee4b7c16192277fb3877e9eea9c457ad429d075b5d509457fd30c87a2fd462b3e8164ef0085821d2efc62c6395a9c4967f0f4ec86fce0f196d3b6511cca704e50d9230a6ea829575c57d3ac5af6eae79464efbc4aabecba0e6185511263784229efa1db2fd806ee92ca6fdf880306dda891383666a7335dc67443e8638d8cc0c65660bd161caf1826812b2b64c23dfdff244ff54eb9ebc07efe759b4eb540d3054777676c8c4b25036990928f8ad0a061e7e8593a1f3574c5704cad30d3cf081bfcd3bd224855915b0d4399e676a1907d433365a9358fba278925138cc11d2024932c21028409fdc872b1c5c43b613540f36b78f565fb92cfbccda5e6e369badc8e5df6ae5f5b63f1d52647daf2f1c91e4768167d730a18ae706437dc0d1b485d6a1d0eb8e633c924acd7a2d39d0911ad11fcdac582724e94e640acb7a7d898b465676639178acabd19fb374a34b309afaf822a682e10ac19c99941a8d536c4be25d9137e21e2af768fec1c7bfee2ac7ff887126733996cdeaa62edeba6c29219067e2ac7de743b0efcf1e979c7349364b301d23cddde32e65b36ece69015dbf405039417006ae294182769f824c3fe58a16bd3a6d9e514b9f70e9529ad08e971bdb6f062c447f0e006fbe2a8396d1592a0c4b8b66b54219d52ef018720e8f6a87e95bb3c75622c6e212c8366b5a110468ff85274f14e2e6705df04d923d7eda433ae982d69c1b22fc1974193d58fc133e5d014455cf97511330af57d7fde61af9a5c9f5c6838376ca07d875772797a57a736e2ba35487275cd3fef983c69b4f508dd1ce790ee988263923c33174ce6328717e54dc74d996952b330837a9079cd52990c5470de71dbb1c2cfbc7827da0d02d4ef419b41f2025a97edafb55f488d7aed68d4fc3fa57506aec93d48deb8e71d368572fac1422f989f9dbc58f8e6136f33744669417f4e40d2fb692b7c8160e08fde7c3800c1d34a037d356617d7a8012e3b37b33a3b842f7710b9394b82d5f1a26d34360777d4bfd027787b259b85de26a82d98a728a0fbecf71d01a6f22fc1de306ae9755348daa6f7434552518dcd70cb2d327cc46e09d444b2868f6fb73ecaaa547d7798d4543de6c7581bf15258f132cffb9ddebc37bfc95112b8117b0f34c40bec2de8e8e32f7d8b43bf8d2baa7a93e3d2a2706a7f26d60e8adc71297300f15856426f5db64840097309bec3add30dc3b40d148a88e8efe5e1342c9f336d386a13c2fb6eeca4afa2cc48d99b66c7c3e1bcdb40f1843743a4f8a5a8d791dbed3d50b13c5e839a9e57a15f622afd2cd8811461e48ece70c2600e233bf70f09dcbd30ca1876b392fef258115aef33b5ecc60cf849d23f722637a3c1c03eabd0dd61eb0c98328beea0f4d854da5482fbc5f0ce8bd084ed3328a563ef6998311b6efdb3e3fb5e8601aa6823c3cb7afe734039a0950a8a880d9dcfc04a51e691e7bda27ee0341b6b8d7f430cc812f3160b4dfec1cff90c6d84f64bdaacec80937da24989701eac55453e2ff0219aea04b285536da16d5e4111f1058907556000d8d4e03948b71d31bd0d9df9341d8b5a0fd6e7024ee32db47d7a5451db6b48c1dfbad831f77aa39b78025ad620422232f00d25bec4c5b80a57781383516b3f23bd8304f271cc228220efa1f6930212138481acfd1858ea6064d7024dfbe1ec337d977beaae7026e150d97ed80c683395b6f831a18b1f2a2949a0459021349a78edbb5720b73a0e6a68e566a5d84f56165e325e71dd9e8120ca8fa55d86a7aede9a3cec05aba2a25a520a3bea31467cf1a844865d9cbef195d67bfeb9fa3ae3f9c7232513abb321af1f353aa36f5bb75095aa55159dc0d0177de8a911ebfd9d0ee59d6c507214f980f6c77b8a50e71f2f6a82a36914b5e849f2fbbc8d6aada3e05ff85c9e1870e453b0fe28c9cd2d2fa68bdddddbc323bff5534d7bcd5599c54abb8d9927e99b0c1e95e5397333dbc4a8f343569df831017ee0e95376e1a84566533a0e866080bab84ba6828847693fa259312e15119a609463130cfaaf4edbfa111c0c653f3fd139cc71ecf9bb174792767eb0b177d5a523f223be26e305574a73df1ac816747dfbdaf0eec9856ec3efed629e803fbfa0a8dedd6f39093ba37ff5b87dee4d765facb55b0515e8c1022f99d188303cf88c01eeecac755e6e991eb80a43b382d0c077073de4436acfe818ccb85c448a371407ea883829949c17d697105151976c2154ffedf6f8000f5c6a6daa7b2d5b348027df055b6c2347e373fa1e48f555f58be927f3153d5b34f903b93171df4d13699e579ebd1e9558b5868114a97539cbeff34b0501abee8541b9083ffe4b1d07395553e86473ef51741ba726547e065da21c2a6e1f2c9a2ce1a44fb370ca808042a393d5e80973b48a104fdee83145860209f725b4e961dd69b4363b643508b830a32b57ce67b1b97814e99cc4e4dfcf54e65625d7095e60ef47fdb1b9b6f2ba0d3d4efa01623e7745bff20ba</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>QT Study</title>
+    <url>/posts/qt-study.html</url>
+    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
+<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
+<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
+<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
+<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
+<p>Everything is easy after that.</p>
+<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
@@ -2487,29 +2481,41 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
         <category>Note</category>
       </categories>
       <tags>
-        <tag>CTF</tag>
         <tag>Note</tag>
+        <tag>CTF</tag>
       </tags>
   </entry>
   <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>为什么你该拥有一个GV号？</title>
+    <url>/posts/44ea75d3.html</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
+<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
+<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
+<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
+<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
+<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
+<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
+<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
+<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
+<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
+<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
+<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
+<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
+<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
+<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
+<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
+<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
+<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
+<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
+<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
+<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
+<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
+]]></content>
       <categories>
-        <category>Code</category>
+        <category>实用</category>
       </categories>
       <tags>
-        <tag>Vue</tag>
+        <tag>Google Voice</tag>
       </tags>
   </entry>
   <entry>
