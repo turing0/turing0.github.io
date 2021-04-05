@@ -54,7 +54,7 @@
 <meta property="og:image" content="https://miro.medium.com/max/58/1*T9mx8WxDJJb78wSBxnFdRw.png?q=20">
 <meta property="og:image" content="https://miro.medium.com/max/1958/1*T9mx8WxDJJb78wSBxnFdRw.png">
 <meta property="article:published_time" content="2021-03-25T15:00:08.000Z">
-<meta property="article:modified_time" content="2021-04-05T05:40:02.651Z">
+<meta property="article:modified_time" content="2021-04-05T05:51:52.401Z">
 <meta property="article:author" content="Laphel">
 <meta property="article:tag" content="Git">
 <meta name="twitter:card" content="summary">
@@ -249,7 +249,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-04-05 13:40:02" itemprop="dateModified" datetime="2021-04-05T13:40:02+08:00">2021-04-05</time>
+                <time title="Modified: 2021-04-05 13:51:52" itemprop="dateModified" datetime="2021-04-05T13:51:52+08:00">2021-04-05</time>
               </span>
 
           
@@ -527,9 +527,14 @@
 <p>细心的你会发现，就是当前仓库的 url 地址 + .git 组成的。</p>
 <p>现在我们将这个仓库克隆到我们的电脑上，桌面上右键 -&gt; Git Bash Here，输入命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/turing0/myrepo.git</span><br><span class="line">Cloning into <span class="string">'myrepo'</span>...</span><br><span class="line">remote: Enumerating objects: 3, <span class="keyword">done</span>.</span><br><span class="line">remote: Counting objects: 100% (3/3), <span class="keyword">done</span>.</span><br><span class="line">remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0</span><br><span class="line">Receiving objects: 100% (3/3), <span class="keyword">done</span>.</span><br></pre></td></tr></table></figure>
-<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><p>After the repository is built, take a look at the Quick Setup guide that is  presented, some of the commands should look familiar.</p>
-<p>The example above shows just how you would create an empty project containing only a readme in it — <code>git init</code> to prepare Git locally, and then a <code>git add</code> and <code>git commit</code> to create a single commit with the readme.</p>
-<p>The next two lines set up your local Git project to point to a “remote”  GitHub project. In other words, we make our local Git project aware that we also have a “remote” (e.g. non-local) project repository. To do  this, you use the <code>git remote add &lt;name&gt; &lt;URL&gt;</code> command, supplying it a name for the remote location and also the URL.  The name can be anything, though you’ll commonly see the word “origin”  used to refer to your main remote repository. But, for example, if you  wanted to upload your project to both GitHub and Bitbucket, you might  have a “github” remote and a “bitbucket” remote.</p>
+<p>桌面上就多了一个名为 <code>myrepo</code> 的文件夹，到这里就克隆好仓库了。</p>
+<p>我们 cd 到文件夹里去：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> myrepo/</span><br></pre></td></tr></table></figure>
+<p>你可以看看 status、log 等，使用<code>git remote</code> 或 <code>git remote -v</code> 查看远程仓库信息：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看远程仓库名称</span></span><br><span class="line">$ git remote</span><br><span class="line">origin</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看远程仓库详情 : 拉取和推送链接</span></span><br><span class="line">$ git remote -v</span><br><span class="line">origin  https://github.com/turing0/myrepo.git (fetch)</span><br><span class="line">origin  https://github.com/turing0/myrepo.git (push)</span><br></pre></td></tr></table></figure>
+<h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><p>构建存储库后，请查看提供的“快速安装”指南，其中一些命令应该看起来很熟悉。</p>
+<p>上面的示例演示了如何创建一个仅包含自述文件的空项目-git init以在本地准备Git，然后创建一个git add和git commit以创建具有自述文件的单个提交。</p>
+<p>接下来的两行设置本地Git项目，以指向“远程” GitHub项目。 换句话说，我们让我们的本地Git项目知道我们也有一个“远程”（例如非本地）项目存储库。 为此，您可以使用git remote add &lt;名称&gt; <URL>命令，为它提供远程位置的名称以及URL。 该名称可以是任何名称，尽管您通常会看到“ origin”一词用来指代您的主要远程存储库。 但是，例如，如果您想将项目上传到GitHub和Bitbucket，则可能有一个“ github”远程对象和一个“ bitbucket”远程对象。</p>
 <p>Once your remote is set up, use the <code>git push</code> command to upload your code to the remote repository. Supply the name  of the remote (e.g. “origin”) and the branch to push. The <code>-u</code> parameter sets git up to also “track” the remote branch so that next time you don’t need to supply <code>origin master</code>.</p>
 <p>Notice how, when your project is pushed up to GitHub, you can view the commit history that you built up locally.</p>
 <p>Now, your general development loop just contains an extra step to push your  code up to GitHub where you not only have a nice UI to explore your  project, but it also serves as a backup should something happen to your  local environment!</p>
@@ -724,7 +729,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="Symbols count total">123k</span>
+    <span title="Symbols count total">122k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
