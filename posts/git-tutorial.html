@@ -47,6 +47,7 @@
 <meta property="og:image" content="https://i.loli.net/2021/04/05/hnisJZGNVxQdayC.png">
 <meta property="og:image" content="https://i.loli.net/2021/04/05/IYD8oJetbzlajZv.png">
 <meta property="og:image" content="https://i.loli.net/2021/04/05/vyIdgWb3Lsx2mcE.png">
+<meta property="og:image" content="https://i.loli.net/2021/04/05/LDyPvbAirujMESx.png">
 <meta property="og:image" content="https://miro.medium.com/max/60/1*6GY9orS6Q-8MDXCLexL-Ew.png?q=20">
 <meta property="og:image" content="https://miro.medium.com/max/2570/1*6GY9orS6Q-8MDXCLexL-Ew.png">
 <meta property="og:image" content="https://miro.medium.com/max/60/1*eNZQXmr57MdbxdshdNGstQ.png?q=20">
@@ -54,7 +55,7 @@
 <meta property="og:image" content="https://miro.medium.com/max/58/1*T9mx8WxDJJb78wSBxnFdRw.png?q=20">
 <meta property="og:image" content="https://miro.medium.com/max/1958/1*T9mx8WxDJJb78wSBxnFdRw.png">
 <meta property="article:published_time" content="2021-03-25T15:00:08.000Z">
-<meta property="article:modified_time" content="2021-04-05T06:07:05.831Z">
+<meta property="article:modified_time" content="2021-04-05T06:09:16.990Z">
 <meta property="article:author" content="Laphel">
 <meta property="article:tag" content="Git">
 <meta name="twitter:card" content="summary">
@@ -249,7 +250,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-04-05 14:07:05" itemprop="dateModified" datetime="2021-04-05T14:07:05+08:00">2021-04-05</time>
+                <time title="Modified: 2021-04-05 14:09:16" itemprop="dateModified" datetime="2021-04-05T14:09:16+08:00">2021-04-05</time>
               </span>
 
           
@@ -265,7 +266,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>18k</span>
+              <span>19k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -537,6 +538,8 @@
 <p>一般来说，本地仓库的分支推送到远程仓库指的就是推送到远程仓库同名的分支上，例如 <code>git push origin main</code> 意思是: 推将本地仓库的 <code>main</code> 分支推送到远程仓库的 <code>master</code> 分支。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Make your changes to the codebase</span></span><br><span class="line"><span class="comment"># ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Stage all of your changes</span></span><br><span class="line">$ git add .</span><br><span class="line"></span><br><span class="line"><span class="comment"># Make the commit</span></span><br><span class="line">$ git commit -m <span class="string">"update readme file"</span></span><br><span class="line">[main f9e634d] update readme file</span><br><span class="line"> 1 file changed, 3 insertions(+), 1 deletion(-)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Push to GitHub (assuming the master branch)</span></span><br><span class="line">$ git push origin main</span><br><span class="line">Enumerating objects: 5, <span class="keyword">done</span>.</span><br><span class="line">Counting objects: 100% (5/5), <span class="keyword">done</span>.</span><br><span class="line">Writing objects: 100% (3/3), 266 bytes | 266.00 KiB/s, <span class="keyword">done</span>.</span><br><span class="line">Total 3 (delta 0), reused 0 (delta 0), pack-reused 0</span><br><span class="line">To https://github.com/turing0/myrepo.git</span><br><span class="line">   a60d93f..f9e634d  main -&gt; main</span><br></pre></td></tr></table></figure>
 <p><em>注意: 你也可以把其他分支（不一定得是 <code>main</code>）推送到 GitHub上。</em></p>
+<p><img src="https://i.loli.net/2021/04/05/LDyPvbAirujMESx.png" alt="A_3K1_~A_LK_RD0WF__T7_Q.png"></p>
+<p>刷新仓库页面，会看到我们的修改已经显示出来，文件名旁边的字就是我们最近一次commit的内容。</p>
 <h2 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h2><p>GitHub repos can have access rules applied to them. Generally if you’re the owner of a repo, then only you can push to it.</p>
 <p>However, you might be interested in contributing to an open source project, so  how can you do that if you can’t push your changes back to the repo?</p>
 <p>One option is to “fork” the repository — which copies the repo into your  personal GitHub space (which you have the rights to push to). So, you  can fork the open source repo, then clone your fork to your local  machine. You can make updates locally and then push your changes back to your fork on GitHub.</p>
