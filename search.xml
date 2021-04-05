@@ -1349,6 +1349,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <blockquote>
 <p>Fork 这个字在这边翻译成「复制」并不是这个字的原意，Fork 的中文翻译是「分叉」、「叉子」，在技术圈来说这个词使用的情境是「原作的做的不够好，其它人觉得可以做得更好或是想加入一些个人喜好的功能而修改出另外的版本」，不过为了让大家比较容易理解，这里还是会使用「复制」做为 Fork 的翻译。</p>
 </blockquote>
+<h1 id="Git-使用速查"><a href="#Git-使用速查" class="headerlink" title="Git 使用速查"></a>Git 使用速查</h1><p><img src="https://i.loli.net/2021/04/05/lV6dQqRSPKugmL3.png" alt="_5PSF4EOS8R_J_@_CXSCH~L.png"></p>
 <h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p>关于 Git 的相关知识也可以看以下的视频：<br><a href="https://youtu.be/FyAAIHHClqI" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/FyAAIHHClqI</a></p>
 <p>猴子都能懂的 GIT 入门：<a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener external nofollow noreferrer">https://backlog.com/git-tutorial/cn/</a></p>
 <p>StackOverflow 上整理的一个资料大合集：<a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide" target="_blank" rel="noopener external nofollow noreferrer">https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide</a></p>
@@ -1357,6 +1358,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>Pro Git - <a href="http://git-scm.com/book" target="_blank" rel="noopener external nofollow noreferrer">http://git-scm.com/book</a>    <a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener external nofollow noreferrer">https://git-scm.com/book/zh/v2</a><br>Pro Git 简体中文版 - <a href="http://iissnan.com/progit/" target="_blank" rel="noopener external nofollow noreferrer">http://iissnan.com/progit/</a></p>
 <p><a href="http://www.worldhello.net/gotgit/index.html" target="_blank" rel="noopener external nofollow noreferrer">Git权威指南 | 国内一位大牛写的介绍 Git 用法的开源书籍，很详实</a></p>
 <p><a href="https://codeburst.io/git-tutorial-a-beginners-guide-to-most-frequently-used-git-commands-2ab92bd22787" target="_blank" rel="noopener external nofollow noreferrer">Git tutorial — A Beginner’s Guide to the most Frequently used Git Commands</a></p>
+<p><a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html" target="_blank" rel="noopener external nofollow noreferrer">http://marklodato.github.io/visual-git-guide/index-zh-cn.html</a></p>
 ]]></content>
       <tags>
         <tag>Git</tag>
