@@ -1302,7 +1302,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>这个<code>README.md</code> 是 <code>GitHub</code> 的预设说明页面， <code>.md</code> 表示它是一个 <code>Markdown</code> 格式，<code>Markdown</code> 语法可以很轻松的把纯文字格式转换成HTML 的网页格式，如果这是你第一次接触这个语法，非常推荐花一点时间学习它。</p>
 <p>接下来，会看到这样的界面：</p>
 <p><img src="https://i.loli.net/2021/04/05/IYD8oJetbzlajZv.png" alt="5H___J19VN6_DTUM5TNYBY5.png"></p>
-<h2 id="Clone-克隆仓库到本地"><a href="#Clone-克隆仓库到本地" class="headerlink" title="Clone 克隆仓库到本地"></a>Clone 克隆仓库到本地</h2><p>当你有了仓库之后，我们就可以将仓库(不一定得是你自己的仓库，别人的也可以) <code>clone</code> 到我们的电脑上。</p>
+<h2 id="Clone：克隆仓库到本地"><a href="#Clone：克隆仓库到本地" class="headerlink" title="Clone：克隆仓库到本地"></a>Clone：克隆仓库到本地</h2><p>当你有了仓库之后，我们就可以将仓库(不一定得是你自己的仓库，别人的也可以) <code>clone</code> 到我们的电脑上。</p>
 <p>使用 <code>git clone &lt;URL&gt;</code> 命令将仓库下载（克隆）到当前目录中，URL 在哪看呢， </p>
 <p><img src="https://i.loli.net/2021/04/05/vyIdgWb3Lsx2mcE.png" alt="BV_5@G~9NE46XU0YK_1Z_1F.png"></p>
 <p>细心的你会发现，就是当前仓库的 url 地址 + .git 组成的。</p>
@@ -1314,13 +1314,11 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>你可以看看 status、log 等，使用<code>git remote</code> 或 <code>git remote -v</code> 查看远程仓库信息：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看远程仓库名称</span></span><br><span class="line">$ git remote</span><br><span class="line">origin</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看远程仓库详情 : 拉取和推送链接</span></span><br><span class="line">$ git remote -v</span><br><span class="line">origin  https://github.com/turing0/myrepo.git (fetch)</span><br><span class="line">origin  https://github.com/turing0/myrepo.git (push)</span><br></pre></td></tr></table></figure>
 <h2 id="Push-上传到-GitHub"><a href="#Push-上传到-GitHub" class="headerlink" title="Push 上传到 GitHub"></a>Push 上传到 GitHub</h2><p>上面的示例演示了如何创建一个仅包含自述文件的空项目-git init以在本地准备Git，然后创建一个git add和git commit以创建具有自述文件的单个提交。</p>
-<p>接下来的两行设置本地Git项目，以指向“远程” GitHub项目。 换句话说，我们让我们的本地Git项目知道我们也有一个“远程”（例如非本地）项目存储库。 为此，您可以使用git remote add &lt;名称&gt; <URL>命令，为它提供远程位置的名称以及URL。 该名称可以是任何名称，尽管您通常会看到“ origin”一词用来指代您的主要远程存储库。 但是，例如，如果您想将项目上传到GitHub和Bitbucket，则可能有一个“ github”远程对象和一个“ bitbucket”远程对象。</p>
-<p>一旦设置了远程，使用<code>git push</code>命令将代码上传到远程存储库。 提供遥控器的名称（例如“ origin”）和要推送的分支。 -u参数将git设置为也可以“跟踪”远程分支，以便下次无需提供“原始主服务器”。</p>
-<p>请注意，当您将项目推送到GitHub时，如何查看在本地构建的提交历史记录。</p>
+<p>使用 <code>git push</code> 命令将代码上传到远程存储库。 提供遥控器的名称（例如“ origin”）和要推送的分支。 -u参数将git设置为也可以“跟踪”远程分支，以便下次无需提供“原始主服务器”。</p>
 <p>现在，您的常规开发循环仅包含一个额外的步骤即可将代码推送到GitHub，在那里您不仅拥有一个不错的UI来浏览您的项目，而且还可以作为本地环境发生问题时的备份！</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Make your changes to the codebase</span></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="comment"># Stage all of your changes</span></span><br><span class="line">git add -A</span><br><span class="line"></span><br><span class="line"><span class="comment"># Make the commit</span></span><br><span class="line">git commit -m <span class="string">"..."</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Push to GitHub (assuming the master branch)</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
-<p><em>注意: 你也可以把其他分支（不一定得是 <code>master</code>）推到 GitHub上。</em></p>
-<h2 id="Forking"><a href="#Forking" class="headerlink" title="Forking"></a>Forking</h2><p>GitHub repos can have access rules applied to them. Generally if you’re the owner of a repo, then only you can push to it.</p>
+<p><em>注意: 你也可以把其他分支（不一定得是 <code>master</code>）推送到 GitHub上。</em></p>
+<h2 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h2><p>GitHub repos can have access rules applied to them. Generally if you’re the owner of a repo, then only you can push to it.</p>
 <p>However, you might be interested in contributing to an open source project, so  how can you do that if you can’t push your changes back to the repo?</p>
 <p>One option is to “fork” the repository — which copies the repo into your  personal GitHub space (which you have the rights to push to). So, you  can fork the open source repo, then clone your fork to your local  machine. You can make updates locally and then push your changes back to your fork on GitHub.</p>
 <p>Like with cloning a repo, your fork will not stay up to date with the  original (or “upstream”) project. You may want to pull updates from the  upstream project, in which case you would need to set up a remote to  reference the upstream project — so you’d have two remotes: one to  reference your fork (probably called “origin” by default) and one to  reference the upstream project.</p>
