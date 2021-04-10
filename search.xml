@@ -1297,7 +1297,7 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 <p>但是 git pull 的情况就是直接下载远程 repo 并且 update 本地的库，很有可能本地有未保存的部分，git  pull 之后这部分就被 replace 了，而且无迹可查，所以其实更加稳健的方法是使用 git fetch 和 git  merge 共同操作来解决远程库在本地更新的问题。</p>
 <p>如果对于这两者还是有不明白可以参看 <a href="https://blog.csdn.net/weixin_43670802/article/details/105581652?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param" target="_blank" rel="noopener external nofollow noreferrer">这篇文章</a>。</p>
 </blockquote>
-<h2 id="冲突"><a href="#冲突" class="headerlink" title="冲突"></a>冲突</h2><p>当其他团队成员 clone 仓库之后，要在 <code>dev</code> 分支上开发，就必须创建远程 <code>origin</code> 的 <code>dev</code> 分支到本地，于是他用这个命令创建本地 <code>dev</code> 分支：</p>
+<h2 id="解决冲突"><a href="#解决冲突" class="headerlink" title="解决冲突"></a>解决冲突</h2><p>当其他团队成员 clone 仓库之后，要在 <code>dev</code> 分支上开发，就必须创建远程 <code>origin</code> 的 <code>dev</code> 分支到本地，于是他用这个命令创建本地 <code>dev</code> 分支：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout -b dev origin/dev</span><br></pre></td></tr></table></figure>
 <p>现在，他可以在 <code>dev</code> 上继续修改，然后，时不时地把 <code>dev</code> 分支 <code>push</code> 到远程。</p>
 <p>假设有个 <code>index.js</code> 文件，团队其他成员添加了一个函数：</p>
