@@ -1,398 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
-]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title>C++学习</title>
-    <url>/posts/cpp-study.html</url>
-    <content><![CDATA[<p>记录c++的学习</p>
-<a id="more"></a>
-<h1 id="ios-sync-with-stdio-false-提高C-读写速度"><a href="#ios-sync-with-stdio-false-提高C-读写速度" class="headerlink" title="ios::sync_with_stdio(false)提高C++读写速度"></a>ios::sync_with_stdio(false)提高C++读写速度</h1><p>C++为了兼容C，默认使iostream与stdio关联，使cin与scanf、cout和printf保持同步，保证混用过程中文件指针不混乱。<br> 此方式会造成性能损失，导致使用cin/cout效率远远低于使用scanf/printf。若保证程序只是用一套指令，可取消同步：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::ios::sync_with_stdio(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
-<p>取消后使用cin/cout速度有明显提升，但注意不要混用iostream与stdio（玄学）</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>C++98：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed.</p>
-<p>C++11：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed, with the inclusion of <a href="http://www.cplusplus.com/" target="_blank" rel="noopener external nofollow noreferrer"></a> counting as at least one initialization of such objects with <em>static duration</em>.</p>
-<p>cin is <em><a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">tied</a></em> to the standard output stream <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a> (see <a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">ios::tie</a>), which indicates that <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a>‘s buffer is <em>flushed</em> (see <a href="http://www.cplusplus.com/ostream::flush" target="_blank" rel="noopener external nofollow noreferrer">ostream::flush</a>) before each i/o operation performed on cin.</p>
-<p>(来源:<a href="http://www.cplusplus.com/reference/iostream/cin/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/iostream/cin/</a> <a href="http://网址" target="_blank" rel="noopener external nofollow noreferrer">网址</a>)</p>
-</blockquote>
-<p>当传入参数为0时，实现cin与cout独立运行，不会等待，提高cin速度</p>
-<p>全局域的通过静态常量初始化一个lambda的方式实现对此代码的优先调用</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);<span class="comment">//ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);</span></span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
-<p><strong>Ref</strong>:</p>
-<p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
-<h1 id="自定义sort函数中的比较函数"><a href="#自定义sort函数中的比较函数" class="headerlink" title="自定义sort函数中的比较函数"></a>自定义sort函数中的比较函数</h1><p>c++ sort的官方文档<br><a href="http://www.cplusplus.com/reference/algorithm/sort/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/algorithm/sort/</a></p>
-<p>可以看到comp的定义：comp函数返回一个bool类型的值，这个值表示了在严格弱排序中（可以理解为升序排序）第一参数是否位于第二个参数之前。<br> 也就是说如果comp返回true，则第一个参数小于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之前。<br> 如果comp返回false，则第一个参数大于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之后。</p>
-<p> <strong>sort函数根据comp函数的返回值，对comp函数的两个参数排序。</strong><br> <strong>如果comp返回true，排序为“参数1”“参数2”，否则排序为“参数2”“参数1”。</strong> </p>
-<p>例如降序排列，则return a&gt;b;</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CTF基础 i春秋学习笔记</title>
-    <url>/posts/3495768f.html</url>
-    <content><![CDATA[<p>课程来源于i春秋 <a href="https://www.ichunqiu.com/course/63212" target="_blank" rel="noopener external nofollow noreferrer">https://www.ichunqiu.com/course/63212</a></p>
-<h2 id="第一章-竞赛简介"><a href="#第一章-竞赛简介" class="headerlink" title="第一章 竞赛简介"></a>第一章 竞赛简介</h2><h3 id="1-二进制安全学习规划指南"><a href="#1-二进制安全学习规划指南" class="headerlink" title="1.二进制安全学习规划指南"></a>1.二进制安全学习规划指南</h3><p>核心基础课程-计算机的工作原理</p>
-<ul>
-<li>体系结构</li>
-<li>编译原理</li>
-<li>操作系统</li>
-</ul>
-<a id="more"></a>
-<p>其他基础课程-系统软件开发基础</p>
-<ul>
-<li>编程语言</li>
-<li>网络协议</li>
-<li>数据结构与算法</li>
-</ul>
-<p>基础课程学习—体系结构</p>
-<p>CPU的设计与实现</p>
-<ul>
-<li>机器指令与汇编语言</li>
-<li>指令的解码、执行</li>
-<li>内存管理</li>
-</ul>
-<p>CMU 18-447 Introduction to Computer Architecture</p>
-<ul>
-<li><a href="https://www.ece.cmu.edu/~ece447/s15/doku.php" target="_blank" rel="noopener external nofollow noreferrer">https://www.ece.cmu.edu/~ece447/s15/doku.php</a></li>
-<li>Labs: Implement a MIPS CPU using Verilog</li>
-</ul>
-<p>编译原理的设计与实现</p>
-<ul>
-<li>自动机、词法分析、语法分析</li>
-<li>运行时</li>
-<li>程序静态分析</li>
-</ul>
-<p>Stanford CS143-Compilers</p>
-<ul>
-<li><a href="http://web.stanford.edu/class/cs143/" target="_blank" rel="noopener external nofollow noreferrer">http://web.stanford.edu/class/cs143/</a></li>
-<li>PA: Compilers for Cool language</li>
-</ul>
-<p>基础课程学习—操作系统</p>
-<p>操作系统的设计与实现</p>
-<ul>
-<li>系统的加载与引导</li>
-<li>用户与内核态、系统调用、中断和驱动</li>
-<li>进程与内存管理、文件系统</li>
-<li>虚拟机</li>
-</ul>
-<p>MIT 6.828-Operating System Engineering</p>
-<ul>
-<li><a href="https://pdos.csail.mit.edu/6.828/2016/" target="_blank" rel="noopener external nofollow noreferrer">https://pdos.csail.mit.edu/6.828/2016/</a></li>
-<li>Labs: Implement jos</li>
-<li>Xv6, a simple Unix-like teaching operating system</li>
-</ul>
-<p>CTF历史资料库：<a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a></p>
-<p>Wargames</p>
-<ul>
-<li><a href="https://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">https://pwnable.kr/</a></li>
-<li><a href="https://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">https://smashthestack.org/</a></li>
-</ul>
-<p>漏洞挖掘与利用实战-目标</p>
-<p>网络协议的实现</p>
-<ul>
-<li>http/SMB/DNS/SPnp-Server</li>
-</ul>
-<p>脚本列表</p>
-<ul>
-<li>javascript Engine</li>
-<li>ActionScript Engine</li>
-<li>PHP/Java Sandbox Escape</li>
-</ul>
-<p>内核</p>
-<ul>
-<li>Linux/Android</li>
-<li>Freebsd</li>
-<li>Apple ios</li>
-<li>Sony PS4</li>
-</ul>
-<p>漏洞挖掘与利用实战-准备</p>
-<p>学习历史漏洞-CVEs</p>
-<p>挖掘新漏洞</p>
-<ul>
-<li>逆向分析+代码审计<ul>
-<li>快速逆向与快速理解</li>
-<li>对漏洞的感觉</li>
-</ul>
-</li>
-<li>模糊测试<ul>
-<li>测试框架</li>
-<li>样例生成的想法</li>
-</ul>
-</li>
-</ul>
-<p>构建系统防护-研究与探索</p>
-<p>漏洞自动挖掘技术</p>
-<ul>
-<li>静态程序分析</li>
-<li>符号执行</li>
-<li>机器学习？</li>
-</ul>
-<p>漏洞利用防护机制</p>
-<ul>
-<li>Intel SGX</li>
-<li>控制流完整性（CFI）</li>
-<li>拟态？</li>
-</ul>
-<h3 id="2-Web安全学习规划指南"><a href="#2-Web安全学习规划指南" class="headerlink" title="2.Web安全学习规划指南"></a>2.Web安全学习规划指南</h3><p>漏洞类型</p>
-<p>注入类</p>
-<ul>
-<li>sql注入</li>
-<li>xss</li>
-<li>xxe</li>
-<li>命令执行、命令注入</li>
-<li>文件上传、文件下载</li>
-</ul>
-<p>信息泄露</p>
-<ul>
-<li>源码泄露</li>
-<li>敏感信息接口</li>
-<li>员工资料泄露</li>
-<li>服务器信息泄露</li>
-</ul>
-<p>逻辑类</p>
-<ul>
-<li>权限绕过</li>
-<li>条件竞争</li>
-<li>数据篡改</li>
-</ul>
-<p>基础课程学习</p>
-<p>核心基础课程-网站工作原理</p>
-<ul>
-<li>http协议<ul>
-<li>http-header构成（request，response）</li>
-<li>http-body构成（request，response）</li>
-<li>http方法</li>
-</ul>
-</li>
-<li>webserver<ul>
-<li>webserver分类</li>
-<li>webserver解析流程</li>
-<li>webserver基础安全</li>
-</ul>
-</li>
-</ul>
-<p>其他基础课程-软件开发基础</p>
-<ul>
-<li>编程语言<ul>
-<li>前端:html、js、css</li>
-<li>后端、脚本语言：php、java、python</li>
-</ul>
-</li>
-<li>数据库原理<ul>
-<li>关系型数据库</li>
-<li>非关系型数据库</li>
-</ul>
-</li>
-</ul>
-<p>漏洞挖掘与利用</p>
-<p>准备</p>
-<p>信息收集工具</p>
-<ul>
-<li>端口</li>
-<li>子域名</li>
-<li>代码泄露</li>
-<li>员工字典</li>
-</ul>
-<p>数据包抓取修改重放工具</p>
-<p>顺手的浏览器以及插件</p>
-<p>vps，漏洞验证</p>
-<p>挖掘</p>
-<p>分析业务功能</p>
-<p>分析web架构</p>
-<p>针对罗列可能的漏洞类型</p>
-<p>详细测试：不要放过任何一个数据包</p>
-<p>利用举例</p>
-<p>单一利用</p>
-<ul>
-<li>getshell</li>
-<li>敏感信息接口</li>
-</ul>
-<p>组合利用</p>
-<ul>
-<li>xss+csrf</li>
-</ul>
-<h3 id="3-CTF与人才培养学习规划指南"><a href="#3-CTF与人才培养学习规划指南" class="headerlink" title="3.CTF与人才培养学习规划指南"></a>3.CTF与人才培养学习规划指南</h3><p>基础课程学习</p>
-<p>核心基础课程-相关偏向实战的课程</p>
-<ul>
-<li>Web安全</li>
-<li>二进制安全<ul>
-<li>逆向工程</li>
-<li>漏洞利用</li>
-</ul>
-</li>
-<li>密码学相关</li>
-</ul>
-<p>其他基础课程-开发、取证、隐写等</p>
-<ul>
-<li>编程语言</li>
-<li>网络协议</li>
-<li>数据结构与算法</li>
-<li>取证分析</li>
-</ul>
-<p>Web安全中的漏洞类型</p>
-<ul>
-<li>注入类<ul>
-<li>sql注入</li>
-<li>xss</li>
-<li>xxe</li>
-<li>命令执行、命令注入</li>
-<li>文件上传、文件下载</li>
-</ul>
-</li>
-<li>信息泄露<ul>
-<li>源码泄露</li>
-<li>敏感信息接口</li>
-<li>员工资料泄露</li>
-<li>服务器信息泄露</li>
-</ul>
-</li>
-<li>逻辑类<ul>
-<li>权限绕过</li>
-<li>条件竞争</li>
-<li>数据篡改</li>
-</ul>
-</li>
-</ul>
-<p>逆向工程需要了解的知识</p>
-<ul>
-<li>体系结构<ul>
-<li>机器指令与汇编语言</li>
-<li>…</li>
-</ul>
-</li>
-<li><p>编译原理</p>
-<ul>
-<li>自动机、词法分析、语法分析</li>
-<li>…</li>
-</ul>
-</li>
-<li><p>操作系统</p>
-<ul>
-<li>系统的加载与引导</li>
-<li>…</li>
-</ul>
-</li>
-</ul>
-<p>漏洞利用需要了解的知识</p>
-<ul>
-<li>逆向工程</li>
-<li>模糊测试</li>
-<li>什么是漏洞</li>
-<li>程序员在什么时候会犯错</li>
-</ul>
-<p>其他</p>
-<p>密码学</p>
-<p>古典密码学</p>
-<ul>
-<li>凯撒密码</li>
-<li>移位密码</li>
-<li>…</li>
-</ul>
-<p>现代密码学</p>
-<ul>
-<li>对称加密体系<ul>
-<li>DES</li>
-<li>AES</li>
-</ul>
-</li>
-<li>非对称加密体系<ul>
-<li>RSA</li>
-</ul>
-</li>
-</ul>
-<p><strong>CTF相关资料</strong>  </p>
-<p>CTF比赛详情:<br><a href="https://ctftime.org/" target="_blank" rel="noopener external nofollow noreferrer">https://ctftime.org/</a><br>ctf历史资料库:<br><a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a><br>Wargames &amp; Labs :<br><a href="http://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://pwnable.kr/</a><br><a href="http://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">http://smashthestack.org/</a><br><a href="http://wargame.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://wargame.kr/</a><br><a href="https://pentesterlab.com/" target="_blank" rel="noopener external nofollow noreferrer">https://pentesterlab.com/</a><br><a href="http://overthewire.org/wargames/" target="_blank" rel="noopener external nofollow noreferrer">http://overthewire.org/wargames/</a><br><a href="https://exploit-exercises.com/" target="_blank" rel="noopener external nofollow noreferrer">https://exploit-exercises.com/</a></p>
-<p>END</p>
-]]></content>
-      <categories>
-        <category>Note</category>
-      </categories>
-      <tags>
-        <tag>Note</tag>
-        <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020上半年总结</title>
-    <url>/posts/2020-half-summary.html</url>
-    <content><![CDATA[<p>2020半年度总结</p>
-<a id="more"></a>
-<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
-<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
-<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
-<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
-<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
-<p>阅读了:</p>
-<ul>
-<li>《小狗钱钱》</li>
-</ul>
-<p>正在看：</p>
-<ul>
-<li>《线性代数及其应用》</li>
-</ul>
-<p>看了电影和电视剧：</p>
-<ul>
-<li><p>遇见你之前</p>
-</li>
-<li><p>决胜21点</p>
-</li>
-<li><p>他是龙</p>
-</li>
-<li><p>隐秘的角落</p>
-</li>
-</ul>
-<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
-<p>学习专业知识，提高专业素养。</p>
-<p>其他兴趣技能的发展。</p>
-<p>个人IP的打造。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065.html</url>
     <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
@@ -1012,6 +620,131 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
+    <title>2020上半年总结</title>
+    <url>/posts/2020-half-summary.html</url>
+    <content><![CDATA[<p>2020半年度总结</p>
+<a id="more"></a>
+<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
+<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
+<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
+<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
+<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
+<p>阅读了:</p>
+<ul>
+<li>《小狗钱钱》</li>
+</ul>
+<p>正在看：</p>
+<ul>
+<li>《线性代数及其应用》</li>
+</ul>
+<p>看了电影和电视剧：</p>
+<ul>
+<li><p>遇见你之前</p>
+</li>
+<li><p>决胜21点</p>
+</li>
+<li><p>他是龙</p>
+</li>
+<li><p>隐秘的角落</p>
+</li>
+</ul>
+<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
+<p>学习专业知识，提高专业素养。</p>
+<p>其他兴趣技能的发展。</p>
+<p>个人IP的打造。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++学习</title>
+    <url>/posts/cpp-study.html</url>
+    <content><![CDATA[<p>记录c++的学习</p>
+<a id="more"></a>
+<h1 id="ios-sync-with-stdio-false-提高C-读写速度"><a href="#ios-sync-with-stdio-false-提高C-读写速度" class="headerlink" title="ios::sync_with_stdio(false)提高C++读写速度"></a>ios::sync_with_stdio(false)提高C++读写速度</h1><p>C++为了兼容C，默认使iostream与stdio关联，使cin与scanf、cout和printf保持同步，保证混用过程中文件指针不混乱。<br> 此方式会造成性能损失，导致使用cin/cout效率远远低于使用scanf/printf。若保证程序只是用一套指令，可取消同步：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::ios::sync_with_stdio(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<p>取消后使用cin/cout速度有明显提升，但注意不要混用iostream与stdio（玄学）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>C++98：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed.</p>
+<p>C++11：In terms of <em>static initialization order</em>, cin is guaranteed to be properly constructed and initialized no later than the first time an object of type <a href="http://www.cplusplus.com/ios_base::Init" target="_blank" rel="noopener external nofollow noreferrer">ios_base::Init</a> is constructed, with the inclusion of <a href="http://www.cplusplus.com/" target="_blank" rel="noopener external nofollow noreferrer"></a> counting as at least one initialization of such objects with <em>static duration</em>.</p>
+<p>cin is <em><a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">tied</a></em> to the standard output stream <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a> (see <a href="http://www.cplusplus.com/ios::tie" target="_blank" rel="noopener external nofollow noreferrer">ios::tie</a>), which indicates that <a href="http://www.cplusplus.com/cout" target="_blank" rel="noopener external nofollow noreferrer">cout</a>‘s buffer is <em>flushed</em> (see <a href="http://www.cplusplus.com/ostream::flush" target="_blank" rel="noopener external nofollow noreferrer">ostream::flush</a>) before each i/o operation performed on cin.</p>
+<p>(来源:<a href="http://www.cplusplus.com/reference/iostream/cin/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/iostream/cin/</a> <a href="http://网址" target="_blank" rel="noopener external nofollow noreferrer">网址</a>)</p>
+</blockquote>
+<p>当传入参数为0时，实现cin与cout独立运行，不会等待，提高cin速度</p>
+<p>全局域的通过静态常量初始化一个lambda的方式实现对此代码的优先调用</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> _ = []() &#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);<span class="comment">//ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);</span></span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="built_in">cout</span>.tie(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
+<p><strong>Ref</strong>:</p>
+<p>原文:<a href="https://www.coologic.cn/2017/11/275/" target="_blank" rel="noopener external nofollow noreferrer">ios::sync_with_stdio(false)提高C++读写速度</a></p>
+<h1 id="自定义sort函数中的比较函数"><a href="#自定义sort函数中的比较函数" class="headerlink" title="自定义sort函数中的比较函数"></a>自定义sort函数中的比较函数</h1><p>c++ sort的官方文档<br><a href="http://www.cplusplus.com/reference/algorithm/sort/" target="_blank" rel="noopener external nofollow noreferrer">http://www.cplusplus.com/reference/algorithm/sort/</a></p>
+<p>可以看到comp的定义：comp函数返回一个bool类型的值，这个值表示了在严格弱排序中（可以理解为升序排序）第一参数是否位于第二个参数之前。<br> 也就是说如果comp返回true，则第一个参数小于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之前。<br> 如果comp返回false，则第一个参数大于第二个参数，sort根据compare的返回值将第一个参数排在第二个参数之后。</p>
+<p> <strong>sort函数根据comp函数的返回值，对comp函数的两个参数排序。</strong><br> <strong>如果comp返回true，排序为“参数1”“参数2”，否则排序为“参数2”“参数1”。</strong> </p>
+<p>例如降序排列，则return a&gt;b;</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二叉树的遍历</title>
+    <url>/posts/binarytree-traverse.html</url>
+    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
+<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Codeblocks 问题总结</title>
     <url>/posts/codeblocks-skills.html</url>
     <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
@@ -1023,6 +756,497 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>codeblocks</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>CTF基础 i春秋学习笔记</title>
+    <url>/posts/3495768f.html</url>
+    <content><![CDATA[<p>课程来源于i春秋 <a href="https://www.ichunqiu.com/course/63212" target="_blank" rel="noopener external nofollow noreferrer">https://www.ichunqiu.com/course/63212</a></p>
+<h2 id="第一章-竞赛简介"><a href="#第一章-竞赛简介" class="headerlink" title="第一章 竞赛简介"></a>第一章 竞赛简介</h2><h3 id="1-二进制安全学习规划指南"><a href="#1-二进制安全学习规划指南" class="headerlink" title="1.二进制安全学习规划指南"></a>1.二进制安全学习规划指南</h3><p>核心基础课程-计算机的工作原理</p>
+<ul>
+<li>体系结构</li>
+<li>编译原理</li>
+<li>操作系统</li>
+</ul>
+<a id="more"></a>
+<p>其他基础课程-系统软件开发基础</p>
+<ul>
+<li>编程语言</li>
+<li>网络协议</li>
+<li>数据结构与算法</li>
+</ul>
+<p>基础课程学习—体系结构</p>
+<p>CPU的设计与实现</p>
+<ul>
+<li>机器指令与汇编语言</li>
+<li>指令的解码、执行</li>
+<li>内存管理</li>
+</ul>
+<p>CMU 18-447 Introduction to Computer Architecture</p>
+<ul>
+<li><a href="https://www.ece.cmu.edu/~ece447/s15/doku.php" target="_blank" rel="noopener external nofollow noreferrer">https://www.ece.cmu.edu/~ece447/s15/doku.php</a></li>
+<li>Labs: Implement a MIPS CPU using Verilog</li>
+</ul>
+<p>编译原理的设计与实现</p>
+<ul>
+<li>自动机、词法分析、语法分析</li>
+<li>运行时</li>
+<li>程序静态分析</li>
+</ul>
+<p>Stanford CS143-Compilers</p>
+<ul>
+<li><a href="http://web.stanford.edu/class/cs143/" target="_blank" rel="noopener external nofollow noreferrer">http://web.stanford.edu/class/cs143/</a></li>
+<li>PA: Compilers for Cool language</li>
+</ul>
+<p>基础课程学习—操作系统</p>
+<p>操作系统的设计与实现</p>
+<ul>
+<li>系统的加载与引导</li>
+<li>用户与内核态、系统调用、中断和驱动</li>
+<li>进程与内存管理、文件系统</li>
+<li>虚拟机</li>
+</ul>
+<p>MIT 6.828-Operating System Engineering</p>
+<ul>
+<li><a href="https://pdos.csail.mit.edu/6.828/2016/" target="_blank" rel="noopener external nofollow noreferrer">https://pdos.csail.mit.edu/6.828/2016/</a></li>
+<li>Labs: Implement jos</li>
+<li>Xv6, a simple Unix-like teaching operating system</li>
+</ul>
+<p>CTF历史资料库：<a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a></p>
+<p>Wargames</p>
+<ul>
+<li><a href="https://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">https://pwnable.kr/</a></li>
+<li><a href="https://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">https://smashthestack.org/</a></li>
+</ul>
+<p>漏洞挖掘与利用实战-目标</p>
+<p>网络协议的实现</p>
+<ul>
+<li>http/SMB/DNS/SPnp-Server</li>
+</ul>
+<p>脚本列表</p>
+<ul>
+<li>javascript Engine</li>
+<li>ActionScript Engine</li>
+<li>PHP/Java Sandbox Escape</li>
+</ul>
+<p>内核</p>
+<ul>
+<li>Linux/Android</li>
+<li>Freebsd</li>
+<li>Apple ios</li>
+<li>Sony PS4</li>
+</ul>
+<p>漏洞挖掘与利用实战-准备</p>
+<p>学习历史漏洞-CVEs</p>
+<p>挖掘新漏洞</p>
+<ul>
+<li>逆向分析+代码审计<ul>
+<li>快速逆向与快速理解</li>
+<li>对漏洞的感觉</li>
+</ul>
+</li>
+<li>模糊测试<ul>
+<li>测试框架</li>
+<li>样例生成的想法</li>
+</ul>
+</li>
+</ul>
+<p>构建系统防护-研究与探索</p>
+<p>漏洞自动挖掘技术</p>
+<ul>
+<li>静态程序分析</li>
+<li>符号执行</li>
+<li>机器学习？</li>
+</ul>
+<p>漏洞利用防护机制</p>
+<ul>
+<li>Intel SGX</li>
+<li>控制流完整性（CFI）</li>
+<li>拟态？</li>
+</ul>
+<h3 id="2-Web安全学习规划指南"><a href="#2-Web安全学习规划指南" class="headerlink" title="2.Web安全学习规划指南"></a>2.Web安全学习规划指南</h3><p>漏洞类型</p>
+<p>注入类</p>
+<ul>
+<li>sql注入</li>
+<li>xss</li>
+<li>xxe</li>
+<li>命令执行、命令注入</li>
+<li>文件上传、文件下载</li>
+</ul>
+<p>信息泄露</p>
+<ul>
+<li>源码泄露</li>
+<li>敏感信息接口</li>
+<li>员工资料泄露</li>
+<li>服务器信息泄露</li>
+</ul>
+<p>逻辑类</p>
+<ul>
+<li>权限绕过</li>
+<li>条件竞争</li>
+<li>数据篡改</li>
+</ul>
+<p>基础课程学习</p>
+<p>核心基础课程-网站工作原理</p>
+<ul>
+<li>http协议<ul>
+<li>http-header构成（request，response）</li>
+<li>http-body构成（request，response）</li>
+<li>http方法</li>
+</ul>
+</li>
+<li>webserver<ul>
+<li>webserver分类</li>
+<li>webserver解析流程</li>
+<li>webserver基础安全</li>
+</ul>
+</li>
+</ul>
+<p>其他基础课程-软件开发基础</p>
+<ul>
+<li>编程语言<ul>
+<li>前端:html、js、css</li>
+<li>后端、脚本语言：php、java、python</li>
+</ul>
+</li>
+<li>数据库原理<ul>
+<li>关系型数据库</li>
+<li>非关系型数据库</li>
+</ul>
+</li>
+</ul>
+<p>漏洞挖掘与利用</p>
+<p>准备</p>
+<p>信息收集工具</p>
+<ul>
+<li>端口</li>
+<li>子域名</li>
+<li>代码泄露</li>
+<li>员工字典</li>
+</ul>
+<p>数据包抓取修改重放工具</p>
+<p>顺手的浏览器以及插件</p>
+<p>vps，漏洞验证</p>
+<p>挖掘</p>
+<p>分析业务功能</p>
+<p>分析web架构</p>
+<p>针对罗列可能的漏洞类型</p>
+<p>详细测试：不要放过任何一个数据包</p>
+<p>利用举例</p>
+<p>单一利用</p>
+<ul>
+<li>getshell</li>
+<li>敏感信息接口</li>
+</ul>
+<p>组合利用</p>
+<ul>
+<li>xss+csrf</li>
+</ul>
+<h3 id="3-CTF与人才培养学习规划指南"><a href="#3-CTF与人才培养学习规划指南" class="headerlink" title="3.CTF与人才培养学习规划指南"></a>3.CTF与人才培养学习规划指南</h3><p>基础课程学习</p>
+<p>核心基础课程-相关偏向实战的课程</p>
+<ul>
+<li>Web安全</li>
+<li>二进制安全<ul>
+<li>逆向工程</li>
+<li>漏洞利用</li>
+</ul>
+</li>
+<li>密码学相关</li>
+</ul>
+<p>其他基础课程-开发、取证、隐写等</p>
+<ul>
+<li>编程语言</li>
+<li>网络协议</li>
+<li>数据结构与算法</li>
+<li>取证分析</li>
+</ul>
+<p>Web安全中的漏洞类型</p>
+<ul>
+<li>注入类<ul>
+<li>sql注入</li>
+<li>xss</li>
+<li>xxe</li>
+<li>命令执行、命令注入</li>
+<li>文件上传、文件下载</li>
+</ul>
+</li>
+<li>信息泄露<ul>
+<li>源码泄露</li>
+<li>敏感信息接口</li>
+<li>员工资料泄露</li>
+<li>服务器信息泄露</li>
+</ul>
+</li>
+<li>逻辑类<ul>
+<li>权限绕过</li>
+<li>条件竞争</li>
+<li>数据篡改</li>
+</ul>
+</li>
+</ul>
+<p>逆向工程需要了解的知识</p>
+<ul>
+<li>体系结构<ul>
+<li>机器指令与汇编语言</li>
+<li>…</li>
+</ul>
+</li>
+<li><p>编译原理</p>
+<ul>
+<li>自动机、词法分析、语法分析</li>
+<li>…</li>
+</ul>
+</li>
+<li><p>操作系统</p>
+<ul>
+<li>系统的加载与引导</li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+<p>漏洞利用需要了解的知识</p>
+<ul>
+<li>逆向工程</li>
+<li>模糊测试</li>
+<li>什么是漏洞</li>
+<li>程序员在什么时候会犯错</li>
+</ul>
+<p>其他</p>
+<p>密码学</p>
+<p>古典密码学</p>
+<ul>
+<li>凯撒密码</li>
+<li>移位密码</li>
+<li>…</li>
+</ul>
+<p>现代密码学</p>
+<ul>
+<li>对称加密体系<ul>
+<li>DES</li>
+<li>AES</li>
+</ul>
+</li>
+<li>非对称加密体系<ul>
+<li>RSA</li>
+</ul>
+</li>
+</ul>
+<p><strong>CTF相关资料</strong>  </p>
+<p>CTF比赛详情:<br><a href="https://ctftime.org/" target="_blank" rel="noopener external nofollow noreferrer">https://ctftime.org/</a><br>ctf历史资料库:<br><a href="https://github.com/ctfs" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/ctfs</a><br>Wargames &amp; Labs :<br><a href="http://pwnable.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://pwnable.kr/</a><br><a href="http://smashthestack.org/" target="_blank" rel="noopener external nofollow noreferrer">http://smashthestack.org/</a><br><a href="http://wargame.kr/" target="_blank" rel="noopener external nofollow noreferrer">http://wargame.kr/</a><br><a href="https://pentesterlab.com/" target="_blank" rel="noopener external nofollow noreferrer">https://pentesterlab.com/</a><br><a href="http://overthewire.org/wargames/" target="_blank" rel="noopener external nofollow noreferrer">http://overthewire.org/wargames/</a><br><a href="https://exploit-exercises.com/" target="_blank" rel="noopener external nofollow noreferrer">https://exploit-exercises.com/</a></p>
+<p>END</p>
+]]></content>
+      <categories>
+        <category>Note</category>
+      </categories>
+      <tags>
+        <tag>Note</tag>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构与算法 学习笔记</title>
+    <url>/posts/datastructs-algorithms-note.html</url>
+    <content><![CDATA[<p>笔记略长， 排版略丑</p>
+<p>serendipity</p>
+<h1 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h1><h2 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h2><p>数据结构</p>
+<a id="more"></a>
+<ul>
+<li><p>一维</p>
+<ul>
+<li>基础：数组 array(string),链表 linked list</li>
+<li>高级：栈 stack,队列 queue，双端队列 deque，集合 set，映射 map(hash or map),etc</li>
+</ul>
+</li>
+<li><p>二维</p>
+<ul>
+<li>基础：树 tree，图 graph</li>
+<li>高级：二叉搜索树 binary search tree (red-black tree, AVL),堆 heap，并查集 disjoint set，字典树 Trie,etc</li>
+</ul>
+</li>
+<li>特殊<ul>
+<li>位运算 Bitwise, 布隆过滤器 BloomFilter </li>
+<li>LRU Cache</li>
+</ul>
+</li>
+</ul>
+<p>注意：了解每个数据结构的原理和代码框架</p>
+<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ul>
+<li>If-else, switch —&gt; branch </li>
+<li>for, while loop —&gt; Iteration</li>
+<li>递归 Recursion (Divide &amp; Conquer, Backtrace) </li>
+<li>搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc</li>
+<li>动态规划 Dynamic Programming</li>
+<li>二分查找 Binary Search</li>
+<li>贪心 Greedy</li>
+<li>数学 Math , 几何 Geometry</li>
+</ul>
+<p>注意：在头脑中回忆上面每种算法的思想和代码模板</p>
+<h3 id="算法脑图"><a href="#算法脑图" class="headerlink" title="算法脑图"></a>算法脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/05f47326887492" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/05f47326887492</a></p>
+<p><a href="https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec</a></p>
+<h3 id="数据结构脑图"><a href="#数据结构脑图" class="headerlink" title="数据结构脑图"></a>数据结构脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144</a></p>
+<p><a href="https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c</a></p>
+<h2 id="五步刷题法"><a href="#五步刷题法" class="headerlink" title="五步刷题法"></a>五步刷题法</h2><h3 id="刷题第一遍"><a href="#刷题第一遍" class="headerlink" title="刷题第一遍"></a>刷题第一遍</h3><ul>
+<li>5分钟：读题 + 思考 </li>
+<li>直接看解法：注意！多解法，比较解法优劣</li>
+<li>背诵、默写好的解法</li>
+</ul>
+<h3 id="刷题第二遍"><a href="#刷题第二遍" class="headerlink" title="刷题第二遍"></a>刷题第二遍</h3><ul>
+<li>马上自己写 —&gt; LeetCode 提交</li>
+<li>多种解法比较、体会 —&gt; 优化！</li>
+</ul>
+<h3 id="刷题第三遍"><a href="#刷题第三遍" class="headerlink" title="刷题第三遍"></a>刷题第三遍</h3><ul>
+<li>过了一天后，再重复做</li>
+<li>不同解法的熟练程度 —&gt; 专项练习</li>
+</ul>
+<h3 id="刷题第四遍"><a href="#刷题第四遍" class="headerlink" title="刷题第四遍"></a>刷题第四遍</h3><ul>
+<li>过了一周：反复回来练习相同题目</li>
+</ul>
+<h3 id="刷题第五遍"><a href="#刷题第五遍" class="headerlink" title="刷题第五遍"></a>刷题第五遍</h3><ul>
+<li>面试前一周恢复性训练</li>
+</ul>
+<hr>
+<h1 id="训练准备"><a href="#训练准备" class="headerlink" title="训练准备"></a>训练准备</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
+<li>Google</li>
+<li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/microsoft/terminal</a>)</li>
+<li>VSCode; Java: IntelliJ; Python: Pycharm</li>
+<li>LeetCode plugin (VSCode &amp; IntelliJ)</li>
+<li><a href="https://vscodethemes.com" target="_blank" rel="noopener external nofollow noreferrer">https://vscodethemes.com</a></li>
+<li>骚操作：<ul>
+<li><a href="https://juejin.im/post/5ce1365151882525ff28ed47" target="_blank" rel="noopener external nofollow noreferrer">https://juejin.im/post/5ce1365151882525ff28ed47</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h3><p>Java、 Python、…</p>
+<ul>
+<li>Google code style</li>
+<li>Facebook</li>
+<li>airbnb</li>
+</ul>
+<h3 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h3><ul>
+<li>leetcode-cn.com 和题解</li>
+<li>leetcode.com 和 Discuss board</li>
+</ul>
+<h3 id="指法和小操作"><a href="#指法和小操作" class="headerlink" title="指法和小操作"></a>指法和小操作</h3><ul>
+<li>home, end 或 fn + ⬅➡（行头、行尾）</li>
+<li>Ctrl + ⬅➡ （到左右的下一词）</li>
+<li>Ctrl + backspace （删除词）</li>
+<li>IDE 的⾃自动补全</li>
+<li>Top tips for &lt; IDE - name&gt;</li>
+</ul>
+<h3 id="自顶向下的编程方式"><a href="#自顶向下的编程方式" class="headerlink" title="自顶向下的编程方式"></a>自顶向下的编程方式</h3><ul>
+<li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener external nofollow noreferrer">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
+<li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener external nofollow noreferrer">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
+</ul>
+<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
+<p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener external nofollow noreferrer">https://www.zhihu.com/question/21387264</a></p>
+<p>Master theorem</p>
+<p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener external nofollow noreferrer">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
+<p>主定理</p>
+<p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener external nofollow noreferrer">http://zh.wikipedia.org/wiki/</a></p>
+<h2 id="大O复杂度表示法"><a href="#大O复杂度表示法" class="headerlink" title="大O复杂度表示法"></a>大O复杂度表示法</h2><p>所有代码的执行时间T(n)与每行代码的执行次数n成正比,即大O。</p>
+<script type="math/tex; mode=display">
+T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数据规模的大小；f(n)表示每行代码执行的次数总和。因为这是一个公式，所以用f(n)来表示。公式中的O，表示代码的执行时间T(n)与f(n)表达式成正比。</p>
+<p>大O时间复杂度实际上并不具体表示代码真正的执行时间，而是表示代码执行时间随数据规模增长的变化趋势，所以，也叫作渐进时间复杂度（asymptotic time complexity），简称时间复杂度。</p>
+<ul>
+<li><p>如何分析一段代码的时间复杂度？</p>
+<ol>
+<li><p>只关注循环执行次数最多的一段代码<br>大O这种复杂度表示方法只是表示一种变化趋势。我们通常会忽略掉公式中的常量、低阶、系数，只需要记录一个最大阶的量级就可以了。所以，我们在分析一个算法、一段代码的时间复杂度的时候，也只关注循环执行次数最多的那一段代码就可以了。这段核心代码执行次数的n的量级，就是整段要分析代码的时间复杂度。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">	<span class="keyword">int</span> sum = <span class="number">0</span>;   </span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">	<span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">		sum = sum + i;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中第2、3行代码都是常量级的执行时间，与n的大小无关，所以对于复杂度并没有影响。循环执行次数最多的是第4、5行代码，所以这块代码要重点分析。前面我们也讲过，这两行代码被执行了n次，所以总的时间复杂度就是O(n)</p>
+</li>
+<li><p>加法法则：总复杂度等于量级最大的那段代码的复杂度</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;     </span><br><span class="line">        sum_1 = sum_1 + p;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_2 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; q &lt; n; ++q) &#123;     </span><br><span class="line">        sum_2 = sum_2 + q;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_3 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">        j = <span class="number">1</span>;      </span><br><span class="line">        <span class="keyword">for</span> (; j &lt;= n; ++j) &#123;       </span><br><span class="line">            sum_3 = sum_3 +  i * j;     </span><br><span class="line">        &#125;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum_1 + sum_2 + sum_3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个代码分为三部分，分别是求sum_1、sum_2、sum_3。我们可以分别分析每一部分的时间复杂度，然后把它们放到一块儿，再取一个量级最大的作为整段代码的复杂度。第一段的时间复杂度是多少呢？这段代码循环执行了100次，所以是一个常量的执行时间，跟n的规模无关。</p>
+<p>这里我要再强调一下，即便这段代码循环10000次、100000次，只要是一个已知的数，跟n无关，照样也是常量级的执行时间。当n无限大的时候，就可以忽略。尽管对代码的执行时间会有很大影响，但是回到时间复杂度的概念来说，它表示的是一个算法执行效率与数据规模增长的变化趋势，所以不管常量的执行时间多大，我们都可以忽略掉。因为它本身对增长趋势并没有影响。</p>
+<p>那第二段代码和第三段代码的时间复杂度是多少呢？答案是O(n)和O(n2)</p>
+<p>综合这三段代码的时间复杂度，我们取其中最大的量级。所以，整段代码的时间复杂度就为O(n2)。也就是说：总的时间复杂度就等于量级最大的那段代码的时间复杂度。</p>
+</li>
+<li><p>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">    <span class="keyword">int</span> ret = <span class="number">0</span>;    </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;     </span><br><span class="line">        ret = ret + f(i);   </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;  </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;    </span><br><span class="line">    	sum = sum + i;  </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>单独看cal()函数。假设f()只是一个普通的操作，那第4～6行的时间复杂度就是，T1(n) = O(n)。但f()函数本身不是一个简单的操作，它的时间复杂度是T2(n) =O(n)，所以，整个cal()函数的时间复杂度就是，T(n) = T1(n) <em> T2(n) = O(n</em>n) = O(n2)。</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>O(1):  Constant Complexity 常数复杂度</p>
+<p>O(log n):  Logarithmic Complexity 对数复杂度</p>
+<ul>
+<li><p>```c++<br>i=1;<br>while (i &lt;= n)  {   </p>
+<pre><code>i = i * 2; 
+</code></pre><p>}</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这段代码的时间复杂度就是O(log2n)</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">i&#x3D;1; </span><br><span class="line">while (i &lt;&#x3D; n)  &#123;   </span><br><span class="line">    i &#x3D; i * 3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这段代码的时间复杂度为O(log3n)</p>
+</li>
+</ul>
+<p>  实际上，不管是以2为底、以3为底，还是以10为底，我们可以把所有对数阶的时间复杂度都记为O(logn)。为什么呢？</p>
+<p>  我们知道，对数之间是可以互相转换的，log3n就等于log32 <em> log2n，所以O(log3n) = O(C </em> log2n)，其中C=log32是一个常量。基于我们前面的一个理论：在采用大O标记复杂度的时候，可以忽略系数，即O(Cf(n)) = O(f(n))。所以，O(log2n) 就等于O(log3n)。因此，在对数阶时间复杂度的表示方法里，我们忽略对数的“底”，统一表示为O(logn)。</p>
+<ul>
+<li>如果一段代码的时间复杂度是O(logn)，我们循环执行n遍，时间复杂度就是O(nlogn)了。而且，O(nlogn)也是一种非常常见的算法时间复杂度。比如，归并排序、快速排序的时间复杂度都是O(nlogn)。</li>
+</ul>
+<p>O(n):  Linear Complexity 线性时间复杂度</p>
+<p>O(n^2): N square Complexity 平方</p>
+<p>O(n^3): N square Complexity 立方</p>
+<p>O(2^n): Exponential Growth 指数</p>
+<p>O(n!): Factorial 阶乘</p>
+<p>注意：只看最⾼高复杂度的运算</p>
+<p>O(k^n)</p>
+<p>int fib(int n) {</p>
+<p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
+<p>⼆叉树遍历 - 前序、中序、后序：O(N)</p>
+<p>图的遍历：O(N)</p>
+<p>搜索算法：DFS、BFS - O(N)</p>
+<p>二分查找：O(logN)</p>
+<h1 id="以下为邓俊辉老师数据结构与算法的笔记"><a href="#以下为邓俊辉老师数据结构与算法的笔记" class="headerlink" title="以下为邓俊辉老师数据结构与算法的笔记"></a>以下为邓俊辉老师数据结构与算法的笔记</h1><p>冒泡排序</p>
+<p>第一次看到这么写的， 刚开始还有点没看懂</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[i<span class="number">-1</span>] &gt; a[i])&#123;</span><br><span class="line">                <span class="keyword">int</span> t=a[i<span class="number">-1</span>];</span><br><span class="line">                a[i<span class="number">-1</span>] = a[i];</span><br><span class="line">                a[i] = t;</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>求数组中 最大的两个数的下标  [lo ,hi)</p>
+<p>递归 + 分治</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">max2</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi,<span class="keyword">int</span> &amp;x1,<span class="keyword">int</span> &amp;x2)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">2</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[lo] &gt;= a[lo+<span class="number">1</span>])&#123;</span><br><span class="line">            x1 = lo;</span><br><span class="line">            x2 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            x2 = lo;</span><br><span class="line">            x1 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">3</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[x1 = lo] &lt; a[x2 = lo+<span class="number">1</span>]) swap(x1,x2);</span><br><span class="line">        <span class="keyword">if</span> (a[lo+<span class="number">2</span>] &gt; a[x2])&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[x2 = lo+<span class="number">2</span>] &gt; a[x1])&#123;</span><br><span class="line">                swap(x1,x2);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mi = (lo + hi)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> x1l,x2l;max2(a,lo,mi,x1l,x2l);</span><br><span class="line">    <span class="keyword">int</span> x1r,x2r;max2(a,mi,hi,x1r,x2r);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[x1l] &gt; a[x1r])&#123;</span><br><span class="line">        x1 = x1l;</span><br><span class="line">        x2 = a[x2l] &gt; a[x1r] ? x2l:x1r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        x1 = x1r;</span><br><span class="line">        x2 = a[x1l] &gt; a[x2r] ? x1l:x2r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>斐波那契数列、FIB()回归迭代</p>
+<ul>
+<li><p>解决方法A（记忆：memoization）</p>
+</li>
+<li><p>​    将已计算过的实例的结果制表查询</p>
+</li>
+<li><p>解决方法B（动态规划：Dynamic Programming）</p>
+<ul>
+<li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
+<p>T(n)=O(n), 仅需O(1)空间！</p>
+<p><img src="https://turing0.github.io/html/img/fib-ex.png" alt="fib-ex"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Data Structures and Algorithms</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>数据结构</tag>
+        <tag>Datastruct</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习 经验 知识</title>
+    <url>/posts/vocabulary.html</url>
+    <content><![CDATA[<p>经验 知识</p>
+<a id="more"></a>
+<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
+<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
+<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
+<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
+<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
+<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
+<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
+<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
+]]></content>
   </entry>
   <entry>
     <title>Git 教程</title>
@@ -1352,26 +1576,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
-    <title>学习 经验 知识</title>
-    <url>/posts/vocabulary.html</url>
-    <content><![CDATA[<p>经验 知识</p>
-<a id="more"></a>
-<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
-<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
-<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
-<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
-<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
-<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
-<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
-<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Git Study</title>
     <url>/posts/git-study.html</url>
     <content><![CDATA[<p>Record git study.</p>
@@ -1412,210 +1616,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </categories>
       <tags>
         <tag>插件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二叉树的遍历</title>
-    <url>/posts/binarytree-traverse.html</url>
-    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
-<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构与算法 学习笔记</title>
-    <url>/posts/datastructs-algorithms-note.html</url>
-    <content><![CDATA[<p>笔记略长， 排版略丑</p>
-<p>serendipity</p>
-<h1 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h1><h2 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h2><p>数据结构</p>
-<a id="more"></a>
-<ul>
-<li><p>一维</p>
-<ul>
-<li>基础：数组 array(string),链表 linked list</li>
-<li>高级：栈 stack,队列 queue，双端队列 deque，集合 set，映射 map(hash or map),etc</li>
-</ul>
-</li>
-<li><p>二维</p>
-<ul>
-<li>基础：树 tree，图 graph</li>
-<li>高级：二叉搜索树 binary search tree (red-black tree, AVL),堆 heap，并查集 disjoint set，字典树 Trie,etc</li>
-</ul>
-</li>
-<li>特殊<ul>
-<li>位运算 Bitwise, 布隆过滤器 BloomFilter </li>
-<li>LRU Cache</li>
-</ul>
-</li>
-</ul>
-<p>注意：了解每个数据结构的原理和代码框架</p>
-<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ul>
-<li>If-else, switch —&gt; branch </li>
-<li>for, while loop —&gt; Iteration</li>
-<li>递归 Recursion (Divide &amp; Conquer, Backtrace) </li>
-<li>搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc</li>
-<li>动态规划 Dynamic Programming</li>
-<li>二分查找 Binary Search</li>
-<li>贪心 Greedy</li>
-<li>数学 Math , 几何 Geometry</li>
-</ul>
-<p>注意：在头脑中回忆上面每种算法的思想和代码模板</p>
-<h3 id="算法脑图"><a href="#算法脑图" class="headerlink" title="算法脑图"></a>算法脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/05f47326887492" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/05f47326887492</a></p>
-<p><a href="https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec</a></p>
-<h3 id="数据结构脑图"><a href="#数据结构脑图" class="headerlink" title="数据结构脑图"></a>数据结构脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144</a></p>
-<p><a href="https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c</a></p>
-<h2 id="五步刷题法"><a href="#五步刷题法" class="headerlink" title="五步刷题法"></a>五步刷题法</h2><h3 id="刷题第一遍"><a href="#刷题第一遍" class="headerlink" title="刷题第一遍"></a>刷题第一遍</h3><ul>
-<li>5分钟：读题 + 思考 </li>
-<li>直接看解法：注意！多解法，比较解法优劣</li>
-<li>背诵、默写好的解法</li>
-</ul>
-<h3 id="刷题第二遍"><a href="#刷题第二遍" class="headerlink" title="刷题第二遍"></a>刷题第二遍</h3><ul>
-<li>马上自己写 —&gt; LeetCode 提交</li>
-<li>多种解法比较、体会 —&gt; 优化！</li>
-</ul>
-<h3 id="刷题第三遍"><a href="#刷题第三遍" class="headerlink" title="刷题第三遍"></a>刷题第三遍</h3><ul>
-<li>过了一天后，再重复做</li>
-<li>不同解法的熟练程度 —&gt; 专项练习</li>
-</ul>
-<h3 id="刷题第四遍"><a href="#刷题第四遍" class="headerlink" title="刷题第四遍"></a>刷题第四遍</h3><ul>
-<li>过了一周：反复回来练习相同题目</li>
-</ul>
-<h3 id="刷题第五遍"><a href="#刷题第五遍" class="headerlink" title="刷题第五遍"></a>刷题第五遍</h3><ul>
-<li>面试前一周恢复性训练</li>
-</ul>
-<hr>
-<h1 id="训练准备"><a href="#训练准备" class="headerlink" title="训练准备"></a>训练准备</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
-<li>Google</li>
-<li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/microsoft/terminal</a>)</li>
-<li>VSCode; Java: IntelliJ; Python: Pycharm</li>
-<li>LeetCode plugin (VSCode &amp; IntelliJ)</li>
-<li><a href="https://vscodethemes.com" target="_blank" rel="noopener external nofollow noreferrer">https://vscodethemes.com</a></li>
-<li>骚操作：<ul>
-<li><a href="https://juejin.im/post/5ce1365151882525ff28ed47" target="_blank" rel="noopener external nofollow noreferrer">https://juejin.im/post/5ce1365151882525ff28ed47</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h3><p>Java、 Python、…</p>
-<ul>
-<li>Google code style</li>
-<li>Facebook</li>
-<li>airbnb</li>
-</ul>
-<h3 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h3><ul>
-<li>leetcode-cn.com 和题解</li>
-<li>leetcode.com 和 Discuss board</li>
-</ul>
-<h3 id="指法和小操作"><a href="#指法和小操作" class="headerlink" title="指法和小操作"></a>指法和小操作</h3><ul>
-<li>home, end 或 fn + ⬅➡（行头、行尾）</li>
-<li>Ctrl + ⬅➡ （到左右的下一词）</li>
-<li>Ctrl + backspace （删除词）</li>
-<li>IDE 的⾃自动补全</li>
-<li>Top tips for &lt; IDE - name&gt;</li>
-</ul>
-<h3 id="自顶向下的编程方式"><a href="#自顶向下的编程方式" class="headerlink" title="自顶向下的编程方式"></a>自顶向下的编程方式</h3><ul>
-<li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener external nofollow noreferrer">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
-<li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener external nofollow noreferrer">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
-</ul>
-<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
-<p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener external nofollow noreferrer">https://www.zhihu.com/question/21387264</a></p>
-<p>Master theorem</p>
-<p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener external nofollow noreferrer">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
-<p>主定理</p>
-<p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener external nofollow noreferrer">http://zh.wikipedia.org/wiki/</a></p>
-<h2 id="大O复杂度表示法"><a href="#大O复杂度表示法" class="headerlink" title="大O复杂度表示法"></a>大O复杂度表示法</h2><p>所有代码的执行时间T(n)与每行代码的执行次数n成正比,即大O。</p>
-<script type="math/tex; mode=display">
-T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数据规模的大小；f(n)表示每行代码执行的次数总和。因为这是一个公式，所以用f(n)来表示。公式中的O，表示代码的执行时间T(n)与f(n)表达式成正比。</p>
-<p>大O时间复杂度实际上并不具体表示代码真正的执行时间，而是表示代码执行时间随数据规模增长的变化趋势，所以，也叫作渐进时间复杂度（asymptotic time complexity），简称时间复杂度。</p>
-<ul>
-<li><p>如何分析一段代码的时间复杂度？</p>
-<ol>
-<li><p>只关注循环执行次数最多的一段代码<br>大O这种复杂度表示方法只是表示一种变化趋势。我们通常会忽略掉公式中的常量、低阶、系数，只需要记录一个最大阶的量级就可以了。所以，我们在分析一个算法、一段代码的时间复杂度的时候，也只关注循环执行次数最多的那一段代码就可以了。这段核心代码执行次数的n的量级，就是整段要分析代码的时间复杂度。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">	<span class="keyword">int</span> sum = <span class="number">0</span>;   </span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">	<span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">		sum = sum + i;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>其中第2、3行代码都是常量级的执行时间，与n的大小无关，所以对于复杂度并没有影响。循环执行次数最多的是第4、5行代码，所以这块代码要重点分析。前面我们也讲过，这两行代码被执行了n次，所以总的时间复杂度就是O(n)</p>
-</li>
-<li><p>加法法则：总复杂度等于量级最大的那段代码的复杂度</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;     </span><br><span class="line">        sum_1 = sum_1 + p;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_2 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; q &lt; n; ++q) &#123;     </span><br><span class="line">        sum_2 = sum_2 + q;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_3 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">        j = <span class="number">1</span>;      </span><br><span class="line">        <span class="keyword">for</span> (; j &lt;= n; ++j) &#123;       </span><br><span class="line">            sum_3 = sum_3 +  i * j;     </span><br><span class="line">        &#125;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum_1 + sum_2 + sum_3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个代码分为三部分，分别是求sum_1、sum_2、sum_3。我们可以分别分析每一部分的时间复杂度，然后把它们放到一块儿，再取一个量级最大的作为整段代码的复杂度。第一段的时间复杂度是多少呢？这段代码循环执行了100次，所以是一个常量的执行时间，跟n的规模无关。</p>
-<p>这里我要再强调一下，即便这段代码循环10000次、100000次，只要是一个已知的数，跟n无关，照样也是常量级的执行时间。当n无限大的时候，就可以忽略。尽管对代码的执行时间会有很大影响，但是回到时间复杂度的概念来说，它表示的是一个算法执行效率与数据规模增长的变化趋势，所以不管常量的执行时间多大，我们都可以忽略掉。因为它本身对增长趋势并没有影响。</p>
-<p>那第二段代码和第三段代码的时间复杂度是多少呢？答案是O(n)和O(n2)</p>
-<p>综合这三段代码的时间复杂度，我们取其中最大的量级。所以，整段代码的时间复杂度就为O(n2)。也就是说：总的时间复杂度就等于量级最大的那段代码的时间复杂度。</p>
-</li>
-<li><p>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">    <span class="keyword">int</span> ret = <span class="number">0</span>;    </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;     </span><br><span class="line">        ret = ret + f(i);   </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;  </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;    </span><br><span class="line">    	sum = sum + i;  </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>单独看cal()函数。假设f()只是一个普通的操作，那第4～6行的时间复杂度就是，T1(n) = O(n)。但f()函数本身不是一个简单的操作，它的时间复杂度是T2(n) =O(n)，所以，整个cal()函数的时间复杂度就是，T(n) = T1(n) <em> T2(n) = O(n</em>n) = O(n2)。</p>
-</li>
-</ol>
-</li>
-</ul>
-<p>O(1):  Constant Complexity 常数复杂度</p>
-<p>O(log n):  Logarithmic Complexity 对数复杂度</p>
-<ul>
-<li><p>```c++<br>i=1;<br>while (i &lt;= n)  {   </p>
-<pre><code>i = i * 2; 
-</code></pre><p>}</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这段代码的时间复杂度就是O(log2n)</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">i&#x3D;1; </span><br><span class="line">while (i &lt;&#x3D; n)  &#123;   </span><br><span class="line">    i &#x3D; i * 3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这段代码的时间复杂度为O(log3n)</p>
-</li>
-</ul>
-<p>  实际上，不管是以2为底、以3为底，还是以10为底，我们可以把所有对数阶的时间复杂度都记为O(logn)。为什么呢？</p>
-<p>  我们知道，对数之间是可以互相转换的，log3n就等于log32 <em> log2n，所以O(log3n) = O(C </em> log2n)，其中C=log32是一个常量。基于我们前面的一个理论：在采用大O标记复杂度的时候，可以忽略系数，即O(Cf(n)) = O(f(n))。所以，O(log2n) 就等于O(log3n)。因此，在对数阶时间复杂度的表示方法里，我们忽略对数的“底”，统一表示为O(logn)。</p>
-<ul>
-<li>如果一段代码的时间复杂度是O(logn)，我们循环执行n遍，时间复杂度就是O(nlogn)了。而且，O(nlogn)也是一种非常常见的算法时间复杂度。比如，归并排序、快速排序的时间复杂度都是O(nlogn)。</li>
-</ul>
-<p>O(n):  Linear Complexity 线性时间复杂度</p>
-<p>O(n^2): N square Complexity 平方</p>
-<p>O(n^3): N square Complexity 立方</p>
-<p>O(2^n): Exponential Growth 指数</p>
-<p>O(n!): Factorial 阶乘</p>
-<p>注意：只看最⾼高复杂度的运算</p>
-<p>O(k^n)</p>
-<p>int fib(int n) {</p>
-<p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
-<p>⼆叉树遍历 - 前序、中序、后序：O(N)</p>
-<p>图的遍历：O(N)</p>
-<p>搜索算法：DFS、BFS - O(N)</p>
-<p>二分查找：O(logN)</p>
-<h1 id="以下为邓俊辉老师数据结构与算法的笔记"><a href="#以下为邓俊辉老师数据结构与算法的笔记" class="headerlink" title="以下为邓俊辉老师数据结构与算法的笔记"></a>以下为邓俊辉老师数据结构与算法的笔记</h1><p>冒泡排序</p>
-<p>第一次看到这么写的， 刚开始还有点没看懂</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[i<span class="number">-1</span>] &gt; a[i])&#123;</span><br><span class="line">                <span class="keyword">int</span> t=a[i<span class="number">-1</span>];</span><br><span class="line">                a[i<span class="number">-1</span>] = a[i];</span><br><span class="line">                a[i] = t;</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>求数组中 最大的两个数的下标  [lo ,hi)</p>
-<p>递归 + 分治</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">max2</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi,<span class="keyword">int</span> &amp;x1,<span class="keyword">int</span> &amp;x2)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">2</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[lo] &gt;= a[lo+<span class="number">1</span>])&#123;</span><br><span class="line">            x1 = lo;</span><br><span class="line">            x2 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            x2 = lo;</span><br><span class="line">            x1 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">3</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[x1 = lo] &lt; a[x2 = lo+<span class="number">1</span>]) swap(x1,x2);</span><br><span class="line">        <span class="keyword">if</span> (a[lo+<span class="number">2</span>] &gt; a[x2])&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[x2 = lo+<span class="number">2</span>] &gt; a[x1])&#123;</span><br><span class="line">                swap(x1,x2);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mi = (lo + hi)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> x1l,x2l;max2(a,lo,mi,x1l,x2l);</span><br><span class="line">    <span class="keyword">int</span> x1r,x2r;max2(a,mi,hi,x1r,x2r);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[x1l] &gt; a[x1r])&#123;</span><br><span class="line">        x1 = x1l;</span><br><span class="line">        x2 = a[x2l] &gt; a[x1r] ? x2l:x1r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        x1 = x1r;</span><br><span class="line">        x2 = a[x1l] &gt; a[x2r] ? x1l:x2r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>斐波那契数列、FIB()回归迭代</p>
-<ul>
-<li><p>解决方法A（记忆：memoization）</p>
-</li>
-<li><p>​    将已计算过的实例的结果制表查询</p>
-</li>
-<li><p>解决方法B（动态规划：Dynamic Programming）</p>
-<ul>
-<li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
-<p>T(n)=O(n), 仅需O(1)空间！</p>
-<p><img src="https://turing0.github.io/html/img/fib-ex.png" alt="fib-ex"></p>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Data Structures and Algorithms</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>数据结构</tag>
-        <tag>Datastruct</tag>
-        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1766,51 +1766,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Linux下C语言学习</title>
-    <url>/posts/linux-c.html</url>
-    <content><![CDATA[<p>系统Ubuntu  18.04</p>
-<a id="more"></a>
-<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
-<p>更新软件：<code>sudo apt upgrade;</code></p>
-<p>下载vim：<code>sudo apt install vim；</code></p>
-<p>下载gcc：<code>sudo apt install gcc</code></p>
-<p>下载gdb：<code>sudo apt install gdb</code></p>
-<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
-<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
-<p><code>vi hello.c</code></p>
-<p>按i进入输入模式</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>按esc推出输入模式，保存退出</p>
-<p>编译hello.c</p>
-<p><code>gcc -o hello hello.c -Wall</code></p>
-<p>执行</p>
-<p><code>./hello</code></p>
-<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
-<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
-<p><code>gcc -c hello.c</code></p>
-<p>就将 hello.c 编译为 hello.o。</p>
-<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
-<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
-<p><code>gcc -c hello.c -o a.o</code></p>
-<p>这样生成的目标文件的名字就是 a.o。</p>
-<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
-<p><code>gcc hello.o</code></p>
-<p>就将 hello.o 链接为 a.out。</p>
-<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
-<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
-<p><code>gcc hello.o -o hello.out</code></p>
-<p>这样生成的可执行文件的名字就是 hello.out。</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
     <url>/posts/intellij-jsp.html</url>
     <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
@@ -1866,6 +1821,51 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下C语言学习</title>
+    <url>/posts/linux-c.html</url>
+    <content><![CDATA[<p>系统Ubuntu  18.04</p>
+<a id="more"></a>
+<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
+<p>更新软件：<code>sudo apt upgrade;</code></p>
+<p>下载vim：<code>sudo apt install vim；</code></p>
+<p>下载gcc：<code>sudo apt install gcc</code></p>
+<p>下载gdb：<code>sudo apt install gdb</code></p>
+<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
+<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
+<p><code>vi hello.c</code></p>
+<p>按i进入输入模式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>按esc推出输入模式，保存退出</p>
+<p>编译hello.c</p>
+<p><code>gcc -o hello hello.c -Wall</code></p>
+<p>执行</p>
+<p><code>./hello</code></p>
+<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
+<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
+<p><code>gcc -c hello.c</code></p>
+<p>就将 hello.c 编译为 hello.o。</p>
+<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
+<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
+<p><code>gcc -c hello.c -o a.o</code></p>
+<p>这样生成的目标文件的名字就是 a.o。</p>
+<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
+<p><code>gcc hello.o</code></p>
+<p>就将 hello.o 链接为 a.out。</p>
+<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
+<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
+<p><code>gcc hello.o -o hello.out</code></p>
+<p>这样生成的可执行文件的名字就是 hello.out。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -2394,63 +2394,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Palpitate</title>
-    <url>/posts/otof.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Hey, password is required here.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="977b7aabfebc4280e0e7638ec8e197bf7d978ad58e3f2508bbef2fdc5447c818">1eb3b6a1a6adba4e78f7322ca4d667ad6de6a59e39b3c2c32d1bc1b621ced441b9ef013864597174e44a6009e9df3941a614f5951f964fb2473d4929805c5ea98f28893fd6ab9b78177ae0322f0d6fd7a89e5c2bcba5f7d600fb46c43b49c929735259a346207938a097b2428823a5afcb8651c1b86a8d6efd2b662dc439740826aa6ada2af1c4b98ce96640e72ae5f06d2d140e34fc223844745b2b060fa98e2bf7dbf64e785ec0669c730428257310bff1822a01e2f31de2c1d172212738a25cc47e2167138a120f3136b9edbd4d8742233854227875ab6fa3eaedf7f1d5094144968cfdcdc8e02669fe2c6b9a21ecc6789d7804ab6edfbfeea1ddcbacff9a5678827d48fe3a1743f7feaa30161a263a23907a31802f7efc14ee54fdca5f6a9948616a2eeec489fd281883d0b6a5d2242fb06c7aa7390199903cbdfa084008c6500383d97127228bb93b869d64e5bb06d831c3109e903895488253c552885dea4dda2d7e9dfecf51ae0246d87a3718d062b15f8b0c81dd270c72ff2f27ac9dfc8d91e5f022eda8f0a08c531356c7e8ac43b2af1bfeaeb0e8b6c71d803ab1f9c8151c711fd343906e6039479b539d5de8a1ee1c5073320d5b0bbd26c0213897990accf643e459288dc800098bc0f447c37bb85c1b98d35b093288b6291df7d7ad47445d06b17e6e6c9b11fb8c25fd33590ac85df8b118478c21451c1ffaf8f09fbf71fce8e8d864af06a9edb84166463d859e0ea504d2d2910f38373547d75aab5b16767359f6b895a65a2cee4b7c16192277fb3877e9eea9c457ad429d075b5d509457fd30c87a2fd462b3e8164ef0085821d2efc62c6395a9c4967f0f4ec86fce0f196d3b6511cca704e50d9230a6ea829575c57d3ac5af6eae79464efbc4aabecba0e6185511263784229efa1db2fd806ee92ca6fdf880306dda891383666a7335dc67443e8638d8cc0c65660bd161caf1826812b2b64c23dfdff244ff54eb9ebc07efe759b4eb540d3054777676c8c4b25036990928f8ad0a061e7e8593a1f3574c5704cad30d3cf081bfcd3bd224855915b0d4399e676a1907d433365a9358fba278925138cc11d2024932c21028409fdc872b1c5c43b613540f36b78f565fb92cfbccda5e6e369badc8e5df6ae5f5b63f1d52647daf2f1c91e4768167d730a18ae706437dc0d1b485d6a1d0eb8e633c924acd7a2d39d0911ad11fcdac582724e94e640acb7a7d898b465676639178acabd19fb374a34b309afaf822a682e10ac19c99941a8d536c4be25d9137e21e2af768fec1c7bfee2ac7ff887126733996cdeaa62edeba6c29219067e2ac7de743b0efcf1e979c7349364b301d23cddde32e65b36ece69015dbf405039417006ae294182769f824c3fe58a16bd3a6d9e514b9f70e9529ad08e971bdb6f062c447f0e006fbe2a8396d1592a0c4b8b66b54219d52ef018720e8f6a87e95bb3c75622c6e212c8366b5a110468ff85274f14e2e6705df04d923d7eda433ae982d69c1b22fc1974193d58fc133e5d014455cf97511330af57d7fde61af9a5c9f5c6838376ca07d875772797a57a736e2ba35487275cd3fef983c69b4f508dd1ce790ee988263923c33174ce6328717e54dc74d996952b330837a9079cd52990c5470de71dbb1c2cfbc7827da0d02d4ef419b41f2025a97edafb55f488d7aed68d4fc3fa57506aec93d48deb8e71d368572fac1422f989f9dbc58f8e6136f33744669417f4e40d2fb692b7c8160e08fde7c3800c1d34a037d356617d7a8012e3b37b33a3b842f7710b9394b82d5f1a26d34360777d4bfd027787b259b85de26a82d98a728a0fbecf71d01a6f22fc1de306ae9755348daa6f7434552518dcd70cb2d327cc46e09d444b2868f6fb73ecaaa547d7798d4543de6c7581bf15258f132cffb9ddebc37bfc95112b8117b0f34c40bec2de8e8e32f7d8b43bf8d2baa7a93e3d2a2706a7f26d60e8adc71297300f15856426f5db64840097309bec3add30dc3b40d148a88e8efe5e1342c9f336d386a13c2fb6eeca4afa2cc48d99b66c7c3e1bcdb40f1843743a4f8a5a8d791dbed3d50b13c5e839a9e57a15f622afd2cd8811461e48ece70c2600e233bf70f09dcbd30ca1876b392fef258115aef33b5ecc60cf849d23f722637a3c1c03eabd0dd61eb0c98328beea0f4d854da5482fbc5f0ce8bd084ed3328a563ef6998311b6efdb3e3fb5e8601aa6823c3cb7afe734039a0950a8a880d9dcfc04a51e691e7bda27ee0341b6b8d7f430cc812f3160b4dfec1cff90c6d84f64bdaacec80937da24989701eac55453e2ff0219aea04b285536da16d5e4111f1058907556000d8d4e03948b71d31bd0d9df9341d8b5a0fd6e7024ee32db47d7a5451db6b48c1dfbad831f77aa39b78025ad620422232f00d25bec4c5b80a57781383516b3f23bd8304f271cc228220efa1f6930212138481acfd1858ea6064d7024dfbe1ec337d977beaae7026e150d97ed80c683395b6f831a18b1f2a2949a0459021349a78edbb5720b73a0e6a68e566a5d84f56165e325e71dd9e8120ca8fa55d86a7aede9a3cec05aba2a25a520a3bea31467cf1a844865d9cbef195d67bfeb9fa3ae3f9c7232513abb321af1f353aa36f5bb75095aa55159dc0d0177de8a911ebfd9d0ee59d6c507214f980f6c77b8a50e71f2f6a82a36914b5e849f2fbbc8d6aada3e05ff85c9e1870e453b0fe28c9cd2d2fa68bdddddbc323bff5534d7bcd5599c54abb8d9927e99b0c1e95e5397333dbc4a8f343569df831017ee0e95376e1a84566533a0e866080bab84ba6828847693fa259312e15119a609463130cfaaf4edbfa111c0c653f3fd139cc71ecf9bb174792767eb0b177d5a523f223be26e305574a73df1ac816747dfbdaf0eec9856ec3efed629e803fbfa0a8dedd6f39093ba37ff5b87dee4d765facb55b0515e8c1022f99d188303cf88c01eeecac755e6e991eb80a43b382d0c077073de4436acfe818ccb85c448a371407ea883829949c17d697105151976c2154ffedf6f8000f5c6a6daa7b2d5b348027df055b6c2347e373fa1e48f555f58be927f3153d5b34f903b93171df4d13699e579ebd1e9558b5868114a97539cbeff34b0501abee8541b9083ffe4b1d07395553e86473ef51741ba726547e065da21c2a6e1f2c9a2ce1a44fb370ca808042a393d5e80973b48a104fdee83145860209f725b4e961dd69b4363b643508b830a32b57ce67b1b97814e99cc4e4dfcf54e65625d7095e60ef47fdb1b9b6f2ba0d3d4efa01623e7745bff20ba</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>写代码的重要性</title>
-    <url>/posts/d7e09071.html</url>
-    <content><![CDATA[<p>如果26个英文字母</p>
-<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-<a id="more"></a>
-<p>分别等于:</p>
-<p>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26</p>
-<p>那么：</p>
-<p>Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%</p>
-<p>Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%</p>
-<p>也就是说知识和努力工作对我们人生的影响可以达到96％和98％。</p>
-<p>Luck（好运）： L+U+C+K＝12+21+3+11=47%。</p>
-<p>Love（爱情）： L+O+V+E＝12+15+22+5=54%。</p>
-<p>看来，这些我们通常认为重要的东西却并没起到最重要的作用。</p>
-<p>那么，什么可以决定我们100％的人生呢？</p>
-<p>是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。</p>
-<p>看来也不是。</p>
-<p>是Leadership (领导能力)吗？</p>
-<p>L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%</p>
-<p>还不是。</p>
-<p>金钱，权力也不能完全决定我们的生活。那是什么呢？</p>
-<p>其实，真正能使我们生活圆满的东西就在我们的代码里面！</p>
-<p>iostream(输入输出流所在的头文件)</p>
-<p>I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。</p>
-<p>所以坚持写代码吧！</p>
-<p>没毛病😁</p>
-<figure class="highlight python"><figcaption><span>aa</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">money_val</span><span class="params">(min, max)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> min <span class="keyword">if</span> min &gt; max <span class="keyword">else</span> random.randint(min, max)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">redenvelope</span><span class="params">(money, n, min = <span class="number">0.01</span>)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    :param money:   红包金额</span></span><br><span class="line"><span class="string">    :param n:       抢红包的人数</span></span><br><span class="line"><span class="string">    :param min:     抢到红包的最小金额</span></span><br><span class="line"><span class="string">    :return:        每个人抢到红包的金额</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    money_list = []</span><br><span class="line">    <span class="keyword">if</span> money &lt; n * min:</span><br><span class="line">        <span class="keyword">return</span> money_list, <span class="string">u'Invalid Value'</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, n):</span><br><span class="line">        safe_total = (money - (n - i) * min) / (n - i)</span><br><span class="line">        get_money = round(money_val(min * <span class="number">100</span>, int(safe_total) * <span class="number">100</span>) / <span class="number">100</span>, <span class="number">2</span>)</span><br><span class="line">        money -= get_money</span><br><span class="line">        money_list.append(get_money)</span><br><span class="line">    money_list.append(round(money, <span class="number">2</span>))</span><br><span class="line">    random.shuffle(money_list)</span><br><span class="line">    <span class="keyword">return</span> money_list, <span class="string">u'success'</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Uncategorized</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>打造你的最强Firefox浏览器</title>
     <url>/posts/power-firefox.html</url>
     <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
@@ -2485,6 +2428,15 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+  </entry>
+  <entry>
     <title>QT Study</title>
     <url>/posts/qt-study.html</url>
     <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
@@ -2500,6 +2452,41 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写代码的重要性</title>
+    <url>/posts/d7e09071.html</url>
+    <content><![CDATA[<p>如果26个英文字母</p>
+<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+<a id="more"></a>
+<p>分别等于:</p>
+<p>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26</p>
+<p>那么：</p>
+<p>Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%</p>
+<p>Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%</p>
+<p>也就是说知识和努力工作对我们人生的影响可以达到96％和98％。</p>
+<p>Luck（好运）： L+U+C+K＝12+21+3+11=47%。</p>
+<p>Love（爱情）： L+O+V+E＝12+15+22+5=54%。</p>
+<p>看来，这些我们通常认为重要的东西却并没起到最重要的作用。</p>
+<p>那么，什么可以决定我们100％的人生呢？</p>
+<p>是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。</p>
+<p>看来也不是。</p>
+<p>是Leadership (领导能力)吗？</p>
+<p>L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%</p>
+<p>还不是。</p>
+<p>金钱，权力也不能完全决定我们的生活。那是什么呢？</p>
+<p>其实，真正能使我们生活圆满的东西就在我们的代码里面！</p>
+<p>iostream(输入输出流所在的头文件)</p>
+<p>I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。</p>
+<p>所以坚持写代码吧！</p>
+<p>没毛病😁</p>
+<figure class="highlight python"><figcaption><span>aa</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">money_val</span><span class="params">(min, max)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> min <span class="keyword">if</span> min &gt; max <span class="keyword">else</span> random.randint(min, max)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">redenvelope</span><span class="params">(money, n, min = <span class="number">0.01</span>)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    :param money:   红包金额</span></span><br><span class="line"><span class="string">    :param n:       抢红包的人数</span></span><br><span class="line"><span class="string">    :param min:     抢到红包的最小金额</span></span><br><span class="line"><span class="string">    :return:        每个人抢到红包的金额</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    money_list = []</span><br><span class="line">    <span class="keyword">if</span> money &lt; n * min:</span><br><span class="line">        <span class="keyword">return</span> money_list, <span class="string">u'Invalid Value'</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, n):</span><br><span class="line">        safe_total = (money - (n - i) * min) / (n - i)</span><br><span class="line">        get_money = round(money_val(min * <span class="number">100</span>, int(safe_total) * <span class="number">100</span>) / <span class="number">100</span>, <span class="number">2</span>)</span><br><span class="line">        money -= get_money</span><br><span class="line">        money_list.append(get_money)</span><br><span class="line">    money_list.append(round(money, <span class="number">2</span>))</span><br><span class="line">    random.shuffle(money_list)</span><br><span class="line">    <span class="keyword">return</span> money_list, <span class="string">u'success'</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Uncategorized</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
