@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020上半年总结</title>
+    <url>/posts/2020-half-summary.html</url>
+    <content><![CDATA[<p>2020半年度总结</p>
+<a id="more"></a>
+<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
+<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
+<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
+<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
+<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
+<p>阅读了:</p>
+<ul>
+<li>《小狗钱钱》</li>
+</ul>
+<p>正在看：</p>
+<ul>
+<li>《线性代数及其应用》</li>
+</ul>
+<p>看了电影和电视剧：</p>
+<ul>
+<li><p>遇见你之前</p>
+</li>
+<li><p>决胜21点</p>
+</li>
+<li><p>他是龙</p>
+</li>
+<li><p>隐秘的角落</p>
+</li>
+</ul>
+<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
+<p>学习专业知识，提高专业素养。</p>
+<p>其他兴趣技能的发展。</p>
+<p>个人IP的打造。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Markdown + Latex test</title>
     <url>/posts/91ac7065.html</url>
     <content><![CDATA[<h1 id="Latex测试"><a href="#Latex测试" class="headerlink" title="Latex测试"></a>Latex测试</h1><script type="math/tex; mode=display">x^y=(1+{\rm e}^x)^{-2xy}</script><script type="math/tex; mode=display">sqrt(9)</script><script type="math/tex; mode=display">c^{2} = a^{2} + b^{2}</script><p>$ c^{2} = a^{2} + b^{2} $<br><a id="more"></a></p>
@@ -620,41 +676,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>2020上半年总结</title>
-    <url>/posts/2020-half-summary.html</url>
-    <content><![CDATA[<p>2020半年度总结</p>
-<a id="more"></a>
-<h1 id="上半年总结"><a href="#上半年总结" class="headerlink" title="上半年总结"></a>上半年总结</h1><p>2020是个不平凡的一年，也是具有历史性的一年。</p>
-<p>疫情来的很突然，整个暑假和下学期都是在家里度过的，这个时期除了学习还是学习，也想了很多，比如应当有副业，有被动收入的；要有计划、规划；</p>
-<p><del>当然，在此期间还遇到了一个非常重要的人，就是我女朋友啦😘，这一定是特别的缘分，才使得我们的相遇，希望我和她永不分离。</del></p>
-<p>在这半年，我初步了解到理财和投资（虽然以前就知道，但一直没怎么了解），这个是需要长期学习的。推荐下香帅的北大金融学课程。</p>
-<p>博客的建立也是在这个时期，对博客进行了一些优化。</p>
-<p>阅读了:</p>
-<ul>
-<li>《小狗钱钱》</li>
-</ul>
-<p>正在看：</p>
-<ul>
-<li>《线性代数及其应用》</li>
-</ul>
-<p>看了电影和电视剧：</p>
-<ul>
-<li><p>遇见你之前</p>
-</li>
-<li><p>决胜21点</p>
-</li>
-<li><p>他是龙</p>
-</li>
-<li><p>隐秘的角落</p>
-</li>
-</ul>
-<h1 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h1><p>养成读书的习惯，每学期都要读书</p>
-<p>学习专业知识，提高专业素养。</p>
-<p>其他兴趣技能的发展。</p>
-<p>个人IP的打造。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>6分钟教你选数学老师</title>
     <url>/posts/chose-teacher.html</url>
     <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
@@ -673,24 +694,34 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+    <title>Codeblocks 问题总结</title>
+    <url>/posts/codeblocks-skills.html</url>
+    <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
+<p>最直接的办法：在设置-&gt;编译器与调试器-&gt;连接器设置-&gt;其他链接器选项 里面加：-static</p>
 ]]></content>
       <categories>
-        <category>TED</category>
+        <category>Code</category>
       </categories>
       <tags>
-        <tag>TED</tag>
+        <tag>codeblocks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二叉树的遍历</title>
+    <url>/posts/binarytree-traverse.html</url>
+    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
+<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -727,35 +758,24 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
-    <title>二叉树的遍历</title>
-    <url>/posts/binarytree-traverse.html</url>
-    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
-<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>学习 经验 知识</title>
+    <url>/posts/vocabulary.html</url>
+    <content><![CDATA[<p>经验 知识</p>
+<a id="more"></a>
+<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
+<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
+<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
+<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
+<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
+<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
+<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
+<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
 ]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Codeblocks 问题总结</title>
-    <url>/posts/codeblocks-skills.html</url>
-    <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
-<p>最直接的办法：在设置-&gt;编译器与调试器-&gt;连接器设置-&gt;其他链接器选项 里面加：-static</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>codeblocks</tag>
-      </tags>
   </entry>
   <entry>
     <title>CTF基础 i春秋学习笔记</title>
@@ -1229,24 +1249,35 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习 经验 知识</title>
-    <url>/posts/vocabulary.html</url>
-    <content><![CDATA[<p>经验 知识</p>
+    <title>Firefox和Chrome 自用扩展插件</title>
+    <url>/posts/firefox-chrome-extensions.html</url>
+    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
+<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
 <a id="more"></a>
-<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
-<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
-<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
-<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
-<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
-<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
-<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
-<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
+<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
+<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
 ]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
+      </tags>
   </entry>
   <entry>
     <title>Git 教程</title>
@@ -1588,34 +1619,61 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Firefox和Chrome 自用扩展插件</title>
-    <url>/posts/firefox-chrome-extensions.html</url>
-    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
-<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
 <a id="more"></a>
-<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
-<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
+<p>选择java</p>
+<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
+<p>如图打开project structure</p>
+<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
+<p>设置成这样</p>
+<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
+<p>点击add configurations</p>
+<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
 ]]></content>
       <categories>
-        <category>实用</category>
+        <category>Code</category>
       </categories>
       <tags>
-        <tag>插件</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -1766,64 +1824,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
-<a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
-<p>选择java</p>
-<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
-<p>如图打开project structure</p>
-<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
-<p>设置成这样</p>
-<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
-<p>点击add configurations</p>
-<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux下C语言学习</title>
     <url>/posts/linux-c.html</url>
     <content><![CDATA[<p>系统Ubuntu  18.04</p>
@@ -1866,80 +1866,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>C</tag>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电影 书单</title>
-    <url>/posts/79f93cc5.html</url>
-    <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
-<p>​    <a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C-05-20" target="_blank" rel="noopener external nofollow noreferrer">ZH</a></p>
-<h3 id="电影"><a href="#电影" class="headerlink" title="电影**"></a>电影**</h3><p>互联网之子</p>
-<p>犯罪现场调查-网络</p>
-<a id="more"></a>
-<p>暗海</p>
-<p>亿万</p>
-<hr>
-<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
-<p>《 Smart People Should Build Things 》</p>
-<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
-<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
-<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
-<p>走进我的交易室</p>
-<p>富兰克林自传</p>
-<p>随机漫步的傻瓜</p>
-<ul>
-<li><p>一些必读优秀书籍清单</p>
-<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
-</li>
-</ul>
-<p><strong>投资理财</strong></p>
-<p>风险放在第一位</p>
-<p>《经济学原理》</p>
-<p>《金融炼金术》</p>
-<p>《富爸爸穷爸爸》</p>
-<p>《巴菲特致股东的信》</p>
-<p>1.入门篇</p>
-<p>《小狗钱钱》</p>
-<p>《富爸爸穷爸爸》</p>
-<p>《财务自由之路》</p>
-<p>《邻家的百万富翁》</p>
-<p>《巴比伦最富有的人》</p>
-<p>2.初级篇</p>
-<p>《财报就像一本故事书》</p>
-<p>《手把手教你读财报》</p>
-<p>《投资中最简单的事》</p>
-<p>3.进阶篇</p>
-<p>《投资中最重要的事》</p>
-<p>《巴菲特的护城河》</p>
-<p>《学习估值，轻松投资》</p>
-<p>《指数基金投资指南》</p>
-<p>4.高级篇</p>
-<p>《穷查理宝典》</p>
-<p>《怎样选择成长股》</p>
-<p>《彼得林奇的成功投资》</p>
-<p>5.终极篇</p>
-<p>《证券分析》</p>
-<p>《聪明的投资者》</p>
-<p>《估值》</p>
-<p>《价值评估》</p>
-<p>苹果编码规范</p>
-<p>Rework</p>
-<ul>
-<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
-<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
-<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
-<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
-<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>书单</tag>
       </tags>
   </entry>
   <entry>
@@ -2394,6 +2320,80 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
+    <title>电影 书单</title>
+    <url>/posts/79f93cc5.html</url>
+    <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
+<p>​    <a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C-05-20" target="_blank" rel="noopener external nofollow noreferrer">ZH</a></p>
+<h3 id="电影"><a href="#电影" class="headerlink" title="电影**"></a>电影**</h3><p>互联网之子</p>
+<p>犯罪现场调查-网络</p>
+<a id="more"></a>
+<p>暗海</p>
+<p>亿万</p>
+<hr>
+<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
+<p>《 Smart People Should Build Things 》</p>
+<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
+<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
+<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
+<p>走进我的交易室</p>
+<p>富兰克林自传</p>
+<p>随机漫步的傻瓜</p>
+<ul>
+<li><p>一些必读优秀书籍清单</p>
+<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
+</li>
+</ul>
+<p><strong>投资理财</strong></p>
+<p>风险放在第一位</p>
+<p>《经济学原理》</p>
+<p>《金融炼金术》</p>
+<p>《富爸爸穷爸爸》</p>
+<p>《巴菲特致股东的信》</p>
+<p>1.入门篇</p>
+<p>《小狗钱钱》</p>
+<p>《富爸爸穷爸爸》</p>
+<p>《财务自由之路》</p>
+<p>《邻家的百万富翁》</p>
+<p>《巴比伦最富有的人》</p>
+<p>2.初级篇</p>
+<p>《财报就像一本故事书》</p>
+<p>《手把手教你读财报》</p>
+<p>《投资中最简单的事》</p>
+<p>3.进阶篇</p>
+<p>《投资中最重要的事》</p>
+<p>《巴菲特的护城河》</p>
+<p>《学习估值，轻松投资》</p>
+<p>《指数基金投资指南》</p>
+<p>4.高级篇</p>
+<p>《穷查理宝典》</p>
+<p>《怎样选择成长股》</p>
+<p>《彼得林奇的成功投资》</p>
+<p>5.终极篇</p>
+<p>《证券分析》</p>
+<p>《聪明的投资者》</p>
+<p>《估值》</p>
+<p>《价值评估》</p>
+<p>苹果编码规范</p>
+<p>Rework</p>
+<ul>
+<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
+<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
+<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
+<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
+<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>电影</tag>
+        <tag>书单</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>打造你的最强Firefox浏览器</title>
     <url>/posts/power-firefox.html</url>
     <content><![CDATA[<p>打造强大、安全、实用的Firefox浏览器</p>
@@ -2428,15 +2428,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-  </entry>
-  <entry>
     <title>QT Study</title>
     <url>/posts/qt-study.html</url>
     <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
@@ -2452,6 +2443,57 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Rust Study</title>
+    <url>/posts/rust-study.html</url>
+    <content><![CDATA[<p><a href="https://www.rust-lang.org" target="_blank" rel="noopener external nofollow noreferrer">Rust</a> 学习记录</p>
+<a id="more"></a>
+<h1 id="Rust-介绍"><a href="#Rust-介绍" class="headerlink" title="Rust 介绍"></a>Rust 介绍</h1><h1 id="Rust-环境搭建"><a href="#Rust-环境搭建" class="headerlink" title="Rust 环境搭建"></a>Rust 环境搭建</h1><h2 id="安装-Rust-编译工具"><a href="#安装-Rust-编译工具" class="headerlink" title="安装 Rust 编译工具"></a>安装 Rust 编译工具</h2><p><a href="https://www.rust-lang.org/zh-CN/tools/install" target="_blank" rel="noopener external nofollow noreferrer">https://www.rust-lang.org/zh-CN/tools/install</a><br>打开以上链接下载 <a href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" target="_blank" rel="noopener external nofollow noreferrer">rustup-init.exe（64位）</a> ，如果你是 32 位的，则下载32位的。</p>
+<p>如果不想安装在 C 盘，那么在安装之前，按照以下步骤设置：</p>
+<p>新建系统变量<img src="https://i.loli.net/2021/11/25/pYQsl4zNEgm7Tva.png" alt="image.png"></p>
+<p>变量名 <code>CARGO_HOME</code>，变量值设置为你自己想要安装的目录<img src="https://i.loli.net/2021/11/25/ZIStCB7TPv5jkza.png" alt="image.png"></p>
+<p>变量名 <code>RUSTUP_HOME</code>，变量值设置为你自己想要安装的目录<img src="https://i.loli.net/2021/11/25/osAnMwEkzS6eLxN.png" alt="image.png"></p>
+<p>右键以管理员运行刚刚下载的 Rust 安装程序<img src="https://i.loli.net/2021/11/25/xd5NJfiXzOK63L1.png" alt="image.png"></p>
+<p>可看到设置的目录生效，现在直接回车进行安装即可，若是速度很慢就<a href="https://zhuanlan.zhihu.com/p/126204128" target="_blank" rel="noopener external nofollow noreferrer">换源</a>，或者开代理<img src="https://i.loli.net/2021/11/25/zTbYAiJvCGRrtEh.png" alt="image.png"></p>
+<p>安装完成后，cmd 中输入 <code>rustc -V</code> 和 <code>cargo -V</code> 验证安装<img src="https://i.loli.net/2021/11/25/FjSoWPl1dQNxLpO.png" alt="image.png"></p>
+<p>如果以上两个命令能够输出安装的版本号，就是安装成功了。 </p>
+<h2 id="搭建-Visual-Studio-Code-开发环境"><a href="#搭建-Visual-Studio-Code-开发环境" class="headerlink" title="搭建 Visual Studio Code 开发环境"></a>搭建 Visual Studio Code 开发环境</h2><p>VSCode 中安装 Rust 插件<img src="https://i.loli.net/2021/11/25/lp1sBeEuPSTCLjo.png" alt="image.png"></p>
+<p>Rust 的开发环境就搭建好了 </p>
+<h1 id="第一个-Hello-world-程序"><a href="#第一个-Hello-world-程序" class="headerlink" title="第一个 Hello, world 程序"></a>第一个 Hello, world 程序</h1><p>按照以下命令执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir first_rust_program <span class="comment"># 新建一个文件夹</span></span><br><span class="line"><span class="built_in">cd</span> f* <span class="comment"># 进入</span></span><br><span class="line">touch main.rs <span class="comment"># 新建 main.rs 文件</span></span><br><span class="line">code . <span class="comment"># 在 VSCode 中打开</span></span><br></pre></td></tr></table></figure>
+<p>编写代码</p>
+<p><img src="https://i.loli.net/2021/11/25/xQNVDfBgKIbvsmM.png" alt="image.png"></p>
+<p>关键字 <code>fn</code> 定义函数；Rust 也和 C 语言类似，都是以 main 函数作为程序入口。<br><code>println!</code> 是一个 Rust macro（宏），如果是函数的话，就没有 <code>!</code></p>
+<h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>运行 Rust 程序前得先编译，编译命令：<code>rustc &lt;filename&gt;</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rustc main.rs <span class="comment"># 编译</span></span><br></pre></td></tr></table></figure>
+<p>编译成功后，生成了一个二进制文件，在 Win 下还会生成 main.pdb，其中包含调试信息。</p>
+<h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">./main <span class="comment"># 运行编译好的程序</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2021/11/25/iVSv4UwEFILjTgf.png" alt="image.png"></p>
+<p>当然，你也可以在 VSCode 中一键编译运行<img src="https://i.loli.net/2021/11/25/QCsLl9vWKSpY1FI.png" alt="image.png"></p>
+<p>Rust 是 ahead-of-time 编译的语言 一 可以先编译程序，然后把可执行文件交给别人运行（无需安装Rust)。</p>
+<p>rustc 只适合简单的 Rust 程序，大或者文件多的应使用 cargo。</p>
+<h1 id="Cargo"><a href="#Cargo" class="headerlink" title="Cargo"></a>Cargo</h1><p>Cargo 是 Rust 的构建系统和包管理器：：一构建代码、下载依赖的库、构建这些库。 </p>
+<p>Rust 开发者常用 Cargo 来管理 Rust 工程和获取工程所依赖的库。</p>
+<h2 id="Cargo-创建项目"><a href="#Cargo-创建项目" class="headerlink" title="Cargo 创建项目"></a>Cargo 创建项目</h2><p>终端中输入命令：<code>cargo new hello_rust</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cargo new hello_rust</span><br><span class="line">     Created binary (application) `hello_rust` package</span><br></pre></td></tr></table></figure>
+<p>当前文件下下会构建一个名叫 hello_rust 的 Rust 工程目录，可以看到文件结构是这样的<img src="https://i.loli.net/2021/11/25/XBtIQKhPjiRafwU.png" alt="image.png"></p>
+<h2 id="编译运行"><a href="#编译运行" class="headerlink" title="编译运行"></a>编译运行</h2><p>构建 Cargo 项目：<br><code>cargo build</code> 用于创建可执行文件<img src="https://i.loli.net/2021/11/25/xf9zu3SN6YU2mwE.png" alt="image.png"></p>
+<p>构建 和 运行 Cargo 项目：<br><code>cargo run</code> 编译代码 + 执行<img src="https://i.loli.net/2021/11/25/BjTZzd1wynReYoG.png" alt="image.png">因为刚才已经编译过了，而源代码没有改变过，所以这里 cargo就不会再编译了。</p>
+<p><code>cargo check</code> 用于检查代码，确保能够编译通过，但不产生任何可执行文件。<br>cargo check 要比 cargo build 快得多 ― 编写代码的时候可以连续反复的使用cargo check检查代码，提高效率。</p>
+<h2 id="为发布构建"><a href="#为发布构建" class="headerlink" title="为发布构建"></a>为发布构建</h2><p><code>cargo build --release</code> 编译时会进行优化。代码会运行的更快，但是编译时间更长。且会在 <code>target/release</code> 而不是 <code>target/debug</code> 生成可执行文件。</p>
+<h1 id="推荐资源"><a href="#推荐资源" class="headerlink" title="推荐资源"></a>推荐资源</h1><p><a href="https://www.rust-lang.org" target="_blank" rel="noopener external nofollow noreferrer">Rust 官网</a> </p>
+<p><a href="https://doc.rust-lang.org/book/#the-rust-programming-language" target="_blank" rel="noopener external nofollow noreferrer">The Rust Programming Language</a></p>
+<p><a href="https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/" target="_blank" rel="noopener external nofollow noreferrer">Take your first steps with Rust - Microsoft</a></p>
+<p><a href="https://www.bilibili.com/video/BV1564y1177A?share_source=copy_web" target="_blank" rel="noopener external nofollow noreferrer">好玩儿的 Rust 语言</a></p>
+<p>未完待续（￣︶￣）↗　<br>持续更新中…</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Rust</tag>
       </tags>
   </entry>
   <entry>
@@ -2487,6 +2529,69 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么你该拥有一个GV号？</title>
+    <url>/posts/44ea75d3.html</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
+<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
+<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
+<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
+<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
+<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
+<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
+<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
+<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
+<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
+<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
+<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
+<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
+<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
+<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
+<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
+<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
+<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
+<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
+<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
+<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
+<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>Google Voice</tag>
       </tags>
   </entry>
   <entry>
@@ -2560,60 +2665,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Note</tag>
         <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么你该拥有一个GV号？</title>
-    <url>/posts/44ea75d3.html</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
-<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
-<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
-<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
-<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
-<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
-<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
-<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
-<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
-<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
-<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
-<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
-<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
-<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
-<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
-<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
-<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
-<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
-<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
-<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
-<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
-<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>Google Voice</tag>
       </tags>
   </entry>
   <entry>
