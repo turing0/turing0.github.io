@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/pppp.html</loc>
+    
+    <lastmod>2021-12-31T18:06:37.202Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/rust-study.html</loc>
     
     <lastmod>2021-11-25T15:53:15.267Z</lastmod>
