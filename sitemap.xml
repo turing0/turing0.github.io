@@ -340,14 +340,14 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/TED/</loc>
+    <loc>https://blog.laphel.com/tags/C/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/C/</loc>
+    <loc>https://blog.laphel.com/tags/TED/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -368,7 +368,14 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/codeblocks/</loc>
+    <loc>https://blog.laphel.com/tags/Datastruct/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.laphel.com/tags/Algorithm/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,21 +396,7 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/Datastruct/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/tags/Algorithm/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/tags/kickstart/</loc>
+    <loc>https://blog.laphel.com/tags/codeblocks/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -411,6 +404,20 @@
   
   <url>
     <loc>https://blog.laphel.com/tags/Git/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.laphel.com/tags/Java/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.laphel.com/tags/kickstart/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -431,21 +438,7 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/Java/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.laphel.com/tags/Linux/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/tags/Markdown/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -466,6 +459,13 @@
   </url>
   
   <url>
+    <loc>https://blog.laphel.com/tags/Markdown/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/tags/QT/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -473,14 +473,14 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/Rust/</loc>
+    <loc>https://blog.laphel.com/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.laphel.com/tags/Rust/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -503,6 +503,13 @@
 
   
   <url>
+    <loc>https://blog.laphel.com/categories/Code/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/categories/TED/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -510,7 +517,7 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/categories/Code/</loc>
+    <loc>https://blog.laphel.com/categories/Data-Structures-and-Algorithms/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -525,13 +532,6 @@
   
   <url>
     <loc>https://blog.laphel.com/categories/%E5%AE%9E%E7%94%A8/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/categories/Data-Structures-and-Algorithms/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
