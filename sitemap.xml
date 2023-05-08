@@ -410,6 +410,13 @@
   </url>
   
   <url>
+    <loc>https://blog.laphel.com/tags/Java/</loc>
+    <lastmod>2023-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/tags/Hexo/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -418,13 +425,6 @@
   
   <url>
     <loc>https://blog.laphel.com/tags/Next/</loc>
-    <lastmod>2023-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/tags/Java/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -480,14 +480,14 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/Vue/</loc>
+    <loc>https://blog.laphel.com/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.laphel.com/tags/Vue/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -552,14 +552,14 @@
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/categories/%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://blog.laphel.com/categories/Uncategorized/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.laphel.com/categories/Uncategorized/</loc>
+    <loc>https://blog.laphel.com/categories/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

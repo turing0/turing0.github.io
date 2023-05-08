@@ -36,6 +36,27 @@
 ]]></content>
   </entry>
   <entry>
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ActivitypubProject</title>
     <url>/posts/activitypubproject.html</url>
     <content><![CDATA[<h1 id="Intro-介绍"><a href="#Intro-介绍" class="headerlink" title="Intro 介绍"></a>Intro 介绍</h1><p>ActivitypubProject 项目招人（具体项目在介绍之后）</p>
@@ -716,25 +737,22 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
 ]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
   </entry>
   <entry>
     <title>二叉树的遍历</title>
@@ -753,24 +771,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>C</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
   </entry>
   <entry>
     <title>Codeblocks 问题总结</title>
@@ -1680,6 +1680,64 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
+<p>选择java</p>
+<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
+<p>如图打开project structure</p>
+<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
+<p>设置成这样</p>
+<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
+<p>点击add configurations</p>
+<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b.html</url>
     <content><![CDATA[<h1 id="Next7-7-1"><a href="#Next7-7-1" class="headerlink" title="Next7.7.1"></a>Next7.7.1</h1><h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
@@ -1806,64 +1864,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Hexo</tag>
         <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
-<a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
-<p>选择java</p>
-<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
-<p>如图打开project structure</p>
-<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
-<p>设置成这样</p>
-<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
-<p>点击add configurations</p>
-<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -2600,36 +2600,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写代码的重要性</title>
     <url>/posts/d7e09071.html</url>
     <content><![CDATA[<p>如果26个英文字母</p>
@@ -2662,6 +2632,69 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么你该拥有一个GV号？</title>
+    <url>/posts/44ea75d3.html</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
+<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
+<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
+<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
+<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
+<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
+<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
+<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
+<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
+<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
+<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
+<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
+<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
+<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
+<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
+<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
+<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
+<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
+<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
+<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
+<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
+<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>Google Voice</tag>
       </tags>
   </entry>
   <entry>
@@ -2735,39 +2768,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Note</tag>
         <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么你该拥有一个GV号？</title>
-    <url>/posts/44ea75d3.html</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这篇文章主要为国内童鞋介绍 GV 的用处，如何申请以及如何使用。<br><a id="more"></a><br>GV 全称叫 Google Voice，是 Google 于 2009 年推出的 VOIP 服务，推出快 10 年了。我们知道 Google 在国内是被封锁的，访问不了，显然 Google Voice 也是封锁的访问不了，那么我们国内的童鞋要它由什么用呢？</p>
-<p>Google Voice 提供的是网络电话服务，一个 GV 号就相当于一个美国国内的电话号码，美国电话号码的样式如下：214-198-1033。GV 号可以完成美国号码同样的功能，比如接打电话，呼叫转移，语音留言，接发短信等等。拥有一个 GV 号就相当于拥有一个美国国内的电话号码。就这么简单。</p>
-<h3 id="1、有什么作用？"><a href="#1、有什么作用？" class="headerlink" title="1、有什么作用？"></a>1、有什么作用？</h3><p>现在来说说，这个电话号码我们能用来做什么，</p>
-<p>首先，最简单直接的用途就是用来注册一些需要接受验证码的账号，有些美国的网站或者服务，是需要用手机来接收验证码才能注册的，比如雅虎、微软邮箱，还有 Netflix 等。现在，国内的大部分网站或者手机 APP 都强制要求电话号码进行实名注册了。鉴于国内的大环境，隐私保护是一个大问题，一旦你用自己的电话号码注册了这些网站，他们就会把你的个人信息卖给一些营销公司，你就会莫名其妙收到各种推销广告，烦不胜烦。但是，我注意到的是，有一些国内的网站或者手机 APP，可以支持用国外的手机号码来接受验证码来注册账号，那么 GV 号就有用武之地了，直接用来接受验证码即可。由于是国外号码，并不是你天天在使用的手机，营销公司爱咋推送就咋推送吧，它一方面也有成本，另一方面也不太能骚扰到我们。</p>
-<p>除此之外，我来举几个具体的示例，比如 Telegram，作为国外互联网深度用户，这是我平时用得比较多的聊天工具，比微信安全很多。注册 Telegram 也是需要电话号码的，但是，如果我们只有国内电话号码用来注册的话，那会比较尴尬，因为 Telegram 本身就是被封锁的，那么需要通过一些特殊的方法才能访问。既然都需要特殊的方法了，那么使用国内电话号码肯定就不安全了，所以，最好是使用一个国外的号码，最好的选择就是 GV 号了。</p>
-<p>还有 Twitter，Facebook 这些，都可以用 GV 号来搞定。此外，微信也可以用 GV 号来注册，如果你喜欢弄个微信小号，或许可以试一试，我没试过。</p>
-<p>其实，GV 号还有很多其他用途，比如美国银行认证之类的比较高级。Google 推出 GV 服务的初衷是降低通话费用，所以，GV 号用来拨打国外电话是最正统的用途了，因为通话非常之便宜，而且，还支持语音留言，在国外，语音留言可是非常普遍的事情。</p>
-<h3 id="2、怎么申请？"><a href="#2、怎么申请？" class="headerlink" title="2、怎么申请？"></a>2、怎么申请？</h3><p>说了这么多好处，那么怎么申请 GV 号？</p>
-<p>对于国内的大部分普通用户来说，可能没那么简单。因为要访问许多很多国外的网站（比如 Google）提供的服务我们都需要一个前提，那就是梯子。梯子简单来说就是一个可以帮助你突破网络封锁的东西。</p>
-<p>除了梯子这个前提，我们还需要一个 Google 账号，毕竟是 Google 自家提供的服务。</p>
-<p>然后直接打开 GV 的官网主页（ <a href="https://www.google.com/voice" target="_blank" rel="noopener external nofollow noreferrer">https://www.google.com/voice</a>），进行注册就可以了。</p>
-<p>需要注意的是，注册 GV 时，是需要关联一个真正的美国电话号码的，需要用这个号码来接受一个验证码。这就又变成先有鸡还是先有蛋的问题了，我们作为国内用户，鸡也没有，蛋也没有，苦逼啊。但是办法总比困难多，很多网站就提供临时美国电话号码，比如 TextNow.com，他们提供一个临时的美国电话号码可以用来接收验证码。这样，我们就可以假装自己有一个美国电话号码，就能用来注册 GV 号了。</p>
-<p>但是理想是丰满的，现实是骨感的！由于注册的人次太多，GV 对注册增加了许多限制，比如，临时号已经不管用了，也就是说，使用 TextNow.com 这类网站提供的号码来注册 GV 号是没法注册成功的。这样的话，我们只有使用真正的美国电话卡才行了，这个简单，直接淘宝上搜“美国电话卡”就行了，如果真的对 GV 号有很大的需求，买一张美国电话卡的成本也不算高。其实有了美国电话号码，还有啥做不了的呢。</p>
-<p>此外，注册过程一定要保证是访问 GV 官网的 IP 美国境内 IP 地址，否则的话，注册也会失败。这当然不是要求我们跑到美国去上网，只需要我们的代理地址是美国境内的就行了。</p>
-<p>最后，那些图省事的，直接去 Telegram 上找人买一个 GV 号吧，也就 10 到 50 块钱左右，还能选个靓号。</p>
-<h3 id="3、怎么使用-GV-号"><a href="#3、怎么使用-GV-号" class="headerlink" title="3、怎么使用 GV 号"></a>3、怎么使用 GV 号</h3><p>有了 Google Voice 号码之后，那么我们怎么使用？</p>
-<p>其实很简单，我们在手机上装一个 Google Hangouts 就可以了。如下图：</p>
-<p><img src="//upload-images.jianshu.io/upload_images/1452123-0da9ff4f3c6cf066.png?imageMogr2/auto-orient/strip|imageView2/2/w/750" alt=""></p>
-<h3 id="4、怎么保号"><a href="#4、怎么保号" class="headerlink" title="4、怎么保号"></a>4、怎么保号</h3><p>需要注意的是，GV 号长期不用是有可能被谷歌回收的，因此，如果想要长期拥有一个 GV 号，那么需要注意谷歌对于回收号码的政策。</p>
-<p>通常来说，如果<strong>半年内</strong>使用 GV 号码<strong>主动</strong>发短信或者打电话，那么肯定不会被回收。</p>
-<p>此外，Google 在回收前，会提前发邮件给你，如果你没做出应答，回收后的30天，你仍可以找回，超过的话，只能重新申请了。</p>
-<p>保号的成本其实是很低的，因为 Google Voice 的美国号码拨打美国、加拿大号码是免费的，发短信也是免费的。</p>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>Google Voice</tag>
       </tags>
   </entry>
   <entry>
