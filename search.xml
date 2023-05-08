@@ -36,27 +36,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>TED收藏夹 | 视频</title>
-    <url>/posts/ed5b5e99.html</url>
-    <content><![CDATA[<hr>
-<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
-<a id="more"></a>
-<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
-<hr>
-<p>为什么要学习编程？ 每人都应该学习编程</p>
-<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
-<p>为什么屏幕剥夺了我们的快乐？</p>
-<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
-<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
-]]></content>
-      <categories>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ActivitypubProject</title>
     <url>/posts/activitypubproject.html</url>
     <content><![CDATA[<h1 id="Intro-介绍"><a href="#Intro-介绍" class="headerlink" title="Intro 介绍"></a>Intro 介绍</h1><p>ActivitypubProject 项目招人（具体项目在介绍之后）</p>
@@ -737,22 +716,25 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
+    <title>TED收藏夹 | 视频</title>
+    <url>/posts/ed5b5e99.html</url>
+    <content><![CDATA[<hr>
+<p><a href="https://www.bilibili.com/video/av8075494?from=search&amp;seid=16957981070641973847" target="_blank" rel="noopener external nofollow noreferrer">理解世界的秘诀：数学</a></p>
+<a id="more"></a>
+<p>跟着罗杰・安东森（Roger Antonsen）一起，通过最具想象力的艺术形式——数学，揭秘世界的奥秘和内部运转本质。他向我们解释，细微的角度变化能帮我们理解模式、数字和公式，并指引我们通向与人共鸣和理解万物的大门。</p>
+<hr>
+<p>为什么要学习编程？ 每人都应该学习编程</p>
+<p><a href="https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html" target="_blank" rel="noopener external nofollow noreferrer">https://v.youku.com/v_show/id_XNTIxMDc1OTcy.html</a></p>
+<p>为什么屏幕剥夺了我们的快乐？</p>
+<p><a href="https://www.bilibili.com/video/av925224433/" target="_blank" rel="noopener external nofollow noreferrer">https://www.bilibili.com/video/av925224433/</a></p>
+<p>有抱负的程序员应看的10个TED演讲<br><a href="https://www.open-open.com/news/view/1435010" target="_blank" rel="noopener external nofollow noreferrer">https://www.open-open.com/news/view/1435010</a></p>
 ]]></content>
+      <categories>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
   </entry>
   <entry>
     <title>二叉树的遍历</title>
@@ -771,6 +753,24 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>C</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
   </entry>
   <entry>
     <title>Codeblocks 问题总结</title>
@@ -816,6 +816,192 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>C++</tag>
         <tag>Note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构与算法 学习笔记</title>
+    <url>/posts/datastructs-algorithms-note.html</url>
+    <content><![CDATA[<p>笔记略长， 排版略丑</p>
+<p>serendipity</p>
+<h1 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h1><h2 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h2><p>数据结构</p>
+<a id="more"></a>
+<ul>
+<li><p>一维</p>
+<ul>
+<li>基础：数组 array(string),链表 linked list</li>
+<li>高级：栈 stack,队列 queue，双端队列 deque，集合 set，映射 map(hash or map),etc</li>
+</ul>
+</li>
+<li><p>二维</p>
+<ul>
+<li>基础：树 tree，图 graph</li>
+<li>高级：二叉搜索树 binary search tree (red-black tree, AVL),堆 heap，并查集 disjoint set，字典树 Trie,etc</li>
+</ul>
+</li>
+<li>特殊<ul>
+<li>位运算 Bitwise, 布隆过滤器 BloomFilter </li>
+<li>LRU Cache</li>
+</ul>
+</li>
+</ul>
+<p>注意：了解每个数据结构的原理和代码框架</p>
+<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ul>
+<li>If-else, switch —&gt; branch </li>
+<li>for, while loop —&gt; Iteration</li>
+<li>递归 Recursion (Divide &amp; Conquer, Backtrace) </li>
+<li>搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc</li>
+<li>动态规划 Dynamic Programming</li>
+<li>二分查找 Binary Search</li>
+<li>贪心 Greedy</li>
+<li>数学 Math , 几何 Geometry</li>
+</ul>
+<p>注意：在头脑中回忆上面每种算法的思想和代码模板</p>
+<h3 id="算法脑图"><a href="#算法脑图" class="headerlink" title="算法脑图"></a>算法脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/05f47326887492" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/05f47326887492</a></p>
+<p><a href="https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec</a></p>
+<h3 id="数据结构脑图"><a href="#数据结构脑图" class="headerlink" title="数据结构脑图"></a>数据结构脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144</a></p>
+<p><a href="https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c</a></p>
+<h2 id="五步刷题法"><a href="#五步刷题法" class="headerlink" title="五步刷题法"></a>五步刷题法</h2><h3 id="刷题第一遍"><a href="#刷题第一遍" class="headerlink" title="刷题第一遍"></a>刷题第一遍</h3><ul>
+<li>5分钟：读题 + 思考 </li>
+<li>直接看解法：注意！多解法，比较解法优劣</li>
+<li>背诵、默写好的解法</li>
+</ul>
+<h3 id="刷题第二遍"><a href="#刷题第二遍" class="headerlink" title="刷题第二遍"></a>刷题第二遍</h3><ul>
+<li>马上自己写 —&gt; LeetCode 提交</li>
+<li>多种解法比较、体会 —&gt; 优化！</li>
+</ul>
+<h3 id="刷题第三遍"><a href="#刷题第三遍" class="headerlink" title="刷题第三遍"></a>刷题第三遍</h3><ul>
+<li>过了一天后，再重复做</li>
+<li>不同解法的熟练程度 —&gt; 专项练习</li>
+</ul>
+<h3 id="刷题第四遍"><a href="#刷题第四遍" class="headerlink" title="刷题第四遍"></a>刷题第四遍</h3><ul>
+<li>过了一周：反复回来练习相同题目</li>
+</ul>
+<h3 id="刷题第五遍"><a href="#刷题第五遍" class="headerlink" title="刷题第五遍"></a>刷题第五遍</h3><ul>
+<li>面试前一周恢复性训练</li>
+</ul>
+<hr>
+<h1 id="训练准备"><a href="#训练准备" class="headerlink" title="训练准备"></a>训练准备</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
+<li>Google</li>
+<li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/microsoft/terminal</a>)</li>
+<li>VSCode; Java: IntelliJ; Python: Pycharm</li>
+<li>LeetCode plugin (VSCode &amp; IntelliJ)</li>
+<li><a href="https://vscodethemes.com" target="_blank" rel="noopener external nofollow noreferrer">https://vscodethemes.com</a></li>
+<li>骚操作：<ul>
+<li><a href="https://juejin.im/post/5ce1365151882525ff28ed47" target="_blank" rel="noopener external nofollow noreferrer">https://juejin.im/post/5ce1365151882525ff28ed47</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h3><p>Java、 Python、…</p>
+<ul>
+<li>Google code style</li>
+<li>Facebook</li>
+<li>airbnb</li>
+</ul>
+<h3 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h3><ul>
+<li>leetcode-cn.com 和题解</li>
+<li>leetcode.com 和 Discuss board</li>
+</ul>
+<h3 id="指法和小操作"><a href="#指法和小操作" class="headerlink" title="指法和小操作"></a>指法和小操作</h3><ul>
+<li>home, end 或 fn + ⬅➡（行头、行尾）</li>
+<li>Ctrl + ⬅➡ （到左右的下一词）</li>
+<li>Ctrl + backspace （删除词）</li>
+<li>IDE 的⾃自动补全</li>
+<li>Top tips for &lt; IDE - name&gt;</li>
+</ul>
+<h3 id="自顶向下的编程方式"><a href="#自顶向下的编程方式" class="headerlink" title="自顶向下的编程方式"></a>自顶向下的编程方式</h3><ul>
+<li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener external nofollow noreferrer">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
+<li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener external nofollow noreferrer">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
+</ul>
+<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
+<p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener external nofollow noreferrer">https://www.zhihu.com/question/21387264</a></p>
+<p>Master theorem</p>
+<p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener external nofollow noreferrer">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
+<p>主定理</p>
+<p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener external nofollow noreferrer">http://zh.wikipedia.org/wiki/</a></p>
+<h2 id="大O复杂度表示法"><a href="#大O复杂度表示法" class="headerlink" title="大O复杂度表示法"></a>大O复杂度表示法</h2><p>所有代码的执行时间T(n)与每行代码的执行次数n成正比,即大O。</p>
+<script type="math/tex; mode=display">
+T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数据规模的大小；f(n)表示每行代码执行的次数总和。因为这是一个公式，所以用f(n)来表示。公式中的O，表示代码的执行时间T(n)与f(n)表达式成正比。</p>
+<p>大O时间复杂度实际上并不具体表示代码真正的执行时间，而是表示代码执行时间随数据规模增长的变化趋势，所以，也叫作渐进时间复杂度（asymptotic time complexity），简称时间复杂度。</p>
+<ul>
+<li><p>如何分析一段代码的时间复杂度？</p>
+<ol>
+<li><p>只关注循环执行次数最多的一段代码<br>大O这种复杂度表示方法只是表示一种变化趋势。我们通常会忽略掉公式中的常量、低阶、系数，只需要记录一个最大阶的量级就可以了。所以，我们在分析一个算法、一段代码的时间复杂度的时候，也只关注循环执行次数最多的那一段代码就可以了。这段核心代码执行次数的n的量级，就是整段要分析代码的时间复杂度。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">	<span class="keyword">int</span> sum = <span class="number">0</span>;   </span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">	<span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">		sum = sum + i;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中第2、3行代码都是常量级的执行时间，与n的大小无关，所以对于复杂度并没有影响。循环执行次数最多的是第4、5行代码，所以这块代码要重点分析。前面我们也讲过，这两行代码被执行了n次，所以总的时间复杂度就是O(n)</p>
+</li>
+<li><p>加法法则：总复杂度等于量级最大的那段代码的复杂度</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;     </span><br><span class="line">        sum_1 = sum_1 + p;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_2 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; q &lt; n; ++q) &#123;     </span><br><span class="line">        sum_2 = sum_2 + q;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_3 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">        j = <span class="number">1</span>;      </span><br><span class="line">        <span class="keyword">for</span> (; j &lt;= n; ++j) &#123;       </span><br><span class="line">            sum_3 = sum_3 +  i * j;     </span><br><span class="line">        &#125;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum_1 + sum_2 + sum_3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个代码分为三部分，分别是求sum_1、sum_2、sum_3。我们可以分别分析每一部分的时间复杂度，然后把它们放到一块儿，再取一个量级最大的作为整段代码的复杂度。第一段的时间复杂度是多少呢？这段代码循环执行了100次，所以是一个常量的执行时间，跟n的规模无关。</p>
+<p>这里我要再强调一下，即便这段代码循环10000次、100000次，只要是一个已知的数，跟n无关，照样也是常量级的执行时间。当n无限大的时候，就可以忽略。尽管对代码的执行时间会有很大影响，但是回到时间复杂度的概念来说，它表示的是一个算法执行效率与数据规模增长的变化趋势，所以不管常量的执行时间多大，我们都可以忽略掉。因为它本身对增长趋势并没有影响。</p>
+<p>那第二段代码和第三段代码的时间复杂度是多少呢？答案是O(n)和O(n2)</p>
+<p>综合这三段代码的时间复杂度，我们取其中最大的量级。所以，整段代码的时间复杂度就为O(n2)。也就是说：总的时间复杂度就等于量级最大的那段代码的时间复杂度。</p>
+</li>
+<li><p>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">    <span class="keyword">int</span> ret = <span class="number">0</span>;    </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;     </span><br><span class="line">        ret = ret + f(i);   </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;  </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;    </span><br><span class="line">    	sum = sum + i;  </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>单独看cal()函数。假设f()只是一个普通的操作，那第4～6行的时间复杂度就是，T1(n) = O(n)。但f()函数本身不是一个简单的操作，它的时间复杂度是T2(n) =O(n)，所以，整个cal()函数的时间复杂度就是，T(n) = T1(n) <em> T2(n) = O(n</em>n) = O(n2)。</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>O(1):  Constant Complexity 常数复杂度</p>
+<p>O(log n):  Logarithmic Complexity 对数复杂度</p>
+<ul>
+<li><p>```c++<br>i=1;<br>while (i &lt;= n)  {   </p>
+<pre><code>i = i * 2; 
+</code></pre><p>}</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这段代码的时间复杂度就是O(log2n)</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">i&#x3D;1; </span><br><span class="line">while (i &lt;&#x3D; n)  &#123;   </span><br><span class="line">    i &#x3D; i * 3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这段代码的时间复杂度为O(log3n)</p>
+</li>
+</ul>
+<p>  实际上，不管是以2为底、以3为底，还是以10为底，我们可以把所有对数阶的时间复杂度都记为O(logn)。为什么呢？</p>
+<p>  我们知道，对数之间是可以互相转换的，log3n就等于log32 <em> log2n，所以O(log3n) = O(C </em> log2n)，其中C=log32是一个常量。基于我们前面的一个理论：在采用大O标记复杂度的时候，可以忽略系数，即O(Cf(n)) = O(f(n))。所以，O(log2n) 就等于O(log3n)。因此，在对数阶时间复杂度的表示方法里，我们忽略对数的“底”，统一表示为O(logn)。</p>
+<ul>
+<li>如果一段代码的时间复杂度是O(logn)，我们循环执行n遍，时间复杂度就是O(nlogn)了。而且，O(nlogn)也是一种非常常见的算法时间复杂度。比如，归并排序、快速排序的时间复杂度都是O(nlogn)。</li>
+</ul>
+<p>O(n):  Linear Complexity 线性时间复杂度</p>
+<p>O(n^2): N square Complexity 平方</p>
+<p>O(n^3): N square Complexity 立方</p>
+<p>O(2^n): Exponential Growth 指数</p>
+<p>O(n!): Factorial 阶乘</p>
+<p>注意：只看最⾼高复杂度的运算</p>
+<p>O(k^n)</p>
+<p>int fib(int n) {</p>
+<p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
+<p>⼆叉树遍历 - 前序、中序、后序：O(N)</p>
+<p>图的遍历：O(N)</p>
+<p>搜索算法：DFS、BFS - O(N)</p>
+<p>二分查找：O(logN)</p>
+<h1 id="以下为邓俊辉老师数据结构与算法的笔记"><a href="#以下为邓俊辉老师数据结构与算法的笔记" class="headerlink" title="以下为邓俊辉老师数据结构与算法的笔记"></a>以下为邓俊辉老师数据结构与算法的笔记</h1><p>冒泡排序</p>
+<p>第一次看到这么写的， 刚开始还有点没看懂</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[i<span class="number">-1</span>] &gt; a[i])&#123;</span><br><span class="line">                <span class="keyword">int</span> t=a[i<span class="number">-1</span>];</span><br><span class="line">                a[i<span class="number">-1</span>] = a[i];</span><br><span class="line">                a[i] = t;</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>求数组中 最大的两个数的下标  [lo ,hi)</p>
+<p>递归 + 分治</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">max2</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi,<span class="keyword">int</span> &amp;x1,<span class="keyword">int</span> &amp;x2)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">2</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[lo] &gt;= a[lo+<span class="number">1</span>])&#123;</span><br><span class="line">            x1 = lo;</span><br><span class="line">            x2 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            x2 = lo;</span><br><span class="line">            x1 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">3</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[x1 = lo] &lt; a[x2 = lo+<span class="number">1</span>]) swap(x1,x2);</span><br><span class="line">        <span class="keyword">if</span> (a[lo+<span class="number">2</span>] &gt; a[x2])&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[x2 = lo+<span class="number">2</span>] &gt; a[x1])&#123;</span><br><span class="line">                swap(x1,x2);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mi = (lo + hi)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> x1l,x2l;max2(a,lo,mi,x1l,x2l);</span><br><span class="line">    <span class="keyword">int</span> x1r,x2r;max2(a,mi,hi,x1r,x2r);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[x1l] &gt; a[x1r])&#123;</span><br><span class="line">        x1 = x1l;</span><br><span class="line">        x2 = a[x2l] &gt; a[x1r] ? x2l:x1r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        x1 = x1r;</span><br><span class="line">        x2 = a[x1l] &gt; a[x2r] ? x1l:x2r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>斐波那契数列、FIB()回归迭代</p>
+<ul>
+<li><p>解决方法A（记忆：memoization）</p>
+</li>
+<li><p>​    将已计算过的实例的结果制表查询</p>
+</li>
+<li><p>解决方法B（动态规划：Dynamic Programming）</p>
+<ul>
+<li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
+<p>T(n)=O(n), 仅需O(1)空间！</p>
+<p><img src="https://turing0.github.io/html/img/fib-ex.png" alt="fib-ex"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Data Structures and Algorithms</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>数据结构</tag>
+        <tag>Datastruct</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1101,192 +1287,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>Note</tag>
         <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构与算法 学习笔记</title>
-    <url>/posts/datastructs-algorithms-note.html</url>
-    <content><![CDATA[<p>笔记略长， 排版略丑</p>
-<p>serendipity</p>
-<h1 id="数据结构与算法总览"><a href="#数据结构与算法总览" class="headerlink" title="数据结构与算法总览"></a>数据结构与算法总览</h1><h2 id="分解数据结构和算法"><a href="#分解数据结构和算法" class="headerlink" title="分解数据结构和算法"></a>分解数据结构和算法</h2><p>数据结构</p>
-<a id="more"></a>
-<ul>
-<li><p>一维</p>
-<ul>
-<li>基础：数组 array(string),链表 linked list</li>
-<li>高级：栈 stack,队列 queue，双端队列 deque，集合 set，映射 map(hash or map),etc</li>
-</ul>
-</li>
-<li><p>二维</p>
-<ul>
-<li>基础：树 tree，图 graph</li>
-<li>高级：二叉搜索树 binary search tree (red-black tree, AVL),堆 heap，并查集 disjoint set，字典树 Trie,etc</li>
-</ul>
-</li>
-<li>特殊<ul>
-<li>位运算 Bitwise, 布隆过滤器 BloomFilter </li>
-<li>LRU Cache</li>
-</ul>
-</li>
-</ul>
-<p>注意：了解每个数据结构的原理和代码框架</p>
-<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ul>
-<li>If-else, switch —&gt; branch </li>
-<li>for, while loop —&gt; Iteration</li>
-<li>递归 Recursion (Divide &amp; Conquer, Backtrace) </li>
-<li>搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc</li>
-<li>动态规划 Dynamic Programming</li>
-<li>二分查找 Binary Search</li>
-<li>贪心 Greedy</li>
-<li>数学 Math , 几何 Geometry</li>
-</ul>
-<p>注意：在头脑中回忆上面每种算法的思想和代码模板</p>
-<h3 id="算法脑图"><a href="#算法脑图" class="headerlink" title="算法脑图"></a>算法脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/05f47326887492" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/05f47326887492</a></p>
-<p><a href="https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/0a53d3a5343bd86375f348b2831d3610?token=5ab1de1c90d5f3ec</a></p>
-<h3 id="数据结构脑图"><a href="#数据结构脑图" class="headerlink" title="数据结构脑图"></a>数据结构脑图</h3><p><a href="https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144" target="_blank" rel="noopener external nofollow noreferrer">https://www.edrawsoft.cn/viewer/public/s/d2bd7352481144</a></p>
-<p><a href="https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c" target="_blank" rel="noopener external nofollow noreferrer">https://naotu.baidu.com/file/b832f043e2ead159d584cca4efb19703?token=7a6a56eb2630548c</a></p>
-<h2 id="五步刷题法"><a href="#五步刷题法" class="headerlink" title="五步刷题法"></a>五步刷题法</h2><h3 id="刷题第一遍"><a href="#刷题第一遍" class="headerlink" title="刷题第一遍"></a>刷题第一遍</h3><ul>
-<li>5分钟：读题 + 思考 </li>
-<li>直接看解法：注意！多解法，比较解法优劣</li>
-<li>背诵、默写好的解法</li>
-</ul>
-<h3 id="刷题第二遍"><a href="#刷题第二遍" class="headerlink" title="刷题第二遍"></a>刷题第二遍</h3><ul>
-<li>马上自己写 —&gt; LeetCode 提交</li>
-<li>多种解法比较、体会 —&gt; 优化！</li>
-</ul>
-<h3 id="刷题第三遍"><a href="#刷题第三遍" class="headerlink" title="刷题第三遍"></a>刷题第三遍</h3><ul>
-<li>过了一天后，再重复做</li>
-<li>不同解法的熟练程度 —&gt; 专项练习</li>
-</ul>
-<h3 id="刷题第四遍"><a href="#刷题第四遍" class="headerlink" title="刷题第四遍"></a>刷题第四遍</h3><ul>
-<li>过了一周：反复回来练习相同题目</li>
-</ul>
-<h3 id="刷题第五遍"><a href="#刷题第五遍" class="headerlink" title="刷题第五遍"></a>刷题第五遍</h3><ul>
-<li>面试前一周恢复性训练</li>
-</ul>
-<hr>
-<h1 id="训练准备"><a href="#训练准备" class="headerlink" title="训练准备"></a>训练准备</h1><h2 id="训练环境设置、编码技巧和Code-Style"><a href="#训练环境设置、编码技巧和Code-Style" class="headerlink" title="训练环境设置、编码技巧和Code Style"></a>训练环境设置、编码技巧和Code Style</h2><h3 id="电脑设置"><a href="#电脑设置" class="headerlink" title="电脑设置"></a>电脑设置</h3><ul>
-<li>Google</li>
-<li>Mac: iTerm2 + zsh (oh my zsh)Windows:<br>Microsoft new terminal: (<a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/microsoft/terminal</a>)</li>
-<li>VSCode; Java: IntelliJ; Python: Pycharm</li>
-<li>LeetCode plugin (VSCode &amp; IntelliJ)</li>
-<li><a href="https://vscodethemes.com" target="_blank" rel="noopener external nofollow noreferrer">https://vscodethemes.com</a></li>
-<li>骚操作：<ul>
-<li><a href="https://juejin.im/post/5ce1365151882525ff28ed47" target="_blank" rel="noopener external nofollow noreferrer">https://juejin.im/post/5ce1365151882525ff28ed47</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h3><p>Java、 Python、…</p>
-<ul>
-<li>Google code style</li>
-<li>Facebook</li>
-<li>airbnb</li>
-</ul>
-<h3 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h3><ul>
-<li>leetcode-cn.com 和题解</li>
-<li>leetcode.com 和 Discuss board</li>
-</ul>
-<h3 id="指法和小操作"><a href="#指法和小操作" class="headerlink" title="指法和小操作"></a>指法和小操作</h3><ul>
-<li>home, end 或 fn + ⬅➡（行头、行尾）</li>
-<li>Ctrl + ⬅➡ （到左右的下一词）</li>
-<li>Ctrl + backspace （删除词）</li>
-<li>IDE 的⾃自动补全</li>
-<li>Top tips for &lt; IDE - name&gt;</li>
-</ul>
-<h3 id="自顶向下的编程方式"><a href="#自顶向下的编程方式" class="headerlink" title="自顶向下的编程方式"></a>自顶向下的编程方式</h3><ul>
-<li><a href="https://markhneedham.com/blog/2008/09/15/clean-code-book-review/" target="_blank" rel="noopener external nofollow noreferrer">https://markhneedham.com/blog/2008/09/15/clean-code-book-review/</a></li>
-<li><a href="https://leetcode-cn.com/problems/valid-palindrome/" target="_blank" rel="noopener external nofollow noreferrer">https://leetcode-cn.com/problems/valid-palindrome/</a></li>
-</ul>
-<h1 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h1><p>如何理解算法时间复杂度的表示法，例如 O(n²)、O(n)、O(1)、O(nlogn) 等？</p>
-<p><a href="https://www.zhihu.com/question/21387264" target="_blank" rel="noopener external nofollow noreferrer">https://www.zhihu.com/question/21387264</a></p>
-<p>Master theorem</p>
-<p><a href="https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms" target="_blank" rel="noopener external nofollow noreferrer">https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms</a>)</p>
-<p>主定理</p>
-<p><a href="http://zh.wikipedia.org/wiki/" target="_blank" rel="noopener external nofollow noreferrer">http://zh.wikipedia.org/wiki/</a></p>
-<h2 id="大O复杂度表示法"><a href="#大O复杂度表示法" class="headerlink" title="大O复杂度表示法"></a>大O复杂度表示法</h2><p>所有代码的执行时间T(n)与每行代码的执行次数n成正比,即大O。</p>
-<script type="math/tex; mode=display">
-T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数据规模的大小；f(n)表示每行代码执行的次数总和。因为这是一个公式，所以用f(n)来表示。公式中的O，表示代码的执行时间T(n)与f(n)表达式成正比。</p>
-<p>大O时间复杂度实际上并不具体表示代码真正的执行时间，而是表示代码执行时间随数据规模增长的变化趋势，所以，也叫作渐进时间复杂度（asymptotic time complexity），简称时间复杂度。</p>
-<ul>
-<li><p>如何分析一段代码的时间复杂度？</p>
-<ol>
-<li><p>只关注循环执行次数最多的一段代码<br>大O这种复杂度表示方法只是表示一种变化趋势。我们通常会忽略掉公式中的常量、低阶、系数，只需要记录一个最大阶的量级就可以了。所以，我们在分析一个算法、一段代码的时间复杂度的时候，也只关注循环执行次数最多的那一段代码就可以了。这段核心代码执行次数的n的量级，就是整段要分析代码的时间复杂度。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">	<span class="keyword">int</span> sum = <span class="number">0</span>;   </span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">	<span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">		sum = sum + i;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>其中第2、3行代码都是常量级的执行时间，与n的大小无关，所以对于复杂度并没有影响。循环执行次数最多的是第4、5行代码，所以这块代码要重点分析。前面我们也讲过，这两行代码被执行了n次，所以总的时间复杂度就是O(n)</p>
-</li>
-<li><p>加法法则：总复杂度等于量级最大的那段代码的复杂度</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;     </span><br><span class="line">        sum_1 = sum_1 + p;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_2 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (; q &lt; n; ++q) &#123;     </span><br><span class="line">        sum_2 = sum_2 + q;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">int</span> sum_3 = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt;= n; ++i) &#123;     </span><br><span class="line">        j = <span class="number">1</span>;      </span><br><span class="line">        <span class="keyword">for</span> (; j &lt;= n; ++j) &#123;       </span><br><span class="line">            sum_3 = sum_3 +  i * j;     </span><br><span class="line">        &#125;   </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum_1 + sum_2 + sum_3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个代码分为三部分，分别是求sum_1、sum_2、sum_3。我们可以分别分析每一部分的时间复杂度，然后把它们放到一块儿，再取一个量级最大的作为整段代码的复杂度。第一段的时间复杂度是多少呢？这段代码循环执行了100次，所以是一个常量的执行时间，跟n的规模无关。</p>
-<p>这里我要再强调一下，即便这段代码循环10000次、100000次，只要是一个已知的数，跟n无关，照样也是常量级的执行时间。当n无限大的时候，就可以忽略。尽管对代码的执行时间会有很大影响，但是回到时间复杂度的概念来说，它表示的是一个算法执行效率与数据规模增长的变化趋势，所以不管常量的执行时间多大，我们都可以忽略掉。因为它本身对增长趋势并没有影响。</p>
-<p>那第二段代码和第三段代码的时间复杂度是多少呢？答案是O(n)和O(n2)</p>
-<p>综合这三段代码的时间复杂度，我们取其中最大的量级。所以，整段代码的时间复杂度就为O(n2)。也就是说：总的时间复杂度就等于量级最大的那段代码的时间复杂度。</p>
-</li>
-<li><p>乘法法则：嵌套代码的复杂度等于嵌套内外代码复杂度的乘积</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;   </span><br><span class="line">    <span class="keyword">int</span> ret = <span class="number">0</span>;    </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;   </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;     </span><br><span class="line">        ret = ret + f(i);   </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;  </span><br><span class="line">    <span class="keyword">for</span> (; i &lt; n; ++i) &#123;    </span><br><span class="line">    	sum = sum + i;  </span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="keyword">return</span> sum; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>单独看cal()函数。假设f()只是一个普通的操作，那第4～6行的时间复杂度就是，T1(n) = O(n)。但f()函数本身不是一个简单的操作，它的时间复杂度是T2(n) =O(n)，所以，整个cal()函数的时间复杂度就是，T(n) = T1(n) <em> T2(n) = O(n</em>n) = O(n2)。</p>
-</li>
-</ol>
-</li>
-</ul>
-<p>O(1):  Constant Complexity 常数复杂度</p>
-<p>O(log n):  Logarithmic Complexity 对数复杂度</p>
-<ul>
-<li><p>```c++<br>i=1;<br>while (i &lt;= n)  {   </p>
-<pre><code>i = i * 2; 
-</code></pre><p>}</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这段代码的时间复杂度就是O(log2n)</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">i&#x3D;1; </span><br><span class="line">while (i &lt;&#x3D; n)  &#123;   </span><br><span class="line">    i &#x3D; i * 3; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这段代码的时间复杂度为O(log3n)</p>
-</li>
-</ul>
-<p>  实际上，不管是以2为底、以3为底，还是以10为底，我们可以把所有对数阶的时间复杂度都记为O(logn)。为什么呢？</p>
-<p>  我们知道，对数之间是可以互相转换的，log3n就等于log32 <em> log2n，所以O(log3n) = O(C </em> log2n)，其中C=log32是一个常量。基于我们前面的一个理论：在采用大O标记复杂度的时候，可以忽略系数，即O(Cf(n)) = O(f(n))。所以，O(log2n) 就等于O(log3n)。因此，在对数阶时间复杂度的表示方法里，我们忽略对数的“底”，统一表示为O(logn)。</p>
-<ul>
-<li>如果一段代码的时间复杂度是O(logn)，我们循环执行n遍，时间复杂度就是O(nlogn)了。而且，O(nlogn)也是一种非常常见的算法时间复杂度。比如，归并排序、快速排序的时间复杂度都是O(nlogn)。</li>
-</ul>
-<p>O(n):  Linear Complexity 线性时间复杂度</p>
-<p>O(n^2): N square Complexity 平方</p>
-<p>O(n^3): N square Complexity 立方</p>
-<p>O(2^n): Exponential Growth 指数</p>
-<p>O(n!): Factorial 阶乘</p>
-<p>注意：只看最⾼高复杂度的运算</p>
-<p>O(k^n)</p>
-<p>int fib(int n) {</p>
-<p>​     if (n &lt;= 2) return n;     return fib(n - 1) + fib(n - 2); }</p>
-<p>⼆叉树遍历 - 前序、中序、后序：O(N)</p>
-<p>图的遍历：O(N)</p>
-<p>搜索算法：DFS、BFS - O(N)</p>
-<p>二分查找：O(logN)</p>
-<h1 id="以下为邓俊辉老师数据结构与算法的笔记"><a href="#以下为邓俊辉老师数据结构与算法的笔记" class="headerlink" title="以下为邓俊辉老师数据结构与算法的笔记"></a>以下为邓俊辉老师数据结构与算法的笔记</h1><p>冒泡排序</p>
-<p>第一次看到这么写的， 刚开始还有点没看懂</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[i<span class="number">-1</span>] &gt; a[i])&#123;</span><br><span class="line">                <span class="keyword">int</span> t=a[i<span class="number">-1</span>];</span><br><span class="line">                a[i<span class="number">-1</span>] = a[i];</span><br><span class="line">                a[i] = t;</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>求数组中 最大的两个数的下标  [lo ,hi)</p>
-<p>递归 + 分治</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">max2</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi,<span class="keyword">int</span> &amp;x1,<span class="keyword">int</span> &amp;x2)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">2</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[lo] &gt;= a[lo+<span class="number">1</span>])&#123;</span><br><span class="line">            x1 = lo;</span><br><span class="line">            x2 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            x2 = lo;</span><br><span class="line">            x1 = lo+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lo + <span class="number">3</span> == hi)&#123;</span><br><span class="line">        <span class="keyword">if</span> (a[x1 = lo] &lt; a[x2 = lo+<span class="number">1</span>]) swap(x1,x2);</span><br><span class="line">        <span class="keyword">if</span> (a[lo+<span class="number">2</span>] &gt; a[x2])&#123;</span><br><span class="line">            <span class="keyword">if</span> (a[x2 = lo+<span class="number">2</span>] &gt; a[x1])&#123;</span><br><span class="line">                swap(x1,x2);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mi = (lo + hi)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> x1l,x2l;max2(a,lo,mi,x1l,x2l);</span><br><span class="line">    <span class="keyword">int</span> x1r,x2r;max2(a,mi,hi,x1r,x2r);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[x1l] &gt; a[x1r])&#123;</span><br><span class="line">        x1 = x1l;</span><br><span class="line">        x2 = a[x2l] &gt; a[x1r] ? x2l:x1r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        x1 = x1r;</span><br><span class="line">        x2 = a[x1l] &gt; a[x2r] ? x1l:x2r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>斐波那契数列、FIB()回归迭代</p>
-<ul>
-<li><p>解决方法A（记忆：memoization）</p>
-</li>
-<li><p>​    将已计算过的实例的结果制表查询</p>
-</li>
-<li><p>解决方法B（动态规划：Dynamic Programming）</p>
-<ul>
-<li><p>​    颠倒计算方向：由自顶向下递归，为自底而上迭代</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">f = <span class="number">0</span>; g = <span class="number">1</span>; <span class="comment">//fib(0), fib(1)</span></span><br><span class="line"><span class="keyword">while</span> (<span class="number">0</span> &lt; n--)&#123;</span><br><span class="line">    g = g + f;</span><br><span class="line">    f = g - f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> g;</span><br></pre></td></tr></table></figure>
-<p>T(n)=O(n), 仅需O(1)空间！</p>
-<p><img src="https://turing0.github.io/html/img/fib-ex.png" alt="fib-ex"></p>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Data Structures and Algorithms</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>数据结构</tag>
-        <tag>Datastruct</tag>
-        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1680,64 +1680,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
-<a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
-<p>选择java</p>
-<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
-<p>如图打开project structure</p>
-<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
-<p>设置成这样</p>
-<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
-<p>点击add configurations</p>
-<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo Next优化之路</title>
     <url>/posts/d2ca0d0b.html</url>
     <content><![CDATA[<h1 id="Next7-7-1"><a href="#Next7-7-1" class="headerlink" title="Next7.7.1"></a>Next7.7.1</h1><h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
@@ -1885,6 +1827,64 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
+<p>选择java</p>
+<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
+<p>如图打开project structure</p>
+<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
+<p>设置成这样</p>
+<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
+<p>点击add configurations</p>
+<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下C语言学习</title>
     <url>/posts/linux-c.html</url>
     <content><![CDATA[<p>系统Ubuntu  18.04</p>
@@ -1927,6 +1927,80 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>C</tag>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电影 书单</title>
+    <url>/posts/79f93cc5.html</url>
+    <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
+<p>​    <a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C-05-20" target="_blank" rel="noopener external nofollow noreferrer">ZH</a></p>
+<h3 id="电影"><a href="#电影" class="headerlink" title="电影**"></a>电影**</h3><p>互联网之子</p>
+<p>犯罪现场调查-网络</p>
+<a id="more"></a>
+<p>暗海</p>
+<p>亿万</p>
+<hr>
+<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
+<p>《 Smart People Should Build Things 》</p>
+<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
+<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
+<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
+<p>走进我的交易室</p>
+<p>富兰克林自传</p>
+<p>随机漫步的傻瓜</p>
+<ul>
+<li><p>一些必读优秀书籍清单</p>
+<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
+</li>
+</ul>
+<p><strong>投资理财</strong></p>
+<p>风险放在第一位</p>
+<p>《经济学原理》</p>
+<p>《金融炼金术》</p>
+<p>《富爸爸穷爸爸》</p>
+<p>《巴菲特致股东的信》</p>
+<p>1.入门篇</p>
+<p>《小狗钱钱》</p>
+<p>《富爸爸穷爸爸》</p>
+<p>《财务自由之路》</p>
+<p>《邻家的百万富翁》</p>
+<p>《巴比伦最富有的人》</p>
+<p>2.初级篇</p>
+<p>《财报就像一本故事书》</p>
+<p>《手把手教你读财报》</p>
+<p>《投资中最简单的事》</p>
+<p>3.进阶篇</p>
+<p>《投资中最重要的事》</p>
+<p>《巴菲特的护城河》</p>
+<p>《学习估值，轻松投资》</p>
+<p>《指数基金投资指南》</p>
+<p>4.高级篇</p>
+<p>《穷查理宝典》</p>
+<p>《怎样选择成长股》</p>
+<p>《彼得林奇的成功投资》</p>
+<p>5.终极篇</p>
+<p>《证券分析》</p>
+<p>《聪明的投资者》</p>
+<p>《估值》</p>
+<p>《价值评估》</p>
+<p>苹果编码规范</p>
+<p>Rework</p>
+<ul>
+<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
+<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
+<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
+<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
+<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>电影</tag>
+        <tag>书单</tag>
       </tags>
   </entry>
   <entry>
@@ -2381,78 +2455,20 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>电影 书单</title>
-    <url>/posts/79f93cc5.html</url>
-    <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
-<p>​    <a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E4%B8%8D%E9%9D%A0%E8%BF%90%E6%B0%94%E8%87%B4%E5%AF%8C-05-20" target="_blank" rel="noopener external nofollow noreferrer">ZH</a></p>
-<h3 id="电影"><a href="#电影" class="headerlink" title="电影**"></a>电影**</h3><p>互联网之子</p>
-<p>犯罪现场调查-网络</p>
-<a id="more"></a>
-<p>暗海</p>
-<p>亿万</p>
-<hr>
-<h3 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h3><p>从0到1</p>
-<p>《 Smart People Should Build Things 》</p>
-<p><a href="https://book.douban.com/subject/20492550/" target="_blank" rel="noopener external nofollow noreferrer">清醒思考的艺术</a></p>
-<p><a href="https://book.douban.com/subject/25766700/" target="_blank" rel="noopener external nofollow noreferrer">一网打尽 : 贝佐斯与亚马逊时代</a></p>
-<p><a href="https://book.douban.com/subject/1919072/" target="_blank" rel="noopener external nofollow noreferrer">长尾理论</a></p>
-<p>走进我的交易室</p>
-<p>富兰克林自传</p>
-<p>随机漫步的傻瓜</p>
-<ul>
-<li><p>一些必读优秀书籍清单</p>
-<p>蔡康永的说话之道<br>人性的弱点<br>追风筝的人<br>魔鬼经济学1<br>魔鬼经济学2<br>富爸爸穷爸爸<br>与巴菲特共进午餐<br>聪明的投资者<br>投资中最简单的事<br>理财达人修炼手册<br>从零开始稳稳赚<br>数字黄金<br>有钱人想的和你不一样<br>刻意练习<br>从优秀到卓越<br>学会提问<br>跟各国人都可以聊得来<br>故事思维<br>学习之道<br>创新公司：皮克斯的启示<br>把握现实<br>精进<br>沃顿商学院最受欢迎的谈判课<br>跟任何人都聊得来<br>沟通的艺术<br>高难度谈话<br>情商<br>好好说话<br>心动开关<br>乔布斯的演讲<br>像TED一样演讲<br>比从前更好<br>高效的秘密<br>人性的优点<br>时间管理手账<br>冲破黑暗<br>成长到死<br>习惯的力量<br>用毅力走向成功<br>不在乎的人生魔法<br>另一种选择<br>这么慢，那么美<br>怦然心动的人生整理魔法<br>丹麦人为什么幸福<br>非凡头脑的秘诀<br>清醒地活<br>安身之所<br>追求的快乐<br>花钱带来的幸福感<br>睡眠革命<br>断舍离<br>怎样才能吃得更健康<br>今天的东西为啥不好吃<br>完美饮食<br>第三个餐盘<br>营养补充剂真是神药？<br>战胜饥饿感<br>轻断食<br>食疗圣经<br>蓝色地带<br>大脑塑造者<br>爱情数学<br>爱的五种语言<br>亲爱的，我们别吵了<br>关于爱情的30堂课<br>随性所欲<br>约会心理学<br>亲密关系<br>男人来自火星  女人来自金星<br>止不住的单相思<br>爱的艺术<br>霍乱时期的爱情<br>百年孤独<br>情人<br>一九八四<br>洛丽塔<br>傲慢与偏见（上）<br>傲慢与偏见（下）<br>不能承受的生命之轻（上）<br>不能承受的生命之轻（下）<br>第二十二条军规<br>罪与罚（上）<br>罪与罚（下）<br>小炸弹联盟<br>北方海域<br>地下铁道<br>素食主义者<br>战争与松脂<br>黑金政治（上）<br>黑金政治（下）<br>在存在主义咖啡馆（上）<br>在存在主义咖啡馆（下）<br>被驱逐者<br>归去<br>在暗室中<br>莫斯科的绅士<br>乡下人的悲歌<br>当呼吸化为空气<br>双生梦魇<br>南瓜花<br>坠机之前<br>女孩与性<br>基因<br>实验室女孩<br>小而伟大的事</p>
-</li>
-</ul>
-<p><strong>投资理财</strong></p>
-<p>风险放在第一位</p>
-<p>《经济学原理》</p>
-<p>《金融炼金术》</p>
-<p>《富爸爸穷爸爸》</p>
-<p>《巴菲特致股东的信》</p>
-<p>1.入门篇</p>
-<p>《小狗钱钱》</p>
-<p>《富爸爸穷爸爸》</p>
-<p>《财务自由之路》</p>
-<p>《邻家的百万富翁》</p>
-<p>《巴比伦最富有的人》</p>
-<p>2.初级篇</p>
-<p>《财报就像一本故事书》</p>
-<p>《手把手教你读财报》</p>
-<p>《投资中最简单的事》</p>
-<p>3.进阶篇</p>
-<p>《投资中最重要的事》</p>
-<p>《巴菲特的护城河》</p>
-<p>《学习估值，轻松投资》</p>
-<p>《指数基金投资指南》</p>
-<p>4.高级篇</p>
-<p>《穷查理宝典》</p>
-<p>《怎样选择成长股》</p>
-<p>《彼得林奇的成功投资》</p>
-<p>5.终极篇</p>
-<p>《证券分析》</p>
-<p>《聪明的投资者》</p>
-<p>《估值》</p>
-<p>《价值评估》</p>
-<p>苹果编码规范</p>
-<p>Rework</p>
-<ul>
-<li><strong>学好C语言和系统编程</strong>。我认为，学好编程有四个方面：<strong>语言、算法和数据结构、系统调用和设计</strong>。<ul>
-<li><strong>语言</strong>。我可以告诉你C语言有两大主题你要好好学，一个是内存管理，一个是指针！这个世界上90%以上的C/C++出的严重性错误全是和这两个有关。不要看谭浩强的那本书，那本是本烂书。推荐这本书给你《<a href="http://product.china-pub.com/14975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">C程序设计语言（第2版·新版）</a>》</li>
-<li><strong>算法和数据结构</strong>。我认为，用C语言实现算法和数据结构莫过于最爽的事情。推荐你看这本书——<a href="http://product.china-pub.com/192975&amp;ref=browse" target="_blank" rel="noopener external nofollow noreferrer">算法:C语言实现(第1～4部分)基础知识、数据结构、排序及搜索(原书第3版)</a>，还有那本经典的《<a href="http://product.china-pub.com/31701" target="_blank" rel="noopener external nofollow noreferrer">算法导论</a>》</li>
-<li><strong>系统编程</strong>。Windows下推荐两本书——《<a href="http://product.china-pub.com/52880" target="_blank" rel="noopener external nofollow noreferrer">Windows 程序设计</a> 》和《<a href="http://product.china-pub.com/209058" target="_blank" rel="noopener external nofollow noreferrer">Windows核心编程</a>》，Unix/Linux下推荐两本书——《<a href="http://product.china-pub.com/30181" target="_blank" rel="noopener external nofollow noreferrer">Unix高级环境编程</a>》和《<a href="http://product.china-pub.com/196770" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷1，套接字</a>》《<a href="http://product.china-pub.com/196859" target="_blank" rel="noopener external nofollow noreferrer">Unix网络编程卷2，进程间通信</a>》尤其是《Unix网络编程》这本书，一通百通，无论Windows还是Unix/Linux，都是一样的。</li>
-<li><strong>系统设计</strong>。关于设计方面，我全力推荐《<a href="http://product.china-pub.com/197413" target="_blank" rel="noopener external nofollow noreferrer">Unix编程艺术</a>》，看完以后，你就明白什么是真正的编程文化了。然后，当你看到Windows的Fans的某些言论时，你就知道什么叫一笑了之了。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>实用</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>书单</tag>
-      </tags>
+    <title>Palpitate</title>
+    <url>/posts/pppp.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a3f06cfe72cb32409c26a6e4928c05a6deb8aff736a976f74ce4cd11ccb84e34">7afb7d7a64b804c9b29353dc0f1c3749d9366d4c8809913268c70e37ca9b013426c3cc869db85d617f740dffe37a010341c7cbca3c296301bddb681c1ba8023dd68b68b37ad796d65e1f9158f7ff559d1724af52daffdf38ed07e30bdb2132407a32d165ef78ca9b272aab11f3cadce56fea0a38f9728e1bec128e28599d8fc3a1217ec3a7a0603688e790a5310e78e9a1248ed5ad32c3755a2f94178753b292125410bdf90370108481f61968680cfb1cd6e5e12d39f5b7d362556c4d0ea63c5de12868dd4c7ff1273501650732c3f136481babdfddfc10c3911b663e2f071bcacc62daf6ecc09de4f1db2642a5ae80d212fd3686186d12ec4fc66ef18948fde0e45554d8a3209de91c4f8aeb42218c453e31d9066b1a01b111e32eef849b08e631e3b359d01a71cc01f6d8b3b4ecd5ca1641c9bccf744d38a8611f5aa9ed109a4f0ad07f7ea8a60cf1c632f7df83f74016a4c5c3fd23736a9206877df90f10ccb642093cd990719a4e7d6e21abc9dbb488b794564cef457df60a7483fbf9b914709ac92f985b5c06c53ac8e4bbc735f32625ba309bd7fe0109b3ee2b3c69663fd43513b6c43fb3585716a029fbdb591ec5b41ca9703190fd64002f72c79a228b98ece60c15608bc39a124d94bb9c7a972d115996453441d75a561026b15bdd517c2bed1e62e0403c9947401d0177e1c6dbf52788bf333c2435fae18419c12f91d23d18ce818ebdbb2fe644ed7f6f180b1b987ba86cc1eb33f48c97e8c8c8da6d0d3160921650e53b706b375d1a1245e6b4189bf77d45bf94ec70cd9b47e07081a3d119f2b0a39240e88d6d60c39b776f38ecc9924b57d2ea74f144b6ac16743fd71367add552fead949ab54e21e4e40cef3155747c50a8d116683f42a5f9617de5eda35544c849bb0f77208203322d74edcd90914d45046f0e67601e9aa41cc5bbc55eb9fa79dfa899646bf1d5d82fe6f7f5bcaf3f7354f5a60b82f916a8a246395d2cdb19adc54dc0dbe69584249c04e16000c9d70a526c46ecd48f2996b09924c59e5bdf70ba48bb42b212467be6db34a564e735d66a09003595f32161f3b5c129390f05dde2ad36ef386a762a484a8e560fefc4fe71f4fbb7864d4dc309681cc49a13804cee487d9013b007e5892b5888fe7757460bd25c70747f3bcadb242bda22b6dc3aad21480274531a32ec7230d88a16c929e8e366ff35c331b7a0811eeb92a164b81f18eb9bb5cd06e8c9d2fdc5f5eda6f0ec824dea038e0160ee9ba89f775c213155a3cfa9cdf2ec090d8ff9413179ab9551e55a59af7b8464b255a0ef2610d4b43ffec0c2e21ed11f59bdc7741351df4a3719ac15d3282a23597f8d0bd0a6cb0fad7f168a85666e19a8b580f4b9f2c2a61cfdf14a7c855f041f49dff18a85ae13c7890d1e7a8bfd243bf348f2e888ea694f839a3a3a2a43ce907bbf539e866e67076c49905e98b9f414f17e35ee274e625782c37cbfdc28db814a741ec08c38d71c068ca4e9f53cdbb0523780d4e5c82431c9301d43ce58232f667471da2cabffb486844245ffa8b856de83b97c8b0dbb08e1c465bf0c83e81316d53581ee0db70b8a81f1984b4a141e2274ba7192ea16ba93fa1de8cb9a4347ea09cbe82708448c1c3d6ea4adaf4011cb5dfa0630c29030b234c3228ef5e6cfb78b46b536727cbf4061a426a55fe8fd2636d0f80e11c7d433ccaf4a7d3fc7eef82117540979c5839a1b6fd15c79f8feda5360ab1c71c21efe4ebf9df221a81f4424b805823415f17cee7c107e5fe55244edaa3ef30d6f0a2bb191f2010d9657195b70f6b57715ff5d18738a51a6e2950ca1d2f2a3b23599b2e51c8217811cdca28670689e2ec31dd796597839cb39eaed16eccddcc571feaade493fd674c37df58ea5af848bd254174767308123630fc865174c8d1d7d73d3b21caaaf77212eba525936f87a5cb2c861fa9f778452ad7252cb12b51ea3385634f0c4cb5a15be563d3c29b25a7f7a05d77b27d66821bd4f30bcc8427f66469f020839ad6aa504b99f5cbc571d89fcf0bf8f0fa1402968aedfd5fc0bd2832c91f939b1f23efad13c021df66326d4c5fb84e5f4e998e51765aa60d7e4ecc22dc8d2ee2e48ac304b800137d637d10e17d9fd3a3bc20aef0790dc4ac24f65c0921312e5e03d52326181fde30a0b8b288524e5063f47541e573310669effca383b21fb4b8d8bc79f822932b1ab5df0d51960e8c1084b223d05073fed01ade98f9a2a26803646ef6daf58a5db2fbf6cceff1919044c986d3795b96a2ebdf805c325e17210d3d5479dc2944e34bce3ecc2df19665bac14bfeaa12bb76c757472e0eeea2b9fb18c1154b3e7920221706116f3782deb1ae59cd4ba713a7aa1ead29d1e470f24268d56ec65e8d17fcc53f42db25cb020bf28092a1a37a4b2a22640ecd19f1b3131a714f1ce8eace8c4adfccc4950abe48eccdcd2a9adc28602e572e90bddb96b83539a66760ce803064933c4b799b5618d60aa202a2699f805a3dcc9893b3c90acf04c56f26ec2f08a43824cc2f171cbe9694559e18f05cc34eb2fb74ee3de2ce2f83c0c0f507e7029ef51e6ede32b080b53dc00c8dd334886a0feba112491eabe3ac582a502ee9c6ac7091690d0d837644d24db210e848aeb259030da248968e957bec215437beadcc2dc4876d3261883f1a8142cd14855fbc27e91d8dbb37c3fa5d679a862507f1651b32cc9248320d97557b40b55889fba9501dac9d24aaba980f79d24643cc85411b2cd0e9b4427f05732920337b64bcfa14209f279e6431121c387a373724260e9db1aa320d8b7415f0acd97a51012bfb46becd48322959e63bfc246c73b90f78fb0a797132ded274ab23bc8c067d7f1fc2f1c888c382a61d6385d5bc82a95392fec17a1420a664b6a220ae4691ce2a32d584c9743353062906a69c5ca1c7b06ec3d616d3b43ee707daa2c91b0b335c0ca8e1c1a624e01ed680bda78d7d56bac74773ff5e0bb2491e94a7e145eb23876b575e61eeb826ca8f2ed7afce820805b9645e3e64b40de87c8437b2a1eac8338aa5cfd37f381a1e1aa74668d0c189b6cca15bf1683d46b27a465eb8609938eb485ad572d8cbd2e14aff57cdc3aa28c5ed59f70d9ead122032f7fbbf32c986f6c1782a41db0b70a207bcf83e24bd084cb4186015f2a41aa2f1b0a1287eb572c9ae5a8563f0b722b832491d31c19ae9e780571332ad22e99975822c375a59a8e1c54eeddabc9c17c3c846961020a70f48d65c6b606ade0b9f5600e706c7854d95cb74b1ed2aea7df3872eea4088cccd569c3cf0aac72d8b8625f2e5f92802c46aec0391bb91d95d7e2c8436cc932c2a6e48124fcaf699fd9907be5de0e047a8cde7d5a25263d47bf90acb8d19a175eb032ba710bdcb9976ebba4692e40bbcd3ac04ca760f9fabbcf4e9bf5e5fe65c4825394d4dca45fdcec130ffe8f2c5ec678d8a1fe13b545808e7d312b941e4df37e5dc48a674fa85f4195ce64602a38ce913139f6534e5cb19c1d4a069583cfc1885579841be31a7f17594f7fd9ae70acf4cdb8fe09f3464dad9134b559b1cecdd8bde3b62531737bf6652a617dc0bde60ddfcc9a41a2e4537824ca2c0a26af8cf8ae560d207b18d538239e5f9145d677fb7c0c9bcf8b497af96bfbec89cb62d912fafbaff2fc5840826179422684cea36efa29314e285c0fd78bd212e8c7d14cd14bd66f81e77511571b763c34c4ad52917b6674c304517169c80b3d5608e72fe4e97b018b7d93c82a607522a2133d2b998c30f2032e7faceccfc02ad0705c49cc9b9662c55d2782f711926d69cd8f46bf5af97e4618e812f4f15d6231218dee9a3f7d58f988f056f7a35aea8ca6cb8948caca29b3e81101cdbb7c2273d5fd117eeeffc0ad2a8a649f9b9cc3b368e09211b375cd0afeb01ad0d35fd74b67126eb97e807559e2a9c24f30c424ad1c6c8b4a80319f47ee3258f499ac313cbbf97a23d875e34cc1c18e3fb9faaf0a5af33d221b5471c240626024fa2b72932aab2e44bf40971d6cedee6f1136bc8dc2cdcc576de5e7dea2dfa2968ddaa79b6ee1c395fb0e6fd2ed1c3a5d294ad224acf8e32e05032675d7ea9302070e06b07c08d120691808d860413d86fff4a79aa68a69e8170ed46a796ff9b3c199a1d33eb8e29db2cebae46d49ef78a88154a16ee61aeca69bf5687c50f866a291575c4f93fd3fd88488531a3789d75c0dbc3c4ffc4e4c64bb3a33824383c5c05b85b02980681b860d5554350cb5d1309d74f01ca4614b007f90210da12b08d9257ca4a471fed252d581f9805256d4e6f9ba45c1f748433b4f58e65c1a954913fe9635b82b8c0cc5bfe4e1c2977f2b96efa3d82cd81fbdf98644ee68d778d031b6c6006e95fb2ea440ad4218822049053c4cb864fba01dbcf41bdf0597705440faefbe524c82b98fdeb2a5cf4c0fc22b029d12f035085482fa9d123fbd069c5f63f822a07385cacb7d27affbf04e6a5253baa15d95a894a03cca7877159e0ab91b7e8e7b2e76fe2b97c338a40b5b920a8feff0e47bb77eb2e177d0afc2a8dd5ba7ca41ddfee29f06d4e209ee250ee62e748c9dc2d3b78fa31d149594aa95abe9c7c1479d795d00024a7ea52f9b68311c7429e30519839fb31ec390006acea6252eeeaadc0ba83cff2a7134c2c548e7163f6886eda9f274966fe2d511fd966da333430fc83cb0efd8927d8c0731c32df4c8399b6dbd55b0fccb0afd20fb5c1d69e8fc3f77abb50c4a34c37ad9156e73fb377bd6dd84c85f0678f5217c0e95ecd9315215e1892c8a7522e82c5087b28ba1df8e77d08a74080526ba0ed0ab9db8a68953e2a0ad7eaf38bc9c1e9a97f2a821a8caa9d653dbd57c3aee1e437ddad6726c5d8b1b1a9cfffc62f7e37535f68e2a87576273c757c4f92ae3c91fe39a49f436e9b648df69080c46d87db5c5bd6f288d01042d3de079b7ada63f21e604f8dce315df5af6bd75ef0f7a29969ceb66f234067d9169be4ceffabd78534a3c4654ab9ac172a6f70d556e395ff10a652bfa3b9d36a7280286ad429b3251da45d3145cd63bf1c936832f7e317c23df5eca3c31e305f7099b6c7615034079d4b89ccdbe626958b0e3041dae5536f97616b84a198fc7d07468f38da223a63c7d7578b3801a6564ef79851e4bb80eaaa8e9aaf7b703d4111b0e42f8ee1455bc259a0beb76a81c795fd62572f115883f57f2fb52a7728cd55c26c47c2560ddb0283ad34a382ce0b0dbf7617b8d78940a541e2035c8f732b4ea626f24bc9929ea576e02c3bdd03c9d896e2c00bf73fcbbba2fcf1bc6121039b18676a26e9019113f803cf530205dc2805b49e51c888de9e63d8435727b446afc35b88d88254f55a61ab4f5a1093a6bedec50580ef98ef23e23067d151c2278aa5ef4d07dd912e03940b02b91290af954fa483aa967c7806d873ae003f02f473c22186c246fca27a90ee36b2e4d450e06e6e061bf548d35c7945342d338b8223adbc43c3676ca7bf757641b168f1337</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>打造你的最强Firefox浏览器</title>
@@ -2515,22 +2531,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Palpitate</title>
-    <url>/posts/pppp.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="a3f06cfe72cb32409c26a6e4928c05a6deb8aff736a976f74ce4cd11ccb84e34">7afb7d7a64b804c9b29353dc0f1c3749d9366d4c8809913268c70e37ca9b013426c3cc869db85d617f740dffe37a010341c7cbca3c296301bddb681c1ba8023dd68b68b37ad796d65e1f9158f7ff559d1724af52daffdf38ed07e30bdb2132407a32d165ef78ca9b272aab11f3cadce56fea0a38f9728e1bec128e28599d8fc3a1217ec3a7a0603688e790a5310e78e9a1248ed5ad32c3755a2f94178753b292125410bdf90370108481f61968680cfb1cd6e5e12d39f5b7d362556c4d0ea63c5de12868dd4c7ff1273501650732c3f136481babdfddfc10c3911b663e2f071bcacc62daf6ecc09de4f1db2642a5ae80d212fd3686186d12ec4fc66ef18948fde0e45554d8a3209de91c4f8aeb42218c453e31d9066b1a01b111e32eef849b08e631e3b359d01a71cc01f6d8b3b4ecd5ca1641c9bccf744d38a8611f5aa9ed109a4f0ad07f7ea8a60cf1c632f7df83f74016a4c5c3fd23736a9206877df90f10ccb642093cd990719a4e7d6e21abc9dbb488b794564cef457df60a7483fbf9b914709ac92f985b5c06c53ac8e4bbc735f32625ba309bd7fe0109b3ee2b3c69663fd43513b6c43fb3585716a029fbdb591ec5b41ca9703190fd64002f72c79a228b98ece60c15608bc39a124d94bb9c7a972d115996453441d75a561026b15bdd517c2bed1e62e0403c9947401d0177e1c6dbf52788bf333c2435fae18419c12f91d23d18ce818ebdbb2fe644ed7f6f180b1b987ba86cc1eb33f48c97e8c8c8da6d0d3160921650e53b706b375d1a1245e6b4189bf77d45bf94ec70cd9b47e07081a3d119f2b0a39240e88d6d60c39b776f38ecc9924b57d2ea74f144b6ac16743fd71367add552fead949ab54e21e4e40cef3155747c50a8d116683f42a5f9617de5eda35544c849bb0f77208203322d74edcd90914d45046f0e67601e9aa41cc5bbc55eb9fa79dfa899646bf1d5d82fe6f7f5bcaf3f7354f5a60b82f916a8a246395d2cdb19adc54dc0dbe69584249c04e16000c9d70a526c46ecd48f2996b09924c59e5bdf70ba48bb42b212467be6db34a564e735d66a09003595f32161f3b5c129390f05dde2ad36ef386a762a484a8e560fefc4fe71f4fbb7864d4dc309681cc49a13804cee487d9013b007e5892b5888fe7757460bd25c70747f3bcadb242bda22b6dc3aad21480274531a32ec7230d88a16c929e8e366ff35c331b7a0811eeb92a164b81f18eb9bb5cd06e8c9d2fdc5f5eda6f0ec824dea038e0160ee9ba89f775c213155a3cfa9cdf2ec090d8ff9413179ab9551e55a59af7b8464b255a0ef2610d4b43ffec0c2e21ed11f59bdc7741351df4a3719ac15d3282a23597f8d0bd0a6cb0fad7f168a85666e19a8b580f4b9f2c2a61cfdf14a7c855f041f49dff18a85ae13c7890d1e7a8bfd243bf348f2e888ea694f839a3a3a2a43ce907bbf539e866e67076c49905e98b9f414f17e35ee274e625782c37cbfdc28db814a741ec08c38d71c068ca4e9f53cdbb0523780d4e5c82431c9301d43ce58232f667471da2cabffb486844245ffa8b856de83b97c8b0dbb08e1c465bf0c83e81316d53581ee0db70b8a81f1984b4a141e2274ba7192ea16ba93fa1de8cb9a4347ea09cbe82708448c1c3d6ea4adaf4011cb5dfa0630c29030b234c3228ef5e6cfb78b46b536727cbf4061a426a55fe8fd2636d0f80e11c7d433ccaf4a7d3fc7eef82117540979c5839a1b6fd15c79f8feda5360ab1c71c21efe4ebf9df221a81f4424b805823415f17cee7c107e5fe55244edaa3ef30d6f0a2bb191f2010d9657195b70f6b57715ff5d18738a51a6e2950ca1d2f2a3b23599b2e51c8217811cdca28670689e2ec31dd796597839cb39eaed16eccddcc571feaade493fd674c37df58ea5af848bd254174767308123630fc865174c8d1d7d73d3b21caaaf77212eba525936f87a5cb2c861fa9f778452ad7252cb12b51ea3385634f0c4cb5a15be563d3c29b25a7f7a05d77b27d66821bd4f30bcc8427f66469f020839ad6aa504b99f5cbc571d89fcf0bf8f0fa1402968aedfd5fc0bd2832c91f939b1f23efad13c021df66326d4c5fb84e5f4e998e51765aa60d7e4ecc22dc8d2ee2e48ac304b800137d637d10e17d9fd3a3bc20aef0790dc4ac24f65c0921312e5e03d52326181fde30a0b8b288524e5063f47541e573310669effca383b21fb4b8d8bc79f822932b1ab5df0d51960e8c1084b223d05073fed01ade98f9a2a26803646ef6daf58a5db2fbf6cceff1919044c986d3795b96a2ebdf805c325e17210d3d5479dc2944e34bce3ecc2df19665bac14bfeaa12bb76c757472e0eeea2b9fb18c1154b3e7920221706116f3782deb1ae59cd4ba713a7aa1ead29d1e470f24268d56ec65e8d17fcc53f42db25cb020bf28092a1a37a4b2a22640ecd19f1b3131a714f1ce8eace8c4adfccc4950abe48eccdcd2a9adc28602e572e90bddb96b83539a66760ce803064933c4b799b5618d60aa202a2699f805a3dcc9893b3c90acf04c56f26ec2f08a43824cc2f171cbe9694559e18f05cc34eb2fb74ee3de2ce2f83c0c0f507e7029ef51e6ede32b080b53dc00c8dd334886a0feba112491eabe3ac582a502ee9c6ac7091690d0d837644d24db210e848aeb259030da248968e957bec215437beadcc2dc4876d3261883f1a8142cd14855fbc27e91d8dbb37c3fa5d679a862507f1651b32cc9248320d97557b40b55889fba9501dac9d24aaba980f79d24643cc85411b2cd0e9b4427f05732920337b64bcfa14209f279e6431121c387a373724260e9db1aa320d8b7415f0acd97a51012bfb46becd48322959e63bfc246c73b90f78fb0a797132ded274ab23bc8c067d7f1fc2f1c888c382a61d6385d5bc82a95392fec17a1420a664b6a220ae4691ce2a32d584c9743353062906a69c5ca1c7b06ec3d616d3b43ee707daa2c91b0b335c0ca8e1c1a624e01ed680bda78d7d56bac74773ff5e0bb2491e94a7e145eb23876b575e61eeb826ca8f2ed7afce820805b9645e3e64b40de87c8437b2a1eac8338aa5cfd37f381a1e1aa74668d0c189b6cca15bf1683d46b27a465eb8609938eb485ad572d8cbd2e14aff57cdc3aa28c5ed59f70d9ead122032f7fbbf32c986f6c1782a41db0b70a207bcf83e24bd084cb4186015f2a41aa2f1b0a1287eb572c9ae5a8563f0b722b832491d31c19ae9e780571332ad22e99975822c375a59a8e1c54eeddabc9c17c3c846961020a70f48d65c6b606ade0b9f5600e706c7854d95cb74b1ed2aea7df3872eea4088cccd569c3cf0aac72d8b8625f2e5f92802c46aec0391bb91d95d7e2c8436cc932c2a6e48124fcaf699fd9907be5de0e047a8cde7d5a25263d47bf90acb8d19a175eb032ba710bdcb9976ebba4692e40bbcd3ac04ca760f9fabbcf4e9bf5e5fe65c4825394d4dca45fdcec130ffe8f2c5ec678d8a1fe13b545808e7d312b941e4df37e5dc48a674fa85f4195ce64602a38ce913139f6534e5cb19c1d4a069583cfc1885579841be31a7f17594f7fd9ae70acf4cdb8fe09f3464dad9134b559b1cecdd8bde3b62531737bf6652a617dc0bde60ddfcc9a41a2e4537824ca2c0a26af8cf8ae560d207b18d538239e5f9145d677fb7c0c9bcf8b497af96bfbec89cb62d912fafbaff2fc5840826179422684cea36efa29314e285c0fd78bd212e8c7d14cd14bd66f81e77511571b763c34c4ad52917b6674c304517169c80b3d5608e72fe4e97b018b7d93c82a607522a2133d2b998c30f2032e7faceccfc02ad0705c49cc9b9662c55d2782f711926d69cd8f46bf5af97e4618e812f4f15d6231218dee9a3f7d58f988f056f7a35aea8ca6cb8948caca29b3e81101cdbb7c2273d5fd117eeeffc0ad2a8a649f9b9cc3b368e09211b375cd0afeb01ad0d35fd74b67126eb97e807559e2a9c24f30c424ad1c6c8b4a80319f47ee3258f499ac313cbbf97a23d875e34cc1c18e3fb9faaf0a5af33d221b5471c240626024fa2b72932aab2e44bf40971d6cedee6f1136bc8dc2cdcc576de5e7dea2dfa2968ddaa79b6ee1c395fb0e6fd2ed1c3a5d294ad224acf8e32e05032675d7ea9302070e06b07c08d120691808d860413d86fff4a79aa68a69e8170ed46a796ff9b3c199a1d33eb8e29db2cebae46d49ef78a88154a16ee61aeca69bf5687c50f866a291575c4f93fd3fd88488531a3789d75c0dbc3c4ffc4e4c64bb3a33824383c5c05b85b02980681b860d5554350cb5d1309d74f01ca4614b007f90210da12b08d9257ca4a471fed252d581f9805256d4e6f9ba45c1f748433b4f58e65c1a954913fe9635b82b8c0cc5bfe4e1c2977f2b96efa3d82cd81fbdf98644ee68d778d031b6c6006e95fb2ea440ad4218822049053c4cb864fba01dbcf41bdf0597705440faefbe524c82b98fdeb2a5cf4c0fc22b029d12f035085482fa9d123fbd069c5f63f822a07385cacb7d27affbf04e6a5253baa15d95a894a03cca7877159e0ab91b7e8e7b2e76fe2b97c338a40b5b920a8feff0e47bb77eb2e177d0afc2a8dd5ba7ca41ddfee29f06d4e209ee250ee62e748c9dc2d3b78fa31d149594aa95abe9c7c1479d795d00024a7ea52f9b68311c7429e30519839fb31ec390006acea6252eeeaadc0ba83cff2a7134c2c548e7163f6886eda9f274966fe2d511fd966da333430fc83cb0efd8927d8c0731c32df4c8399b6dbd55b0fccb0afd20fb5c1d69e8fc3f77abb50c4a34c37ad9156e73fb377bd6dd84c85f0678f5217c0e95ecd9315215e1892c8a7522e82c5087b28ba1df8e77d08a74080526ba0ed0ab9db8a68953e2a0ad7eaf38bc9c1e9a97f2a821a8caa9d653dbd57c3aee1e437ddad6726c5d8b1b1a9cfffc62f7e37535f68e2a87576273c757c4f92ae3c91fe39a49f436e9b648df69080c46d87db5c5bd6f288d01042d3de079b7ada63f21e604f8dce315df5af6bd75ef0f7a29969ceb66f234067d9169be4ceffabd78534a3c4654ab9ac172a6f70d556e395ff10a652bfa3b9d36a7280286ad429b3251da45d3145cd63bf1c936832f7e317c23df5eca3c31e305f7099b6c7615034079d4b89ccdbe626958b0e3041dae5536f97616b84a198fc7d07468f38da223a63c7d7578b3801a6564ef79851e4bb80eaaa8e9aaf7b703d4111b0e42f8ee1455bc259a0beb76a81c795fd62572f115883f57f2fb52a7728cd55c26c47c2560ddb0283ad34a382ce0b0dbf7617b8d78940a541e2035c8f732b4ea626f24bc9929ea576e02c3bdd03c9d896e2c00bf73fcbbba2fcf1bc6121039b18676a26e9019113f803cf530205dc2805b49e51c888de9e63d8435727b446afc35b88d88254f55a61ab4f5a1093a6bedec50580ef98ef23e23067d151c2278aa5ef4d07dd912e03940b02b91290af954fa483aa967c7806d873ae003f02f473c22186c246fca27a90ee36b2e4d450e06e6e061bf548d35c7945342d338b8223adbc43c3676ca7bf757641b168f1337</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
     <title>QT Study</title>
     <url>/posts/qt-study.html</url>
     <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
@@ -2547,6 +2547,15 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>QT</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
   </entry>
   <entry>
     <title>Rust Study</title>
@@ -2600,6 +2609,27 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>写代码的重要性</title>
     <url>/posts/d7e09071.html</url>
     <content><![CDATA[<p>如果26个英文字母</p>
@@ -2632,36 +2662,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
