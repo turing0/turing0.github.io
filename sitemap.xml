@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.laphel.com/posts/wise-activate.html</loc>
+    
+    <lastmod>2023-11-24T12:56:58.668Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.laphel.com/posts/reading.html</loc>
     
     <lastmod>2023-11-18T06:47:50.445Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.laphel.com/posts/power-firefox.html</loc>
     
     <lastmod>2023-09-10T15:59:08.057Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.laphel.com/posts/wise-activate.html</loc>
-    
-    <lastmod>2023-07-13T14:49:40.011Z</lastmod>
     
   </url>
   
