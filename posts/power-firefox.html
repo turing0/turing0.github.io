@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
@@ -31,7 +31,7 @@
 <meta property="og:description" content="打造强大、安全、实用的Firefox浏览器">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-06-20T14:57:04.000Z">
-<meta property="article:modified_time" content="2022-11-23T04:28:40.135Z">
+<meta property="article:modified_time" content="2023-09-10T15:59:08.057Z">
 <meta property="article:author" content="Laphel">
 <meta property="article:tag" content="插件">
 <meta name="twitter:card" content="summary">
@@ -235,7 +235,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-11-23 12:28:40" itemprop="dateModified" datetime="2022-11-23T12:28:40+08:00">2022-11-23</time>
+                <time title="Modified: 2023-09-10 23:59:08" itemprop="dateModified" datetime="2023-09-10T23:59:08+08:00">2023-09-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -276,7 +276,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>2.1k</span>
+              <span>2.6k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -344,6 +344,18 @@
 <p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
 <h2 id="Proxy-SwitchyOmega"><a href="#Proxy-SwitchyOmega" class="headerlink" title="Proxy SwitchyOmega"></a><strong>Proxy SwitchyOmega</strong></h2><p>轻松快捷地管理和切换多个代理设置。</p>
 <p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<h1 id="推荐首选项配置-Preferences"><a href="#推荐首选项配置-Preferences" class="headerlink" title="推荐首选项配置 Preferences"></a>推荐首选项配置 Preferences</h1><p> Firefox 地址栏并输入 about:config 进入首选项配置页面</p>
+<p>在搜索框中输入下面的内容，把对应的值双击修改为<code>true</code>即可实现。</p>
+<h3 id="新建标签页在当前标签页的右侧"><a href="#新建标签页在当前标签页的右侧" class="headerlink" title="新建标签页在当前标签页的右侧"></a>新建标签页在当前标签页的右侧</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">browser.tabs.insertAfterCurrent</span><br></pre></td></tr></table></figure>
+<h3 id="书签内容在当前标签页的右侧打开"><a href="#书签内容在当前标签页的右侧打开" class="headerlink" title="书签内容在当前标签页的右侧打开"></a>书签内容在当前标签页的右侧打开</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">browser.tabs.loadBookmarksInTabs</span><br></pre></td></tr></table></figure>
+<h3 id="在当前标签页的右侧打开"><a href="#在当前标签页的右侧打开" class="headerlink" title="在当前标签页的右侧打开"></a>在当前标签页的右侧打开</h3><p>地址栏： <code>browser.urlbar.openintab</code></p>
+<p>搜索框： <code>browser.search.openintab</code> </p>
+<h3 id="双击标签页实现关闭标签页"><a href="#双击标签页实现关闭标签页" class="headerlink" title="双击标签页实现关闭标签页"></a>双击标签页实现关闭标签页</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">browser.tabs.closeTabByDblclick</span><br></pre></td></tr></table></figure>
+<h3 id="在新选项卡中打开新搜索结果"><a href="#在新选项卡中打开新搜索结果" class="headerlink" title="在新选项卡中打开新搜索结果"></a>在新选项卡中打开新搜索结果</h3><p>Firefox 在地址栏的右侧为您提供了一个搜索框。 这通常是一个 Google 搜索框。  如果您使用它来搜索有关特定关键字的信息，新信息将出现在您当前的选项卡中。 通过使用此搜索框进入新页面，您多久擦除您所在的页面？  如果您想让该网页保持打开状态，这可能会很麻烦。</p>
+<p>您可以通过设置 about:config 在新选项卡中打开新搜索来避免这种情况。 以下是该怎么做：</p>
+<p>打开 about:config 并搜索：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">browser.search.openintab</span><br></pre></td></tr></table></figure>
+<p>双击设置将其更改为“true”。</p>
 
     </div>
 
@@ -436,7 +448,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#下载-Firefox"><span class="nav-number">1.</span> <span class="nav-text">下载 Firefox</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插件-amp-扩展"><span class="nav-number">2.</span> <span class="nav-text">插件&amp;扩展</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#捕捉网页截图"><span class="nav-number">2.1.</span> <span class="nav-text">捕捉网页截图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Easy-Screenshot"><span class="nav-number">2.2.</span> <span class="nav-text">Easy Screenshot</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Absolute-Enable-Right-Click-amp-Copy"><span class="nav-number">2.3.</span> <span class="nav-text">Absolute Enable Right Click &amp; Copy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bitwarden"><span class="nav-number">2.4.</span> <span class="nav-text">Bitwarden</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Saladict"><span class="nav-number">2.5.</span> <span class="nav-text">Saladict</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bypass-Paywalls"><span class="nav-number">2.6.</span> <span class="nav-text">Bypass Paywalls</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Enhancer-for-YouTube"><span class="nav-number">2.7.</span> <span class="nav-text">Enhancer for YouTube</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Return-YouTube-Dislike"><span class="nav-number">2.8.</span> <span class="nav-text">Return YouTube Dislike</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Modern-for-Hacker-News"><span class="nav-number">2.9.</span> <span class="nav-text">Modern for Hacker News</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Octotree"><span class="nav-number">2.10.</span> <span class="nav-text">Octotree</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OneTab"><span class="nav-number">2.11.</span> <span class="nav-text">OneTab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Undo-Close-Tab"><span class="nav-number">2.12.</span> <span class="nav-text">Undo Close Tab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fire-Drag"><span class="nav-number">2.13.</span> <span class="nav-text">Fire Drag</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gesturefy"><span class="nav-number">2.14.</span> <span class="nav-text">Gesturefy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NoScript"><span class="nav-number">2.15.</span> <span class="nav-text">NoScript</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tampermonkey"><span class="nav-number">2.16.</span> <span class="nav-text">Tampermonkey </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Wappalyzer"><span class="nav-number">2.17.</span> <span class="nav-text">Wappalyzer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BuiltWith"><span class="nav-number">2.18.</span> <span class="nav-text">BuiltWith</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Video-Speed-Controller"><span class="nav-number">2.19.</span> <span class="nav-text">Video Speed Controller</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Video-DownloadHelper"><span class="nav-number">2.20.</span> <span class="nav-text">Video DownloadHelper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Proxy-SwitchyOmega"><span class="nav-number">2.21.</span> <span class="nav-text">Proxy SwitchyOmega</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#下载-Firefox"><span class="nav-number">1.</span> <span class="nav-text">下载 Firefox</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插件-amp-扩展"><span class="nav-number">2.</span> <span class="nav-text">插件&amp;扩展</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#捕捉网页截图"><span class="nav-number">2.1.</span> <span class="nav-text">捕捉网页截图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Easy-Screenshot"><span class="nav-number">2.2.</span> <span class="nav-text">Easy Screenshot</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Absolute-Enable-Right-Click-amp-Copy"><span class="nav-number">2.3.</span> <span class="nav-text">Absolute Enable Right Click &amp; Copy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bitwarden"><span class="nav-number">2.4.</span> <span class="nav-text">Bitwarden</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Saladict"><span class="nav-number">2.5.</span> <span class="nav-text">Saladict</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bypass-Paywalls"><span class="nav-number">2.6.</span> <span class="nav-text">Bypass Paywalls</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Enhancer-for-YouTube"><span class="nav-number">2.7.</span> <span class="nav-text">Enhancer for YouTube</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Return-YouTube-Dislike"><span class="nav-number">2.8.</span> <span class="nav-text">Return YouTube Dislike</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Modern-for-Hacker-News"><span class="nav-number">2.9.</span> <span class="nav-text">Modern for Hacker News</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Octotree"><span class="nav-number">2.10.</span> <span class="nav-text">Octotree</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OneTab"><span class="nav-number">2.11.</span> <span class="nav-text">OneTab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Undo-Close-Tab"><span class="nav-number">2.12.</span> <span class="nav-text">Undo Close Tab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fire-Drag"><span class="nav-number">2.13.</span> <span class="nav-text">Fire Drag</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gesturefy"><span class="nav-number">2.14.</span> <span class="nav-text">Gesturefy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NoScript"><span class="nav-number">2.15.</span> <span class="nav-text">NoScript</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tampermonkey"><span class="nav-number">2.16.</span> <span class="nav-text">Tampermonkey </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Wappalyzer"><span class="nav-number">2.17.</span> <span class="nav-text">Wappalyzer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BuiltWith"><span class="nav-number">2.18.</span> <span class="nav-text">BuiltWith</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Video-Speed-Controller"><span class="nav-number">2.19.</span> <span class="nav-text">Video Speed Controller</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Video-DownloadHelper"><span class="nav-number">2.20.</span> <span class="nav-text">Video DownloadHelper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Proxy-SwitchyOmega"><span class="nav-number">2.21.</span> <span class="nav-text">Proxy SwitchyOmega</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#推荐首选项配置-Preferences"><span class="nav-number">3.</span> <span class="nav-text">推荐首选项配置 Preferences</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#新建标签页在当前标签页的右侧"><span class="nav-number">3.0.1.</span> <span class="nav-text">新建标签页在当前标签页的右侧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#书签内容在当前标签页的右侧打开"><span class="nav-number">3.0.2.</span> <span class="nav-text">书签内容在当前标签页的右侧打开</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在当前标签页的右侧打开"><span class="nav-number">3.0.3.</span> <span class="nav-text">在当前标签页的右侧打开</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#双击标签页实现关闭标签页"><span class="nav-number">3.0.4.</span> <span class="nav-text">双击标签页实现关闭标签页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在新选项卡中打开新搜索结果"><span class="nav-number">3.0.5.</span> <span class="nav-text">在新选项卡中打开新搜索结果</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -452,20 +464,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">30</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-count">26</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -505,17 +517,17 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="Symbols count total">128k</span>
+    <span title="Symbols count total">133k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1:57</span>
+    <span title="Reading time total">2:01</span>
   -->
 </div>
 
 <!--
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a> v4.2.1
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a> v4.2.0
   </div>
 -->
 <!--
