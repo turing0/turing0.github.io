@@ -115,22 +115,22 @@
       </tags>
   </entry>
   <entry>
-    <title>6分钟教你选数学老师</title>
-    <url>/posts/chose-teacher.html</url>
-    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
-
-
-
-
-
-
-
-
-
-
-
+    <title>二叉树的遍历</title>
+    <url>/posts/binarytree-traverse.html</url>
+    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
+<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
   </entry>
   <entry>
     <title>Markdown + Latex test</title>
@@ -755,24 +755,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
   </entry>
   <entry>
-    <title>二叉树的遍历</title>
-    <url>/posts/binarytree-traverse.html</url>
-    <content><![CDATA[<h1 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h1><p>后序遍历按照“左孩子-右孩子-根结点”的顺序进行访问。</p>
-<h2 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h2><a id="more"></a>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder1</span><span class="params">(BinTree *root)</span>    <span class="comment">//递归后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        postOrder1(root-&gt;lchild);</span><br><span class="line">        postOrder1(root-&gt;rchild);</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;root-&gt;data&lt;&lt;<span class="string">""</span>;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="迭代实现"><a href="#迭代实现" class="headerlink" title="迭代实现"></a>迭代实现</h2><p>第一种思路：对于任一结点P，将其入栈，然后沿其左子树一直往下搜索，直到搜索到没有左孩子的结点，此时该结点出现在栈顶，但是此时不能将其出栈并访问，因此其右孩子还为被访问。所以接下来按照相同的规则对其右子树进行相同的处理，当访问完其右孩子时，该结点又出现在栈顶，此时可以将其出栈并访问。这样就保证了正确的访问顺序。可以看出，在这个过程中，每个结点都两次出现在栈顶，只有在第二次出现在栈顶时，才能访问它。因此需要多设置一个变量标识该结点是否是第一次出现在栈顶。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder2</span><span class="params">(BinTree *root)</span>    <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BTNode*&gt; s;</span><br><span class="line">    BinTree *p=root;</span><br><span class="line">    BTNode *temp;</span><br><span class="line">    <span class="keyword">while</span>(p!=<span class="literal">NULL</span>||!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p!=<span class="literal">NULL</span>)              <span class="comment">//沿左子树一直往下搜索，直至出现没有左子树的结点 </span></span><br><span class="line">        &#123;</span><br><span class="line">            BTNode *btn=(BTNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(BTNode));</span><br><span class="line">            btn-&gt;btnode=p;</span><br><span class="line">            btn-&gt;isFirst=<span class="literal">true</span>;</span><br><span class="line">            s.push(btn);</span><br><span class="line">            p=p-&gt;lchild;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!s.empty())</span><br><span class="line">        &#123;</span><br><span class="line">            temp=s.top();</span><br><span class="line">            s.pop();</span><br><span class="line">            <span class="keyword">if</span>(temp-&gt;isFirst==<span class="literal">true</span>)     <span class="comment">//表示是第一次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                temp-&gt;isFirst=<span class="literal">false</span>;</span><br><span class="line">                s.push(temp);</span><br><span class="line">                p=temp-&gt;btnode-&gt;rchild;    </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span><span class="comment">//第二次出现在栈顶 </span></span><br><span class="line">             &#123;</span><br><span class="line">                <span class="built_in">cout</span>&lt;&lt;temp-&gt;btnode-&gt;data&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">                p=<span class="literal">NULL</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p> 第二种思路：要保证根结点在左孩子和右孩子访问之后才能访问，因此对于任一结点P，先将其入栈。如果P不存在左孩子和右孩子，则可以直接访问它；或者P存在左孩子或者右孩子，但是其左孩子和右孩子都已被访问过了，则同样可以直接访问该结点。若非上述两种情况，则将P的右孩子和左孩子依次入栈，这样就保证了每次取栈顶元素的时候，左孩子在右孩子前面被访问，左孩子和右孩子都在根结点前面被访问。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postOrder3</span><span class="params">(BinTree *root)</span>     <span class="comment">// postorder iteration</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">stack</span>&lt;BinTree*&gt; s;</span><br><span class="line">    BinTree *cur;                      <span class="comment">//当前结点 </span></span><br><span class="line">    BinTree *pre=<span class="literal">NULL</span>;                 <span class="comment">//前一次访问的结点 </span></span><br><span class="line">    s.push(root);</span><br><span class="line">    <span class="keyword">while</span>(!s.empty())</span><br><span class="line">    &#123;</span><br><span class="line">        cur=s.top();</span><br><span class="line">        <span class="keyword">if</span>((cur-&gt;lchild==<span class="literal">NULL</span>&amp;&amp;cur-&gt;rchild==<span class="literal">NULL</span>)||</span><br><span class="line">           (pre!=<span class="literal">NULL</span>&amp;&amp;(pre==cur-&gt;lchild||pre==cur-&gt;rchild)))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;cur-&gt;data&lt;&lt;<span class="string">" "</span>;  <span class="comment">//如果当前结点没有孩子结点或者孩子节点都已被访问过 </span></span><br><span class="line">              s.pop();</span><br><span class="line">            pre=cur; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;rchild!=<span class="literal">NULL</span>)</span><br><span class="line">                s.push(cur-&gt;rchild);</span><br><span class="line">            <span class="keyword">if</span>(cur-&gt;lchild!=<span class="literal">NULL</span>)    </span><br><span class="line">                s.push(cur-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Codeblocks 问题总结</title>
     <url>/posts/codeblocks-skills.html</url>
     <content><![CDATA[<h1 id="codeblocks-mingw实现静态编译"><a href="#codeblocks-mingw实现静态编译" class="headerlink" title="codeblocks+mingw实现静态编译"></a>codeblocks+mingw实现静态编译</h1><a id="more"></a>
@@ -786,23 +768,21 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
-    <title>学习 经验 知识</title>
-    <url>/posts/vocabulary.html</url>
-    <content><![CDATA[<p>经验 知识</p>
-<a id="more"></a>
-<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
-<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
-<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
-<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
-<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
-<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
-<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
-<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
-<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
+    <title>6分钟教你选数学老师</title>
+    <url>/posts/chose-teacher.html</url>
+    <content><![CDATA[<h1 id="6分钟教你选数学老师"><a href="#6分钟教你选数学老师" class="headerlink" title="6分钟教你选数学老师"></a>6分钟教你选数学老师</h1><a id="more"></a>
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg"> <source id="mp4" src="http://121.199.76.139/mt.mp4" type="video/mp4"> </video>
+
+
+
+
+
+
+
+
+
+
+
 ]]></content>
   </entry>
   <entry>
@@ -836,60 +816,6 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       <tags>
         <tag>C++</tag>
         <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>恶魔奶爸的透析阅读法</title>
-    <url>/posts/dialysis-reading.html</url>
-    <content><![CDATA[<p>以前推荐奶爸的《把你的英语用起来》这本书时介绍过这种方法，但很多人都不知道，再从新分享一下这种方法。</p>
-<p>这种方法实用性非常强，只要坚持看完几本原著，能非常明显的提升英语阅读能力，网上能找到非常多的实践成功案例。</p>
-<a id="more"></a>
-<h1 id="透析英语学习法"><a href="#透析英语学习法" class="headerlink" title="透析英语学习法"></a>透析英语学习法</h1><p>“透析英语学习法“这一概念出自《把你的英语用起来》一书。此书由透析”英语学习法”创始人伍君仪和恶魔的奶爸（刘晓光）和著，书中大量讲述“透析英语学习法”的具体内容。书中还提供了很多学习提高英语的方法和工具。</p>
-<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>透析法的原理就是对英文原著中的生词等语言知识进行滤膜分析——英语的所有单词都“溶解”在英文原著的巨大“海洋”中，透析法就是对“海水”持续进行淡化处理，以电子词典为滤膜，定量析出“海水”中的生词，输入大脑记忆中枢。生词遗忘相当于“回渗”，但只要持续透析，原著的单词会反复出现，结合原文背景，都将进入大脑的长期记忆，从而提升个人的词汇量。简单地说，就是通过阅读英文原著来记忆单词，提高英语水平。</p>
-<h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>首先要了解自己的英文水平，要测试自己的单词量。你可以到相关网站去测试，这对于后来选择什么样的英文名著提供一个重要的参考。其次要准备一个电子词典或者是装有词典的手机。在此我推荐欧路词典，可以导入很多词典。</p>
-<p>原著的选择</p>
-<p>选择原著有一下几个原则：</p>
-<ul>
-<li>根据自己的词汇量，选择难度适合的原著。这里有两个标准，首万词不重复数和蓝思值。前者是对单词数量及难度的考量，后者是对句子难度的考量。在你选择英文原著时，可以参考这两个指标。</li>
-<li>兴趣原则。你可以选择自己感兴趣的书去阅读，这样不仅能提高你的英文水平，还能让你享受阅读的乐趣。</li>
-</ul>
-<h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>选择好自己感兴趣的英文原著后，开始阅读。阅读的时候遇见不认识的单词时，不要全部都查，每页只能查一到两个。不懂的话就通过上下文的意思去猜测，了解大概意思。每天读一定页数的英文原著后，复习查过的生词。复习的过程可遵循艾宾浩斯记忆曲线原理，可以建一个Excel表格，记录自己复习的过程。</p>
-<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>一开始为了培养阅读习惯，要大量读，每天至少读20页以上，最好能超过50页，以从阅读中获得乐趣和信息为目的，而不是以扩大词汇量为目的<br>有关每两页查一个单词的目的，是为了在大量阅读吸收信息语流的过程中，顺带积累下生词量，但不是主要目的，不打断阅读，不妨碍享受精彩故事<br>但是在不打断阅读节奏和乐趣的前提下，你想怎么查都可以——用平板电脑可以即指即译，所以我是每个词都查<br>第二天的复习非常重要，但是不要死背，而是应该及时删单词——第二天看生词本，如果记得生词，那么立刻删掉，只留下不认识的默看一遍（耗时20分钟以内），然后去大量读书<br>这样做的好处是，收词-删词-在阅读中大量遇到-忘了再收-再删-再读，这个办法是利用情景猜单词和额外的稍微记忆相结合，记忆效果远超所谓的记忆曲线背单词，学习效果？收获的绝对不仅仅是词汇量，而是整体的英文能力，对英文运用表达能力也有潜移默化的影响（输入多未必能写出好文章，但是写的好的人必然输入多）<br>只谈背单词？坚持1-2年，每天一个小时的阅读，词汇量过两万很轻松，过程几乎没有痛苦（不要逼自己读不喜欢的书），但还是那句话，不要以增加词汇量为首要目的，而是要以增加对英文文本的熟悉感和理解力作为首要目的<br>初期选材尽量选择同一个作家的作品，词汇范围比较狭窄，不同词汇经常性出现，对于词汇记忆效果比较好，不建议选择新闻类短篇作品<br>建议每天收录的单词最好不要超过50个——可以无限制读，但是收录单词最好不要超过50个，如果超过了，去查看下，有印象的就删掉，只留没印象的</p>
-<p>1，选书，选择一页生词率低于10个以下的（相关书籍推荐原书都有），最简单的原文书应该是Goose bump跟Magic Tree House，每个系列都有60本以上，网上mobi epub一大堆，属于2000到3000词内可以看懂的——实在不懂，书虫之类的分级读物总听说过，600词就可以看懂</p>
-<p>2，拿手机词典和书 or kindle阅读，建议采用欧路词典，词库选用柯林斯双解+麦克米伦+CALD——词库在这里，自己安装帝热青读书会第一期：英文词典的分类和使用方法</p>
-<p>3，一开始为了培养阅读习惯，要大量读，每天至少读20页以上，最好能超过50页，以从阅读中获得乐趣和信息为目的，而不是以扩大词汇量为目的</p>
-<p>4，阅读的好处就不多说了，想想你为啥要读中文书就知道了。不过没有中文阅读习惯的人不适合透析法</p>
-<p>5，有关每两页查一个单词的目的，是为了在大量阅读吸收信息语流的过程中，顺带积累下生词量，但不是主要目的，不打断阅读，不妨碍享受精彩故事</p>
-<p>6，但是在不打断阅读节奏和乐趣的前提下，你想怎么查都可以——用平板电脑可以即指即译，所以我是每个词都查</p>
-<p>7，第二天的复习非常重要，但是不要死背，而是应该及时删单词——第二天看生词本，如果记得生词，那么立刻删掉，只留下不认识的默看一遍（耗时20分钟以内），然后去大量读书</p>
-<p>8，这样做的好处是，收词-删词-在阅读中大量遇到-忘了再收-再删-再读，这个办法是利用情景猜单词和额外的稍微记忆相结合，记忆效果远超所谓的记忆曲线背单词，学习效果？收获的绝对不仅仅是词汇量，而是整体的英文能力，对英文运用表达能力也有潜移默化的影响（输入多未必能写出好文章，但是写的好的人必然输入多）</p>
-<p>9，只谈背单词？坚持1-2年，每天一个小时的阅读，词汇量过两万很轻松，过程几乎没有痛苦（不要逼自己读不喜欢的书），但还是那句话，不要以增加词汇量为首要目的，而是要以增加对英文文本的熟悉感和理解力作为首要目的</p>
-<p>10，初期选材尽量选择同一个作家的作品，词汇范围比较狭窄，不同词汇经常性出现，对于词汇记忆效果比较好，不建议选择新闻类短篇作品</p>
-<p>11，建议每天收录的单词最好不要超过50个——可以无限制读，但是收录单词最好不要超过50个，如果超过了，去查看下，有印象的就删掉，只留没印象的</p>
-<p>12，小说对口语和英文能力的帮助在这里：为什么畅销小说对口语能力有帮助？（转） - 酷爱撒泼 - 知乎专栏</p>
-<p>13，阅读对词汇能力的帮助到底在何处：学英语尽量不要从背词汇表开始（转） - 酷爱撒泼 - 知乎专栏</p>
-<p>14，母语人士平均每天积累的词汇量在4.1个左右，而且还是语言能力较为不错的母语人士为什么一定要撸英文小说（转） - 酷爱撒泼 - 知乎专栏，所以对于你说看12页书才积累4个词汇，我觉得我们已经赶超母语人士了，虽然我不知道两页一个词，12页就是4个单词这个逆天结论是怎么的出来的。。。</p>
-<p>15，母语人士的例子是为了证明，词汇量真真不是最重要的，甚至不是重要的（认识那么多词不会用屁用没有），只有通过多读，对各种句式，搭配，用法有所了解才有可能学着使用，才有可能提高英语——因为外语人士学英语有限制，不可能靠母语人士那样靠光看就自动增长词汇量，所以透析英语法是利用科技手段夹杂一丁点的稍微记忆行为鼓捣出来的无痛苦学习法，背后的什么心理学规律什么科学理论，看五爷博客（他是心理学科班出身），我这里不赘述</p>
-<p>16，最好能搭配读读两本句型书：《文法俱乐部》+叶永昌的《英语阅读手册》，两者有矛盾冲突的地方，自己选择收入</p>
-<p>17，书单我可以看，但仅限于个人爱好（男性向多了些）</p>
-<p>每个级别要多看，直到你看本级别的书再也没有什么生词没什么挑战为止，这个时候越级（分级不一定准，个人能力有限，大家补充）</p>
-<p>L1 Goose Bumps系列和Magic Tree House以及Boxcar<br>每个系列都过60本，两三千词汇而已，儿童读物</p>
-<p>L2 动物农场 Roald Dahl童话全集 Narnia<br>儿童读物</p>
-<p>L3 Sidney Sheldon20本 James Hadley Chase90本 James Patternson80多本 Nicholas Sparks<br>L3跟L2级别差不多，都是大量对白，书很简单，偶尔会有单词，对于成人来说，看James Patterson可能比看查理巧克力工厂要有意思一点？ 另外Nicholas Sparks是写纯爱小说的，用词比两个James稍微难了点（前三位都是写thriller的，好看之极），我看过一本《初恋的回忆》一本《分手信》就没怎么看了，蛮无聊的，女性向（比暮光之城好看）</p>
-<p>L4 社科类作品 Peter Hessler的Rivertown三部曲，讲中国小镇支教的故事，Factory Girls貌似是他老婆写的，讲中国女工的，也可以看看，还有影响力，Malcolm Gladwell之类的就不多说了，去Goodreads上面搜business这个标签出现的很多书单，排名靠前的都不会太难，自己看下简介有兴趣看即可</p>
-<p>L5 经济学人，纽约时报，华尔街日报等相关报道，尤其是对中国的报道，可以好好精读一番（我个人最爱的是纽约客官网上的Letter from China）</p>
-<p>L6 万物简史，DK百科全书等各种科普类读物（如果需要备考托福，建议最好拿万物简史的文本和音频做精听和精读，里面什么核糖核酸始祖鸟夸克大爆炸之类的词都有，而且写的生动有趣），TTC各类文史哲教程，Coursera，Khan Academy等Mooc学院教程</p>
-<p>L7 傲慢与偏见，简爱等各种老牌名著，不限制</p>
-<p>注1，以上所谓级别可以不管难度，只选择你最感兴趣的读即可，只要咬牙坚持住一个月，后面就会越来越顺利</p>
-<p>References:<br><a href="https://www.cnblogs.com/ramlife/articles/10652371.html" target="_blank" rel="noopener external nofollow noreferrer">能《把英语用起来！》</a></p>
-<p><a href="https://www.sohu.com/a/224550753_99891388" target="_blank" rel="noopener external nofollow noreferrer">从百词斩到恶魔奶爸再到李笑来——我自学英语五年自省</a>                                 </p>
-]]></content>
-      <categories>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>English</tag>
-        <tag>Reading</tag>
       </tags>
   </entry>
   <entry>
@@ -1178,6 +1104,80 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
       </tags>
   </entry>
   <entry>
+    <title>学习 经验 知识</title>
+    <url>/posts/vocabulary.html</url>
+    <content><![CDATA[<p>经验 知识</p>
+<a id="more"></a>
+<h1 id="韦氏词典-攻略"><a href="#韦氏词典-攻略" class="headerlink" title="韦氏词典 攻略"></a>韦氏词典 攻略</h1><h2 id="背单词的误区"><a href="#背单词的误区" class="headerlink" title="背单词的误区"></a>背单词的误区</h2><p><img src="https://blog.laphel.com/html/img/背单词的误区.jpg" alt="背单词的误区"></p>
+<h2 id="dictionary-词典功能"><a href="#dictionary-词典功能" class="headerlink" title="dictionary 词典功能"></a>dictionary 词典功能</h2><p><img src="https://blog.laphel.com/html/img/dictionary 词典功能.jpg" alt="dictionary 词典功能"></p>
+<h2 id="Word-of-the-Day-每日一词"><a href="#Word-of-the-Day-每日一词" class="headerlink" title="Word of the Day 每日一词"></a>Word of the Day 每日一词</h2><p><img src="https://blog.laphel.com/html/img/Word of the Day 每日一词.jpg" alt="Word of the Day 每日一词"></p>
+<h2 id="英语学习观念"><a href="#英语学习观念" class="headerlink" title="英语学习观念"></a>英语学习观念</h2><p><img src="https://blog.laphel.com/html/img/英语学习观念.jpg" alt="英语学习观念"></p>
+<h2 id="词汇掌握的三个级别"><a href="#词汇掌握的三个级别" class="headerlink" title="词汇掌握的三个级别"></a>词汇掌握的三个级别</h2><p><img src="https://blog.laphel.com/html/img/词汇掌握的三个级别.jpg" alt="词汇掌握的三个级别"></p>
+<h2 id="Merriam-Webster-词典介绍"><a href="#Merriam-Webster-词典介绍" class="headerlink" title="Merriam-Webster 词典介绍"></a>Merriam-Webster 词典介绍</h2><p><img src="https://blog.laphel.com/html/img/Merriam-Webster 词典介绍.jpg" alt="Merriam-Webster 词典介绍"></p>
+<h2 id="Thesaurus-同义词词典功能"><a href="#Thesaurus-同义词词典功能" class="headerlink" title="Thesaurus 同义词词典功能"></a>Thesaurus 同义词词典功能</h2><p><img src="https://blog.laphel.com/html/img/Thesaurus 同义词词典功能.jpg" alt="Thesaurus 同义词词典功能"></p>
+<h1 id="降低论文查重率"><a href="#降低论文查重率" class="headerlink" title="降低论文查重率"></a>降低论文查重率</h1><h2 id="如何有效降低论文查重率"><a href="#如何有效降低论文查重率" class="headerlink" title="如何有效降低论文查重率"></a>如何有效降低论文查重率</h2><p><img src="https://i.loli.net/2020/04/28/2OBqbmLNeUVCSog.png" alt="N1V0A4_CA___2_6BRUVJXYU.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/XyR8fZVoQckOIqL.png" alt="EPNKOI23D8NF_3VPN2X2JH3.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/QdFaD28LIWv7CSe.png" alt="3PE_KE___Z`BPA8_1D@WSV2.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/hH4uE6nLD9zVjqy.png" alt="X58PLZ7___LTC`_UXUX_82Y.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/xuphDy92Cz1UcF6.png" alt="1VNFZC2K3__`GFKU5P_`9UN.png"></p>
+<p><img src="https://i.loli.net/2020/04/28/L6XkAZu1lYmFwjq.png" alt="U@_X1E7~~F_@_`M1AKETC42.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>恶魔奶爸的透析阅读法</title>
+    <url>/posts/dialysis-reading.html</url>
+    <content><![CDATA[<p>以前推荐奶爸的《把你的英语用起来》这本书时介绍过这种方法，但很多人都不知道，再从新分享一下这种方法。</p>
+<p>这种方法实用性非常强，只要坚持看完几本原著，能非常明显的提升英语阅读能力，网上能找到非常多的实践成功案例。</p>
+<a id="more"></a>
+<h1 id="透析英语学习法"><a href="#透析英语学习法" class="headerlink" title="透析英语学习法"></a>透析英语学习法</h1><p>“透析英语学习法“这一概念出自《把你的英语用起来》一书。此书由透析”英语学习法”创始人伍君仪和恶魔的奶爸（刘晓光）和著，书中大量讲述“透析英语学习法”的具体内容。书中还提供了很多学习提高英语的方法和工具。</p>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>透析法的原理就是对英文原著中的生词等语言知识进行滤膜分析——英语的所有单词都“溶解”在英文原著的巨大“海洋”中，透析法就是对“海水”持续进行淡化处理，以电子词典为滤膜，定量析出“海水”中的生词，输入大脑记忆中枢。生词遗忘相当于“回渗”，但只要持续透析，原著的单词会反复出现，结合原文背景，都将进入大脑的长期记忆，从而提升个人的词汇量。简单地说，就是通过阅读英文原著来记忆单词，提高英语水平。</p>
+<h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>首先要了解自己的英文水平，要测试自己的单词量。你可以到相关网站去测试，这对于后来选择什么样的英文名著提供一个重要的参考。其次要准备一个电子词典或者是装有词典的手机。在此我推荐欧路词典，可以导入很多词典。</p>
+<p>原著的选择</p>
+<p>选择原著有一下几个原则：</p>
+<ul>
+<li>根据自己的词汇量，选择难度适合的原著。这里有两个标准，首万词不重复数和蓝思值。前者是对单词数量及难度的考量，后者是对句子难度的考量。在你选择英文原著时，可以参考这两个指标。</li>
+<li>兴趣原则。你可以选择自己感兴趣的书去阅读，这样不仅能提高你的英文水平，还能让你享受阅读的乐趣。</li>
+</ul>
+<h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>选择好自己感兴趣的英文原著后，开始阅读。阅读的时候遇见不认识的单词时，不要全部都查，每页只能查一到两个。不懂的话就通过上下文的意思去猜测，了解大概意思。每天读一定页数的英文原著后，复习查过的生词。复习的过程可遵循艾宾浩斯记忆曲线原理，可以建一个Excel表格，记录自己复习的过程。</p>
+<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>一开始为了培养阅读习惯，要大量读，每天至少读20页以上，最好能超过50页，以从阅读中获得乐趣和信息为目的，而不是以扩大词汇量为目的<br>有关每两页查一个单词的目的，是为了在大量阅读吸收信息语流的过程中，顺带积累下生词量，但不是主要目的，不打断阅读，不妨碍享受精彩故事<br>但是在不打断阅读节奏和乐趣的前提下，你想怎么查都可以——用平板电脑可以即指即译，所以我是每个词都查<br>第二天的复习非常重要，但是不要死背，而是应该及时删单词——第二天看生词本，如果记得生词，那么立刻删掉，只留下不认识的默看一遍（耗时20分钟以内），然后去大量读书<br>这样做的好处是，收词-删词-在阅读中大量遇到-忘了再收-再删-再读，这个办法是利用情景猜单词和额外的稍微记忆相结合，记忆效果远超所谓的记忆曲线背单词，学习效果？收获的绝对不仅仅是词汇量，而是整体的英文能力，对英文运用表达能力也有潜移默化的影响（输入多未必能写出好文章，但是写的好的人必然输入多）<br>只谈背单词？坚持1-2年，每天一个小时的阅读，词汇量过两万很轻松，过程几乎没有痛苦（不要逼自己读不喜欢的书），但还是那句话，不要以增加词汇量为首要目的，而是要以增加对英文文本的熟悉感和理解力作为首要目的<br>初期选材尽量选择同一个作家的作品，词汇范围比较狭窄，不同词汇经常性出现，对于词汇记忆效果比较好，不建议选择新闻类短篇作品<br>建议每天收录的单词最好不要超过50个——可以无限制读，但是收录单词最好不要超过50个，如果超过了，去查看下，有印象的就删掉，只留没印象的</p>
+<p>1，选书，选择一页生词率低于10个以下的（相关书籍推荐原书都有），最简单的原文书应该是Goose bump跟Magic Tree House，每个系列都有60本以上，网上mobi epub一大堆，属于2000到3000词内可以看懂的——实在不懂，书虫之类的分级读物总听说过，600词就可以看懂</p>
+<p>2，拿手机词典和书 or kindle阅读，建议采用欧路词典，词库选用柯林斯双解+麦克米伦+CALD——词库在这里，自己安装帝热青读书会第一期：英文词典的分类和使用方法</p>
+<p>3，一开始为了培养阅读习惯，要大量读，每天至少读20页以上，最好能超过50页，以从阅读中获得乐趣和信息为目的，而不是以扩大词汇量为目的</p>
+<p>4，阅读的好处就不多说了，想想你为啥要读中文书就知道了。不过没有中文阅读习惯的人不适合透析法</p>
+<p>5，有关每两页查一个单词的目的，是为了在大量阅读吸收信息语流的过程中，顺带积累下生词量，但不是主要目的，不打断阅读，不妨碍享受精彩故事</p>
+<p>6，但是在不打断阅读节奏和乐趣的前提下，你想怎么查都可以——用平板电脑可以即指即译，所以我是每个词都查</p>
+<p>7，第二天的复习非常重要，但是不要死背，而是应该及时删单词——第二天看生词本，如果记得生词，那么立刻删掉，只留下不认识的默看一遍（耗时20分钟以内），然后去大量读书</p>
+<p>8，这样做的好处是，收词-删词-在阅读中大量遇到-忘了再收-再删-再读，这个办法是利用情景猜单词和额外的稍微记忆相结合，记忆效果远超所谓的记忆曲线背单词，学习效果？收获的绝对不仅仅是词汇量，而是整体的英文能力，对英文运用表达能力也有潜移默化的影响（输入多未必能写出好文章，但是写的好的人必然输入多）</p>
+<p>9，只谈背单词？坚持1-2年，每天一个小时的阅读，词汇量过两万很轻松，过程几乎没有痛苦（不要逼自己读不喜欢的书），但还是那句话，不要以增加词汇量为首要目的，而是要以增加对英文文本的熟悉感和理解力作为首要目的</p>
+<p>10，初期选材尽量选择同一个作家的作品，词汇范围比较狭窄，不同词汇经常性出现，对于词汇记忆效果比较好，不建议选择新闻类短篇作品</p>
+<p>11，建议每天收录的单词最好不要超过50个——可以无限制读，但是收录单词最好不要超过50个，如果超过了，去查看下，有印象的就删掉，只留没印象的</p>
+<p>12，小说对口语和英文能力的帮助在这里：为什么畅销小说对口语能力有帮助？（转） - 酷爱撒泼 - 知乎专栏</p>
+<p>13，阅读对词汇能力的帮助到底在何处：学英语尽量不要从背词汇表开始（转） - 酷爱撒泼 - 知乎专栏</p>
+<p>14，母语人士平均每天积累的词汇量在4.1个左右，而且还是语言能力较为不错的母语人士为什么一定要撸英文小说（转） - 酷爱撒泼 - 知乎专栏，所以对于你说看12页书才积累4个词汇，我觉得我们已经赶超母语人士了，虽然我不知道两页一个词，12页就是4个单词这个逆天结论是怎么的出来的。。。</p>
+<p>15，母语人士的例子是为了证明，词汇量真真不是最重要的，甚至不是重要的（认识那么多词不会用屁用没有），只有通过多读，对各种句式，搭配，用法有所了解才有可能学着使用，才有可能提高英语——因为外语人士学英语有限制，不可能靠母语人士那样靠光看就自动增长词汇量，所以透析英语法是利用科技手段夹杂一丁点的稍微记忆行为鼓捣出来的无痛苦学习法，背后的什么心理学规律什么科学理论，看五爷博客（他是心理学科班出身），我这里不赘述</p>
+<p>16，最好能搭配读读两本句型书：《文法俱乐部》+叶永昌的《英语阅读手册》，两者有矛盾冲突的地方，自己选择收入</p>
+<p>17，书单我可以看，但仅限于个人爱好（男性向多了些）</p>
+<p>每个级别要多看，直到你看本级别的书再也没有什么生词没什么挑战为止，这个时候越级（分级不一定准，个人能力有限，大家补充）</p>
+<p>L1 Goose Bumps系列和Magic Tree House以及Boxcar<br>每个系列都过60本，两三千词汇而已，儿童读物</p>
+<p>L2 动物农场 Roald Dahl童话全集 Narnia<br>儿童读物</p>
+<p>L3 Sidney Sheldon20本 James Hadley Chase90本 James Patternson80多本 Nicholas Sparks<br>L3跟L2级别差不多，都是大量对白，书很简单，偶尔会有单词，对于成人来说，看James Patterson可能比看查理巧克力工厂要有意思一点？ 另外Nicholas Sparks是写纯爱小说的，用词比两个James稍微难了点（前三位都是写thriller的，好看之极），我看过一本《初恋的回忆》一本《分手信》就没怎么看了，蛮无聊的，女性向（比暮光之城好看）</p>
+<p>L4 社科类作品 Peter Hessler的Rivertown三部曲，讲中国小镇支教的故事，Factory Girls貌似是他老婆写的，讲中国女工的，也可以看看，还有影响力，Malcolm Gladwell之类的就不多说了，去Goodreads上面搜business这个标签出现的很多书单，排名靠前的都不会太难，自己看下简介有兴趣看即可</p>
+<p>L5 经济学人，纽约时报，华尔街日报等相关报道，尤其是对中国的报道，可以好好精读一番（我个人最爱的是纽约客官网上的Letter from China）</p>
+<p>L6 万物简史，DK百科全书等各种科普类读物（如果需要备考托福，建议最好拿万物简史的文本和音频做精听和精读，里面什么核糖核酸始祖鸟夸克大爆炸之类的词都有，而且写的生动有趣），TTC各类文史哲教程，Coursera，Khan Academy等Mooc学院教程</p>
+<p>L7 傲慢与偏见，简爱等各种老牌名著，不限制</p>
+<p>注1，以上所谓级别可以不管难度，只选择你最感兴趣的读即可，只要咬牙坚持住一个月，后面就会越来越顺利</p>
+<p>References:<br><a href="https://www.cnblogs.com/ramlife/articles/10652371.html" target="_blank" rel="noopener external nofollow noreferrer">能《把英语用起来！》</a></p>
+<p><a href="https://www.sohu.com/a/224550753_99891388" target="_blank" rel="noopener external nofollow noreferrer">从百词斩到恶魔奶爸再到李笑来——我自学英语五年自省</a>                                 </p>
+]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+        <tag>Reading</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git Study</title>
     <url>/posts/git-study.html</url>
     <content><![CDATA[<p>Record git study.</p>
@@ -1187,6 +1187,95 @@ $$ \int_{-\infty}^{+\infty} f(x) \mathrm{d}x</script><p>双重积分<code>\iint<
 ]]></content>
       <tags>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Firefox和Chrome 自用扩展插件</title>
+    <url>/posts/firefox-chrome-extensions.html</url>
+    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
+<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+<a id="more"></a>
+<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
+<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
+<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
+<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
+<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
+<p>鼠标手势</p>
+<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
+<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
+<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
+<p><strong>Wappalyzer</strong>-Identify web technologies</p>
+<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
+<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
+<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
+<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
+<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
+<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
+<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+]]></content>
+      <categories>
+        <category>实用</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
+    <url>/posts/intellij-jsp.html</url>
+    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
+<a id="more"></a>
+<p>环境：Intellij idea 2020。</p>
+<p>超详细的教程</p>
+<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
+<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
+<p>选择java</p>
+<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
+<p>然后next，再next</p>
+<p>设置项目名称，点击finish</p>
+<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
+<p>右键项目，添加框架支持</p>
+<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
+<p>选择web application，勾选create web.xml，点击ok</p>
+<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
+<p>之后会看到如图所示文件结构</p>
+<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
+<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
+<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
+<p>如图打开project structure</p>
+<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
+<p>设置成这样</p>
+<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
+<p>按如下导入tomcat目录下servlet.jar包</p>
+<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
+<p>点击add configurations</p>
+<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
+<p>选择 tomcat server，local</p>
+<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
+<p>点击fix，再点ok</p>
+<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
+<p>src右键，创建 Servlet</p>
+<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
+<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
+<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>calculator.java如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动服务可以看到</p>
+<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
+<p>随便输入几个数字即可看到成功计算</p>
+<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
+<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
+<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
+<p>Ref:</p>
+<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -1376,34 +1465,195 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Firefox和Chrome 自用扩展插件</title>
-    <url>/posts/firefox-chrome-extensions.html</url>
-    <content><![CDATA[<p>一些自用的扩展,这些都可以在火狐或chrome里面搜索安装</p>
-<h1 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h1><p>不一定是火狐特有的，chrome也有</p>
+    <title>Google Kickstart 2020</title>
+    <url>/posts/1484be77.html</url>
+    <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>我设置了google日历提醒我的  它为什么没有提醒我 😓</p>
+<h2 id="Allocation"><a href="#Allocation" class="headerlink" title="Allocation"></a>Allocation</h2><p><strong>Problem</strong></p>
+<p>  There are <strong>N</strong> houses for sale.  The i-th house costs <strong>Ai</strong> dollars to buy.  You have a budget of <strong>B</strong> dollars to spend.</p>
+<p>  What is the maximum number of houses you can buy?</p>
 <a id="more"></a>
-<p><strong>捕捉网页截图</strong>-捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件</p>
-<p><a href="https://getfireshot.com" target="_blank" rel="noopener external nofollow noreferrer">https://getfireshot.com</a></p>
-<p><strong>沙拉查词-聚合词典划词翻译</strong>-Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。</p>
-<p><a href="https://saladict.crimx.com/" target="_blank" rel="noopener external nofollow noreferrer">https://saladict.crimx.com/</a></p>
-<p><strong>Gesturefy</strong>-Navigate, operate and  browse faster with mouse gestures! A customizable mouse gesture add-on  with a variety of different commands.</p>
-<p>鼠标手势</p>
-<p><a href="https://github.com/Robbendebiene/Gesturefy" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/Robbendebiene/Gesturefy</a></p>
-<p><strong>Tampermonkey 油猴</strong>-The world’s most popular userscript manager!</p>
-<p><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tampermonkey.net/</a></p>
-<p><strong>Wappalyzer</strong>-Identify web technologies</p>
-<p><a href="https://www.wappalyzer.com" target="_blank" rel="noopener external nofollow noreferrer">https://www.wappalyzer.com</a></p>
-<p><strong>Video DownloadHelper</strong>-Download Videos from the Web</p>
-<p><a href="http://www.downloadhelper.net/" target="_blank" rel="noopener external nofollow noreferrer">http://www.downloadhelper.net/</a></p>
-<p><strong>Proxy SwitchyOmega</strong>-轻松快捷地管理和切换多个代理设置。</p>
-<p><a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener external nofollow noreferrer">https://github.com/FelisCatus/SwitchyOmega</a></p>
-<p><strong>设置 Firefox 新标签页打开方式为“在当前标签页旁边打开新的标签页”</strong></p>
-<p>在about:config中修改browser.tabs.insertAfterCurrent为true后，可以实现在在当前标签页右边打开新标签页的功能。不过，如果有时又需要在在标签页队列的最右边打开新标签页的话，每次都修改about:config又不方便，因此可安装open tabs next to current。需要open tabs next to current时启用，不用时禁用，方便。</p>
+<p>水题</p>
+<h2 id="Plates"><a href="#Plates" class="headerlink" title="Plates"></a>Plates</h2><h2 id="Workout"><a href="#Workout" class="headerlink" title="Workout"></a>Workout</h2><p>待更……</p>
 ]]></content>
       <categories>
-        <category>实用</category>
+        <category>Code</category>
       </categories>
       <tags>
-        <tag>插件</tag>
+        <tag>kickstart</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下C语言学习</title>
+    <url>/posts/linux-c.html</url>
+    <content><![CDATA[<p>系统Ubuntu  18.04</p>
+<a id="more"></a>
+<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
+<p>更新软件：<code>sudo apt upgrade;</code></p>
+<p>下载vim：<code>sudo apt install vim；</code></p>
+<p>下载gcc：<code>sudo apt install gcc</code></p>
+<p>下载gdb：<code>sudo apt install gdb</code></p>
+<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
+<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
+<p><code>vi hello.c</code></p>
+<p>按i进入输入模式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>按esc推出输入模式，保存退出</p>
+<p>编译hello.c</p>
+<p><code>gcc -o hello hello.c -Wall</code></p>
+<p>执行</p>
+<p><code>./hello</code></p>
+<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
+<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
+<p><code>gcc -c hello.c</code></p>
+<p>就将 hello.c 编译为 hello.o。</p>
+<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
+<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
+<p><code>gcc -c hello.c -o a.o</code></p>
+<p>这样生成的目标文件的名字就是 a.o。</p>
+<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
+<p><code>gcc hello.o</code></p>
+<p>就将 hello.o 链接为 a.out。</p>
+<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
+<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
+<p><code>gcc hello.o -o hello.out</code></p>
+<p>这样生成的可执行文件的名字就是 hello.out。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next优化之路</title>
+    <url>/posts/d2ca0d0b.html</url>
+    <content><![CDATA[<h1 id="Next7-7-1"><a href="#Next7-7-1" class="headerlink" title="Next7.7.1"></a>Next7.7.1</h1><h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>pace:</strong> ，设置为 true，<strong>theme</strong> 为 minimal</li>
+<li>下载依赖资源，<a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank" rel="noopener external nofollow noreferrer">点击查看其他加载样式</a></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-pace source&#x2F;lib&#x2F;pace</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="侧边栏阅读进度-Top"><a href="#侧边栏阅读进度-Top" class="headerlink" title="侧边栏阅读进度 + Top"></a>侧边栏阅读进度 + Top</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>back2top</strong> ，如下设置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">back2top:</span><br><span class="line">  enable: true</span><br><span class="line">  # 回页面顶部</span><br><span class="line">  sidebar: true</span><br><span class="line">  # 显示阅读百分比</span><br><span class="line">  scrollpercent: true</span><br></pre></td></tr></table></figure>
+<h2 id="顶部文章读进度条"><a href="#顶部文章读进度条" class="headerlink" title="顶部文章读进度条"></a>顶部文章读进度条</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>reading_progress:</strong> ，进行如下配置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">reading_progress:</span><br><span class="line">  # 是否开启</span><br><span class="line">  enable: true</span><br><span class="line">  # 顶部 top，顶部 bottom</span><br><span class="line">  position: top</span><br><span class="line">  # 进度条颜色</span><br><span class="line">  color: &quot;#37c6c0&quot;</span><br><span class="line">  # 进度条高度</span><br><span class="line">  height: 3px</span><br></pre></td></tr></table></figure>
+<h2 id="文章结束标志"><a href="#文章结束标志" class="headerlink" title="文章结束标志"></a>文章结束标志</h2><ol>
+<li><p>在 <code>\source</code> 目录下，新建 <code>_data</code> 文件夹</p>
+</li>
+<li><p>进入 <code>_data</code> 文件夹，创建文件 <code>post-body-end.swig</code></p>
+</li>
+<li><p>编辑文件，添加如下内容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style&#x3D;&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;</span><br><span class="line">        ------------------------------&lt;em&gt;THE END. &lt;&#x2F;em&gt;&lt;!--&lt;i class&#x3D;&quot;fa fa-paw&quot;&gt;&lt;&#x2F;i&gt;--&gt;------------------------------</span><br><span class="line">        &lt;&#x2F;div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>custom_file_path</strong> ，将如下内容取消注释</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">postBodyEnd: source&#x2F;_data&#x2F;post-body-end.swig</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="文章底部标签样式优化"><a href="#文章底部标签样式优化" class="headerlink" title="文章底部标签样式优化"></a>文章底部标签样式优化</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>creative_commons:</strong> ，进行如下配置</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">creative_commons:</span><br><span class="line">  license: by-nc-sa</span><br><span class="line">  sidebar: true</span><br><span class="line">  post: true</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h2><ol>
+<li><p>打开文件 <code>themes/next/source/css/_common/components/post/post.styl</code></p>
+</li>
+<li><p>在文件尾添加如下样式代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">    color: #007ab2;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #007ab2;</span><br><span class="line">    &amp;:hover &#123;</span><br><span class="line">    color: #ff4f79;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #004f79;</span><br><span class="line">&#125;&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="修改底部年份和名称中间的图标"><a href="#修改底部年份和名称中间的图标" class="headerlink" title="修改底部年份和名称中间的图标"></a>修改底部年份和名称中间的图标</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>footer</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  icon:</span><br><span class="line">    # 图标名称</span><br><span class="line">    name: user</span><br><span class="line">    # 是否开启动画效果</span><br><span class="line">    animated: false</span><br><span class="line">    # 图标颜色</span><br><span class="line">    color: &quot;#808080&quot;</span><br></pre></td></tr></table></figure>
+<p><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener external nofollow noreferrer">点击查看更多图标</a></p>
+</li>
+</ol>
+<h2 id="显示总访问量"><a href="#显示总访问量" class="headerlink" title="显示总访问量"></a>显示总访问量</h2><ol>
+<li><p>打开 <code>\themes\next\_config.yml</code></p>
+</li>
+<li><p>搜索 <strong>busuanzi_count</strong> ，设置如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  # 总访问人数</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  # 总访问量</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # 主题访问量</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="开启-SEO"><a href="#开启-SEO" class="headerlink" title="开启 SEO"></a>开启 SEO</h2><ol>
+<li>打开 <code>\themes\next\_config.yml</code></li>
+<li>搜索 <strong>seo:</strong><br>将其设置为<code>true</code></li>
+</ol>
+<h2 id="添加站点地图"><a href="#添加站点地图" class="headerlink" title="添加站点地图"></a>添加站点地图</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>安装插件来生成 sitemap 文件，传统的 sitemap。</p>
+<p><code>npm install hexo-generator-sitemap --save</code></p>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ol>
+<li><p>打开 <code>\_config.yml</code></p>
+</li>
+<li><p>添加如下信息</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sitemap: </span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>安装完成后执行 <code>hexo clean &amp; hexo g</code> 即会在站点 public 目录下生成 <code>sitemap.xml</code> 和 <code>baidusitemap.xml</code>。</p>
+<h3 id="添加蜘蛛协议-robots"><a href="#添加蜘蛛协议-robots" class="headerlink" title="添加蜘蛛协议 robots"></a>添加蜘蛛协议 robots</h3><ol>
+<li><p>\source 文件夹下新建 robots.txt 文件</p>
+</li>
+<li><p>文件内容如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F; </span><br><span class="line">Allow: &#x2F;resources&#x2F; </span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: https:&#x2F;&#x2F;你的域名&#x2F;sitemap.xml</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote>
+<p>Allow 字段的值即为允许搜索引擎爬取的内容</p>
+</blockquote>
+<h3 id="为外链添加-nofollow-标签"><a href="#为外链添加-nofollow-标签" class="headerlink" title="为外链添加 nofollow 标签"></a>为外链添加 nofollow 标签</h3><p>这个还没搞懂怎么回事 ，待更</p>
+<h3 id="文章优化"><a href="#文章优化" class="headerlink" title="文章优化"></a>文章优化</h3><h4 id="修改文章访问路径"><a href="#修改文章访问路径" class="headerlink" title="修改文章访问路径"></a>修改文章访问路径</h4><p>默认的链接太过冗长，不利于seo，我们需要修改链接样式</p>
+<ol>
+<li>打开 <code>\_config.yml</code></li>
+<li>将 <strong>permalink</strong> 修改为如下内容</li>
+</ol>
+<p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
+<h2 id="Mathjax"><a href="#Mathjax" class="headerlink" title="Mathjax"></a>Mathjax</h2><p><a href="https://blog.csdn.net/wgshun616/article/details/81019687" target="_blank" rel="noopener external nofollow noreferrer">https://blog.csdn.net/wgshun616/article/details/81019687</a></p>
+<p>参考：</p>
+<p><a href="https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E" target="_blank" rel="noopener external nofollow noreferrer">https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E</a></p>
+<hr>
+<h1 id="以下不是Next7-7-1版本的设置"><a href="#以下不是Next7-7-1版本的设置" class="headerlink" title="以下不是Next7.7.1版本的设置"></a><strong>以下不是Next7.7.1版本的设置</strong></h1><h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
+<h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
+<p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
+<h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>
+<h2 id="文章底部标签显示的优化"><a href="#文章底部标签显示的优化" class="headerlink" title="文章底部标签显示的优化"></a>文章底部标签显示的优化</h2><p>修改/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将 # 换成<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Hexo-Next搭建个人博客（代码块复制功能）"><a href="#Hexo-Next搭建个人博客（代码块复制功能）" class="headerlink" title="Hexo-Next搭建个人博客（代码块复制功能）"></a>Hexo-Next搭建个人博客（代码块复制功能）</h2><p>为了提高博客代码块的用户体验，仅仅代码高亮还不行，最好还能一键复制代码。故此文将讲述Hexo NexT主题博客的代码块复制功能配置。</p>
+<h3 id="下载-clipboard-js"><a href="#下载-clipboard-js" class="headerlink" title="下载 clipboard.js"></a>下载 clipboard.js</h3><p>三方插件 clipboardjs ，相关介绍和兼容性我就不赘述了，去它<a href="https://clipboardjs.com/" target="_blank" rel="noopener external nofollow noreferrer">主页</a>或<a href="https://github.com/zenorocha/clipboard.js" target="_blank" rel="noopener external nofollow noreferrer">github</a>上看。<br>下载地址：</p>
+<p><a href="https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.js" target="_blank" rel="noopener external nofollow noreferrer">clipboard.js</a><br><a href="https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.min.js" target="_blank" rel="noopener external nofollow noreferrer">clipboard.min.js</a> 推荐<br>保存文件clipboard.js / clipboard.min.js ，目录如下：<br>.\themes\next\source\js\src</p>
+<h3 id="clipboardjs-使用"><a href="#clipboardjs-使用" class="headerlink" title="clipboardjs 使用"></a>clipboardjs 使用</h3><p>也是在.\themes\next\source\js\src目录下，创建clipboard-use.js，文件内容如下：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">  &#x2F;*页面载入完成后，创建复制按钮*&#x2F;</span><br><span class="line">  !function (e, t, a) &#123; </span><br><span class="line">    &#x2F;* code *&#x2F;</span><br><span class="line">    var initCopyCode &#x3D; function()&#123;</span><br><span class="line">      var copyHtml &#x3D; &#39;&#39;;</span><br><span class="line">      copyHtml +&#x3D; &#39;&lt;button class&#x3D;&quot;btn-copy&quot; data-clipboard-snippet&#x3D;&quot;&quot;&gt;&#39;;</span><br><span class="line">      &#x2F;&#x2F;fa fa-globe可以去字体库替换自己想要的图标</span><br><span class="line">copyHtml +&#x3D; &#39;  &lt;i class&#x3D;&quot;fa fa-clipboard&quot;&gt;&lt;&#x2F;i&gt;&lt;span&gt;copy&lt;&#x2F;span&gt;&#39;;</span><br><span class="line">      copyHtml +&#x3D; &#39;&lt;&#x2F;button&gt;&#39;;</span><br><span class="line">      $(&quot;.highlight .code pre&quot;).before(copyHtml);</span><br><span class="line">      new ClipboardJS(&#39;.btn-copy&#39;, &#123;</span><br><span class="line">          target: function(trigger) &#123;</span><br><span class="line">              return trigger.nextElementSibling;</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">    initCopyCode();</span><br><span class="line">  &#125;(window, document);</span><br></pre></td></tr></table></figure><br>在.\themes\next\source\css_custom\custom.styl样式文件中添加下面代码：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;代码块复制按钮</span><br><span class="line">.highlight&#123;</span><br><span class="line">  &#x2F;&#x2F;方便copy代码按钮（btn-copy）的定位</span><br><span class="line">  position: relative;</span><br><span class="line">&#125;</span><br><span class="line">.btn-copy &#123;</span><br><span class="line">    display: inline-block;</span><br><span class="line">    cursor: pointer;</span><br><span class="line">    background-color: #eee;</span><br><span class="line">    background-image: linear-gradient(#fcfcfc,#eee);</span><br><span class="line">    border: 1px solid #d5d5d5;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    -webkit-user-select: none;</span><br><span class="line">    -moz-user-select: none;</span><br><span class="line">    -ms-user-select: none;</span><br><span class="line">    user-select: none;</span><br><span class="line">    -webkit-appearance: none;</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    font-weight: 700;</span><br><span class="line">    line-height: 20px;</span><br><span class="line">    color: #333;</span><br><span class="line">    -webkit-transition: opacity .3s ease-in-out;</span><br><span class="line">    -o-transition: opacity .3s ease-in-out;</span><br><span class="line">    transition: opacity .3s ease-in-out;</span><br><span class="line">    padding: 2px 6px;</span><br><span class="line">    position: absolute;</span><br><span class="line">    right: 5px;</span><br><span class="line">    top: 5px;</span><br><span class="line">    opacity: 0;</span><br><span class="line">&#125;</span><br><span class="line">.btn-copy span &#123;</span><br><span class="line">    margin-left: 5px;</span><br><span class="line">&#125;</span><br><span class="line">.highlight:hover .btn-copy&#123;</span><br><span class="line">  opacity: 1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>在.\themes\next\layout_layout.swig文件中，添加引用（注：在 swig 末尾或 body 结束标签（&lt;/body&gt;）之前添加）：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 代码块复制功能 --&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clipboard.min.js&quot;&gt;&lt;&#x2F;script&gt;  </span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clipboard-use.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></p>
+<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p>懂代码的也可以将clipboard.min.js和clipboard-use.js合并为一个文件，再在.\themes\next\layout_layout.swig文件中使用。当然clipboard.min.js也可以直接用三方cdn的方式引入也行。</p>
+<h2 id="去除NexT主题Markdown分割线渲染效果"><a href="#去除NexT主题Markdown分割线渲染效果" class="headerlink" title="去除NexT主题Markdown分割线渲染效果"></a>去除NexT主题Markdown分割线渲染效果</h2><p>修改/source/css/_common/scaffolding/base.styl，注释或删除以下内容：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">background-image: repeating-linear-gradient(</span><br><span class="line">    -45deg,</span><br><span class="line">    white,</span><br><span class="line">    white 4px,</span><br><span class="line">    transparent 4px,</span><br><span class="line">    transparent 8px</span><br><span class="line">  );</span><br></pre></td></tr></table></figure></p>
+<h2 id="不蒜子统计文章阅读数"><a href="#不蒜子统计文章阅读数" class="headerlink" title="不蒜子统计文章阅读数"></a>不蒜子统计文章阅读数</h2><p>打开主题配置文件，这里我用的next主题<br>搜索busuanzi_count:<br>将enable对应的false改为true即可<br>enable: true </p>
+<p>由于busuanzi(不蒜子)的网址更新,导致了使用Hexo Next主题时统计浏览数失效.<br>不蒜子官网:<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener external nofollow noreferrer">http://ibruce.info/2015/04/04/busuanzi/</a><br>解决方法:<br>到hexo的themes文件夹下, 进入<br>\themes\next\layout_third-party\analytics<br>打开: busuanzi-counter.swig<br>将src=“<a href="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener external nofollow noreferrer">https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>修改为src=“<a href="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener external nofollow noreferrer">https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>即可.</p>
+<h2 id="修改-Read-More-按钮样式"><a href="#修改-Read-More-按钮样式" class="headerlink" title="修改[Read More]按钮样式"></a>修改[Read More]按钮样式</h2><p>修改themes\next\source\css_custom\custom.styl文件，加入自定义样式<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> &#x2F;&#x2F; [Read More]按钮样式</span><br><span class="line">.post-button .btn &#123;</span><br><span class="line">    color: #555 !important;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 125, 0.35);</span><br><span class="line">    border: none !important;</span><br><span class="line">    transition-property: unset;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.post-button .btn:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255) !important;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="修改标签云（tagcloud）的颜色"><a href="#修改标签云（tagcloud）的颜色" class="headerlink" title="修改标签云（tagcloud）的颜色"></a>修改标签云（tagcloud）的颜色</h2><p>修改themes/next/layout/page.swig文件，加入自定义样式:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- &#123;&#123; tagcloud(&#123;min_font: 12, max_font: 30, amount: 300, color: true, start_color: &#39;#ccc&#39;, end_color: &#39;#111&#39;&#125;) &#125;&#125;</span><br><span class="line">+ &#123;&#123; tagcloud(&#123;min_font: 13, max_font: 31, amount: 1000, color: true, start_color: &#39;#9733EE&#39;, end_color: &#39;#FF512F&#39;&#125;) &#125;&#125;</span><br></pre></td></tr></table></figure><br>修改对应参数值即可，参数说明见 <a href="https://hexo.io/zh-cn/docs/helpers.html#tagcloud" target="_blank" rel="noopener external nofollow noreferrer">Hexo官方文档</a></p>
+<h2 id="文章加密访问"><a href="#文章加密访问" class="headerlink" title="文章加密访问"></a>文章加密访问</h2><p>打开next\layout_partials\head\head.swig文件,插入以下代码:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#39;&#123;&#123; page.password &#125;&#125;&#39;)&#123;</span><br><span class="line">            if (prompt(&#39;请输入文章密码&#39;) !&#x3D;&#x3D; &#39;&#123;&#123; page.password &#125;&#125;&#39;)&#123;</span><br><span class="line">                alert(&#39;密码错误！&#39;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure><br>在文章头中加入password: 123456就可以了</p>
+<p>(发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容)</p>
+<p>这里提供一种更好的办法<br><a href="https://easyhexo.com/3-Plugins-use-and-config/3-4-hexo-blog-encrypt/" target="_blank" rel="noopener external nofollow noreferrer">hexo-blog-encrypt</a></p>
+<h2 id="移动端显示-back-to-top-按钮和侧栏"><a href="#移动端显示-back-to-top-按钮和侧栏" class="headerlink" title="移动端显示 back-to-top 按钮和侧栏"></a>移动端显示 back-to-top 按钮和侧栏</h2><p>我的博客主题是Mist，主题的设计模版是 Muse 或 Mist,就可以直接在主题配置文件中配置：<br>修改主题配置themes/next/_config.yml<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Enable sidebar on narrow view</span><br><span class="line">onmobile: true</span><br></pre></td></tr></table></figure></p>
+<p>你也可以自己调试页面<br>页面调试好之后将代码复制到:themes\next\source\css_custom\custom.styl<br>参考custom.styl样式文件<br>不建议全部复制粘贴使用，最好是F12打开，根据关键ID找到对应的样式，复制到自己的文件中<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; Custom styles.</span><br><span class="line">&#x2F;*******************首页样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; .headband &#123;</span><br><span class="line">&#x2F;&#x2F;     height: 1.5px;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面顶部行高</span><br><span class="line">.header &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; &#x2F;&#x2F; 页面背景色</span><br><span class="line">&#x2F;&#x2F; .container &#123;</span><br><span class="line">&#x2F;&#x2F;     background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面留白更改</span><br><span class="line">.header-inner &#123;</span><br><span class="line">    padding-top: 35px;</span><br><span class="line">    padding-bottom: 0px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand &#123;</span><br><span class="line">    padding-top: 50px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 5px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">.post-button &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 渐变菜带，CSS代码copy自https:&#x2F;&#x2F;githubuniverse.com</span><br><span class="line">&#x2F;&#x2F; .site-meta &#123;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;缩略图指定宽度值显示。</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 75%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;*******************文章样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 文章</span><br><span class="line">.post &#123;</span><br><span class="line">    margin-bottom: 50px;</span><br><span class="line">    padding: 45px 36px 36px 36px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章标题字体</span><br><span class="line">.posts-expand .post-title &#123;</span><br><span class="line">    font-size: 26px;</span><br><span class="line">    font-weight: 700;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章标题动态效果</span><br><span class="line">.posts-expand .post-title-link::before &#123;</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章元数据（meta）留白更改</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 10px 0px 20px 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章的描述description</span><br><span class="line">.posts-expand .post-meta .post-description &#123;</span><br><span class="line">    font-style: italic;</span><br><span class="line">    font-size: 14px;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">    margin-bottom: 0px;</span><br><span class="line">    color: #666;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; [Read More]按钮样式</span><br><span class="line">.post-button .btn &#123;</span><br><span class="line">    color: #555 !important;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    border: none !important;</span><br><span class="line">    transition-property: unset;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.post-button .btn:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255) !important;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除在页面文章之间的分割线</span><br><span class="line">.posts-expand .post-eof &#123;</span><br><span class="line">    margin: 0px;</span><br><span class="line">    background-color: rgba(255, 255, 255, 0);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除页面底部页码上面的横线</span><br><span class="line">.pagination &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    margin: 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章内标题样式（左边的竖线）</span><br><span class="line">.post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">    border-left: 4px solid rgb(161, 102, 171);</span><br><span class="line">    margin-left: -36px;</span><br><span class="line">    padding-left: 32px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去掉图片边框</span><br><span class="line">.posts-expand .post-body img &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    padding: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;代码块的自定义样式</span><br><span class="line">code &#123;</span><br><span class="line">    margin: 0px 3px;</span><br><span class="line">    border: 1px solid #999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块顶部样式</span><br><span class="line">.highlight figcaption &#123;</span><br><span class="line">    margin: 0em;</span><br><span class="line">    padding: 0.5em;</span><br><span class="line">    background: #eee;</span><br><span class="line">    border-bottom: 1px solid #e9e9e9;</span><br><span class="line">&#125;</span><br><span class="line">.highlight figcaption a &#123;</span><br><span class="line">    color: rgb(80, 115, 184);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块diff样式</span><br><span class="line">pre .addition &#123;</span><br><span class="line">    background: #e6ffed;</span><br><span class="line">&#125;</span><br><span class="line">pre .deletion &#123;</span><br><span class="line">    background: #ffeef0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章内链接文本样式</span><br><span class="line">.post-body p a&#123;</span><br><span class="line">  color: #0593d3;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid #0593d3;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: #fc6423;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #fc6423;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 自定义的文章摘要图片样式</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*************************侧栏样式****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角侧栏按钮样式</span><br><span class="line">.sidebar-toggle &#123;</span><br><span class="line">    right: 10px;</span><br><span class="line">    bottom: 43px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line">.page-post-detail .sidebar-toggle-line &#123;</span><br><span class="line">    background: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角返回顶部按钮样式</span><br><span class="line">.back-to-top &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">    right: 10px;</span><br><span class="line">    padding-right: 5px;</span><br><span class="line">    padding-left: 5px;</span><br><span class="line">    padding-top: 2.5px;</span><br><span class="line">    padding-bottom: 2.5px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 侧栏</span><br><span class="line">.sidebar &#123;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-inner &#123;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏顶部文字</span><br><span class="line">.sidebar-nav li &#123;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav li:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-width: 1.5px;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active:hover &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点作者名</span><br><span class="line">.site-author-name &#123;</span><br><span class="line">    display: none;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点描述</span><br><span class="line">.site-description &#123;</span><br><span class="line">    letter-spacing: 5px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 13px;</span><br><span class="line">    color: rgb(243, 112, 85);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点文章、分类、标签</span><br><span class="line">.site-state &#123;</span><br><span class="line">    line-height: 1.3;</span><br><span class="line">    margin-left: 12px;</span><br><span class="line">&#125;</span><br><span class="line">.site-state-item &#123;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">    border-left: 1.5px solid rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏RSS按钮样式</span><br><span class="line">.feed-link &#123;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 7px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">    border: 1px solid rgb(158, 158, 158) !important;</span><br><span class="line">    border-radius: 15px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a:hover &#123;</span><br><span class="line">    background-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a i &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏社交链接</span><br><span class="line">.links-of-author &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏友链标题</span><br><span class="line">.links-of-blogroll-title &#123;</span><br><span class="line">    margin-bottom: 10px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    color: rgba(7, 179, 155, 0.75);</span><br><span class="line">    margin-left: 6px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏超链接样式（友链的样式）</span><br><span class="line">.sidebar a &#123;</span><br><span class="line">    color: #ccc;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar a:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式</span><br><span class="line">.post-toc ol a &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom: 1px solid rgb(96, 125, 139);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc ol a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式之当前目录</span><br><span class="line">.post-toc .nav .active &gt; a &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc .nav .active &gt; a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 修侧栏目录bug，如果主题配置文件_config.yml的toc是wrap: true *&#x2F;</span><br><span class="line">.post-toc ol &#123;</span><br><span class="line">    padding: 0px 10px 5px 10px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 侧栏目录默认全展开，已注释</span><br><span class="line">.post-toc .nav .nav-child &#123;</span><br><span class="line">    display: block;</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;************************移动端样式*******************************&#x2F;</span><br><span class="line">@media (max-width: 1023px) &#123;</span><br><span class="line">    .container &#123;</span><br><span class="line">        background-color: rgba(0, 0, 0, 0);</span><br><span class="line">    &#125;</span><br><span class="line">    .sidebar &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">        border-top-left-radius: 5px;</span><br><span class="line">        border-bottom-left-radius: 5px;</span><br><span class="line">    &#125;</span><br><span class="line">    .feed-link &#123;</span><br><span class="line">        display: none !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .main &#123;</span><br><span class="line">        padding-bottom: 120px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand &#123;</span><br><span class="line">        margin: 0px;</span><br><span class="line">        padding-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-title &#123;</span><br><span class="line">        font-size: 22px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-meta &#123;</span><br><span class="line">        font-size: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post &#123;</span><br><span class="line">        margin-bottom: 30px !important;</span><br><span class="line">        padding: 20px 15px 15px 15px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">        margin-left: -15px;</span><br><span class="line">        padding-left: 11px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-tags &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-widgets &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .comments &#123;</span><br><span class="line">        margin: 40px 0px 40px 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .footer &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-active #sidebar-dimmer &#123;</span><br><span class="line">    opacity: 0;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端左上角菜单按钮</span><br><span class="line">.site-nav-toggle &#123;</span><br><span class="line">    top: 35px;</span><br><span class="line">    left: 91px;</span><br><span class="line">    &#x2F;&#x2F; background-color: #222;</span><br><span class="line">&#125;</span><br><span class="line">.btn-bar &#123;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端菜单</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .menu &#123;</span><br><span class="line">        text-align: center;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .site-nav &#123;</span><br><span class="line">        top: initial;</span><br><span class="line">        background-color: rgba(255, 255, 255, 0.75);</span><br><span class="line">        border-top: none;</span><br><span class="line">        border-bottom: none;</span><br><span class="line">        position: relative;</span><br><span class="line">        z-index: 1024;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;移动端顶部</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .site-title &#123;</span><br><span class="line">        font-size: 28px !important;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-subtitle&#123;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">        padding-bottom: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-meta &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .menu .menu-item &#123;</span><br><span class="line">        margin: 0px 10px !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Hexo-中-MathJax-的静态显示（svg）"><a href="#Hexo-中-MathJax-的静态显示（svg）" class="headerlink" title="Hexo 中 MathJax 的静态显示（svg）"></a>Hexo 中 MathJax 的静态显示（svg）</h2><p><a href="https://io-oi.me/tech/hexo-mathjax-svg/" target="_blank" rel="noopener external nofollow noreferrer">Hexo 中 MathJax 的静态显示（svg）</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
       </tags>
   </entry>
   <entry>
@@ -1734,211 +1984,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Google Kickstart 2020</title>
-    <url>/posts/1484be77.html</url>
-    <content><![CDATA[<h1 id="Round-A-2020-Kick-Start-2020"><a href="#Round-A-2020-Kick-Start-2020" class="headerlink" title="Round A 2020 - Kick Start 2020"></a>Round A 2020 - Kick Start 2020</h1><p>我设置了google日历提醒我的  它为什么没有提醒我 😓</p>
-<h2 id="Allocation"><a href="#Allocation" class="headerlink" title="Allocation"></a>Allocation</h2><p><strong>Problem</strong></p>
-<p>  There are <strong>N</strong> houses for sale.  The i-th house costs <strong>Ai</strong> dollars to buy.  You have a budget of <strong>B</strong> dollars to spend.</p>
-<p>  What is the maximum number of houses you can buy?</p>
-<a id="more"></a>
-<p>水题</p>
-<h2 id="Plates"><a href="#Plates" class="headerlink" title="Plates"></a>Plates</h2><h2 id="Workout"><a href="#Workout" class="headerlink" title="Workout"></a>Workout</h2><p>待更……</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>kickstart</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Intellij IDEA 2020 创建 Jsp页面 及 示例</title>
-    <url>/posts/intellij-jsp.html</url>
-    <content><![CDATA[<p>Intellij 配置Tomcat, Jsp 示例。</p>
-<a id="more"></a>
-<p>环境：Intellij idea 2020。</p>
-<p>超详细的教程</p>
-<h1 id="创建-Servlet-步骤"><a href="#创建-Servlet-步骤" class="headerlink" title="创建 Servlet 步骤"></a>创建 Servlet 步骤</h1><p>新建项目</p>
-<p><img src="https://i.loli.net/2021/03/28/wdCpDyb638HKsLZ.png" alt="jsp-1.png"></p>
-<p>选择java</p>
-<p><img src="https://i.loli.net/2021/03/28/t23VulinA6ZpmzX.png" alt="jsp-2.png"></p>
-<p>然后next，再next</p>
-<p>设置项目名称，点击finish</p>
-<p><img src="https://i.loli.net/2021/03/28/laoENin8Ug4rFRX.png" alt="jsp-3.png"></p>
-<p>右键项目，添加框架支持</p>
-<p><img src="https://i.loli.net/2021/03/28/jktEu5cKVYNTDes.png" alt="jsp-4.png"></p>
-<p>选择web application，勾选create web.xml，点击ok</p>
-<p><img src="https://i.loli.net/2021/03/28/CPxYmL2bdjXZJye.png" alt="jsp-5.png"></p>
-<p>之后会看到如图所示文件结构</p>
-<p><img src="https://i.loli.net/2021/03/28/QKJwhGUm5Axtzcl.png" alt="jsp-6.png"></p>
-<p>在 web-inf 文件夹下创建classes和lib文件夹</p>
-<p><img src="https://i.loli.net/2021/03/28/Jvo9XQ6VyRM57Dt.png" alt="jsp-7.png"></p>
-<p>如图打开project structure</p>
-<p><img src="https://i.loli.net/2021/03/28/J4YamtFLR6W1ncv.png" alt="jsp-8.png"></p>
-<p>设置成这样</p>
-<p><img src="https://i.loli.net/2021/03/28/1KmpCgsLiMoBwEx.png" alt="jsp-9.png"></p>
-<p>按如下导入tomcat目录下servlet.jar包</p>
-<p><img src="https://i.loli.net/2021/03/28/ztkxJXAHdKTuoL6.png" alt="jsp-12.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/dS3AmNihlzHsDBG.png" alt="jsp-13.png"></p>
-<p>点击add configurations</p>
-<p><img src="https://i.loli.net/2021/03/28/71WYdAIDOS8XbLR.png" alt="jsp-10.png"></p>
-<p>选择 tomcat server，local</p>
-<p><img src="https://i.loli.net/2021/03/28/nPhgme5D3oXONCf.png" alt="jsp-11.png"></p>
-<p>点击fix，再点ok</p>
-<p><img src="https://i.loli.net/2021/03/28/rmRiQaS74VWp15K.png" alt="jsp-14.png"></p>
-<p>src右键，创建 Servlet</p>
-<p><img src="https://i.loli.net/2021/03/28/aTnDtO8YbZUELVs.png" alt="jsp-15.png"></p>
-<p><img src="https://i.loli.net/2021/03/28/v4MKgTcqukr8p1O.png" alt="jsp-16.png"></p>
-<h1 id="简单的计算器示例"><a href="#简单的计算器示例" class="headerlink" title="简单的计算器示例"></a>简单的计算器示例</h1><p>index.jsp 编写如下</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">"text/html;charset=UTF-8"</span> language=<span class="string">"java"</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Web Calculater&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Web Calculater&lt;/h1&gt;</span><br><span class="line">    &lt;form action=<span class="string">"cal"</span> method=<span class="string">"post"</span>&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number A &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"a"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        Input number B &lt;input type=<span class="string">"nubmer"</span> name=<span class="string">"b"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line">      &lt;p&gt;</span><br><span class="line">        &lt;input type=<span class="string">"submit"</span> value=<span class="string">"RUN"</span>&gt;</span><br><span class="line">      &lt;/p&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/form&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<p>calculator.java如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.calculator;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.*;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> jakarta.servlet.http.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.jws.WebService;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="meta">@WebServlet</span>(<span class="string">"/cal"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">calculator</span> <span class="keyword">extends</span> <span class="title">HttpServlet</span> </span>&#123;</span><br><span class="line"><span class="comment">//    @Override</span></span><br><span class="line"><span class="comment">//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException &#123;</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> a = Integer.parseInt(request.getParameter(<span class="string">"a"</span>));</span><br><span class="line">        <span class="keyword">int</span> b = Integer.parseInt(request.getParameter(<span class="string">"b"</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum = (a + b);</span><br><span class="line">        response.getWriter().println(<span class="string">"Sum of "</span> + a + <span class="string">" and "</span> + b + <span class="string">" is "</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动服务可以看到</p>
-<p><img src="https://i.loli.net/2021/03/28/XnrwhQagS4tTZAe.png" alt="jsp-17.png"></p>
-<p>随便输入几个数字即可看到成功计算</p>
-<p><img src="https://i.loli.net/2021/03/28/gPS5zwDxResI9Kp.png" alt="jsp-18.png"></p>
-<p>可按如下设置即可实现修改jsp页面和后端数据后，刷新页面实时更新</p>
-<p><img src="https://i.loli.net/2021/03/28/V6PQox7UYHZaDqg.png" alt="jsp-19.png"></p>
-<p>Ref:</p>
-<p><a href="https://cloud.tencent.com/developer/article/1633875" target="_blank" rel="noopener external nofollow noreferrer">https://cloud.tencent.com/developer/article/1633875</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next优化之路</title>
-    <url>/posts/d2ca0d0b.html</url>
-    <content><![CDATA[<h1 id="Next7-7-1"><a href="#Next7-7-1" class="headerlink" title="Next7.7.1"></a>Next7.7.1</h1><h2 id="添加页面载条"><a href="#添加页面载条" class="headerlink" title="添加页面载条"></a>添加页面载条</h2><ol>
-<li>打开 <code>\themes\next\_config.yml</code></li>
-<li>搜索 <strong>pace:</strong> ，设置为 true，<strong>theme</strong> 为 minimal</li>
-<li>下载依赖资源，<a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank" rel="noopener external nofollow noreferrer">点击查看其他加载样式</a></li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd &lt;blog-folder&gt;&#x2F;themes&#x2F;next</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-pace source&#x2F;lib&#x2F;pace</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<h2 id="侧边栏阅读进度-Top"><a href="#侧边栏阅读进度-Top" class="headerlink" title="侧边栏阅读进度 + Top"></a>侧边栏阅读进度 + Top</h2><ol>
-<li>打开 <code>\themes\next\_config.yml</code></li>
-<li>搜索 <strong>back2top</strong> ，如下设置</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">back2top:</span><br><span class="line">  enable: true</span><br><span class="line">  # 回页面顶部</span><br><span class="line">  sidebar: true</span><br><span class="line">  # 显示阅读百分比</span><br><span class="line">  scrollpercent: true</span><br></pre></td></tr></table></figure>
-<h2 id="顶部文章读进度条"><a href="#顶部文章读进度条" class="headerlink" title="顶部文章读进度条"></a>顶部文章读进度条</h2><ol>
-<li>打开 <code>\themes\next\_config.yml</code></li>
-<li>搜索 <strong>reading_progress:</strong> ，进行如下配置</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">reading_progress:</span><br><span class="line">  # 是否开启</span><br><span class="line">  enable: true</span><br><span class="line">  # 顶部 top，顶部 bottom</span><br><span class="line">  position: top</span><br><span class="line">  # 进度条颜色</span><br><span class="line">  color: &quot;#37c6c0&quot;</span><br><span class="line">  # 进度条高度</span><br><span class="line">  height: 3px</span><br></pre></td></tr></table></figure>
-<h2 id="文章结束标志"><a href="#文章结束标志" class="headerlink" title="文章结束标志"></a>文章结束标志</h2><ol>
-<li><p>在 <code>\source</code> 目录下，新建 <code>_data</code> 文件夹</p>
-</li>
-<li><p>进入 <code>_data</code> 文件夹，创建文件 <code>post-body-end.swig</code></p>
-</li>
-<li><p>编辑文件，添加如下内容</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style&#x3D;&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;</span><br><span class="line">        ------------------------------&lt;em&gt;THE END. &lt;&#x2F;em&gt;&lt;!--&lt;i class&#x3D;&quot;fa fa-paw&quot;&gt;&lt;&#x2F;i&gt;--&gt;------------------------------</span><br><span class="line">        &lt;&#x2F;div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>打开 <code>\themes\next\_config.yml</code></p>
-</li>
-<li><p>搜索 <strong>custom_file_path</strong> ，将如下内容取消注释</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">postBodyEnd: source&#x2F;_data&#x2F;post-body-end.swig</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="文章底部标签样式优化"><a href="#文章底部标签样式优化" class="headerlink" title="文章底部标签样式优化"></a>文章底部标签样式优化</h2><ol>
-<li><p>打开 <code>\themes\next\_config.yml</code></p>
-</li>
-<li><p>搜索 <strong>creative_commons:</strong> ，进行如下配置</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">creative_commons:</span><br><span class="line">  license: by-nc-sa</span><br><span class="line">  sidebar: true</span><br><span class="line">  post: true</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h2><ol>
-<li><p>打开文件 <code>themes/next/source/css/_common/components/post/post.styl</code></p>
-</li>
-<li><p>在文件尾添加如下样式代码</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">    color: #007ab2;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #007ab2;</span><br><span class="line">    &amp;:hover &#123;</span><br><span class="line">    color: #ff4f79;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #004f79;</span><br><span class="line">&#125;&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="修改底部年份和名称中间的图标"><a href="#修改底部年份和名称中间的图标" class="headerlink" title="修改底部年份和名称中间的图标"></a>修改底部年份和名称中间的图标</h2><ol>
-<li><p>打开 <code>\themes\next\_config.yml</code></p>
-</li>
-<li><p>搜索 <strong>footer</strong> ，设置如下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  icon:</span><br><span class="line">    # 图标名称</span><br><span class="line">    name: user</span><br><span class="line">    # 是否开启动画效果</span><br><span class="line">    animated: false</span><br><span class="line">    # 图标颜色</span><br><span class="line">    color: &quot;#808080&quot;</span><br></pre></td></tr></table></figure>
-<p><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener external nofollow noreferrer">点击查看更多图标</a></p>
-</li>
-</ol>
-<h2 id="显示总访问量"><a href="#显示总访问量" class="headerlink" title="显示总访问量"></a>显示总访问量</h2><ol>
-<li><p>打开 <code>\themes\next\_config.yml</code></p>
-</li>
-<li><p>搜索 <strong>busuanzi_count</strong> ，设置如下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  # 总访问人数</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  # 总访问量</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  # 主题访问量</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="开启-SEO"><a href="#开启-SEO" class="headerlink" title="开启 SEO"></a>开启 SEO</h2><ol>
-<li>打开 <code>\themes\next\_config.yml</code></li>
-<li>搜索 <strong>seo:</strong><br>将其设置为<code>true</code></li>
-</ol>
-<h2 id="添加站点地图"><a href="#添加站点地图" class="headerlink" title="添加站点地图"></a>添加站点地图</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>安装插件来生成 sitemap 文件，传统的 sitemap。</p>
-<p><code>npm install hexo-generator-sitemap --save</code></p>
-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ol>
-<li><p>打开 <code>\_config.yml</code></p>
-</li>
-<li><p>添加如下信息</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sitemap: </span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>安装完成后执行 <code>hexo clean &amp; hexo g</code> 即会在站点 public 目录下生成 <code>sitemap.xml</code> 和 <code>baidusitemap.xml</code>。</p>
-<h3 id="添加蜘蛛协议-robots"><a href="#添加蜘蛛协议-robots" class="headerlink" title="添加蜘蛛协议 robots"></a>添加蜘蛛协议 robots</h3><ol>
-<li><p>\source 文件夹下新建 robots.txt 文件</p>
-</li>
-<li><p>文件内容如下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F; </span><br><span class="line">Allow: &#x2F;resources&#x2F; </span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: https:&#x2F;&#x2F;你的域名&#x2F;sitemap.xml</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<blockquote>
-<p>Allow 字段的值即为允许搜索引擎爬取的内容</p>
-</blockquote>
-<h3 id="为外链添加-nofollow-标签"><a href="#为外链添加-nofollow-标签" class="headerlink" title="为外链添加 nofollow 标签"></a>为外链添加 nofollow 标签</h3><p>这个还没搞懂怎么回事 ，待更</p>
-<h3 id="文章优化"><a href="#文章优化" class="headerlink" title="文章优化"></a>文章优化</h3><h4 id="修改文章访问路径"><a href="#修改文章访问路径" class="headerlink" title="修改文章访问路径"></a>修改文章访问路径</h4><p>默认的链接太过冗长，不利于seo，我们需要修改链接样式</p>
-<ol>
-<li>打开 <code>\_config.yml</code></li>
-<li>将 <strong>permalink</strong> 修改为如下内容</li>
-</ol>
-<p><code>permalink: posts/:abbrlink/ #:year/:month/:day/:title/</code></p>
-<h2 id="Mathjax"><a href="#Mathjax" class="headerlink" title="Mathjax"></a>Mathjax</h2><p><a href="https://blog.csdn.net/wgshun616/article/details/81019687" target="_blank" rel="noopener external nofollow noreferrer">https://blog.csdn.net/wgshun616/article/details/81019687</a></p>
-<p>参考：</p>
-<p><a href="https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E" target="_blank" rel="noopener external nofollow noreferrer">https://blog.csdn.net/weixin_41024483/article/details/104801164?%3E</a></p>
-<hr>
-<h1 id="以下不是Next7-7-1版本的设置"><a href="#以下不是Next7-7-1版本的设置" class="headerlink" title="以下不是Next7.7.1版本的设置"></a><strong>以下不是Next7.7.1版本的设置</strong></h1><h2 id="自定义友链页面"><a href="#自定义友链页面" class="headerlink" title="自定义友链页面"></a>自定义友链页面</h2><p>Next默认的友链时在主题配置文件中links下面，链接变多后，侧栏页面的排版很不美观，这时候我们可以给友链新增一个单独的页面。</p>
-<h3 id="新增links页面"><a href="#新增links页面" class="headerlink" title="新增links页面"></a>新增links页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page links</span><br></pre></td></tr></table></figure>
-<p>然后再博客根目录/source 下会生成一个links文件夹，打开其中的index.md, 在其头部加上type: “links”</p>
-<h3 id="配置menu"><a href="#配置menu" class="headerlink" title="配置menu"></a>配置menu</h3><p>主题配置文件中menu下添加<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Links: &#x2F;links&#x2F;|| link</span><br></pre></td></tr></table></figure><br>在/themes/next/languages/zh-Hans.yml文件中menu下增加中文描述<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">links: 友链</span><br></pre></td></tr></table></figure></p>
-<h2 id="文章底部标签显示的优化"><a href="#文章底部标签显示的优化" class="headerlink" title="文章底部标签显示的优化"></a>文章底部标签显示的优化</h2><p>修改/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将 # 换成<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-tag&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure></p>
-<h2 id="Hexo-Next搭建个人博客（代码块复制功能）"><a href="#Hexo-Next搭建个人博客（代码块复制功能）" class="headerlink" title="Hexo-Next搭建个人博客（代码块复制功能）"></a>Hexo-Next搭建个人博客（代码块复制功能）</h2><p>为了提高博客代码块的用户体验，仅仅代码高亮还不行，最好还能一键复制代码。故此文将讲述Hexo NexT主题博客的代码块复制功能配置。</p>
-<h3 id="下载-clipboard-js"><a href="#下载-clipboard-js" class="headerlink" title="下载 clipboard.js"></a>下载 clipboard.js</h3><p>三方插件 clipboardjs ，相关介绍和兼容性我就不赘述了，去它<a href="https://clipboardjs.com/" target="_blank" rel="noopener external nofollow noreferrer">主页</a>或<a href="https://github.com/zenorocha/clipboard.js" target="_blank" rel="noopener external nofollow noreferrer">github</a>上看。<br>下载地址：</p>
-<p><a href="https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.js" target="_blank" rel="noopener external nofollow noreferrer">clipboard.js</a><br><a href="https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.min.js" target="_blank" rel="noopener external nofollow noreferrer">clipboard.min.js</a> 推荐<br>保存文件clipboard.js / clipboard.min.js ，目录如下：<br>.\themes\next\source\js\src</p>
-<h3 id="clipboardjs-使用"><a href="#clipboardjs-使用" class="headerlink" title="clipboardjs 使用"></a>clipboardjs 使用</h3><p>也是在.\themes\next\source\js\src目录下，创建clipboard-use.js，文件内容如下：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">  &#x2F;*页面载入完成后，创建复制按钮*&#x2F;</span><br><span class="line">  !function (e, t, a) &#123; </span><br><span class="line">    &#x2F;* code *&#x2F;</span><br><span class="line">    var initCopyCode &#x3D; function()&#123;</span><br><span class="line">      var copyHtml &#x3D; &#39;&#39;;</span><br><span class="line">      copyHtml +&#x3D; &#39;&lt;button class&#x3D;&quot;btn-copy&quot; data-clipboard-snippet&#x3D;&quot;&quot;&gt;&#39;;</span><br><span class="line">      &#x2F;&#x2F;fa fa-globe可以去字体库替换自己想要的图标</span><br><span class="line">copyHtml +&#x3D; &#39;  &lt;i class&#x3D;&quot;fa fa-clipboard&quot;&gt;&lt;&#x2F;i&gt;&lt;span&gt;copy&lt;&#x2F;span&gt;&#39;;</span><br><span class="line">      copyHtml +&#x3D; &#39;&lt;&#x2F;button&gt;&#39;;</span><br><span class="line">      $(&quot;.highlight .code pre&quot;).before(copyHtml);</span><br><span class="line">      new ClipboardJS(&#39;.btn-copy&#39;, &#123;</span><br><span class="line">          target: function(trigger) &#123;</span><br><span class="line">              return trigger.nextElementSibling;</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">    initCopyCode();</span><br><span class="line">  &#125;(window, document);</span><br></pre></td></tr></table></figure><br>在.\themes\next\source\css_custom\custom.styl样式文件中添加下面代码：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;代码块复制按钮</span><br><span class="line">.highlight&#123;</span><br><span class="line">  &#x2F;&#x2F;方便copy代码按钮（btn-copy）的定位</span><br><span class="line">  position: relative;</span><br><span class="line">&#125;</span><br><span class="line">.btn-copy &#123;</span><br><span class="line">    display: inline-block;</span><br><span class="line">    cursor: pointer;</span><br><span class="line">    background-color: #eee;</span><br><span class="line">    background-image: linear-gradient(#fcfcfc,#eee);</span><br><span class="line">    border: 1px solid #d5d5d5;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    -webkit-user-select: none;</span><br><span class="line">    -moz-user-select: none;</span><br><span class="line">    -ms-user-select: none;</span><br><span class="line">    user-select: none;</span><br><span class="line">    -webkit-appearance: none;</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    font-weight: 700;</span><br><span class="line">    line-height: 20px;</span><br><span class="line">    color: #333;</span><br><span class="line">    -webkit-transition: opacity .3s ease-in-out;</span><br><span class="line">    -o-transition: opacity .3s ease-in-out;</span><br><span class="line">    transition: opacity .3s ease-in-out;</span><br><span class="line">    padding: 2px 6px;</span><br><span class="line">    position: absolute;</span><br><span class="line">    right: 5px;</span><br><span class="line">    top: 5px;</span><br><span class="line">    opacity: 0;</span><br><span class="line">&#125;</span><br><span class="line">.btn-copy span &#123;</span><br><span class="line">    margin-left: 5px;</span><br><span class="line">&#125;</span><br><span class="line">.highlight:hover .btn-copy&#123;</span><br><span class="line">  opacity: 1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>在.\themes\next\layout_layout.swig文件中，添加引用（注：在 swig 末尾或 body 结束标签（&lt;/body&gt;）之前添加）：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 代码块复制功能 --&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clipboard.min.js&quot;&gt;&lt;&#x2F;script&gt;  </span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clipboard-use.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></p>
-<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p>懂代码的也可以将clipboard.min.js和clipboard-use.js合并为一个文件，再在.\themes\next\layout_layout.swig文件中使用。当然clipboard.min.js也可以直接用三方cdn的方式引入也行。</p>
-<h2 id="去除NexT主题Markdown分割线渲染效果"><a href="#去除NexT主题Markdown分割线渲染效果" class="headerlink" title="去除NexT主题Markdown分割线渲染效果"></a>去除NexT主题Markdown分割线渲染效果</h2><p>修改/source/css/_common/scaffolding/base.styl，注释或删除以下内容：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">background-image: repeating-linear-gradient(</span><br><span class="line">    -45deg,</span><br><span class="line">    white,</span><br><span class="line">    white 4px,</span><br><span class="line">    transparent 4px,</span><br><span class="line">    transparent 8px</span><br><span class="line">  );</span><br></pre></td></tr></table></figure></p>
-<h2 id="不蒜子统计文章阅读数"><a href="#不蒜子统计文章阅读数" class="headerlink" title="不蒜子统计文章阅读数"></a>不蒜子统计文章阅读数</h2><p>打开主题配置文件，这里我用的next主题<br>搜索busuanzi_count:<br>将enable对应的false改为true即可<br>enable: true </p>
-<p>由于busuanzi(不蒜子)的网址更新,导致了使用Hexo Next主题时统计浏览数失效.<br>不蒜子官网:<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener external nofollow noreferrer">http://ibruce.info/2015/04/04/busuanzi/</a><br>解决方法:<br>到hexo的themes文件夹下, 进入<br>\themes\next\layout_third-party\analytics<br>打开: busuanzi-counter.swig<br>将src=“<a href="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener external nofollow noreferrer">https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>修改为src=“<a href="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener external nofollow noreferrer">https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>即可.</p>
-<h2 id="修改-Read-More-按钮样式"><a href="#修改-Read-More-按钮样式" class="headerlink" title="修改[Read More]按钮样式"></a>修改[Read More]按钮样式</h2><p>修改themes\next\source\css_custom\custom.styl文件，加入自定义样式<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> &#x2F;&#x2F; [Read More]按钮样式</span><br><span class="line">.post-button .btn &#123;</span><br><span class="line">    color: #555 !important;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 125, 0.35);</span><br><span class="line">    border: none !important;</span><br><span class="line">    transition-property: unset;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.post-button .btn:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255) !important;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="修改标签云（tagcloud）的颜色"><a href="#修改标签云（tagcloud）的颜色" class="headerlink" title="修改标签云（tagcloud）的颜色"></a>修改标签云（tagcloud）的颜色</h2><p>修改themes/next/layout/page.swig文件，加入自定义样式:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- &#123;&#123; tagcloud(&#123;min_font: 12, max_font: 30, amount: 300, color: true, start_color: &#39;#ccc&#39;, end_color: &#39;#111&#39;&#125;) &#125;&#125;</span><br><span class="line">+ &#123;&#123; tagcloud(&#123;min_font: 13, max_font: 31, amount: 1000, color: true, start_color: &#39;#9733EE&#39;, end_color: &#39;#FF512F&#39;&#125;) &#125;&#125;</span><br></pre></td></tr></table></figure><br>修改对应参数值即可，参数说明见 <a href="https://hexo.io/zh-cn/docs/helpers.html#tagcloud" target="_blank" rel="noopener external nofollow noreferrer">Hexo官方文档</a></p>
-<h2 id="文章加密访问"><a href="#文章加密访问" class="headerlink" title="文章加密访问"></a>文章加密访问</h2><p>打开next\layout_partials\head\head.swig文件,插入以下代码:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#39;&#123;&#123; page.password &#125;&#125;&#39;)&#123;</span><br><span class="line">            if (prompt(&#39;请输入文章密码&#39;) !&#x3D;&#x3D; &#39;&#123;&#123; page.password &#125;&#125;&#39;)&#123;</span><br><span class="line">                alert(&#39;密码错误！&#39;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure><br>在文章头中加入password: 123456就可以了</p>
-<p>(发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容)</p>
-<p>这里提供一种更好的办法<br><a href="https://easyhexo.com/3-Plugins-use-and-config/3-4-hexo-blog-encrypt/" target="_blank" rel="noopener external nofollow noreferrer">hexo-blog-encrypt</a></p>
-<h2 id="移动端显示-back-to-top-按钮和侧栏"><a href="#移动端显示-back-to-top-按钮和侧栏" class="headerlink" title="移动端显示 back-to-top 按钮和侧栏"></a>移动端显示 back-to-top 按钮和侧栏</h2><p>我的博客主题是Mist，主题的设计模版是 Muse 或 Mist,就可以直接在主题配置文件中配置：<br>修改主题配置themes/next/_config.yml<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Enable sidebar on narrow view</span><br><span class="line">onmobile: true</span><br></pre></td></tr></table></figure></p>
-<p>你也可以自己调试页面<br>页面调试好之后将代码复制到:themes\next\source\css_custom\custom.styl<br>参考custom.styl样式文件<br>不建议全部复制粘贴使用，最好是F12打开，根据关键ID找到对应的样式，复制到自己的文件中<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; Custom styles.</span><br><span class="line">&#x2F;*******************首页样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; .headband &#123;</span><br><span class="line">&#x2F;&#x2F;     height: 1.5px;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面顶部行高</span><br><span class="line">.header &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; &#x2F;&#x2F; 页面背景色</span><br><span class="line">&#x2F;&#x2F; .container &#123;</span><br><span class="line">&#x2F;&#x2F;     background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面留白更改</span><br><span class="line">.header-inner &#123;</span><br><span class="line">    padding-top: 35px;</span><br><span class="line">    padding-bottom: 0px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand &#123;</span><br><span class="line">    padding-top: 50px;</span><br><span class="line">&#125;</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 5px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">.post-button &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 顶栏宽度</span><br><span class="line">.container .header-inner &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 渐变菜带，CSS代码copy自https:&#x2F;&#x2F;githubuniverse.com</span><br><span class="line">&#x2F;&#x2F; .site-meta &#123;</span><br><span class="line">&#x2F;&#x2F;     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);</span><br><span class="line">&#x2F;&#x2F; &#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;缩略图指定宽度值显示。</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 75%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;*******************文章样式*****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 文章</span><br><span class="line">.post &#123;</span><br><span class="line">    margin-bottom: 50px;</span><br><span class="line">    padding: 45px 36px 36px 36px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章标题字体</span><br><span class="line">.posts-expand .post-title &#123;</span><br><span class="line">    font-size: 26px;</span><br><span class="line">    font-weight: 700;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章标题动态效果</span><br><span class="line">.posts-expand .post-title-link::before &#123;</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章元数据（meta）留白更改</span><br><span class="line">.posts-expand .post-meta &#123;</span><br><span class="line">    margin: 10px 0px 20px 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章的描述description</span><br><span class="line">.posts-expand .post-meta .post-description &#123;</span><br><span class="line">    font-style: italic;</span><br><span class="line">    font-size: 14px;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">    margin-bottom: 0px;</span><br><span class="line">    color: #666;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; [Read More]按钮样式</span><br><span class="line">.post-button .btn &#123;</span><br><span class="line">    color: #555 !important;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    border: none !important;</span><br><span class="line">    transition-property: unset;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.post-button .btn:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255) !important;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除在页面文章之间的分割线</span><br><span class="line">.posts-expand .post-eof &#123;</span><br><span class="line">    margin: 0px;</span><br><span class="line">    background-color: rgba(255, 255, 255, 0);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去除页面底部页码上面的横线</span><br><span class="line">.pagination &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    margin: 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章内标题样式（左边的竖线）</span><br><span class="line">.post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">    border-left: 4px solid rgb(161, 102, 171);</span><br><span class="line">    margin-left: -36px;</span><br><span class="line">    padding-left: 32px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 去掉图片边框</span><br><span class="line">.posts-expand .post-body img &#123;</span><br><span class="line">    border: none;</span><br><span class="line">    padding: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;代码块的自定义样式</span><br><span class="line">code &#123;</span><br><span class="line">    margin: 0px 3px;</span><br><span class="line">    border: 1px solid #999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块顶部样式</span><br><span class="line">.highlight figcaption &#123;</span><br><span class="line">    margin: 0em;</span><br><span class="line">    padding: 0.5em;</span><br><span class="line">    background: #eee;</span><br><span class="line">    border-bottom: 1px solid #e9e9e9;</span><br><span class="line">&#125;</span><br><span class="line">.highlight figcaption a &#123;</span><br><span class="line">    color: rgb(80, 115, 184);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 文章&#96;&#96;&#96;代码块diff样式</span><br><span class="line">pre .addition &#123;</span><br><span class="line">    background: #e6ffed;</span><br><span class="line">&#125;</span><br><span class="line">pre .deletion &#123;</span><br><span class="line">    background: #ffeef0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章内链接文本样式</span><br><span class="line">.post-body p a&#123;</span><br><span class="line">  color: #0593d3;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid #0593d3;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: #fc6423;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #fc6423;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 自定义的文章摘要图片样式</span><br><span class="line">img.img-topic &#123;</span><br><span class="line">    width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;*************************侧栏样式****************************&#x2F;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角侧栏按钮样式</span><br><span class="line">.sidebar-toggle &#123;</span><br><span class="line">    right: 10px;</span><br><span class="line">    bottom: 43px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line">.page-post-detail .sidebar-toggle-line &#123;</span><br><span class="line">    background: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 右下角返回顶部按钮样式</span><br><span class="line">.back-to-top &#123;</span><br><span class="line">    line-height: 1.5;</span><br><span class="line">    right: 10px;</span><br><span class="line">    padding-right: 5px;</span><br><span class="line">    padding-left: 5px;</span><br><span class="line">    padding-top: 2.5px;</span><br><span class="line">    padding-bottom: 2.5px;</span><br><span class="line">    background-color: rgba(247, 149, 51, 0.75);</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 侧栏</span><br><span class="line">.sidebar &#123;</span><br><span class="line">    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    background-color: rgba(0, 0, 0, 0.75);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-inner &#123;</span><br><span class="line">    margin-top: 30px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏顶部文字</span><br><span class="line">.sidebar-nav li &#123;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav li:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-width: 1.5px;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-nav .sidebar-nav-active:hover &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点作者名</span><br><span class="line">.site-author-name &#123;</span><br><span class="line">    display: none;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点描述</span><br><span class="line">.site-description &#123;</span><br><span class="line">    letter-spacing: 5px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 13px;</span><br><span class="line">    color: rgb(243, 112, 85);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏站点文章、分类、标签</span><br><span class="line">.site-state &#123;</span><br><span class="line">    line-height: 1.3;</span><br><span class="line">    margin-left: 12px;</span><br><span class="line">&#125;</span><br><span class="line">.site-state-item &#123;</span><br><span class="line">    padding: 0px 15px;</span><br><span class="line">    border-left: 1.5px solid rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏RSS按钮样式</span><br><span class="line">.feed-link &#123;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    margin-left: 7px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">    border: 1px solid rgb(158, 158, 158) !important;</span><br><span class="line">    border-radius: 15px;</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a:hover &#123;</span><br><span class="line">    background-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.feed-link a i &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏社交链接</span><br><span class="line">.links-of-author &#123;</span><br><span class="line">    margin-top: 0px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏友链标题</span><br><span class="line">.links-of-blogroll-title &#123;</span><br><span class="line">    margin-bottom: 10px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">    color: rgba(7, 179, 155, 0.75);</span><br><span class="line">    margin-left: 6px;</span><br><span class="line">    font-size: 15px;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏超链接样式（友链的样式）</span><br><span class="line">.sidebar a &#123;</span><br><span class="line">    color: #ccc;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar a:hover &#123;</span><br><span class="line">    color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 自定义的侧栏时间样式</span><br><span class="line">#days &#123;</span><br><span class="line">    display: block;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    font-size: 13px;</span><br><span class="line">    margin-top: 15px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式</span><br><span class="line">.post-toc ol a &#123;</span><br><span class="line">    color: rgb(7, 179, 155);</span><br><span class="line">    border-bottom: 1px solid rgb(96, 125, 139);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc ol a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 侧栏目录链接样式之当前目录</span><br><span class="line">.post-toc .nav .active &gt; a &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">.post-toc .nav .active &gt; a:hover &#123;</span><br><span class="line">    color: rgb(161, 102, 171);</span><br><span class="line">    border-bottom-color: rgb(161, 102, 171);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 修侧栏目录bug，如果主题配置文件_config.yml的toc是wrap: true *&#x2F;</span><br><span class="line">.post-toc ol &#123;</span><br><span class="line">    padding: 0px 10px 5px 10px;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;* 侧栏目录默认全展开，已注释</span><br><span class="line">.post-toc .nav .nav-child &#123;</span><br><span class="line">    display: block;</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;************************移动端样式*******************************&#x2F;</span><br><span class="line">@media (max-width: 1023px) &#123;</span><br><span class="line">    .container &#123;</span><br><span class="line">        background-color: rgba(0, 0, 0, 0);</span><br><span class="line">    &#125;</span><br><span class="line">    .sidebar &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">        border-top-left-radius: 5px;</span><br><span class="line">        border-bottom-left-radius: 5px;</span><br><span class="line">    &#125;</span><br><span class="line">    .feed-link &#123;</span><br><span class="line">        display: none !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .main &#123;</span><br><span class="line">        padding-bottom: 120px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand &#123;</span><br><span class="line">        margin: 0px;</span><br><span class="line">        padding-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-title &#123;</span><br><span class="line">        font-size: 22px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-meta &#123;</span><br><span class="line">        font-size: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post &#123;</span><br><span class="line">        margin-bottom: 30px !important;</span><br><span class="line">        padding: 20px 15px 15px 15px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-body h2, h3, h4, h5, h6 &#123;</span><br><span class="line">        margin-left: -15px;</span><br><span class="line">        padding-left: 11px;</span><br><span class="line">    &#125;</span><br><span class="line">    .posts-expand .post-tags &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .post-widgets &#123;</span><br><span class="line">        margin-top: 10px;</span><br><span class="line">    &#125;</span><br><span class="line">    .comments &#123;</span><br><span class="line">        margin: 40px 0px 40px 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .footer &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">.sidebar-active #sidebar-dimmer &#123;</span><br><span class="line">    opacity: 0;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端左上角菜单按钮</span><br><span class="line">.site-nav-toggle &#123;</span><br><span class="line">    top: 35px;</span><br><span class="line">    left: 91px;</span><br><span class="line">    &#x2F;&#x2F; background-color: #222;</span><br><span class="line">&#125;</span><br><span class="line">.btn-bar &#123;</span><br><span class="line">    background-color: rgb(255, 255, 255);</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F; 移动端菜单</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .menu &#123;</span><br><span class="line">        text-align: center;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .site-nav &#123;</span><br><span class="line">        top: initial;</span><br><span class="line">        background-color: rgba(255, 255, 255, 0.75);</span><br><span class="line">        border-top: none;</span><br><span class="line">        border-bottom: none;</span><br><span class="line">        position: relative;</span><br><span class="line">        z-index: 1024;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;移动端顶部</span><br><span class="line">@media (max-width: 767px) &#123;</span><br><span class="line">    .site-title &#123;</span><br><span class="line">        font-size: 28px !important;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-subtitle&#123;</span><br><span class="line">        letter-spacing: 0px !important;</span><br><span class="line">        padding-bottom: 0px !important;</span><br><span class="line">    &#125;</span><br><span class="line">    .site-meta &#123;</span><br><span class="line">        &#x2F;&#x2F; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);</span><br><span class="line">    &#125;</span><br><span class="line">    .menu .menu-item &#123;</span><br><span class="line">        margin: 0px 10px !important;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="Hexo-中-MathJax-的静态显示（svg）"><a href="#Hexo-中-MathJax-的静态显示（svg）" class="headerlink" title="Hexo 中 MathJax 的静态显示（svg）"></a>Hexo 中 MathJax 的静态显示（svg）</h2><p><a href="https://io-oi.me/tech/hexo-mathjax-svg/" target="_blank" rel="noopener external nofollow noreferrer">Hexo 中 MathJax 的静态显示（svg）</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>电影 书单</title>
     <url>/posts/79f93cc5.html</url>
     <content><![CDATA[<p><a href="https://threadreaderapp.com/thread/1002103360646823936.html" target="_blank" rel="noopener external nofollow noreferrer">How to Get Rich (without getting lucky)</a></p>
@@ -2013,127 +2058,17 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Linux下C语言学习</title>
-    <url>/posts/linux-c.html</url>
-    <content><![CDATA[<p>系统Ubuntu  18.04</p>
-<a id="more"></a>
-<h1 id="C环境准备"><a href="#C环境准备" class="headerlink" title="C环境准备"></a>C环境准备</h1><p>更新库：<code>sudo apt update；</code></p>
-<p>更新软件：<code>sudo apt upgrade;</code></p>
-<p>下载vim：<code>sudo apt install vim；</code></p>
-<p>下载gcc：<code>sudo apt install gcc</code></p>
-<p>下载gdb：<code>sudo apt install gdb</code></p>
-<p>为了方便写代码，在编辑器中加入行号：cd etc/wim；sudo vi vimrc什么都不要改，只在最后一行加上set nu；保存退出。</p>
-<h1 id="第一个Linux下的C程序"><a href="#第一个Linux下的C程序" class="headerlink" title="第一个Linux下的C程序"></a>第一个Linux下的C程序</h1><p>打开terminal</p>
-<p><code>vi hello.c</code></p>
-<p>按i进入输入模式</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello world!\n"</span>);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>按esc推出输入模式，保存退出</p>
-<p>编译hello.c</p>
-<p><code>gcc -o hello hello.c -Wall</code></p>
-<p>执行</p>
-<p><code>./hello</code></p>
-<h2 id="完整的演示"><a href="#完整的演示" class="headerlink" title="完整的演示"></a>完整的演示</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">$ vi main.c</span><br><span class="line">$ gcc main.c  #生成可执行程序</span><br><span class="line">$ ./a.out  #运行可执行程序</span><br><span class="line">hello world!</span><br><span class="line">$   #继续等待输入其它命令</span><br></pre></td></tr></table></figure>
-<h2 id="分步骤编译"><a href="#分步骤编译" class="headerlink" title="分步骤编译"></a>分步骤编译</h2><h3 id="编译（Compile）"><a href="#编译（Compile）" class="headerlink" title="编译（Compile）"></a>编译（Compile）</h3><p>将源文件编译成目标文件需要使用<code>-c</code>选项，例如：</p>
-<p><code>gcc -c hello.c</code></p>
-<p>就将 hello.c 编译为 hello.o。</p>
-<p>一个源文件会生成一个目标文件，多个源文件会生成多个目标文件，源文件数目和目标文件数目是一样的。通常情况下，默认的目标文件名字和源文件名字是一样的。</p>
-<p> 如果希望自定义目标文件的名字，那么可以使用<code>-o</code>选项，例如：</p>
-<p><code>gcc -c hello.c -o a.o</code></p>
-<p>这样生成的目标文件的名字就是 a.o。</p>
-<h3 id="链接（Link）"><a href="#链接（Link）" class="headerlink" title="链接（Link）"></a>链接（Link）</h3><p>在<code>gcc</code>命令后面紧跟目标文件的名字，就可以将目标文件链接成为可执行文件，例如：</p>
-<p><code>gcc hello.o</code></p>
-<p>就将 hello.o 链接为 a.out。</p>
-<p>在<code>gcc</code>命令后面紧跟源文件名字或者目标文件名字都是可以的，<code>gcc</code>命令能够自动识别到底是源文件还是目标文件：如果是源文件，那么要经过编译和链接两个步骤才能生成可执行文件；如果是目标文件，只需要链接就可以了。</p>
-<p> 使用<code>-o</code>选项仍然能够自定义可执行文件的名字，例如：</p>
-<p><code>gcc hello.o -o hello.out</code></p>
-<p>这样生成的可执行文件的名字就是 hello.out。</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的网络订阅</title>
-    <url>/posts/my-subscriptions.html</url>
-    <content><![CDATA[<p>我的网络服务订阅汇总</p>
-<a id="more"></a>
-<p>到现在为止，我目前所使用的云服务、订阅：</p>
-<h1 id="订阅列表"><a href="#订阅列表" class="headerlink" title="订阅列表"></a>订阅列表</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>服务</th>
-<th>类别</th>
-<th>价格</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>云服务器</td>
-<td>云服务</td>
-<td>17 $ / 年</td>
-<td>仅用于一些自动化脚本以及网站首页</td>
-</tr>
-<tr>
-<td>YouTube Premium</td>
-<td>视频</td>
-<td>40 ￥ / 年</td>
-<td>印度区合租</td>
-</tr>
-<tr>
-<td>代理网络</td>
-<td>工具</td>
-<td>100 $ / 年</td>
-<td></td>
-</tr>
-<tr>
-<td>ChatGPT Plus</td>
-<td>工具</td>
-<td>20 $ / 月</td>
-<td></td>
-</tr>
-<tr>
-<td>某电商平台会员</td>
-<td>云服务</td>
-<td>40 $ / 月</td>
-<td></td>
-</tr>
-<tr>
-<td>地址服务</td>
-<td>服务</td>
-<td>9 $ / 月</td>
-<td></td>
-</tr>
-<tr>
-<td>某 YouTube 博主会员</td>
-<td></td>
-<td>350 ￥ / 年</td>
-<td></td>
-</tr>
-<tr>
-<td>若干域名</td>
-<td></td>
-<td>30 $ / 年</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+    <title>Palpitate</title>
+    <url>/posts/pppp.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="5fddab5fb6dc391abd77e9ff60b8f218137f8bb60c981b2e6c5b70e8c73416ac">8406bcc28d38677920b95cddb09b0ba874202d23963750f333d7d5cdd5aa54fe5205f611b6761811e1945b4a728ca15fd7025602d0062edf5a77bf2f5cc44b70fd2c9a5fe794c50f19900c7bdac3e4491421276e29674ef29e4f8564a22e55e7709c1358f8ef11cdc27d28c98dbff80842a7b689d2f6061db5358240a4c23f93a39da76b35d7e654bdd711c09a43727d16f18e82f948a9d7c401e39b8540f52f4fbba1d6ece771f6ca5cdcfd5259cbd66fe3fe5d3502de1e41408d166a67b83f2edfd9a7e9b9eaa451e71456f158330cb2b669757bc7d38035758e2fbe1b7feda17eee5263eab8936feb6399c9913dcb27a1ebf7bc2e8b18ab9dd282d7bbf58a8c3892e286c4cf6b5ad0dfc7d7a8b9013db8e7398409aa28d8c75a8427514c1c86d3769a40261a6fa6bf06212dae1d4bb8bedf3e518919bc7de118f101e266a71f5f18777d0795e0420b2c8d6d9ea6f0e84d506a4100955554f22365b63a21ebfdc48093bd1fc9cf347a53abdaa8b54600e00273e2c4acdbcdcdbfb6ec132295b46877f170597c0998ac8dcd219fac871687aef4e3a30585330565a312cdd2898271c6f03c7402a9c5e5d61c7fd47e57e3712e1d3559fef79d20913e1969cd079588300f81def160ac37a82400701e41081da4ffc71f302bc785ac8f10ab1d224545f38edd4b169de130f44cb5d95505342f1b251ea04bf8837efcdd9d49cbf3908cd6d537786207b071d67722ff3f063893e3720ce3867d9fa4f8c32b12b4237011cd00bd4b1ece13abe87eb919d0bcd551a8798840478adf47c625fa233d22c8425da00b9e932a261b2b3c8b97751cde957001f9c48adf28f12d03212d6aaa3e247e0edbba35f3e85f0f5db719ecff0282b235a87f8720ec76597b0285247a3bbd691e306a41d06ce1db33bd9e9ae770effca2e18cf60b0ab37256faa19e5368f030c522c010def7b414deb69d0f9c600044c8a64fbe5c92ad875be113817d4f9a75a35d8707a11a3b3979bee106f0cb3bc28a4bcada5c49b9f2c72fc275801237e28de79c7893b273a03cd4f1f23feab1df293ef3e1ea5f46ee742ded31660ffca1d6f31395f1bf5a419f0de2d38de38bd272604dced29dd41f5bd416b75aeb7727694b2e3f9acf3d5c1e5d969a5136e0aeeebd23dbbeea625b60f69d3cb3d0d8a03bda9e6ca77471b87cc723b714dc561966a7a87ad42cc5ca5a273364fc8324d8a98c045bc32fda5a1bae4d1360dc524a183fa9b17a65ee08166f3fb0659405b9d81135dc4463214a0e5389152a0fee47f383bb6c79feb4b889a516f240503eb7b9881fcbb29f3e03d55faef91e640ad740fe5951304c2153a4373a5c5781aa8b8505855196c510fef8cb84dc976fe1d379a005c0a59d0d15e019eaa6184e7e921eb685793a48c0ee1bb9809f45ff0f21710d72fc587e3a760ecef720b0a7b97a4f7d77b2139d1a220280c87c547e2bd2fd65f9772720f4721e1eaa0fa300f9c7085e487322d56c70c16bb8b9defcefc95098d20c31ec1564ca1dfbf059f7f43239f5f2bb9654c16ce27f9b9fa5d4365ab021957fa0fb9c3fc95da582a0f58e0554ffb4d5b2c2b7c360533b4e171c4bb8749fa7355d35eb868e211df671cf95de60dc95bf77a0ee59be37212272b276c159c6d5c50e0efa86a2e76b0c64e4959771d2446d61f8bc034d4aa4321736935aecb9573a6fc7cb32050fd636b478ed1c6ce454d7ebac5205d5b68e485dee026b508f7e2fed852c828d1993bce1884d05a9edf4148db03978a3563e2db112a1f236f6bc687e708573f6308623d18b727ccf5e1ecef246a87fb050c4e9902e7dea2c8e738bfb7895dedd822588f9f27b0262603055870c14c3a4dd577db5bdf18b07a29c2a474587d6191a9ae73c7b381c37d467fcfbc6e8db282bce0a2f7561e9d0e7093a23b6f25f997f2949c403d17649cd43512ea379d8be8326516d56fd85567e9c91aec33ae0409333b620ef0b295f3355ad636ad07804ddc67873c52bb242f5ff4ef74608c97de384c3736637dfcc453760dc11a3a2f5a401d6f9fdfac9e2314b5eb3899970232f5336d97e02d837bb88247139d75571711152fabfefdc0d18d473ee714fa4cca75024f22d1577be1e77a54dd4e7a03b208f800435a9e5c492be76b331365e83a93c97e51f40c64fc1ecd50410cde09f15cbdb41b12c1b7894f6911c91c0caa6a665028d2eed7f74892ddc1095c5f1bbdd44660927f4dd406d07bf273de2ff804137104b430cd47bfbf24baeecc3d6869fe78da5b9ca87f71017110b6424bb8b64347b5daf436533476838d6bc692ab98c2753544675bcf56d741482194c0624f429f02fb9f267d9c9da1369afa49627dd9893847f923f616310ff872af1081fa2da17c7439d2b5a72930708b5d93ba2256a346c849d28f93183a0fe4b5ad031f98efab19141aa2607388456a4e28c330c82a07537edf3ff9e8df4074f5cd4303a4654baa7ef2a7b3227fc7fe17e0e149e214149f8770f4444c94959d026c82e2dfd10823d5cc80e8db0df58ce3afab3766a6ce1831f19e444963194e3abc91ed4b2babbe24b39844f31de3c3b46a66caad664243098e3e4d95decdaa80b0d803410279511bcf6703c5eb948cc84283ee52a0442566d129863a1c6ef7c93e2ac088158a5488200933b849b5ae8ab99bdc43980f08637af2c8bc4afe426fdd0782c8c91ef06a49512d043c5c4a03da4c3257dfb181aa7969d3362e8f9d5388de6529671a3f550e66be873227ade0bd88fbcaa958bd0334868da2ea15e59abb645ef542a466e49984ff55c6dc036fd093a69b34d98064204a5643c4e65c123e8553d59aa1209c81b8d28b1bf410bf581e437affa06a45139940d69c17658100e90bbdb13eabc1304cf5902a7ee30e5b64e220915dcee0963ec01b00b17160a1d3be089c1eea86cbcbff73e81235b05e1ab4b42eb2e9490a5b72a33bd3cb2e93128da38370b2a8fb2f4ed77c067ede23647840d6cd0f54279854cea7ebbd4bfd118d0c5c01641159fc138c35fe0490d2274ac9435c8ed336143806c072b59b9999975670f1d7999d30216f71968ed0f19164c687a9f6ff21b17ac2bed9108ad52b1112dc156e2681e19a562533860e84027041c12b7aaa668a7e6f0fd8cd80cd5ba85679d5f83a6f6743449202f297b9303898a1b93fc4d48c837fc52da65594b3d20a9d6580daaeb29b9a365ef5191c76a45a5deb17574a9b76b306327481231b511aea4d5357a6456fc0daad3c8556b8f14b2c583f956d7c52784dc2fd7fb40b26ca0f6c129d252926a27e384586af6d08a5b647314f6c703d6be6dfc0fd6185840e2cc66c1d4c9c778ce27674463171554a95e2665631ff599f51c1c1e028d94c5130679daa62469e22492eed099492386f16e293990fb3f4ce88d519fe11472c9d176de2263d8acb6227cd31d9620ade3633ba0360d6e03e37bbee4724ee801f315074242cf76f29fedc203eef74fcb627c98f9958c437b2a1fd27a4f5e132f98f37bca0a42d5a23e27c5ca56692edfdf627d77426bdd21a98e6d4dc8b1f6a57f67f5615370b5367d542ed3910c8c185935775ea9809263d1c1061fce34ad67ed8e50d3d0cc8e9413e3e2f31488bce212463ce7873a725f06c2e0890f0de9d920c3c0a3fbc34958ac93dedc8398c63916a657cb3b2d3f36cf7259b1dedd56e8098cc6d3792380ecde51f17744cda5a9b86a6cdb760b38715282ddac1ef56b29692cd5db1346fc19d93669a1ace4b65257fb9e8c9f165f5dd13013339aff7e2820812594fb234572af8ec64cd52ff89d01b5070924959db400e322217d82eb7ed7feb922606c6197c4d28c104a862d24f5a9c42e3238da5273b715411a1fdfeaacd7a1dda96e58fb21756ca1e98132950842c6bf6e31f782576253ae01e8cd62a81f44b8306488f19b9d2e847245f7de7aec7b2501daa075e70d43fcd029a8144f0a7068a32a873a2a0699c5559175219cc8b8d1a370af0b3156ea87b900ec7a0cc7a72b694d33cf4c612e14cac8c775d98d525c76aadf097303048d269a59ca473f0b270f8907a0ac08342c0e2383b4c7267d598286f7198a8aef184a5074358867407db4f06b971155d7ea0dbd9a21fd4c06f6ba2e6bbce50ff5e15bb2466af9786433cfde79d4bad59dc49880b555276b87f3a79b1ae228f4aa1aab1c67e8572586e61b90961840251c9744db40859dcbfa66cd6c5e10d75733d10c0302ff3d7da70a61e9223bce2b04fd2340ad35c74246774d5073bedfcf0b49ea32e3599e6baec1e5995661694de45acd07d773b8ed8fe22b07c323d720e8ad496011df62e409d494cc4181859c3f2f274add462327036912eabcf8d25b2f8917c9542cdb75785d49a641fd3a9a3fac45ebd704462adc719defc5b0eb61aff1de50b4db4be599faf75ea71f45ac20bb1f1447f028547cb7924698e782e2996863c96c2d046f2a1360427c96da3933bcfdf9b2481a3e2f235f5f589c6e4c77f959177b920e86f3f164cec5734472d675e04185f4a947b26b9112a880868fd28e4570a5823e7d269380374bae0e9e1abb8dbf1a8a5e21ad78fd39ab829eb18291902f82bccc8dd00308c36db822bb3fba595b9f10c69d2583c56d976b9248f8d908739158e2ff0a8e6b1518a3c7ad68373529fc680ade3f2eacf8338d0b849f1080a831a43532f45e27bce654b02ac6c541f02be3780026358279fb40faa89f0c8d37541c2675dfe8aa55063ad121b1985117a159c15f7ee163cf6042081c8af587fa9aba3cd80d93d96fe80d95f382566e7f32e4142de21d3f253c19044dcb94ff83caf30332bd17264330b0a53a4b38f14f68dd5fd6c83bc5190225d570240c2967b8eb988d7db6590535fb3ac3813ebfced628f08df2ab724a586444554159d6000c34df89e331e53346da0cf8165731508995fd1e761cc417ced489fa1d0cfcb1a6dbe79844c7c76264a8275a2afcb962faa00613c4da486f8aac1b8c60d4fa565f9621b4a0d1137c1ed83e63e5bb41f181a89517b4d83b62a4b4e550050e15dfa7239cac0931b5a9c111b242ea636fd644b0a33c4b049cd87495fdb5695fc866293eda7a7087bd271d985bc5f93de78425fead38c61af0ee2f92973e7953b386eae6d519e5a3f67371a9e0fa889d06c3cefa0c594826f14f4c1a493509105e4c29ddb995b8d689e39d0556fc13a7530aa72f5d90f24265ec4887efccf104488cccf3eccdd18a91466b18c90e93c9e33536bc730aca86181430f2f6230cdc059ca648e5d990445ae99b2a6ada6191296cbe20aac046b0c3bc750239b75b98840b30a543cf725fa7648a0a1e7d44b199b914fb253eb9484768cf3568154f502b56aee5425d7935cc212b85eab51f36e183cffc6e3b7fcbb3523c3da9744c3b0bd6f5c7e999ff04016a8ce564baafb827e3e8325a61209fc2e722b8e55d4553b57f830b1a5e4ab34554b24e511593486a120c5fbdc08baab1e55f8dbb91c7dcb2d58561d1b85d47a6ec028d813cba22399559d1425159a132662ad685c07d91b350894fd743f7ebb00c70912c013e56f1f8f174d51f3e687c2293527a4e28acdfd07c5a318f8c79584d144dae4f2ad4600ea0c811a9023996c04afa76b879a90ea3a8d1c66da064360ec35f71022d0ce5b0ec545962ea566608c4a9943d08b8a006c21e228046b617f9be269d37960b23fe112207745d3d476fb8fdb4e4885caf4d9b2d6b92d58e96b772a1923bdf1604ca553da87343d92780f4df6a46e0a930f47a7aa964398f7d3d577a11ec8eb7417087c07ed5a718dfebd7a39d303d06d183f5cd9ec8fce63634af15f4c650003b2ca3f1a81e677d8f926d1f16adcf8d33c9a365e4656f01e666d4e28efc98345c98e18d0df310c6199b023a90ed7eeb2275a02eb20d0b213fc9e9c9e38440c32403fcf8f6ed61e30913dd6371ea7b31bf257ca6d9704140444ddb39bb2bff6555480b1768f65d53ae18565bca4d00ed10dbfc012ba6e08ccd276b217f4d6150cb0bb66c8aa2a4ff92939fca0b1b63d0eec574d824a28f6737c4a87e378f325e8434bf1a5f04735489d1d994034cd840749f619437e637ee7a4d8e03b05761e8cd108207f0a7ed1bd55e73dce29b9203181002bd73c0f6995b2f6c07ef992d46df89b0a568f945b2cdb86b6e8d087c37d03541985a91a91df2df1a1c2f2358809ce0f40730b2ac636427bf272337c3f3a97551f0352bd301ef1928c50b629d92f96087e108831b98b79dd9cd13ad7240494d1c0ea76ae38a115c4f8ad6fba2d21e9c1bfc2c1deac726f1a3f8cd7532e152af52fca2f3d1d6ae7cb0de9e5ade4181af34eaf0f901645c83ba1db29bbf2318025d16e6e979a0556a1ac69a50f53dcfa93019e5365542dffced4a7987b1a5a66d783262d878221f87817370f048d6b65635a83976a6c15a1073bf3f41706d72dd9327178260641d4ef87f3e20697316f83555637ef8ed85de079b737532107a29400ea9b59ac3b25fc894b2d040d3a43c18a36a57f0b614f299467362dd6bea8dd0d8b5a48f3d6b4c5226f600b7340892caa1ebe6f8d1865f3420967c67d20d0cff565d7f4cd875aee440394a11303b762ca75c4d5a5411629e179b92a7e2d074e4c93baf10f0edcc7b6e7e2943da68478ecf591b6e2a508d4986abe74d856e25e76005dda5e4f51507f9dbf6a11aaad1496b8ac9d2a94b7621fa0d7fbda6d0a075f081f1e1535148870a87f4757eb104a804a36bb7bc1659be95d740a4b85db5cbcfe442da61918ef658692f3b042623955e90f18f9fadbc974cb83e3f6f0b26f76b5558ddcabbc6db7b14df9448212989a9f5ea7cb7bae69f33d41d396e16580b9babd55c4142dabe1ac6b0b91e7cba366167725c6981f8234fc2f3bcca718c49d4135a1f7270b616e831d73edbbb2b4a44d5be5b9028bc6c54b72c1df53398b6cbb70ef33524fcc692cf008815fc1ec45de4023a5980ecd4d4b4de56bcba6171a1df20bed067991a3745bc760af2232f8a17f65f5a2c405aad37106430235179e6041b25d327983c875d8b54ceed3d0dce9fe77a486ebbac6af991313f6f72f3165cdf607a</script>
 </div>
-<p>按照美元汇率为 7 算，每年花费 977*7+390=7229 人民币。</p>
-<p>这么一算，总价还不少😮</p>
-<p>多说一句，YouTube premium 最值得了，YouTube 不多说了，还可以使用 YouTube music，一个会员，两个服务，非常划算。</p>
-]]></content>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>Markdown基本语法</title>
@@ -2587,17 +2522,109 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>Palpitate</title>
-    <url>/posts/pppp.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Hey, password is required here.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="cdfb7840722b214632ad930abd0482d2b709096242ad02f055ae0635564b9678">8406bcc28d38677920b95cddb09b0ba874202d23963750f333d7d5cdd5aa54fe5205f611b6761811e1945b4a728ca15fd7025602d0062edf5a77bf2f5cc44b70fd2c9a5fe794c50f19900c7bdac3e4491421276e29674ef29e4f8564a22e55e7709c1358f8ef11cdc27d28c98dbff80842a7b689d2f6061db5358240a4c23f93a39da76b35d7e654bdd711c09a43727d16f18e82f948a9d7c401e39b8540f52f4fbba1d6ece771f6ca5cdcfd5259cbd66fe3fe5d3502de1e41408d166a67b83f2edfd9a7e9b9eaa451e71456f158330cb2b669757bc7d38035758e2fbe1b7feda17eee5263eab8936feb6399c9913dcb27a1ebf7bc2e8b18ab9dd282d7bbf58a8c3892e286c4cf6b5ad0dfc7d7a8b9013db8e7398409aa28d8c75a8427514c1c86d3769a40261a6fa6bf06212dae1d4bb8bedf3e518919bc7de118f101e266a71f5f18777d0795e0420b2c8d6d9ea6f0e84d506a4100955554f22365b63a21ebfdc48093bd1fc9cf347a53abdaa8b54600e00273e2c4acdbcdcdbfb6ec132295b46877f170597c0998ac8dcd219fac871687aef4e3a30585330565a312cdd2898271c6f03c7402a9c5e5d61c7fd47e57e3712e1d3559fef79d20913e1969cd079588300f81def160ac37a82400701e41081da4ffc71f302bc785ac8f10ab1d224545f38edd4b169de130f44cb5d95505342f1b251ea04bf8837efcdd9d49cbf3908cd6d537786207b071d67722ff3f063893e3720ce3867d9fa4f8c32b12b4237011cd00bd4b1ece13abe87eb919d0bcd551a8798840478adf47c625fa233d22c8425da00b9e932a261b2b3c8b97751cde957001f9c48adf28f12d03212d6aaa3e247e0edbba35f3e85f0f5db719ecff0282b235a87f8720ec76597b0285247a3bbd691e306a41d06ce1db33bd9e9ae770effca2e18cf60b0ab37256faa19e5368f030c522c010def7b414deb69d0f9c600044c8a64fbe5c92ad875be113817d4f9a75a35d8707a11a3b3979bee106f0cb3bc28a4bcada5c49b9f2c72fc275801237e28de79c7893b273a03cd4f1f23feab1df293ef3e1ea5f46ee742ded31660ffca1d6f31395f1bf5a419f0de2d38de38bd272604dced29dd41f5bd416b75aeb7727694b2e3f9acf3d5c1e5d969a5136e0aeeebd23dbbeea625b60f69d3cb3d0d8a03bda9e6ca77471b87cc723b714dc561966a7a87ad42cc5ca5a273364fc8324d8a98c045bc32fda5a1bae4d1360dc524a183fa9b17a65ee08166f3fb0659405b9d81135dc4463214a0e5389152a0fee47f383bb6c79feb4b889a516f240503eb7b9881fcbb29f3e03d55faef91e640ad740fe5951304c2153a4373a5c5781aa8b8505855196c510fef8cb84dc976fe1d379a005c0a59d0d15e019eaa6184e7e921eb685793a48c0ee1bb9809f45ff0f21710d72fc587e3a760ecef720b0a7b97a4f7d77b2139d1a220280c87c547e2bd2fd65f9772720f4721e1eaa0fa300f9c7085e487322d56c70c16bb8b9defcefc95098d20c31ec1564ca1dfbf059f7f43239f5f2bb9654c16ce27f9b9fa5d4365ab021957fa0fb9c3fc95da582a0f58e0554ffb4d5b2c2b7c360533b4e171c4bb8749fa7355d35eb868e211df671cf95de60dc95bf77a0ee59be37212272b276c159c6d5c50e0efa86a2e76b0c64e4959771d2446d61f8bc034d4aa4321736935aecb9573a6fc7cb32050fd636b478ed1c6ce454d7ebac5205d5b68e485dee026b508f7e2fed852c828d1993bce1884d05a9edf4148db03978a3563e2db112a1f236f6bc687e708573f6308623d18b727ccf5e1ecef246a87fb050c4e9902e7dea2c8e738bfb7895dedd822588f9f27b0262603055870c14c3a4dd577db5bdf18b07a29c2a474587d6191a9ae73c7b381c37d467fcfbc6e8db282bce0a2f7561e9d0e7093a23b6f25f997f2949c403d17649cd43512ea379d8be8326516d56fd85567e9c91aec33ae0409333b620ef0b295f3355ad636ad07804ddc67873c52bb242f5ff4ef74608c97de384c3736637dfcc453760dc11a3a2f5a401d6f9fdfac9e2314b5eb3899970232f5336d97e02d837bb88247139d75571711152fabfefdc0d18d473ee714fa4cca75024f22d1577be1e77a54dd4e7a03b208f800435a9e5c492be76b331365e83a93c97e51f40c64fc1ecd50410cde09f15cbdb41b12c1b7894f6911c91c0caa6a665028d2eed7f74892ddc1095c5f1bbdd44660927f4dd406d07bf273de2ff804137104b430cd47bfbf24baeecc3d6869fe78da5b9ca87f71017110b6424bb8b64347b5daf436533476838d6bc692ab98c2753544675bcf56d741482194c0624f429f02fb9f267d9c9da1369afa49627dd9893847f923f616310ff872af1081fa2da17c7439d2b5a72930708b5d93ba2256a346c849d28f93183a0fe4b5ad031f98efab19141aa2607388456a4e28c330c82a07537edf3ff9e8df4074f5cd4303a4654baa7ef2a7b3227fc7fe17e0e149e214149f8770f4444c94959d026c82e2dfd10823d5cc80e8db0df58ce3afab3766a6ce1831f19e444963194e3abc91ed4b2babbe24b39844f31de3c3b46a66caad664243098e3e4d95decdaa80b0d803410279511bcf6703c5eb948cc84283ee52a0442566d129863a1c6ef7c93e2ac088158a5488200933b849b5ae8ab99bdc43980f08637af2c8bc4afe426fdd0782c8c91ef06a49512d043c5c4a03da4c3257dfb181aa7969d3362e8f9d5388de6529671a3f550e66be873227ade0bd88fbcaa958bd0334868da2ea15e59abb645ef542a466e49984ff55c6dc036fd093a69b34d98064204a5643c4e65c123e8553d59aa1209c81b8d28b1bf410bf581e437affa06a45139940d69c17658100e90bbdb13eabc1304cf5902a7ee30e5b64e220915dcee0963ec01b00b17160a1d3be089c1eea86cbcbff73e81235b05e1ab4b42eb2e9490a5b72a33bd3cb2e93128da38370b2a8fb2f4ed77c067ede23647840d6cd0f54279854cea7ebbd4bfd118d0c5c01641159fc138c35fe0490d2274ac9435c8ed336143806c072b59b9999975670f1d7999d30216f71968ed0f19164c687a9f6ff21b17ac2bed9108ad52b1112dc156e2681e19a562533860e84027041c12b7aaa668a7e6f0fd8cd80cd5ba85679d5f83a6f6743449202f297b9303898a1b93fc4d48c837fc52da65594b3d20a9d6580daaeb29b9a365ef5191c76a45a5deb17574a9b76b306327481231b511aea4d5357a6456fc0daad3c8556b8f14b2c583f956d7c52784dc2fd7fb40b26ca0f6c129d252926a27e384586af6d08a5b647314f6c703d6be6dfc0fd6185840e2cc66c1d4c9c778ce27674463171554a95e2665631ff599f51c1c1e028d94c5130679daa62469e22492eed099492386f16e293990fb3f4ce88d519fe11472c9d176de2263d8acb6227cd31d9620ade3633ba0360d6e03e37bbee4724ee801f315074242cf76f29fedc203eef74fcb627c98f9958c437b2a1fd27a4f5e132f98f37bca0a42d5a23e27c5ca56692edfdf627d77426bdd21a98e6d4dc8b1f6a57f67f5615370b5367d542ed3910c8c185935775ea9809263d1c1061fce34ad67ed8e50d3d0cc8e9413e3e2f31488bce212463ce7873a725f06c2e0890f0de9d920c3c0a3fbc34958ac93dedc8398c63916a657cb3b2d3f36cf7259b1dedd56e8098cc6d3792380ecde51f17744cda5a9b86a6cdb760b38715282ddac1ef56b29692cd5db1346fc19d93669a1ace4b65257fb9e8c9f165f5dd13013339aff7e2820812594fb234572af8ec64cd52ff89d01b5070924959db400e322217d82eb7ed7feb922606c6197c4d28c104a862d24f5a9c42e3238da5273b715411a1fdfeaacd7a1dda96e58fb21756ca1e98132950842c6bf6e31f782576253ae01e8cd62a81f44b8306488f19b9d2e847245f7de7aec7b2501daa075e70d43fcd029a8144f0a7068a32a873a2a0699c5559175219cc8b8d1a370af0b3156ea87b900ec7a0cc7a72b694d33cf4c612e14cac8c775d98d525c76aadf097303048d269a59ca473f0b270f8907a0ac08342c0e2383b4c7267d598286f7198a8aef184a5074358867407db4f06b971155d7ea0dbd9a21fd4c06f6ba2e6bbce50ff5e15bb2466af9786433cfde79d4bad59dc49880b555276b87f3a79b1ae228f4aa1aab1c67e8572586e61b90961840251c9744db40859dcbfa66cd6c5e10d75733d10c0302ff3d7da70a61e9223bce2b04fd2340ad35c74246777ee4b51d2e45f5d7f08dab0d6bffc9a7af4e599a3f6372ca795966389359a44a77c9eab547081412b0020213f7982adc309d3a24cf502ea829ed029d7b8448fbb31b22011eb6d4ea75d2c2c7402515399c7b603f99e38401b5d63c090592fa56818727127d91f75a1ece2bcecedf6d5b9e4f4704e739be1c5fa73d6b4795de00274216eda272121ea0edf0f12c9b1d840dcaf4509e37006158126123eb1995be7dd08bf277107c773171d62c84137f309fcf8e22950eecaa31917d2357286158aa0413dcca98d94837a7949350e05b58f64fec7312f4ae694aa8a73e8bcc4ef7ca1895700dd9d68d962a68f50d9a29d100ff5ea75c853dd7cdb2b3e42bb098760a90602d5b6bc0703e516db9301a8d77990c122b740b547d0ed7ca35258ab208a63894355c80dfdb88ea5558abbf4408d866a439b756c6f9c70c629a3a416635991e2c7eecdc678b70fce2a9512da7648d00a83bfda5e1e323b533c0ef978bb4f214d3a19e48b83140b25f7e17ed48fb1c8eb51cf3d1eb3327b6554f13122f7db955cc340a14b91f76b1323c50271da24db131caaf4f9db0cde9cf957efd5377e2707aa2bf0983ba11498addf3a8cd2814446ef32912c3762570b8f96a6140463967594b8d72299b13d88de38e77c064ad2dbcab0bd2dab22270da5b8d5b9f68e126aa366dea36ebe336d0b5da8a61fb2d621b0cead3e20200f8f06148be0939e8e47bd1d9c52a3e7cd439bf5b2f2287c237f9ec2ecf7c5f350a93ea305e1eb88a8af73278a2c0ccd82dd1e7aa265666a9e6a2d0870f5216b1e20ea4e008109030077e41596178a2c2c4246a56897774aca95674a379dd98d25127d077a96c4ff627984a56464904a978c909b53ea607cb5a09953e3d393c717785e680d148f639f35217ed851049d79c3ff71d6509922e4343d56033286e29964b197dd40eac92f99e145c834eac2859ea98fce6e395e48b6c0f9de79c88206848c9a7fdd7577ee2f883d262460fc353be90e9660337f1becd67832672c78da72320f4e1162842fb33f470f2583aaeb435e5372b48a31bce167378fa507802e8d6afb343f543bbf3f0a31f77b78cf5f7a17e59dd090cb5d5fa408c97823cbe21856d4d1afc27aba219943f928a600bc2758de421ed0b6ba7896e88bf52bfbefafe860ff62a82dfb8e1f5737760d5ccbae7c5b573ce8e42c89c56349196f2f1c23de3295d06866f9e254636a2d6f425b302a4fc0e7c0b4be6573e34356597a35cbed23b0134d49a4da50181988da6d44c28f7261c6639720cdd7615afb0dbc2e1ecf36a19d2ccf358e100d32aacacc26e1846fa2d62ef2db6f06b2b9ef2cb10b2c2794770743396def90ea35f0978edcc74c53019e19a19695654490bb8445ffcca1983f4ab8c504d525d34c522119dbfdebd6b9ad4eb9d1135a535dca05dc0aad2a824d464e174ff78871a45d083d4b40bd8e46193a32289941b7ae4d80b4206346d6b4520d89ebdb8e8cf064a4bfc5c214f93111e13dcb918488e53401215775591974e8d8a4e99dd5a191ce72de3002a4ca6706338e29f99dcdbe3b7c2059b25ab9f306faa042495d824675705ac4bb62e541667ed69edbe52d8708f7cc3f2e77f4d372c53b56450ea859970fd4d92bf1130b7da96fe041cfb9d8a151368a161ca1a1a2d8a4a390715f10edaeb0f538e2b508f033b44b472cac87f63243c8ab9a82c1cd8e0547741f1ec3a21587a74660b090bc9d971971407ba3e725bcfd58c1df0306816c4254a879a53fa74c3dcbdc62c68c49b23ca79f8f460e2d7db8aaddd73da459bea3580bdec4778e2b6677604123bd9ce99206529ebc3bcf0d03468037dc9d3ada71d97497424ac0b6b80cfa9a0923697b671274575995f063284c096a2d87a8976f181454cbbb9fdeccd08ae0d49da7e5c93b2686a6342b2d5d43a8340ee32b73db8125027d04b6cafda26e15397e2295d52722ff555b014bfe40bde72beab1b11a6f80d84b4cbb517c9fb13e675e92ed989fcae3f0b5eb9e08e0eb2e9c1c75d0153f22015a757ca21f5f4c6975c7d628c9d3f632525a5865fc1ae1332554b362fa6bbf3787d0067e3e99657886bced8a139e4e96a6620406bd5105ec4e2bc8abba907596867e596dd0bb7795a27d81f8ea3932ba6b7161f05ff81f16dd0bcf2bfe35ae326cc00d0b4a6c3554c863dce3a108d6e7c2a42c692054d4fb80832b7a8f26defea001f06a374d49f9e9e25cfb311ed5bfb30958ca75b4b0e1b08f09d654707eb7a34e82b8be44cd3d9ed5766cee30fca494c48fc11b94a349aeee73742b035576e9fcbfcc50b596c1ac6c22a89cc6a7adf88954eac9985b736005c6028819eaa6d38e79a82d3f90aa6f4f8bbe82137ee560e722e89e1cef95ed34038c8e8842e0e5c597ef2996e1da1f2afd4517265806cf6061857f3a1aae25c9d4a50a77d26b4f3d260f5fc53fcdf567c432eb5f566ba0db0af60eedaf20a9d4d1b931f49db1fd70bb817dde6d69a3f5232</script>
+    <title>我的网络订阅</title>
+    <url>/posts/my-subscriptions.html</url>
+    <content><![CDATA[<p>我的网络服务订阅汇总</p>
+<a id="more"></a>
+<p>到现在为止，我目前所使用的云服务、订阅：</p>
+<h1 id="订阅列表"><a href="#订阅列表" class="headerlink" title="订阅列表"></a>订阅列表</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>服务</th>
+<th>类别</th>
+<th>价格</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>云服务器</td>
+<td>云服务</td>
+<td>17 $ / 年</td>
+<td>仅用于一些自动化脚本以及网站首页</td>
+</tr>
+<tr>
+<td>YouTube Premium</td>
+<td>视频</td>
+<td>40 ￥ / 年</td>
+<td>印度区合租</td>
+</tr>
+<tr>
+<td>代理网络</td>
+<td>工具</td>
+<td>100 $ / 年</td>
+<td></td>
+</tr>
+<tr>
+<td>ChatGPT Plus</td>
+<td>工具</td>
+<td>20 $ / 月</td>
+<td></td>
+</tr>
+<tr>
+<td>某电商平台会员</td>
+<td>云服务</td>
+<td>40 $ / 月</td>
+<td></td>
+</tr>
+<tr>
+<td>地址服务</td>
+<td>服务</td>
+<td>9 $ / 月</td>
+<td></td>
+</tr>
+<tr>
+<td>某 YouTube 博主会员</td>
+<td></td>
+<td>350 ￥ / 年</td>
+<td></td>
+</tr>
+<tr>
+<td>若干域名</td>
+<td></td>
+<td>30 $ / 年</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+<p>按照美元汇率为 7 算，每年花费 977*7+390=7229 人民币。</p>
+<p>这么一算，总价还不少😮</p>
+<p>多说一句，YouTube premium 最值得了，YouTube 不多说了，还可以使用 YouTube music，一个会员，两个服务，非常划算。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习资源</title>
+    <url>/posts/dfc5b7c8.html</url>
+    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>QT Study</title>
+    <url>/posts/qt-study.html</url>
+    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
+<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
+<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
+<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
+<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
+<p>Everything is easy after that.</p>
+<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
   </entry>
   <entry>
     <title>打造你的最强Firefox浏览器</title>
@@ -2672,33 +2699,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </tags>
   </entry>
   <entry>
-    <title>学习资源</title>
-    <url>/posts/dfc5b7c8.html</url>
-    <content><![CDATA[<h2 id="javascript教程"><a href="#javascript教程" class="headerlink" title="javascript教程"></a>javascript教程</h2><p><a href="https://hellogithub.com/periodical/volume/44/#zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer"></a><a href="https://github.com/javascript-tutorial/zh.javascript.info" target="_blank" rel="noopener external nofollow noreferrer">zh.javascript.info</a><br>《现代 JavaScript 教程》是以最新的 JavaScript 标准为基准的教程。通过简单但详细的内容，讲解从基础到高阶的 JavaScript 相关知识，能够帮助初中级前端提升 JavaScript 等前端技术水平。<a href="https://zh.javascript.info/" target="_blank" rel="noopener external nofollow noreferrer">在线阅读</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>QT Study</title>
-    <url>/posts/qt-study.html</url>
-    <content><![CDATA[<p>A record for study QT, and this is my first time writing in English.<br><a id="more"></a></p>
-<p>Towards the end of the term, I took a project that requires GUI, and my data structures projects also need to use GUI. After search for common framework of C++ GUI, I choose QT finally.</p>
-<p>When installing QT for the first time, msvc2017 was not checked, I try to update but failed, then I reinstalled it.</p>
-<p>Next, follow the requirements step by step, search immediately when I don’t understand. (ps. stack overflow and stack exchange is a good website.)</p>
-<p>The project needs to encapsulate functions into dll, at first I wrote in on VS, but I found it diffiult to use on qt, so I give up it, finally I generated dll on QT. This is what I spend most of time.</p>
-<p>Everything is easy after that.</p>
-<p>REF<br><a href="https://youtu.be/9JTooLxhmC0" target="_blank" rel="noopener external nofollow noreferrer">https://youtu.be/9JTooLxhmC0</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写代码的重要性</title>
     <url>/posts/d7e09071.html</url>
     <content><![CDATA[<p>如果26个英文字母</p>
@@ -2731,27 +2731,6 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue Study</title>
-    <url>/posts/vue-study.html</url>
-    <content><![CDATA[<p>Vue 学习记录</p>
-<a id="more"></a>
-<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
-<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>生产环境：：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
-<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
-<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
@@ -2909,6 +2888,27 @@ T(n) = O(f(n))</script><p>其中，T(n)表示代码执行的时间；n表示数�
       <tags>
         <tag>Note</tag>
         <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue Study</title>
+    <url>/posts/vue-study.html</url>
+    <content><![CDATA[<p>Vue 学习记录</p>
+<a id="more"></a>
+<h1 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h1><p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://vuejs.bootcss.com/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener external nofollow noreferrer">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+<h1 id="Vue-安装"><a href="#Vue-安装" class="headerlink" title="Vue 安装"></a>Vue 安装</h1><h2 id="CDN-引入"><a href="#CDN-引入" class="headerlink" title="CDN 引入"></a>CDN 引入</h2><p>制作原型或学习：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>生产环境：：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/vue@2.6.12"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载引入"><a href="#下载引入" class="headerlink" title="下载引入"></a>下载引入</h2><p><a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener external nofollow noreferrer">开发版本</a>（包含完整的警告和调试模式）</p>
+<p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener external nofollow noreferrer">生产版本</a>（删除了警告，33.30KB min+gzip）</p>
+<h2 id="NPM-安装"><a href="#NPM-安装" class="headerlink" title="NPM 安装"></a>NPM 安装</h2><p>在用 Vue 构建大型应用时推荐使用 NPM 安装<a href="https://cn.vuejs.org/v2/guide/installation.html#footnote-1" target="_blank" rel="noopener external nofollow noreferrer">[1]</a>。NPM 能很好地和诸如 <a href="https://webpack.js.org/" target="_blank" rel="noopener external nofollow noreferrer">webpack</a> 或 <a href="http://browserify.org/" target="_blank" rel="noopener external nofollow noreferrer">Browserify</a> 模块打包器配合使用。同时 Vue 也提供配套工具来开发<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener external nofollow noreferrer">单文件组件</a>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
